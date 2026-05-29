@@ -33,7 +33,7 @@ lifecycle. Vocabulary is defined in [`CONTEXT.md`](../CONTEXT.md); each decision
 ```
 Zotero ── saved search "Obsidian scope" (PDF ∪ #to-note)
    │
-   ▼  /lit-sync   ─ BBT JSON-RPC pull · item.attachments → PDF path · diff .research/manifest.json
+   ▼  /lit-sync   ─ enumerate (PDF ∪ #to-note) via sqlite/bib · enrich via BBT (abstract · path · highlights) · diff manifest
    │              ─ per new/changed item: segment PDF → map-reduce summarize → coverage check
 literature/@<citekey>.md       Layer 1  (AI region ⌐ + human region)
    │
@@ -114,7 +114,7 @@ No OCR is installed (`tesseract`/`mutool` absent); the visual `Read` fallback co
 
 | Skill | Layer | Responsibility |
 |-------|-------|----------------|
-| `lit-sync` | 1 | Pull Obsidian-scope set via BBT → diff manifest → map-reduce read → write/refresh `literature/@<citekey>.md` (AI region only) → update manifest. Bulk = Workflow fan-out (one agent/paper). |
+| `lit-sync` | 1 | Enumerate scope (PDF ∪ #to-note) via sqlite/bib → enrich via BBT (abstract, path, highlights) → diff manifest → map-reduce read → write/refresh `literature/@<citekey>.md` (AI region only) → update manifest. Bulk = Workflow fan-out (one agent/paper). |
 | `topic-cluster` | 2 | Incremental LLM-thematic clustering of new/changed lit notes; refresh topic notes (themes, tensions, open questions, candidate ideas); propose merges/splits as a diff. |
 | `promote-idea` | 2→3 | Turn a chosen candidate idea into `projects/<slug>.md` at `status: feasibility`, linked to topic + source lit notes. |
 | `project-status` | 3 | Logged state transition: set `status`, stamp `updated`, append a Decision-log line; require a reason for `rejected`/`on-hold`. |
@@ -152,8 +152,9 @@ scripts** the skills call; only judgment steps (summarize, cluster, synthesize) 
   May 2026** (no PDFs). The 481 PDFs are all on the curated set → Layer-1 scope.
 - **BetterBibTeX**: live JSON-RPC at `http://127.0.0.1:23119/better-bibtex/json-rpc` (verified).
   `item.search` returns CSL-JSON incl. `citekey`, `abstract`, `author`, `DOI`, `issued`, `type`;
-  `item.attachments(citekey)` resolves PDF paths. The biblatex auto-export `~/Documents/Academics/
-  library.bib` is **stale** (509 entries) — not a reliable source.
+  `item.attachments(citekey)` resolves PDF paths **and the user's highlight annotations**. The biblatex
+  auto-export `~/Documents/Academics/library.bib` (509 entries) omits the 11.7k firehose — fine, since
+  509 ≈ the in-scope curated PDF set; usable for enumeration when refreshed.
 - **Obsidian**: app installed; official CLI available (`/usr/local/bin/obsidian`, requires the app
   running). Mature personal vault `Zettelkasten` (695 notes) with citation-plugin, dataview, kanban,
   pandoc-reference-list, omnisearch already configured.

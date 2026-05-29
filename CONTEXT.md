@@ -35,9 +35,10 @@ Zotero ─/lit-sync─►  literature notes  ─/topic-cluster─►  topic note
   A structured deep summary (~300–600 words) of a paper. See schema in `docs/architecture.md`.
 - **Citekey** — the BetterBibTeX citation key (e.g. `Bruhin2019`). The stable join key and
   the literature-note filename stem (`@Bruhin2019`). Comes from BBT, **not** `zotero.sqlite`.
-- **Obsidian scope** — the Zotero **saved search** that declaratively defines which items get
-  literature notes: items with a PDF attachment **OR** tagged `to-note`. The single source of
-  truth for Layer-1 scope; steered from Zotero.
+- **Obsidian scope** — the Layer-1 scope predicate: items with a PDF attachment **OR** tagged
+  `to-note`. `lit-sync` enumerates this predicate directly (sqlite/bib for the list + BBT enrichment);
+  optionally mirror it as a Zotero saved search of the same name to view/curate scope. The `to-note`
+  tag is the opt-in lever for PDF-less items.
 - **`to-note`** — Zotero tag that pulls a PDF-less item into the Obsidian scope.
 - **Coverage check** — the verification step in `lit-sync` confirming every major section of a
   PDF was read (not skimmed) before a note is accepted.
