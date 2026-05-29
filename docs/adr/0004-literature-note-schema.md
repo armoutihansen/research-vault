@@ -12,9 +12,13 @@ paper over-weights the abstract/intro and skims methods/results; the user explic
 that the whole paper is read.
 
 ## Decision
-Each note is a **structured deep note (~300–600 words)** with fixed sections: Summary · Research
-question · Method/identification · Data · Key findings · Contribution · **Limitations & open
-questions** · Connections, plus keyword frontmatter (full schema in `docs/architecture.md`).
+Each note is a **structured, comprehensive note (~500–1000 words)** with fixed sections: Summary ·
+Research question · Method/identification · Data · Key findings · Contribution · **Limitations & open
+questions** · Connections, plus keyword frontmatter (full schema in `docs/architecture.md`). Formulas
+are written in **Obsidian MathJax** (`$...$` inline, `$$...$$` block) so they render in the vault.
+
+> Revision (2026-05-29, after the pilot): depth raised from the initial ~300–600 to ~500–1000 words —
+> favoring detail in *Method* and *Key findings* — and LaTeX math made mandatory.
 
 Reading uses **section-based map-reduce + a coverage check**:
 1. Extract (`pdftotext`) and segment by section (or PDF TOC); visual `Read` fallback for scanned PDFs.

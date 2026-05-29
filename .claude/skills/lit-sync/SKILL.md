@@ -47,8 +47,9 @@ Per paper (fan out for bulk — see §4):
    *Connections*. Never put highlights below the fence (that's the user's region).
 3. **Map** — summarize each section into the schema slot it feeds (methods→Method/Data,
    results→Key findings, discussion→Limitations/Contribution).
-4. **Reduce** — synthesize a **~300–600 word** note body with these exact sections (the abstract
-   callout is prepended automatically? no — include it):
+4. **Reduce** — synthesize a **detailed, comprehensive** note body (typically **500–1000 words**;
+   be thorough, not padded — favor depth in *Method / identification* and *Key findings*). Use these
+   exact sections; include the abstract callout verbatim.
 
    ```markdown
    > [!abstract] Abstract
@@ -57,15 +58,28 @@ Per paper (fan out for bulk — see §4):
    ## Summary
    <1 short paragraph TL;DR>
    ## Research question
-   ## Method / identification
+   ## Method / identification   <- state the formal model/estimator; this is where detail matters
    ## Data
-   ## Key findings
+   ## Key findings              <- name the theorems/results and their content
    ## Contribution
    ## Limitations & open questions
    ## Connections
    ```
+
+   **Math — Obsidian MathJax conventions (the vault has latex-suite/math plugins):**
+   - Inline: `$...$` with **no space** just inside the delimiters — `$a \succ b$`, `$p(a\mid A)$`.
+   - Block: `$$` on its own lines, e.g.
+     ```
+     $$
+     p_\gamma(a\mid A) = \gamma(a)\prod_{b \succ a}\bigl(1-\gamma(b)\bigr)
+     $$
+     ```
+   - Use `\mid` for conditioning bars, `\succ`/`\succeq` for preference, `\setminus` for set minus.
+   - Do **not** put `$...$` inside the abstract callout unless the abstract itself is mathematical.
+
    Use the project's vocabulary (CONTEXT.md). *Limitations & open questions* is the project-idea
-   hook — make it substantive. Leave *Connections* light for now (Layer 2 fills links).
+   hook — make it substantive (name the explicit open problems the paper leaves). Leave *Connections*
+   light for now (Layer 2 fills links).
 5. **Coverage check** — confirm every major section of the paper is represented. If a section
    produced nothing (e.g. no Data section in a theory paper), say so explicitly rather than padding.
 6. **Extract keywords** — 3–8 lowercase-kebab concepts for clustering (e.g. `stochastic-choice`,

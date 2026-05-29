@@ -14,7 +14,7 @@ lifecycle. Vocabulary is defined in [`CONTEXT.md`](../CONTEXT.md); each decision
 | 1 | Vault home | Standalone git vault, opened in Obsidian as a 2nd vault | [0001](adr/0001-standalone-git-vault.md) |
 | 2 | Note I/O | Hybrid: file ops primary, Obsidian CLI for niceties | [0002](adr/0002-hybrid-note-io.md) |
 | 3 | Lit-note scope | PDF-bearing items (~481) + `to-note` tag, via a Zotero saved search | [0003](adr/0003-literature-scope.md) |
-| 4 | Note depth | Structured deep note (~300–600 w), fixed analytical sections | [0004](adr/0004-literature-note-schema.md) |
+| 4 | Note depth | Comprehensive note (~500–1000 w), fixed analytical sections, LaTeX math | [0004](adr/0004-literature-note-schema.md) |
 | 5 | Project state | `status:` frontmatter property, single folder, dataview/kanban | [0009](adr/0009-project-state-machine.md) |
 | 6 | AI/human split | Managed AI region + protected human region in one note | [0005](adr/0005-ai-human-regions.md) |
 | 7 | Sync source | Zotero saved search + live BBT pull + content-hash manifest | [0006](adr/0006-zotero-sync.md) |
@@ -104,7 +104,7 @@ generated: 2026-05-29                  # AI provenance
    to Claude visual `Read` (≤20 pp/request) for scanned/image/math-heavy PDFs.
 2. **Map** — summarize each section into the schema slot it feeds (methods→Method/Data,
    results→Key findings, discussion→Limitations/Contribution).
-3. **Reduce** — synthesize section summaries into the ~300–600-word note.
+3. **Reduce** — synthesize section summaries into the ~500–1000-word note (LaTeX math via `$…$`/`$$…$$`).
 4. **Coverage check** — verify every major section was captured; flag any that yielded nothing.
 5. **Length-adaptive** — articles (≤~50 pp) fully mapped; books/theses → chapter-level + targeted.
 

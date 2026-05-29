@@ -15,6 +15,7 @@ doi, item_key, library_id, pdf_path, hash). `body.md` is the AI-written markdown
 below the abstract). Standard library only.
 """
 import argparse
+import fcntl
 import json
 import os
 import sys
@@ -102,17 +103,23 @@ def main():
     human_region = split_human(note_path.read_text() if note_path.exists() else None)
     note_path.write_text(ai_region + human_region)
 
-    # Update the manifest (change-detection state).
+    # Update the manifest (change-detection state). Guarded by an exclusive file lock so that
+    # parallel write_note.py processes (e.g. a Workflow fan-out) don't clobber each other's entries.
     manifest_path = vault / ".research" / "manifest.json"
-    manifest = json.loads(manifest_path.read_text()) if manifest_path.exists() else {}
-    manifest[citekey] = {
+    manifest_path.parent.mkdir(parents=True, exist_ok=True)
+    lock_path = manifest_path.parent / "manifest.lock"
+    entry = {
         "hash": item.get("hash", ""),
         "generated": args.generated,
         "pdf": item.get("pdf_path", ""),
         "title": item.get("title", ""),
     }
-    manifest_path.parent.mkdir(parents=True, exist_ok=True)
-    manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2, sort_keys=True))
+    with open(lock_path, "w") as lock:
+        fcntl.flock(lock, fcntl.LOCK_EX)
+        manifest = json.loads(manifest_path.read_text()) if manifest_path.exists() else {}
+        manifest[citekey] = entry
+        manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2, sort_keys=True))
+        fcntl.flock(lock, fcntl.LOCK_UN)
 
     print(f"wrote {note_path.relative_to(vault)} (manifest: {len(manifest)} entries)")
 

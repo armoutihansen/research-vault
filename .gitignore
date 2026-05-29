@@ -18,3 +18,4 @@ venv/
 # Research-vault transient machine state (the manifest itself IS tracked)
 .research/tmp/
 .research/*.log
+.research/manifest.lock
