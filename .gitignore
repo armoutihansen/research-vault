@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Obsidian — ignore transient/per-machine state and bulky third-party plugin code.
+# Tracked: app.json, appearance.json, core-plugins.json, community-plugins.json (the plugin list).
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/plugins/
+.obsidian/themes/
+
+# Python (helper scripts)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Research-vault transient machine state (the manifest itself IS tracked)
+.research/tmp/
+.research/*.log

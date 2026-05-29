@@ -1,6 +1,12 @@
 # research-vault
 
-Personal research vault.
+A human–AI collaborative research system: a standalone, git-versioned Obsidian vault that turns a
+Zotero library into literature notes → emergent topic notes → research projects with a tracked
+lifecycle.
+
+- **Vocabulary:** [`CONTEXT.md`](CONTEXT.md) — canonical domain terms; use them, don't drift.
+- **Design:** [`docs/architecture.md`](docs/architecture.md) — full design, data flow, build order.
+- **Decisions:** [`docs/adr/`](docs/adr/) — one ADR per architectural choice.
 
 ## Agent skills
 
