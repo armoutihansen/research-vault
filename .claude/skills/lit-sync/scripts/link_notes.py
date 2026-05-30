@@ -90,16 +90,32 @@ def title_tokens(title):
 
 
 def resolve_span(names, year, context, index):
-    """Map a (surname-cluster, year) citation span to a unique in-scope citekey, or None."""
-    surn = {t.split("-")[0].split("–")[0] for t in re.findall(r"[A-Z][A-Za-z'’\-–]+", names)}
+    """Map a (surname-cluster, year) citation span to a unique in-scope citekey, or None.
+
+    Ambiguity is common — e.g. "Tversky–Kahneman (1992)" matches both Tversky1992 (Tversky, Kahneman)
+    and Simonson1992 (Simonson, Tversky) on surname+year. Rank candidates by, in order: leading-surname
+    match (the span's first author == the candidate's first author), how many of the span's surnames
+    the candidate covers, then title-token overlap with the surrounding paragraph. Ties break on citekey
+    so the result is deterministic across processes (independent of dict/hash order).
+    """
+    span_surn = [t.split("-")[0].split("–")[0] for t in re.findall(r"[A-Z][A-Za-z'’\-–]+", names)]
+    span_set = set(span_surn)
     cands = [ck for ck, m in index.items()
-             if m["year"] == year and (set(m["surnames"]) & surn
+             if m["year"] == year and (set(m["surnames"]) & span_set
                                        or any(s in names for s in m["surnames"]))]
     if len(cands) <= 1:
         return cands[0] if cands else None
-    # Suffix collision (Manzini2012 vs Manzini2012a): pick the title that best fits the surrounding text.
     ctx = set(re.findall(r"[a-z]{4,}", context.lower()))
-    return max(cands, key=lambda ck: len(title_tokens(index[ck]["title"]) & ctx))
+
+    def score(ck):
+        m = index[ck]
+        cand_surn = [s.split("-")[0].split("–")[0] for s in m["surnames"]]
+        lead = 1 if (cand_surn and span_surn and cand_surn[0] == span_surn[0]) else 0
+        n_match = len(set(cand_surn) & span_set)
+        t_overlap = len(title_tokens(m["title"]) & ctx)
+        return (lead, n_match, t_overlap)
+
+    return max(sorted(cands), key=score)  # sorted() → deterministic tie-break by citekey
 
 
 def split_regions(text):
@@ -129,25 +145,32 @@ def unwrap_links(body):
     return LINK_RE.sub(repl, body), prior
 
 
+def paragraph_around(text, pos):
+    """The blank-line-delimited paragraph containing offset `pos` — disambiguation context that
+    survives intervening math/markup (a fixed char window can miss the topical words)."""
+    start = text.rfind("\n\n", 0, pos)
+    end = text.find("\n\n", pos)
+    return text[(start + 2 if start != -1 else 0):(end if end != -1 else len(text))]
+
+
 def link_body(self_ck, body, index, extra=None):
-    """Wrap in-scope citation spans in `body` as wikilinks. Returns (new_body, citekeys_set)."""
-    plain, prior = unwrap_links(body)
+    """Wrap in-scope citation spans in `body` as wikilinks. Returns (new_body, citekeys_set).
+
+    Pure function of (plain prose, index, extra): unwrap → resolve → wrap is its own fixed point, so a
+    re-run is a no-op. We do NOT carry prior in-prose links forward (that made the result path-dependent
+    and let ambiguous spans oscillate); durable LLM-enrichment links arrive via `extra` instead.
+    """
+    plain, _prior = unwrap_links(body)
     resolved = {}  # display span -> citekey  (first occurrence wins for replacement)
 
-    # 1) deterministic span matches
+    # 1) deterministic span matches, disambiguated against the enclosing paragraph
     for m in SPAN_RE.finditer(plain):
         names, year = m.group(1), m.group(2)
-        ctx = plain[max(0, m.start() - 80):m.end() + 80]
-        ck = resolve_span(names, year, ctx, index)
+        ck = resolve_span(names, year, paragraph_around(plain, m.start()), index)
         if ck and ck != self_ck:
             resolved.setdefault(m.group(0), ck)
 
-    # 2) carry forward prior links that are still valid in-scope citekeys (augment, don't clobber)
-    for disp, ck in prior.items():
-        if ck in index and ck != self_ck:
-            resolved.setdefault(disp, ck)
-
-    # 3) explicit LLM-supplied {span: citekey} enrichment
+    # 2) explicit enrichment links (LLM pass / sidecar): {display span -> citekey}
     for disp, ck in (extra or {}).items():
         if ck in index and ck != self_ck and disp in plain:
             resolved.setdefault(disp, ck)
@@ -176,8 +199,18 @@ def set_related(fm, citekeys):
     return fm.rstrip("\n")[:-3] + line + "---\n" if fm.endswith("---\n") else fm
 
 
-def process_note(path, index, extra=None, dry_run=False):
+def load_enrichment(vault):
+    """Durable LLM-enrichment links: {note_citekey: {display_span: target_citekey}}.
+
+    Because prose links are no longer carried forward, enrichment that the regex can't re-derive lives
+    here and is re-applied on every run. Empty until the deferred enrichment pass writes it (ADR-0013)."""
+    p = vault / ".research" / "link_enrichment.json"
+    return json.loads(p.read_text()) if p.exists() else {}
+
+
+def process_note(path, index, enrich=None, dry_run=False):
     self_ck = path.stem[1:] if path.stem.startswith("@") else path.stem
+    extra = (enrich or {}).get(self_ck)
     text = path.read_text()
     fm, body, human = split_regions(text)
     new_body, citekeys = link_body(self_ck, body, index, extra)
@@ -200,11 +233,19 @@ def main():
 
     vault = Path(args.vault).resolve() if args.vault else find_vault(os.getcwd())
     index = load_index(vault, rebuild=args.rebuild_index)
+    enrich = load_enrichment(vault)
 
-    extra = None
+    # --add-links (for --citekey) is persisted into the enrichment sidecar, then applied like any run.
     if args.add_links:
+        if not args.citekey:
+            ap.error("--add-links requires --citekey")
         rows = json.loads(Path(args.add_links).read_text())
-        extra = {r["span"]: r["citekey"] for r in rows if r.get("span") and r.get("citekey")}
+        merged = dict(enrich.get(args.citekey, {}))
+        merged.update({r["span"]: r["citekey"] for r in rows if r.get("span") and r.get("citekey")})
+        enrich[args.citekey] = merged
+        if not args.dry_run:
+            (vault / ".research" / "link_enrichment.json").write_text(
+                json.dumps(enrich, ensure_ascii=False, indent=2, sort_keys=True))
 
     if args.citekey:
         notes = [vault / "literature" / f"@{args.citekey}.md"]
@@ -218,7 +259,7 @@ def main():
         if not path.exists():
             print(f"  ! missing {path.name}", file=sys.stderr)
             continue
-        ck, links, changed = process_note(path, index, extra=extra, dry_run=args.dry_run)
+        ck, links, changed = process_note(path, index, enrich=enrich, dry_run=args.dry_run)
         total_links += len(links)
         changed_n += int(changed)
         if links:

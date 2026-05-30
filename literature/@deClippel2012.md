@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/D2G86BB5/deClippel2012.pdf
 tags: [literature]
 keywords: [reason-based-choice, attraction-effect, compromise-effect, fallback-bargaining, dual-self, revealed-preference, ordinal-bargaining, behavioral-economics]
 topics: []
-related: [Eliaz2006, Eliaz2011, Kalai2002, Kamenica2008, Kivetz2004, Lombardi2009, Manzini2007, Sen1971, Simonson1989, Simonson1992, Sprumont2000]
+related: [Eliaz2006, Eliaz2011, Kalai2002, Kamenica2008, Kivetz2004, Lombardi2009, Manzini2007, Sen1971, Simonson1989, Sprumont2000, Tversky1992]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -36,7 +36,7 @@ The **known-preference axiomatization** (Section 4) works at the level of a *bar
 The **revealed-preference characterization** (Section 5) drops regularity (preferences are no longer primitive) and restates every axiom purely in terms of choices. Two definitions carry it: $x$ is *revealed Pareto superior* to $y$ iff $C(\{x,y\})=\{x\}$; $z$ is a *revealed compromise* between $x,y$ iff it is chosen uniquely from the triplet while no pairwise Pareto dominance holds inside it. Beyond restated EFF/ATT/NBC/RA/SYM, three new axioms are needed: **PC — Pairwise Consistency** (transitivity of revealed Pareto dominance), **EC — Existence of a Compromise** (if every pair in a triplet is chosen whole, the triplet's choice is a singleton — this forces the compromise effect), and **OC — Overcoming a Compromise** (a compromise $y$ can be displaced only by an option Pareto-dominating it). The sufficiency proof constructs the two orderings inductively by partitioning $X$ into nested **revealed-Pareto layers** $EFF^{k}$ and, within each, "inner" extreme-to-interior layers $E^{kl}$, adding elements in lexicographic $(k,l)$ order so transitivity is preserved (Lemmas 2–4 and Appendix lemmas).
 
 ## Data
-None — this is a pure choice-theoretic / axiomatic paper. It is motivated by, but does not itself analyze, the experimental marketing/psychology literature on attraction and compromise effects (Huber et al. 1982; [[@Simonson1989|Simonson 1989]]; [[@Simonson1992|Tversky–Shafir 1992]]; Shafir et al. 1993). Its output is a set of *testable implications* (the axioms) against which future choice data could be confronted.
+None — this is a pure choice-theoretic / axiomatic paper. It is motivated by, but does not itself analyze, the experimental marketing/psychology literature on attraction and compromise effects (Huber et al. 1982; [[@Simonson1989|Simonson 1989]]; [[@Tversky1992|Tversky–Shafir 1992]]; Shafir et al. 1993). Its output is a set of *testable implications* (the axioms) against which future choice data could be confronted.
 
 ## Key findings
 - **Theorem 1 (known-preference characterization).** The fallback bargaining operator $C^{f}$ is the *unique* regular bargaining operator satisfying EFF, ATT, NBC, RA, and SYM. So the five intuitive properties of conflict resolution pin down exactly the max-min-score rule.

@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/Q8UYSXVW/Fudenberg2022.pdf
 tags: [literature]
 keywords: [model-completeness, irreducible-error, predictive-accuracy, machine-learning-economics, experimental-economics, behavioral-models]
 topics: []
-related: [Bruhin2010, Charness2002, Fudenberg2019a, Fudenberg2020, Peysakhovich2017, Simonson1992]
+related: [Bruhin2010, Charness2002, Fudenberg2019a, Fudenberg2020, Peysakhovich2017, Tversky1992]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -62,7 +62,7 @@ The paper is explicit about several open hooks:
 - **Alternative ways to estimate irreducible noise** (analogy to the "missing heritability" problem in biology) when lookup tables are infeasible.
 
 ## Connections
-The completeness ratio specializes, under MSE with an unconditional-mean baseline, to a ratio of the model's $R^2$ to the nonparametric $R^2$ (App. B). It is a companion to **[[@Fudenberg2020|Fudenberg, Gao & Liang (2020)]]** on model *restrictiveness* (completeness on synthetic data) and to **Fudenberg & Liang (2019)** on predicting modal play; together these form a program for ML-assisted theory evaluation. It contrasts with earlier predictive-success measures — Selten (1991), Erev et al. (2007), Apesteguia & Ballester (2021) — by benchmarking against the *best achievable* prediction. Related ML-comparison work includes [[@Peysakhovich2017|Peysakhovich & Naecker (2017)]], Bodoh-Creed, Boehnke & Hickman (2019), Noti et al. (2016), Plonsky et al. (2017, 2019), Bourgin et al. (2019, on intrinsic noise), and the bias–variance/irreducible-error literature (Hastie, Tibshirani & Friedman 2009). The substantive models tested are [[@Simonson1992|Tversky & Kahneman (1992)]] CPT, the Camerer–Ho–Chong (2004) PCHM with its level-$k$ antecedents (Stahl & Wilson 1994; Nagel 1995), and Rabin (2002) / Rabin & Vayanos (2010) on misperceived randomness.
+The completeness ratio specializes, under MSE with an unconditional-mean baseline, to a ratio of the model's $R^2$ to the nonparametric $R^2$ (App. B). It is a companion to **[[@Fudenberg2020|Fudenberg, Gao & Liang (2020)]]** on model *restrictiveness* (completeness on synthetic data) and to **Fudenberg & Liang (2019)** on predicting modal play; together these form a program for ML-assisted theory evaluation. It contrasts with earlier predictive-success measures — Selten (1991), Erev et al. (2007), Apesteguia & Ballester (2021) — by benchmarking against the *best achievable* prediction. Related ML-comparison work includes [[@Peysakhovich2017|Peysakhovich & Naecker (2017)]], Bodoh-Creed, Boehnke & Hickman (2019), Noti et al. (2016), Plonsky et al. (2017, 2019), Bourgin et al. (2019, on intrinsic noise), and the bias–variance/irreducible-error literature (Hastie, Tibshirani & Friedman 2009). The substantive models tested are [[@Tversky1992|Tversky & Kahneman (1992)]] CPT, the Camerer–Ho–Chong (2004) PCHM with its level-$k$ antecedents (Stahl & Wilson 1994; Nagel 1995), and Rabin (2002) / Rabin & Vayanos (2010) on misperceived randomness.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

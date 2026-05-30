@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/PFV6GY2K/Benabou2003.pdf
 tags: [literature]
 keywords: [intrinsic-motivation, crowding-out, signaling, principal-agent, looking-glass-self, self-confidence, incentives]
 topics: []
-related: [Aghion1997, Benabou2006, Gneezy2000]
+related: [Aghion1997, Benabou2006, Iyengar2000]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -30,7 +30,7 @@ $$E_\sigma\!\left[\frac{\partial U_P}{\partial p}+\frac{\partial U_P}{\partial e
 a direct cost, a standard incentive effect, and the novel confidence-management motive (third term). That motive runs through two channels: a **profitability effect** (the agent's type enters the principal's payoff, giving a Spence-Mirrlees sorting condition $\partial_\beta\!\left(\frac{\partial U_P/\partial p}{\partial U_P/\partial e}\right)$ of constant sign) and a **trust effect** (the type enters only the agent's problem, so a principal with bad $\beta$ fears a bad $\sigma$ and over-rewards). The trust effect is driven by a monotone likelihood ratio property (MLRP): $g(\sigma_1\mid c)/g(\sigma_2\mid c)$ decreasing in $c$ for $\sigma_1>\sigma_2$. In the workhorse specialization, $U_P=e\Lambda(\beta,p)$ with binary effort $e\in\{0,1\}$; the agent works iff $\sigma\ge\sigma^*(p)$. Multidimensional contracts (a lump-sum $a$ plus a success bonus $b$) are handled with the multidimensional implementability condition. Each application (rewards, lump sums, delegation, help, excuses, ego bashing) adds a tailored sorting/limited-informativeness assumption (Assumptions 1-4) and solves for equilibrium.
 
 ## Data
-None — this is a theoretical paper. It is, however, explicitly disciplined by the experimental and field psychology literature: Deci's puzzle experiments, [[@Gneezy2000|Lepper-Greene-Nisbett, Gneezy-Rustichini (2000a]],b), Fehr-Falk, and Frey-Oberholzer-Gee's Swiss nuclear-siting survey (support halved when compensation was offered) all motivate and corroborate the model's predictions.
+None — this is a theoretical paper. It is, however, explicitly disciplined by the experimental and field psychology literature: Deci's puzzle experiments, [[@Iyengar2000|Lepper-Greene-Nisbett, Gneezy-Rustichini (2000a]],b), Fehr-Falk, and Frey-Oberholzer-Gee's Swiss nuclear-siting survey (support halved when compensation was offered) all motivate and corroborate the model's predictions.
 
 ## Key findings
 - **Proposition 1 (hidden cost of rewards, trust effect, $\beta=c$).** In equilibrium: (i) rewards are positive *short-term* reinforcers ($\sigma^*(b_1)>\sigma^*(b_2)$ for $b_1<b_2$); (ii) rewards are bad news — a more confident principal (lower cost $c$) offers a *lower* bonus; (iii) rewards undermine the agent's assessment of task attractiveness, $E[c\mid\sigma_1,b_1]<E[c\mid\sigma_2,b_2]$, and this persists even after the outcome is realized. Corollaries: the **forbidden-fruit** effect and Tom Sawyer's fence (the optimal bonus may be zero or negative); **improper causal attributions** — an outside observer regressing outcomes on $b$ may wrongly conclude rewards are negative reinforcers, since principals give the highest rewards to the least-willing agents.

@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/NL4KNN9J/Bordalo2013.pdf
 tags: [literature]
 keywords: [salience-theory, context-dependent-choice, behavioral-economics, decoy-effect, reference-dependence, willingness-to-pay, attention]
 topics: []
-related: [Bernheim2009, Eliaz2011, Hauser1990, Heidhues2008, Huber1982, Kahneman1979, Kamenica2008, Koszegi2006b, Shafir1993, Simonson1989]
+related: [Bernheim2009, Eliaz2011a, Hauser1990, Heidhues2008, Huber1982, Kahneman1979, Kamenica2008, Koszegi2006b, Simonson1989, Tversky1993]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -52,12 +52,12 @@ None. This is a pure theory paper; it reinterprets thought experiments and prior
 
 ## Contribution
 
-Provides a tractable, falsifiable, attention-based microfoundation for context-dependent riskless choice that unifies phenomena previously treated piecemeal (mental accounting, transaction utility, reference dependence). Unlike loss-aversion/external-reference-point models (Tversky-Kahneman 1991; [[@Shafir1993|Tversky-Simonson 1993]]; Bodner-Prelec 1994), salience predicts choice of *extreme* options and the empirically documented *asymmetry* of decoy and sales effects; unlike Gabaix (2012) ex-ante rational inattention, attention is allocated *ex post* to whatever stands out; unlike Koszegi-Szeidl (2013), it retains diminishing sensitivity (handling the Savage puzzle). It delivers a genuinely new theory of misleading sales tying inflated reference prices to decoy logic, consistent with regulatory concerns over fictitious "original" prices.
+Provides a tractable, falsifiable, attention-based microfoundation for context-dependent riskless choice that unifies phenomena previously treated piecemeal (mental accounting, transaction utility, reference dependence). Unlike loss-aversion/external-reference-point models (Tversky-Kahneman 1991; [[@Tversky1993|Tversky-Simonson 1993]]; Bodner-Prelec 1994), salience predicts choice of *extreme* options and the empirically documented *asymmetry* of decoy and sales effects; unlike Gabaix (2012) ex-ante rational inattention, attention is allocated *ex post* to whatever stands out; unlike Koszegi-Szeidl (2013), it retains diminishing sensitivity (handling the Savage puzzle). It delivers a genuinely new theory of misleading sales tying inflated reference prices to decoy logic, consistent with regulatory concerns over fictitious "original" prices.
 
 ## Limitations & open questions
 
 The authors explicitly flag several hooks:
-- The **choice set / consideration set is taken as exogenous**; endogenizing the evoked set (typically 2-5 goods) is named as "an important direction of future work" (cf. [[@Hauser1990|Hauser-Wernerfelt 1990]]; [[@Eliaz2011|Eliaz-Spiegler 2011)]].
+- The **choice set / consideration set is taken as exogenous**; endogenizing the evoked set (typically 2-5 goods) is named as "an important direction of future work" (cf. [[@Hauser1990|Hauser-Wernerfelt 1990]]; [[@Eliaz2011a|Eliaz-Spiegler 2011)]].
 - **Rational expectations for the reference price** is a disciplining assumption that "may need to be revised in some applications" (e.g., airport-sandwich or ballpark-hotdog prices perceived as abnormal).
 - **Rank-based salience weighting** can make valuation non-monotonic in attributes (online Appendix C shows continuous weighting removes this), an undesirable feature in some applications.
 - **Quality measurement** is delicate (the octane-vs-"regular/premium" gasoline ambiguity); the authors recommend treating quality as a *latent* variable to be estimated jointly even when proxies exist.

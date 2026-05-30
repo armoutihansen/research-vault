@@ -21,19 +21,25 @@ note count change.
   out-of-scope mentions stay plain prose. Links to not-yet-written in-scope notes are valid Obsidian
   **ghost links** that resolve automatically when those notes land — so the pass runs before backfill
   completes, and backlinks make the graph symmetric for free (only outgoing links are written).
-- **Validate-and-augment writer, idempotent.** Each run normalizes existing `[[@ck|disp]]` back to
-  text, re-resolves, keeps valid prior links, drops links whose citekey left scope, and rebuilds
-  `related:` from the union. Never touches below the human fence (ADR-0005). Re-runs are free, so the
-  update path on corpus/scope growth is a single `link_notes.py --rebuild-index --all`.
+- **Pure-function writer, idempotent by construction.** Each run unwraps existing `[[@ck|disp]]` back
+  to text, then re-derives every link purely from the current prose + index + enrichment sidecar, and
+  rebuilds `related:` from that result. It does **not** carry prior in-prose links forward — that made
+  the output path-dependent and let ambiguous spans oscillate across runs (a span like
+  "Tversky–Kahneman (1992)" flip-flopping between `Tversky1992` and `Simonson1992`). Never touches
+  below the human fence (ADR-0005). Re-runs are free and a true no-op, so the update path on
+  corpus/scope growth is a single `link_notes.py --rebuild-index --all`.
 - **Resolution is deterministic (span-first) for v1.** A regenerable candidate index
   (`.research/link_index.json`, citekey → surnames/year/title, built from `enumerate.py`) backs a
-  matcher that finds `Surname (Year)` citation spans and resolves each to a unique in-scope citekey
-  (suffix collisions like `Manzini2012`/`Manzini2012a` broken by title-token overlap with context).
+  matcher that finds `Surname (Year)` citation spans and resolves each to a unique in-scope citekey.
+  Surname+year collisions (`Manzini2012`/`Manzini2012a`; `Tversky1992`/`Simonson1992`) are ranked by
+  leading-surname match, then surname-coverage, then title-token overlap with the **enclosing
+  paragraph**, with ties broken on citekey — independent of dict/hash order across processes.
 - **LLM enrichment is deferred, not designed out.** Detached-year ("…prospect theory (1979)"),
   year-less ("Tversky's Elimination-by-Aspects"), and acronym references are missed by the regex. A
   candidate-shortlisted LLM pass (`scripts/link_candidates.py` + `link_notes.py --add-links`) recovers
-  them; it is deferred until Layer-2 clustering demonstrates it needs denser edges, since the hub
-  structure is already well-connected without it.
+  them; resolved links persist in `.research/link_enrichment.json` and are re-applied on every run (so
+  a plain `--all` never drops them). Deferred until Layer-2 clustering demonstrates it needs denser
+  edges, since the hub structure is already well-connected without it.
 
 ## Consequences
 - Navigable citation graph + populated `related:` now, at ~zero ongoing cost; 520 edges across 134 of

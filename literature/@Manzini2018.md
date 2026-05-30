@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/4KD4G9HE/Manzini2018.pdf
 tags: [literature]
 keywords: [stochastic-choice, random-utility, axiomatization, attraction-effect, revealed-preference, menu-dependence, dual-self]
 topics: []
-related: [Arieli2011, Cherepanov2013, Eliaz2006, Eliaz2011, Huber1982, Manzini2014, deClippel2012]
+related: [Cherepanov2013, Eliaz2006, Eliaz2011, Huber1982, Manzini2014, deClippel2012]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -58,7 +58,7 @@ The authors flag explicitly:
 Implicit limitations: as an individual-choice model idRUM is restrictive (it must satisfy Monotonicity); identification of *which* ranking is the "normative"/"temptation" one requires extra-choice information; and the two-alternatives-per-menu support is an idealisation that real data will only approximate.
 
 ## Connections
-The two-ordering machinery is the stochastic counterpart of the deterministic **"top-and-the-top" (TAT)** model of [[@Arieli2011|Eliaz, Richter & Rubinstein (2011)]] [[@Eliaz2011]]; indeed the $\alpha=\tfrac12$ case carries the same information about the rankings as a TAT. The "impact" relation underpinning Contraction Consistency is taken from the authors' own earlier work [[@Manzini2014]]. The paper situates itself against the classical RUM characterisations (Block & Marschak 1960; Falmagne 1978; Barberá & Pattanaik 1986) and against structured special cases — Luce/logit (Luce & Duncan 1959), Gul & Pesendorfer (2006) on lotteries, Apesteguia, Ballester & Lu (2017) single-crossing random utility, and Lu & Saito (2016) intertemporal RUM. Behavioural anchors include [[@Huber1982|Huber, Payne & Puto (1982)]] on asymmetric dominance, Mochon & Frederick (2012) on order effects in the compromise effect, the dual-self/temptation literature (Eliaz & Spiegler 2006; Chatterjee & Krishna 2009; de [[@deClippel2012|Clippel & Eliaz 2012)]], warm-glow normativity ([[@Cherepanov2013|Cherepanov, Feinberg & Ozdenoren 2013)]], and Bayesian testing of stochastic choice (McCausland & Marley 2014). For empirical bimodality it cites dictator-game, ratings, financial-market, and minimum-effort-game evidence.
+The two-ordering machinery is the stochastic counterpart of the deterministic **"top-and-the-top" (TAT)** model of [[@Eliaz2011|Eliaz, Richter & Rubinstein (2011)]] [[@Eliaz2011]]; indeed the $\alpha=\tfrac12$ case carries the same information about the rankings as a TAT. The "impact" relation underpinning Contraction Consistency is taken from the authors' own earlier work [[@Manzini2014]]. The paper situates itself against the classical RUM characterisations (Block & Marschak 1960; Falmagne 1978; Barberá & Pattanaik 1986) and against structured special cases — Luce/logit (Luce & Duncan 1959), Gul & Pesendorfer (2006) on lotteries, Apesteguia, Ballester & Lu (2017) single-crossing random utility, and Lu & Saito (2016) intertemporal RUM. Behavioural anchors include [[@Huber1982|Huber, Payne & Puto (1982)]] on asymmetric dominance, Mochon & Frederick (2012) on order effects in the compromise effect, the dual-self/temptation literature (Eliaz & Spiegler 2006; Chatterjee & Krishna 2009; de [[@deClippel2012|Clippel & Eliaz 2012)]], warm-glow normativity ([[@Cherepanov2013|Cherepanov, Feinberg & Ozdenoren 2013)]], and Bayesian testing of stochastic choice (McCausland & Marley 2014). For empirical bimodality it cites dictator-game, ratings, financial-market, and minimum-effort-game evidence.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

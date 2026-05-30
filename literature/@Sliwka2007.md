@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/G43MXKR4/Sliwka2007.pdf
 tags: [literature]
 keywords: [social-preferences, motivation-crowding-out, incentives, trust, signaling, social-norms, conformism]
 topics: []
-related: [Benabou2003, Bolton2000, Charness2002, Falk2006, Falk2006a, Fehr1999, Gneezy2000]
+related: [Benabou2003, Bolton2000, Charness2002, Falk2006, Fehr1999, Gneezy2000]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -33,7 +33,7 @@ A game-theoretic **signaling model**. A risk-neutral principal employs an agent 
 The fraction of fair agents among the steadfasts, $\phi$, is uncertain (prior mean $\bar\phi$). The principal privately learns a signal — $\phi_L$ (pessimistic) or $\phi_H$ (optimistic) — about $\phi$; she has superior information from experience with prior employees. Timing: principal observes signal and chooses $\tau$; conformists update beliefs on $\phi$ from $\tau$; agent chooses effort. The principal's continuation payoff $\Pi$ depends on $\tau$ and on whether the agent acts fairly ($\Pi_{\tau F}$) or selfishly ($\Pi_{\tau S}$). Three structural properties are assumed: (1) $\Pi_{\tau F}>\Pi_{\tau S}$ (better off when agent is fair); (2) $\Pi_{SC}-\Pi_{ST}>\Pi_{FC}-\Pi_{FT}$ (control protects more against shirking); (3) $\Pi_{SC}>\Pi_{FT}$ (control dominates under known types). The analysis derives conditions for a **separating equilibrium** where the principal trusts after the good signal and controls after the bad. Three applications instantiate the framework: (A) fixed wage vs. piece rate; (B) restriction on the choice set (the Falk–Kosfeld setup); plus a self-selection extension.
 
 ## Data
-None — this is a pure theory paper. It uses no original data; it instead reinterprets prior laboratory evidence (notably [[@Falk2006a|Falk and Kosfeld 2006]]; Fehr and Gächter 2002; [[@Gneezy2000|Gneezy and Rustichini 2000)]] as motivating and confirming evidence.
+None — this is a pure theory paper. It uses no original data; it instead reinterprets prior laboratory evidence (notably [[@Falk2006|Falk and Kosfeld 2006]]; Fehr and Gächter 2002; [[@Gneezy2000|Gneezy and Rustichini 2000)]] as motivating and confirming evidence.
 
 ## Key findings
 - **Proposition 1** (existence of a separating equilibrium): Given $\Pi_{FT}\ge\Pi_{SC}$, a separating equilibrium exists — principal trusts after the good signal, controls after the bad — if and only if the fraction of conformists $\eta\in[\hat\eta(\phi_H),\hat\eta(\phi_L)]$, with $0<\hat\eta(\phi_H)<\hat\eta(\phi_L)\le 1$. Crucially this holds *even though control is a dominant strategy under full information*. There must be neither too few conformists (then even an optimist controls) nor too many (then even a pessimist mimics, destroying credibility). The cut-off is decreasing in $\phi$.
