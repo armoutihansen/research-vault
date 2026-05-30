@@ -1,0 +1,58 @@
+---
+citekey: Bruhin2019
+title: "The many Faces of Human Sociality: Uncovering the Distribution and Stability of Social Preferences"
+authors: ["Bruhin, Adrian", "Fehr, Ernst", "Schunk, Daniel"]
+year: 2019
+type: journalArticle
+doi: 10.1093/jeea/jvy018
+zotero: "zotero://select/library/items/DZHD2C78"
+pdf: /Users/jesper/Zotero/storage/HLKGBLFU/Bruhin2019.pdf
+tags: [literature]
+keywords: [social-preferences, finite-mixture-model, inequality-aversion, reciprocity, structural-estimation, preference-heterogeneity, experimental-economics, out-of-sample-prediction]
+topics: []
+related: []
+added: 2026-05-29
+generated: 2026-05-29
+---
+
+> [!abstract] Abstract
+> We uncover heterogeneity in social preferences with a structural model that accounts for outcome-based and reciprocity-based social preferences and assigns individuals to endogenously determined preferences types. We find that neither at the aggregate level nor when we allow for several distinct preference types do purely selfish types emerge, suggesting that other-regarding preferences are the rule and not the exception. There are three temporally stable other-regarding types. When ahead, all types value others' payoffs more than when behind. The first, strongly altruistic type puts a large weight on others' payoffs even when behind and displays moderate levels of reciprocity. The second, moderately altruistic type also puts positive weight on others' payoff, yet at a lower level, and displays no positive reciprocity. The third, behindness averse type puts a large negative weight on others' payoffs when behind and is selfish otherwise. In addition, we show that individual-specific estimates of preferences offer only very modest improvements in out-of-sample predictions compared to our three-type model. Thus, a parsimonious model with three types captures the bulk of the information about subjects' social preferences. (JEL: C49, C91, D03)
+
+## Summary
+Bruhin, Fehr, and Schunk structurally estimate social preferences from binary allocation choices made by 174 (analysis sample 160) Swiss students in two lab sessions three months apart. A piecewise-linear utility function nesting both distributional (inequality) and reciprocity motives is fitted in a McFadden random-utility framework at three levels: a representative agent, an endogenous *finite mixture* of types, and individual-by-individual. The data favour exactly three temporally stable types — strongly altruistic (~40%), moderately altruistic (~50%), and behindness-averse (~10%) — with *no* purely selfish type emerging at any level of aggregation. Distributional preferences dominate reciprocity, positive reciprocity is at least as strong as negative, and a parsimonious three-type model predicts out-of-sample behaviour in trust and reward/punishment games almost as well as fully individual estimates. The PDF (45 pp, machine-readable) was read in full; figures and Online Supplementary tables were inferred from in-text descriptions.
+
+## Research question
+How are social preferences distributed in a population, and can this distribution be captured parsimoniously? Specifically: (i) Do purely selfish agents exist once the cost of helping/harming is small? (ii) Can heterogeneity be reduced to a small number of *endogenously identified* preference types rather than predefined ones? (iii) Are those types and their shares stable over time? (iv) Are distributional motives more important than reciprocity, and is negative reciprocity really stronger than positive? (v) Do type-level estimates predict behaviour in *other* games as well as costly individual-level estimates?
+
+## Method / identification
+The behavioural core is a two-player, piecewise-linear other-regarding utility for player A, generalizing Fehr-Schmidt (1999) and Charness-Rabin (2002):
+$$U^A = \big(1 - \alpha s - \beta r - \gamma q - \delta v\big)\,\Pi^A + \big(\alpha s + \beta r + \gamma q + \delta v\big)\,\Pi^B,$$
+where $\Pi^A,\Pi^B$ are the two players' payoffs and the indicators switch domains: $s=1$ under disadvantageous inequality ($\Pi^A<\Pi^B$), $r=1$ under advantageous inequality ($\Pi^A>\Pi^B$), $q=1$ after a kind move by B, $v=1$ after an unkind move. The four parameters carry the interpretation $\alpha$ = weight on other's payoff when *behind*, $\beta$ = weight when *ahead*, $\gamma$ = positive reciprocity, $\delta$ = negative reciprocity. The sign pattern of $(\alpha,\beta)$ classifies a subject as selfish ($\alpha=\beta=0$), altruistic ($\alpha,\beta>0$), spiteful ($\alpha,\beta<0$), difference-averse ($\alpha<0<\beta$), behindness-averse ($\alpha<0$), or aheadness-averse ($\beta>0$).
+
+Choices are modelled with McFadden's (1981) random-utility model: $U^A(X_g;\theta,\lambda)=U^A(X_g;\theta)+\varepsilon_{X_g}$ with a type-1 extreme-value error scaled by $1/\lambda$, giving the logit choice probability
+$$\Pr(C_g=X_g)=\frac{\exp[\lambda\,U^A(X_g;\theta)]}{\exp[\lambda\,U^A(X_g;\theta)]+\exp[\lambda\,U^A(Y_g;\theta)]},$$
+where $\lambda$ is choice sensitivity ($\lambda=0$ implies random 50/50 choice). The *finite mixture* posits $K$ latent types, each with parameters $(\theta_k,\lambda_k)$ and population share $\pi_k$; the likelihood is $\ell(\Psi)=\sum_{k=1}^{K}\pi_k\,f(\theta_k,\lambda_k;X,Y,C_i)$, maximized via an EM-type algorithm then direct maximization. Posterior type-membership follows Bayes' rule, $\tau_{ik}=\pi_k f(\theta_k,\lambda_k;\cdot)/\sum_m \pi_m f(\theta_m,\lambda_m;\cdot)$. Because AIC/BIC and likelihood-ratio tests are unreliable for mixtures, $K$ is chosen by the *normalized entropy criterion* $\mathrm{NEC}(K)=E(K)/[L(K)-L(1)]$ with entropy $E(K)=-\sum_{k}\sum_i \tau_{ik}\ln\tau_{ik}$, rewarding clean (near 0/1) classification.
+
+**Design.** Each subject made 117 binary choices: 39 dictator games (varying the slope/cost of altering B's payoff along three "circles" of allocations split by the 45-degree line, identifying $\alpha$ and $\beta$) and 78 reciprocity games (39 positive, 39 negative) that prepend a kind/unkind prior move by B via the strategy method, identifying $\gamma$ and $\delta$. The identifiable parameter range is $[-3,1]$, with line "bunching" giving high resolution near zero precisely to discriminate selfish from mildly social subjects (validated by Monte Carlo). Session 2 added ten trust games (varying cost $c$ of being trustworthy) and two reward/punishment games for out-of-sample tests.
+
+## Data
+174 students from University of Zurich and ETH Zurich; 200 in session 1 (Feb 2010), 174 returning in session 2 (May 2010, 87% retention). 14 subjects with inconsistent (preference-reversing) choices and near-zero $\hat{\lambda}$ were dropped, leaving 160. 18,720 binary choices per session; trust-game analysis uses 1,600 observations. Questionnaire collected cognitive ability, Big-Five personality, and demographics. Exchange rate 1 CHF per 100 points; mean payoff ~52-56 CHF per ~90-minute session.
+
+## Key findings
+- **No selfish type.** Neither the representative agent nor any mixture (K=2,3,4) yields a purely selfish type; the highlighted passage stresses this is not a methodological artefact — Monte Carlo shows the design *would* detect a selfish type if present.
+- **Asymmetric altruism (representative agent).** $\hat\beta>\hat\alpha$ in both sessions ($\beta\approx0.25$, $\alpha\approx0.09$); the agent pays ~33 cents to raise the other's payoff by \$1 when ahead but only ~10.5 cents when behind ($z$-test $\alpha=\beta$, $p<0.001$). Reciprocity parameters are small, and positive reciprocity exceeds negative ($\hat\gamma>|\hat\delta|$, $p<0.001$), contradicting the conventional claim that negative reciprocity dominates.
+- **Three types (NEC-optimal $K=3$).** *Strongly altruistic* (~40%): large positive weight ahead and behind (pays ~86c ahead, ~19c behind), moderate positive and small negative reciprocity. *Moderately altruistic* (~50%): small but positive weight (pays ~15c ahead, ~7c behind), *no* positive reciprocity, small negative reciprocity ("low-cost altruism"). *Behindness averse* (~10%): large *negative* weight when behind (spends ~78c to cut the other's income by \$1) but selfish when ahead. Willingness-to-pay uses $\beta/(1-\beta)$ ahead and $\alpha/(1-\alpha)$ behind.
+- **Temporal stability.** For $K=3$, type shares and all parameters except positive reciprocity ($p=0.089$) are stable across sessions; 76% of subjects stay on the diagonal of the type-transition matrix (84% MA, 74% SA). $K=2$ (misses the BA minority) and $K=4$ (overfits a spurious second MA type) are unstable.
+- **Out-of-sample prediction.** In trust games, type-specific predictions raise explained variance from 5.9% (demographics/personality only) to 34.9%; adding full individual estimates lifts it only to 37.4%. Thus 3 types are "almost as good as 160 types" — individual estimates mostly fit noise. Qualitative type ordering (SA most trustworthy/rewarding; BA punishes most) largely holds.
+
+## Contribution
+First study to *endogenously* identify social-preference types (no predefined categories) while *simultaneously* estimating distributional and reciprocity parameters, then to validate the resulting taxonomy through cross-game out-of-sample prediction. It delivers a parsimonious, empirically grounded three-type characterization useful for applied/theoretical modelling, reframes "selfish behaviour" as institutionally rather than dispositionally driven, and supplies quantitative willingness-to-pay estimates and a defensible model-selection recipe (NEC) for finite-mixture social-preference work.
+
+## Limitations & open questions
+The authors are explicit: (i) the subject pool is non-representative (young, educated students), which may explain the absence of a difference/inequality-averse type that simultaneously dislikes advantageous and disadvantageous inequality — Bellemare et al. (2008) and Kerschbamer-Muller (2017) find more inequality aversion in broad populations. (ii) Binary choices never allow an *equal* allocation, which is known to raise unfair behaviour, possibly biasing the type distribution. (iii) Piecewise linearity rules out curved indifference curves; applicability to *convex* choice sets is uncertain. (iv) Reciprocity may be understated here and could matter more in frames where kindness/hostility is salient — positive reciprocity is also the least stable component. (v) Several behaviours resist the model: BA-types are trustworthy at low/medium cost in trust games despite predicted unconcern for others' payoff when ahead — a hint at omitted motives (e.g. trust-as-kindness, betrayal aversion) and a project hook for richer specifications.
+
+## Connections
+The utility model fuses Fehr & Schmidt (1999) inequality aversion with Charness & Rabin (2002) and the reciprocity extension of Bellemare et al. (2011). The budget-line elicitation echoes Andreoni & Miller (2002) and Fisman et al. (2007, 2015), which instead use CES utility allowing interior solutions but excluding behindness aversion. On endogenous typing it most closely relates to Breitmoser (2013); on predefined-type mixtures to Iriberri & Rey-Biel (2011, 2013), Conte & Moffatt (2014), and Bardsley & Moffatt (2007). The "no stronger negative reciprocity" result aligns with the field evidence of DellaVigna et al. (2016). Stability connects to Volk et al. (2012), Carlson et al. (2014), and Blanco et al. (2011). The estimator builds on the authors' own Bruhin, Fehr-Duda & Epper (2010) mixture methodology.
+
+%% ─── below is yours; regeneration never touches it ─── %%
+## My notes

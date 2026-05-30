@@ -1,0 +1,48 @@
+---
+citekey: Trogdon2008
+title: Peer effects in adolescent overweight
+authors: ["Trogdon, Justin G.", "Nonnemaker, James", "Pais, Joanne"]
+year: 2008
+type: journalArticle
+doi: 10.1016/j.jhealeco.2008.05.003
+zotero: "zotero://select/library/items/SVIWBXQI"
+pdf: /Users/jesper/Zotero/storage/KMGFWZJL/Trogdon2008.pdf
+tags: [literature]
+keywords: [peer-effects, adolescent-obesity, social-multiplier, instrumental-variables, reflection-problem, health-economics, social-networks]
+topics: []
+related: []
+added: 2026-05-29
+generated: 2026-05-29
+---
+
+> [!abstract] Abstract
+> This study is the first to estimate peer effects for adolescent weight. We use data from the National Longitudinal Study of Adolescent Health (Add Health) and define peer groups using nominated friends within schools. Endogenous peer groups are accounted for using a combination of school fixed effects, instrumental variables, and alternative definitions of peers (i.e., grade-level peers). Mean peer weight is correlated with adolescent weight, even after controlling endogenous peer groups. The impact of peer weight is larger among females and adolescents with high body mass index. The results are consistent with social multipliers for adolescent overweight policies.
+
+## Summary
+This is the first paper to estimate peer effects on adolescent body weight. Using the Add Health Saturation sample (where every student in 16 schools was surveyed), the authors define peer groups from nominated friends and ask whether mean friend BMI causally raises an adolescent's own BMI. They confront Manski-style identification problems (endogenous, contextual, and correlated effects) with three tools stacked together: school fixed effects, instruments built from friends' background traits, and a grade-level peer definition that is exogenous conditional on school. Across specifications, peer weight is positively and significantly correlated with own weight. Effects are stronger for females and concentrate in the upper tail of the conditional BMI distribution, a pattern the authors argue is consistent with social multipliers that could amplify both increases and decreases in overweight from policy.
+
+## Research question
+Does the weight of an adolescent's peers causally affect the adolescent's own weight (BMI and probability of being overweight)? And if so, are these "endogenous" social effects strong enough that anti-obesity policies would carry social multipliers, with whom (by gender, by location in the BMI distribution) being most susceptible?
+
+## Method / identification
+The structural target is the endogenous (causal) peer effect $\beta_1$ in
+$$\mathrm{BMI}_{ijs}=\beta_0+\beta_1\,\overline{\mathrm{BMI}}_{js}+\beta_2 X_{is}+\delta_s+\varepsilon_{is},$$
+where $\overline{\mathrm{BMI}}_{js}$ is mean weight in adolescent $i$'s peer group $j$, $X_{is}$ are individual/family controls, and $\delta_s$ are school fixed effects. The authors organize identification around Manski's (1993) reflection problem, separating endogenous effects from contextual (peers' other characteristics) and correlated (shared unobservables) effects. They assume away contextual effects, then attack correlated effects three ways. (1) School fixed effects absorb neighborhood sorting and shared school-level policies. (2) Instrumental variables: friends' weight is instrumented with friends' birth weight, the share of friends' parents who are obese, and friends' parents' self-reported health, the exclusion restriction being that these only affect own weight via friends' weight; estimated by 2SLS for BMI and IV-probit for the overweight indicator. (3) An alternative grade-level peer definition (all same-grade students in the same school) that, conditional on $\delta_s$, is assigned exogenously by year of birth. Instrument strength is checked with first-stage F-statistics against Stock-Yogo critical values, weak-instrument-robust Anderson-Rubin tests, and over-identification tests. Quantile regression (25th/50th/75th percentiles, with an Amemiya 1982 2SLS-analogue for endogeneity) probes heterogeneity across the conditional BMI distribution, and models are run separately by gender.
+
+## Data
+Wave I of Add Health (1994-1995), a nationally representative school-based survey of grades 7-12. Students nominated up to 10 friends (5 male, 5 female), enabling friend-level peer groups. The primary estimation sample is the Saturation sample, in which every student in 16 schools (2 large, 14 small) was given the in-home questionnaire, yielding $N=2800$ adolescents with at least one matched friend's weight. A larger In-Home sample ($N=6451$ matched) and grade-level samples ($N=3554$) serve sensitivity checks. BMI and an overweight indicator (at or above the 85th percentile of CDC 2000 growth charts, combining "at-risk" and "overweight") come from self-reported height and weight, validated against measured values in later waves ($r=0.92$). Mean BMI is 22.9; 27% are overweight. On average 3.3 friends are matched in the Saturation sample versus 2.1 in-home, and overweight adolescents are nominated less often (echoing Strauss and Pollack 2003).
+
+## Key findings
+OLS: a 1-unit higher mean friend BMI is associated with 0.30 higher own BMI; the marginal effect of the share of friends overweight on own overweight probability is about 0.2. The peer effect survives instrumenting and in fact grows: 2SLS gives 0.52-0.65 and IV-probit a marginal effect of about 0.39. First-stage F-statistics (18.65 and 14.30) clear weak-instrument thresholds, Anderson-Rubin rejects a zero peer coefficient ($p=0.003$), and over-identification tests pass. Heterogeneity: the overweight margin is far more sensitive for females (IV-probit marginal effect 0.53) than males (0.20, insignificant). Quantile estimates show influence rising along the BMI distribution: IV effects of 0.20, 0.39, and 0.66 at the 25th, 50th, and 75th percentiles. Grade-level peers (exogenous) give a smaller but significant BMI effect (0.23 overall; insignificant for males), preserving the female upper-tail gradient. A novel distributional result: conditional on the mean, more homogeneous (lower-dispersion) grade BMI predicts higher own BMI; a 10-point fall in the coefficient of variation raises BMI by 1.3 units, and a 10-point fall in the Gini raises it by 2.2 units. Same-gender peers are not more influential than opposite-gender peers. A log-log specification implies an elasticity of own BMI to mean grade BMI of about 0.28.
+
+## Contribution
+The first economic estimate of peer effects on adolescent weight, filling a gap noted relative to peer-effect work on smoking, drinking, and drug use, and complementing Christakis and Fowler's (2007) adult social-network evidence. Methodologically it combines fine-grained nominated-friend peer groups (rare in this literature) with a layered identification strategy, and adds evidence on higher moments of the peer BMI distribution. Substantively, the upper-tail and female gradients offer a social mechanism for the disproportionate growth in the right tail of the adolescent BMI distribution and supply a rationale for social multipliers in childhood-obesity policy.
+
+## Limitations & open questions
+The authors are explicit. (1) The analysis is cross-sectional, so they deliberately say results are "consistent with" social multipliers rather than causal over time; longitudinal analysis (later Add Health waves, handling attrition and peer-group de-selection) is needed to show weight changes propagate. (2) Crucially, no study has shown the peer-weight relationship is symmetric, i.e., that weight loss spreads like weight gain, which is decisive for whether interventions actually enjoy multipliers. (3) The sample is limited (16 schools); friendship networks are incomplete (out-of-school friends and romantic partners are unobserved under the data-use agreement), and richer network structures (mutual friendships, friends-of-friends, directionality) are not used, though Christakis and Fowler found directionality matters. (4) IV estimates exceeding OLS may signal weak instruments or exclusion-restriction failure, though the authors prefer a classical measurement-error (attenuation) explanation given incomplete friend matching and BMI misreporting. (5) The underlying mechanism is unknown: weight-loss attempts, physical activity, and weight perceptions are candidates, and the right mechanism must also rationalize the higher-moment results.
+
+## Connections
+The theoretical engine is Burke and Heiland (2007), whose model makes target weight an endogenous fraction of peer-group average weight (extending Lakdawalla and Philipson 2002 and Cutler, Glaeser, and Shapiro 2003), giving a channel by which peers' weight gain raises one's own. Identification follows Manski (1993) on the reflection problem and the applied peer-effects tradition of Gaviria and Raphael (2001), Norton, Lindrooth, and Ennett (1998), and Powell, Tauras, and Ross (2005). The closest methodological sibling is Clark and Loheac (2007), also using Add Health (for smoking, alcohol, marijuana), the source of the grade-level peer strategy and the higher-moment analysis. Social-multiplier framing draws on Glaeser, Sacerdote, and Scheinkman (2002) and Christakis and Fowler (2007); Strauss and Pollack (2003) used the same data to study the reverse direction (weight affecting network position). Econometric tools include Stock and Yogo (2005), Anderson and Rubin (1949), and Amemiya (1982).
+
+%% ─── below is yours; regeneration never touches it ─── %%
+## My notes
