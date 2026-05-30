@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/DM9X9GD4/Manzini2007.pdf
 tags: [literature]
 keywords: [bounded-rationality, revealed-preference, choice-theory, heuristics, sequential-rationalizability, axiomatic-choice]
 topics: []
-related: [Kalai2002, Loomes1991, Rubinstein2006, Samuelson1938]
+related: [Kalai2002, Loomes1991, Rubinstein2006]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -54,7 +54,7 @@ The paper gives economic, revealed-preference foundations to "noncompensatory," 
 - The order of rationales is treated as fixed/hardwired; how it depends on context or decision-maker type is left open.
 
 ## Connections
-The paper is the journal version of work previously circulated as "Rationalizing Boundedly Rational Choice," and builds directly on the authors' related Manzini & Mariotti (2006a) on intertemporal choice. It formalizes psychological heuristics from Tversky (1969, 1972) and Gigerenzer, Todd & the ABC Research Group (1999), and marketing evidence in Yee et al. and Kohli (forthcoming). It extends [[@Samuelson1938|Samuelson's (1938)]] revealed-preference program and the WARP/IIA tradition surveyed in Moulin (1985) and Suzumura (1983), using Sen (1970) on binariness and Varian (2005) on revealed preference. It contrasts with [[@Kalai2002|Kalai, Rubinstein & Spiegler (2002)]], where a single but menu-varying rationalizing order is used; with Ok & Masatlioglu (forthcoming) on intertemporal choice without a second partial order; and relates to Tadenuma (2002) in social choice, Rubinstein (2003) on similarity-based multistage procedures, Salant (2003) and [[@Rubinstein2006|Rubinstein & Salant (2006)]] on computational simplicity and behavioral revealed preference.
+The paper is the journal version of work previously circulated as "Rationalizing Boundedly Rational Choice," and builds directly on the authors' related Manzini & Mariotti (2006a) on intertemporal choice. It formalizes psychological heuristics from Tversky (1969, 1972) and Gigerenzer, Todd & the ABC Research Group (1999), and marketing evidence in Yee et al. and Kohli (forthcoming). It extends Samuelson's (1938) revealed-preference program and the WARP/IIA tradition surveyed in Moulin (1985) and Suzumura (1983), using Sen (1970) on binariness and Varian (2005) on revealed preference. It contrasts with [[@Kalai2002|Kalai, Rubinstein & Spiegler (2002)]], where a single but menu-varying rationalizing order is used; with Ok & Masatlioglu (forthcoming) on intertemporal choice without a second partial order; and relates to Tadenuma (2002) in social choice, Rubinstein (2003) on similarity-based multistage procedures, Salant (2003) and [[@Rubinstein2006|Rubinstein & Salant (2006)]] on computational simplicity and behavioral revealed preference.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

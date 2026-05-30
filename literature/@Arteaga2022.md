@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/TE9JWXM8/Arteaga2022.pdf
 tags: [literature]
 keywords: [mixed-logit, discrete-choice, gpu-acceleration, maximum-simulated-likelihood, python, random-utility]
 topics: []
-related: [Croissant2020, McFadden2000, Revelt1998]
+related: [Croissant2020, Revelt1998]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -52,7 +52,7 @@ The authors are explicit about scope and future work, which double as project-id
 - The RAM ceiling (not GPU memory) bounds the maximum number of draws — an open scaling constraint for very large datasets.
 
 ## Connections
-The estimation theory follows Train (2003) and the maximum-simulated-likelihood treatment of Mixed Logit in [[@Revelt1998|Revelt & Train]] (1998, 2000); the model's universal-approximation property is from [[@McFadden2000|McFadden & Train (2000)]], with random-utility foundations in Manski (1977) and Ben-Akiva & Lerman (1985). The analytical-gradient derivations build on Hasan et al. (2016), and the BFGS/quasi-Newton optimization on Liu & Nocedal (1989) and Fletcher (1981). xlogit positions itself against the open-source estimators it benchmarks: PyLogit (Brathwaite & Walker 2018), Biogeme (Bierlaire 2020), mlogit ([[@Croissant2020|Croissant 2020]]), Apollo (Hess & Palma 2019), mixl (Molloy et al. 2021), and gmnl (Sarrias & Daziano 2017). Its motivating use case — accelerating iterative, large-scale specification search — connects to assisted/automated Mixed Logit specification methods by Paz et al. (2019), Ortelli et al. (2021), and Rodrigues et al. (2020). The Swissmetro fixture is from Bierlaire et al. (2001).
+The estimation theory follows Train (2003) and the maximum-simulated-likelihood treatment of Mixed Logit in [[@Revelt1998|Revelt & Train]] (1998, 2000); the model's universal-approximation property is from McFadden & Train (2000), with random-utility foundations in Manski (1977) and Ben-Akiva & Lerman (1985). The analytical-gradient derivations build on Hasan et al. (2016), and the BFGS/quasi-Newton optimization on Liu & Nocedal (1989) and Fletcher (1981). xlogit positions itself against the open-source estimators it benchmarks: PyLogit (Brathwaite & Walker 2018), Biogeme (Bierlaire 2020), mlogit ([[@Croissant2020|Croissant 2020]]), Apollo (Hess & Palma 2019), mixl (Molloy et al. 2021), and gmnl (Sarrias & Daziano 2017). Its motivating use case — accelerating iterative, large-scale specification search — connects to assisted/automated Mixed Logit specification methods by Paz et al. (2019), Ortelli et al. (2021), and Rodrigues et al. (2020). The Swissmetro fixture is from Bierlaire et al. (2001).
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

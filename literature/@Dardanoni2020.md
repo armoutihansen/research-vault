@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/X3KGV5RH/Dardanoni2020.pdf
 tags: [literature]
 keywords: [bounded-rationality, limited-attention, consideration-set, stochastic-choice, identification, tensor-decomposition, aggregate-choice-shares]
 topics: []
-related: [Lleras2017, Manzini2014, Masatlioglu2012]
+related: [Manzini2014, Masatlioglu2012]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -52,7 +52,7 @@ None — the paper is purely theoretical. Its entire point is to characterize wh
 
 ## Contribution
 
-The paper severs cognitive identification from the data-hungry "rich menu variation" assumption pervasive in bounded-rationality theory (e.g. Aguiar et al. 2018, Cattaneo et al. 2017, Masatlioglu et al. 2012, Caplin-Dean 2015), and simultaneously from the covariate-driven identification of the applied/econometric literature (Abaluck-Adams 2017, Barseghyan-Molinari-Thirkettle 2019). It shows a minimal aggregate dataset already pins down the *cognitive* distribution, separating attention from tastes. Methodologically it is, to the authors' knowledge, the first use of *tensor-decomposition uniqueness* (Kruskal/Rhodes) in the bounded-rationality literature — a tool they flag as having independent interest beyond these specific models.
+The paper severs cognitive identification from the data-hungry "rich menu variation" assumption pervasive in bounded-rationality theory (e.g. Aguiar et al. 2018, Cattaneo et al. 2017, [[@Masatlioglu2012|Masatlioglu et al. 2012]], Caplin-Dean 2015), and simultaneously from the covariate-driven identification of the applied/econometric literature (Abaluck-Adams 2017, Barseghyan-Molinari-Thirkettle 2019). It shows a minimal aggregate dataset already pins down the *cognitive* distribution, separating attention from tastes. Methodologically it is, to the authors' knowledge, the first use of *tensor-decomposition uniqueness* (Kruskal/Rhodes) in the bounded-rationality literature — a tool they flag as having independent interest beyond these specific models.
 
 ## Limitations & open questions
 
@@ -60,7 +60,7 @@ The authors are explicit about extension hooks: (1) *tighten preference identifi
 
 ## Connections
 
-The consideration-probability model is the one sketched in [[@Manzini2014|Manzini and Mariotti]] (2014, Sec 7.2); the capacity model connects to Barseghyan, Molinari and Thirkettle (2019) and de Clippel, Eliaz and Rozen (2014). The paper positions itself against covariate-based identification (Abaluck-Adams 2017; Barseghyan, Coughlin, Molinari, Teitelbaum 2019) and against richness-demanding revealed-preference results (Aguiar, Boccardi, Kashaev, Kim 2018; [[@Lleras2017|Cattaneo, Ma, Masatlioglu, Suleymanov 2017]]; Caplin-Dean 2015; [[@Masatlioglu2012|Masatlioglu, Nakajima, Ozbay 2012]]). The framework parallels mixed/random-coefficient discrete-choice models (Train 2009; McFadden 2001) but uses the type $\theta$ to vary *cognition* rather than tastes, so the conditional choice probabilities are explicitly *non*-logit. Mathematically it draws on tensor algebra (Kruskal 1977; Sidiropoulos-Bro 2000; Allman-Matias-Rhodes 2009; Rhodes 2010), Vandermonde/sparsity theory (Cohen-Yeredor 2011), and the Hausdorff moment problem with maximum entropy (Mead-Papanicolaou 1984). The "consideration set" terminology is borrowed from marketing (Roberts-Lattin 1997; Shocker et al. 1991).
+The consideration-probability model is the one sketched in [[@Manzini2014|Manzini and Mariotti]] (2014, Sec 7.2); the capacity model connects to Barseghyan, Molinari and Thirkettle (2019) and de Clippel, Eliaz and Rozen (2014). The paper positions itself against covariate-based identification (Abaluck-Adams 2017; Barseghyan, Coughlin, Molinari, Teitelbaum 2019) and against richness-demanding revealed-preference results (Aguiar, Boccardi, Kashaev, Kim 2018; Cattaneo, Ma, Masatlioglu, Suleymanov 2017; Caplin-Dean 2015; [[@Masatlioglu2012|Masatlioglu, Nakajima, Ozbay 2012]]). The framework parallels mixed/random-coefficient discrete-choice models (Train 2009; McFadden 2001) but uses the type $\theta$ to vary *cognition* rather than tastes, so the conditional choice probabilities are explicitly *non*-logit. Mathematically it draws on tensor algebra (Kruskal 1977; Sidiropoulos-Bro 2000; Allman-Matias-Rhodes 2009; Rhodes 2010), Vandermonde/sparsity theory (Cohen-Yeredor 2011), and the Hausdorff moment problem with maximum entropy (Mead-Papanicolaou 1984). The "consideration set" terminology is borrowed from marketing (Roberts-Lattin 1997; Shocker et al. 1991).
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

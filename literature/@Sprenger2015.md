@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/9J3UB524/Sprenger2015.pdf
 tags: [literature]
 keywords: [reference-dependent-preferences, endowment-effect-for-risk, koszegi-rabin, disappointment-aversion, risk-preference-elicitation, loss-aversion, experimental-economics]
 topics: []
-related: [Bell1985, Crawford2011, Gul1991, Kahneman1979, Koszegi2006b, Loomes1986, Tversky1992]
+related: [Abeler2011, Bell1985, Crawford2011, Gul1991, Kahneman1979, Koszegi2006b, Loomes1986, Tversky1992]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -55,7 +55,7 @@ Provides the first clean experimental separation of KR from DA via the endowment
 - Compound-lottery randomization (one task paid) potentially links choices and referents across tasks, complicating the KR analysis.
 
 ## Connections
-Builds directly on Köszegi and [[@Koszegi2006b|Rabin]] (2006, 2007) expectations-based reference dependence and contrasts it with disappointment aversion ([[@Bell1985|Bell 1985]]; [[@Loomes1986|Loomes and Sugden 1986]]; [[@Gul1991|Gul 1991]]), rooted in [[@Kahneman1979|Kahneman and Tversky (1979)]] prospect theory and cumulative prospect theory ([[@Tversky1992|Tversky and Kahneman 1992]]). The uncertainty-equivalent methodology and secondary data come from Andreoni and Sprenger (2011). It engages the endowment-effect confound debate of Plott and Zeiler (2005, 2007) and the hypothetical-bias caution of Holt and Laury (2002), and connects to the field/lab literature testing expectations-based reference dependence (Abeler et al. 2011; [[@Crawford2011|Crawford and Meng 2011]]; Ericson and Fuster 2011; Gill and Prowse 2012; Heffetz and List 2014), much of which cannot separate KR from DA. Schmidt, Starmer, and Sugden (2008) third-generation prospect theory is the closest unrefuted alternative; Song (2012) and Castillo and Eil (2014) report related endowment-effect-for-risk findings. The decision-science elicitation-inconsistency literature (Hershey et al. 1982; Hershey and Schoemaker 1985; McCord and de Neufville 1985, 1986; Schoemaker 1990) is reinterpreted through KR.
+Builds directly on Köszegi and [[@Koszegi2006b|Rabin]] (2006, 2007) expectations-based reference dependence and contrasts it with disappointment aversion ([[@Bell1985|Bell 1985]]; [[@Loomes1986|Loomes and Sugden 1986]]; [[@Gul1991|Gul 1991]]), rooted in [[@Kahneman1979|Kahneman and Tversky (1979)]] prospect theory and cumulative prospect theory ([[@Tversky1992|Tversky and Kahneman 1992]]). The uncertainty-equivalent methodology and secondary data come from Andreoni and Sprenger (2011). It engages the endowment-effect confound debate of Plott and Zeiler (2005, 2007) and the hypothetical-bias caution of Holt and Laury (2002), and connects to the field/lab literature testing expectations-based reference dependence ([[@Abeler2011|Abeler et al. 2011]]; [[@Crawford2011|Crawford and Meng 2011]]; Ericson and Fuster 2011; Gill and Prowse 2012; Heffetz and List 2014), much of which cannot separate KR from DA. Schmidt, Starmer, and Sugden (2008) third-generation prospect theory is the closest unrefuted alternative; Song (2012) and Castillo and Eil (2014) report related endowment-effect-for-risk findings. The decision-science elicitation-inconsistency literature (Hershey et al. 1982; Hershey and Schoemaker 1985; McCord and de Neufville 1985, 1986; Schoemaker 1990) is reinterpreted through KR.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/8Z6XLQI9/Ariely2009.pdf
 tags: [literature]
 keywords: [prosocial-behavior, image-motivation, crowding-out, monetary-incentives, signaling, field-experiment, charitable-giving, behavioral-economics]
 topics: []
-related: [Benabou2006, Falk2006a, Gneezy2000]
+related: [Benabou2006, Gneezy2000]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -58,7 +58,7 @@ First clean experimental isolation of *signal dilution via image* as the mechani
 - **Censoring for the bad cause.** Low effort levels raise censoring concerns the authors acknowledge.
 
 ## Connections
-The theoretical backbone is Bénabou and [[@Benabou2006|Tirole (2006)]], "Incentives and Prosocial Behavior" (AER), with related image/signaling models by Janssen and Mendys-Kamphorst (2004) and Seabright (2004); the social-approval-in-utility tradition traces to Akerlof (1980), Ellingsen and Johannesson (2007), and Hollaender (1990). On crowding-out, the paper situates itself against Titmuss (1970) and the motivation-crowding literature of Frey and Oberholzer-Gee (1997), Frey and Jegen (2001), [[@Gneezy2000|Gneezy and Rustichini]] (2000a "A Fine Is a Price"; 2000b "Pay Enough or Don't Pay at All"), and Mellström and Johannesson (2005) on blood donation. Visibility-of-giving evidence comes from Andreoni and Petrie (2004), Rege and Telle (2004), Soetevent (2005), and Dana, Cain, and Dawes (2006). Signaling-of-status accounts of charity (Glazer and Konrad 1996; Harbaugh 1998a,b) and alternative crowding channels—trust destruction ([[@Falk2006a|Falk and Kosfeld 2006]]; Fehr and Falk 2002; Fehr and List 2004) and social-vs-monetary framing (Heyman and Ariely 2004)—are the rival mechanisms this paper distinguishes itself from. Survey context is provided by Fehr and Schmidt (2003) and Meier (2007).
+The theoretical backbone is Bénabou and [[@Benabou2006|Tirole (2006)]], "Incentives and Prosocial Behavior" (AER), with related image/signaling models by Janssen and Mendys-Kamphorst (2004) and Seabright (2004); the social-approval-in-utility tradition traces to Akerlof (1980), Ellingsen and Johannesson (2007), and Hollaender (1990). On crowding-out, the paper situates itself against Titmuss (1970) and the motivation-crowding literature of Frey and Oberholzer-Gee (1997), Frey and Jegen (2001), [[@Gneezy2000|Gneezy and Rustichini]] (2000a "A Fine Is a Price"; 2000b "Pay Enough or Don't Pay at All"), and Mellström and Johannesson (2005) on blood donation. Visibility-of-giving evidence comes from Andreoni and Petrie (2004), Rege and Telle (2004), Soetevent (2005), and Dana, Cain, and Dawes (2006). Signaling-of-status accounts of charity (Glazer and Konrad 1996; Harbaugh 1998a,b) and alternative crowding channels—trust destruction (Falk and Kosfeld 2006; Fehr and Falk 2002; Fehr and List 2004) and social-vs-monetary framing (Heyman and Ariely 2004)—are the rival mechanisms this paper distinguishes itself from. Survey context is provided by Fehr and Schmidt (2003) and Meier (2007).
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

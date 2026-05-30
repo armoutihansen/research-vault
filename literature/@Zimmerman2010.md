@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/6LAEPREJ/Zimmerman2010.pdf
 tags: [literature]
 keywords: [gender-gap, violent-crime, neighborhood-disadvantage, peer-effects, multilevel-models, item-response-theory, criminology]
 topics: []
-related: [Johnson2003, Jones2009]
+related: [Jones2009]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -57,7 +57,7 @@ Explicit limitations and open problems the authors flag:
 - The proposed disadvantage → weakened social control → peer exposure → offending causal chain needs to be "documented more directly and theorized more fully."
 
 ## Connections
-Builds methodologically on Sampson, Raudenbush, and colleagues' PHDCN work and the multivariate multilevel Rasch approach ([[@Johnson2003|Raudenbush, Johnson, and Sampson 2003]]; Sampson, Morenoff, and Raudenbush 2005; Osgood et al. 2002; De Boeck and Wilson 2004). Theoretically it sits between control theory (Hirschi 1969; Shaw and McKay 1942; Sampson and Lauritsen 1994), social-learning/differential-association traditions (Sutherland and Cressey 1974; Akers 1998; Warr 2002; Agnew 1991 on friendship quality), and feminist criminology / pathways frameworks (Daly 1998; Miller 2001, 2008; [[@Jones2009|Jones 2009]]; Miller and Mullins 2006). It directly engages the gender-gap-over-contexts literature (Steffensmeier and Haynie 2000; Heimer, Wittrock, and Unal 2006; Schwartz et al. 2009) and contests Heimer and De Coster (1999) on the direction of gendered peer effects. For an economist working on social preferences and choice modeling, the paper is a clean example of (i) hierarchical IRT as a measurement-cum-behavioral model and (ii) using cross-level interactions to test whether a stable individual trait's behavioral mapping is moderated by environment—relevant to context-dependent preference estimation.
+Builds methodologically on Sampson, Raudenbush, and colleagues' PHDCN work and the multivariate multilevel Rasch approach (Raudenbush, Johnson, and Sampson 2003; Sampson, Morenoff, and Raudenbush 2005; Osgood et al. 2002; De Boeck and Wilson 2004). Theoretically it sits between control theory (Hirschi 1969; Shaw and McKay 1942; Sampson and Lauritsen 1994), social-learning/differential-association traditions (Sutherland and Cressey 1974; Akers 1998; Warr 2002; Agnew 1991 on friendship quality), and feminist criminology / pathways frameworks (Daly 1998; Miller 2001, 2008; [[@Jones2009|Jones 2009]]; Miller and Mullins 2006). It directly engages the gender-gap-over-contexts literature (Steffensmeier and Haynie 2000; Heimer, Wittrock, and Unal 2006; Schwartz et al. 2009) and contests Heimer and De Coster (1999) on the direction of gendered peer effects. For an economist working on social preferences and choice modeling, the paper is a clean example of (i) hierarchical IRT as a measurement-cum-behavioral model and (ii) using cross-level interactions to test whether a stable individual trait's behavioral mapping is moderated by environment—relevant to context-dependent preference estimation.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

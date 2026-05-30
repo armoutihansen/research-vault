@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/K9ISCHLC/Gibbons1992.pdf
 tags: [literature]
 keywords: [career-concerns, incentive-contracts, implicit-incentives, executive-compensation, principal-agent, dynamic-agency, bayesian-learning]
 topics: []
-related: [Coughlan1985, Holmstrom1982, Tirole1988]
+related: [Holmstrom1982]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -52,7 +52,7 @@ The paper unifies two previously separate literatures: career-concerns models (F
 - New data on internal organization are identified as essential for future progress.
 
 ## Connections
-Builds directly on Fama (1980), who argued the managerial labor market alone disciplines managers, and [[@Holmstrom1982|Holmstrom (1982)]], who showed labor-market discipline is an imperfect substitute (effort too high early, too low late) — this paper restores a role for contracts. It draws the linearity of optimal contracts from Holmstrom and Milgrom (1987), and relates to dynamic agency and consumption-smoothing models (Lambert 1983; Rogerson 1985; Murphy 1986; Fudenberg, Holmstrom, and Milgrom 1987). The pay-performance estimation connects to the executive-compensation literature ([[@Coughlan1985|Coughlan and Schmidt 1985]]; Gibbons and Murphy 1990). The promotion-incentive intuition echoes Rosen (1986) on tournaments, and the career-concerns mechanism parallels the "ratchet effect" in regulation and employment ([[@Tirole1988|Laffont-Tirole 1988]]; Lazear 1986; Gibbons 1987).
+Builds directly on Fama (1980), who argued the managerial labor market alone disciplines managers, and [[@Holmstrom1982|Holmstrom (1982)]], who showed labor-market discipline is an imperfect substitute (effort too high early, too low late) — this paper restores a role for contracts. It draws the linearity of optimal contracts from Holmstrom and Milgrom (1987), and relates to dynamic agency and consumption-smoothing models (Lambert 1983; Rogerson 1985; Murphy 1986; Fudenberg, Holmstrom, and Milgrom 1987). The pay-performance estimation connects to the executive-compensation literature (Coughlan and Schmidt 1985; Gibbons and Murphy 1990). The promotion-incentive intuition echoes Rosen (1986) on tournaments, and the career-concerns mechanism parallels the "ratchet effect" in regulation and employment (Laffont-Tirole 1988; Lazear 1986; Gibbons 1987).
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

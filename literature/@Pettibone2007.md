@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/2942DJU4/Pettibone2007.pdf
 tags: [literature]
 keywords: [phantom-decoy, context-effects, loss-aversion, relative-advantage-model, attraction-effect, choice-theory, consumer-choice]
 topics: []
-related: [Huber1982, Kahneman1979, Simonson1989, Tversky1993]
+related: [Huber1982, Simonson1989, Tversky1993]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -63,7 +63,7 @@ First direct, parametric test pitting the three leading phantom-decoy accounts a
 - **Effect-size instability.** The large gap between between- ($\sim$11 pts) and within-subjects ($\sim$4 pts) magnitudes (number of sets, repeated $T$-$C$ pairs, task familiarity) is noted but not resolved.
 
 ## Connections
-The phantom decoy traces to Pratkanis and Farquhar (1992); related demonstrations include Highhouse (1996) and the authors' Pettibone and Wedell (2000), whose similarity-substitution conjecture this paper tests and rejects. The standard asymmetric-dominance decoy literature ([[@Huber1982|Huber, Payne & Puto 1982]]; Huber & Puto 1983; [[@Simonson1989|Simonson 1989]]; Wedell 1991; Wedell & Pettibone 1996) supplies the three families of explanation — range-weighting (challenged by Mellers & Biagini 1994; Wedell 1998), value-shift / dimensional contrast (Choplin & Hummel 2005; Dhar & Glazer 1996), and relational valuation. The winning account is the relative advantage model of [[@Tversky1993|Tversky and Simonson (1993)]], grounded in the loss aversion of [[@Kahneman1979|Kahneman and Tversky's (1979)]] prospect theory; its dynamic cousins are Roe, Busemeyer and Townsend's (2001) multi-alternative decision field theory and the Usher and McClelland (2004) leaky-accumulator. Cross-species decoy effects (Shafir, Waite & Smith 2002; Hurly & Oseen 1999) are cited to argue justification is not necessary. Methodological scaffolding: Shepard (1987) on similarity-distance, range-frequency theory (Parducci 1995), the choice-is-more-lexicographic-than-judgment result (Tversky, Sattath & Slovic 1988; Wedell & Senter 1997), and the need-for-cognition scale (Cacioppo, Petty & Kao 1984).
+The phantom decoy traces to Pratkanis and Farquhar (1992); related demonstrations include Highhouse (1996) and the authors' Pettibone and Wedell (2000), whose similarity-substitution conjecture this paper tests and rejects. The standard asymmetric-dominance decoy literature ([[@Huber1982|Huber, Payne & Puto 1982]]; Huber & Puto 1983; [[@Simonson1989|Simonson 1989]]; Wedell 1991; Wedell & Pettibone 1996) supplies the three families of explanation — range-weighting (challenged by Mellers & Biagini 1994; Wedell 1998), value-shift / dimensional contrast (Choplin & Hummel 2005; Dhar & Glazer 1996), and relational valuation. The winning account is the relative advantage model of [[@Tversky1993|Tversky and Simonson (1993)]], grounded in the loss aversion of Kahneman and Tversky's (1979) prospect theory; its dynamic cousins are Roe, Busemeyer and Townsend's (2001) multi-alternative decision field theory and the Usher and McClelland (2004) leaky-accumulator. Cross-species decoy effects (Shafir, Waite & Smith 2002; Hurly & Oseen 1999) are cited to argue justification is not necessary. Methodological scaffolding: Shepard (1987) on similarity-distance, range-frequency theory (Parducci 1995), the choice-is-more-lexicographic-than-judgment result (Tversky, Sattath & Slovic 1988; Wedell & Senter 1997), and the need-for-cognition scale (Cacioppo, Petty & Kao 1984).
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

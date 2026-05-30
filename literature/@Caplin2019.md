@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/BZ5T4SRZ/Caplin2019.pdf
 tags: [literature]
 keywords: [rational-inattention, consideration-sets, stochastic-choice, shannon-mutual-information, limited-attention, discrete-choice]
 topics: []
-related: [Brady2016, Caplin2011, Hauser1990, Manzini2014, Masatlioglu2012, Roberts1991]
+related: [Brady2016, Gabaix2006, Hauser1990, Manzini2014, Masatlioglu2012, Roberts1991]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -48,12 +48,12 @@ The paper unifies consideration-set theory and rational inattention, showing con
 - Results are derived for a *finite* state space; the authors contrast with Jung et al. (2015), whose dimensionality results require analytic/integrable payoffs and "have no bite when the state space is finite"—extension/integration across the finite and continuous cases is left open.
 - The closed-form characterisations are Shannon-specific: the ILR / Invariance-Under-Compression property *fails* for other cost functions (e.g. Tsallis entropy), so consideration-set predictions under more general (posterior-separable or neighbourhood-based) attention costs are an open problem.
 - Closed-form solutions exist only for the stylised "find the good alternative" case; the independent and correlated problems are solved only via the conditions and examples, and richer correlation structures remain analytically hard.
-- The paper inherits known intractability of alternative sequential-search/satisficing models (Gabaix et al. 2006) as motivation but does not bridge to them; reconciling sequential information acquisition with the static RI consideration set is unaddressed.
+- The paper inherits known intractability of alternative sequential-search/satisficing models ([[@Gabaix2006|Gabaix et al. 2006]]) as motivation but does not bridge to them; reconciling sequential information acquisition with the static RI consideration set is unaddressed.
 - The model abstracts from *why* attention is limited (lack of awareness vs. cognitive cost); it fits the cost interpretation, leaving awareness-based consideration outside scope.
 - Empirical identification and testing of the predicted priors-partition and market-entry test on real choice data is suggested but not carried out.
 
 ## Connections
-The paper builds directly on Matějka and McKay (2015), supplying the sufficiency half of their characterisation (cf. also Stevens 2014), and on the rational-inattention program of Sims (2003). The geometric/net-utility apparatus and the Invariance-Under-Compression axiom come from Caplin and Dean (2013) and Caplin, Dean, and Leahy (2017). On the consideration-set side it engages the revealed-preference models of [[@Masatlioglu2012|Masatlioglu, Nakajima, and Ozbay (2012)]] and Demuynck and Seel (2017), the stochastic-consideration model of [[@Manzini2014|Manzini and Mariotti (2014)]] and [[@Brady2016|Brady–Rehbeck (2016)]], the satisficing/search tradition of Simon (1955), [[@Caplin2011|Caplin, Dean, and Martin (2011)]], and Gabaix et al. (2006), and the marketing literature ([[@Hauser1990|Hauser and Wernerfelt 1990]]; [[@Roberts1991|Roberts and Lattin 1991]]). It connects to dimensionality results of Jung, Kim, Matějka, and Sims (2015) and to applied RI work on pricing, investment, and global games. It sits squarely within the literature on stochastic choice and is a natural companion to empirical demand-estimation approaches to consideration (Goeree 2008; Abaluck and Adams 2017).
+The paper builds directly on Matějka and McKay (2015), supplying the sufficiency half of their characterisation (cf. also Stevens 2014), and on the rational-inattention program of Sims (2003). The geometric/net-utility apparatus and the Invariance-Under-Compression axiom come from Caplin and Dean (2013) and Caplin, Dean, and Leahy (2017). On the consideration-set side it engages the revealed-preference models of [[@Masatlioglu2012|Masatlioglu, Nakajima, and Ozbay (2012)]] and Demuynck and Seel (2017), the stochastic-consideration model of [[@Manzini2014|Manzini and Mariotti (2014)]] and [[@Brady2016|Brady–Rehbeck (2016)]], the satisficing/search tradition of Simon (1955), Caplin, Dean, and Martin (2011), and [[@Gabaix2006|Gabaix et al. (2006)]], and the marketing literature ([[@Hauser1990|Hauser and Wernerfelt 1990]]; [[@Roberts1991|Roberts and Lattin 1991]]). It connects to dimensionality results of Jung, Kim, Matějka, and Sims (2015) and to applied RI work on pricing, investment, and global games. It sits squarely within the literature on stochastic choice and is a natural companion to empirical demand-estimation approaches to consideration (Goeree 2008; Abaluck and Adams 2017).
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

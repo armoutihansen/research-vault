@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/EVX3G5HI/Caplin2011.pdf
 tags: [literature]
 keywords: [revealed-preference, search-theory, bounded-rationality, stochastic-choice, satisficing, choice-process-data, incomplete-information, framing-effects]
 topics: []
-related: [Manzini2007, Rubinstein2006, Salant2008, Samuelson1988, Tyson2008]
+related: [Gabaix2006, Manzini2007, Rubinstein2006, Salant2008, Samuelson1988, Tyson2008]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -62,7 +62,7 @@ Provides the first axiomatic revealed-preference foundation that *incorporates t
 - **Ongoing empirics.** Experimental investigation of choice process data is described as ongoing; richer, conflict-laden choice environments are untested.
 
 ## Connections
-The paper sits between standard revealed-preference theory and Stigler's (1961) sequential search and Simon's (1955) satisficing, which it makes testable. Choice process data were anticipated by Campbell (1978) and by Block–Marschak's (1960) call to enrich data to separate utility-based from information-based randomness. It is closely related to other "data-enrichment" and limited-consideration programs: [[@Rubinstein2006|Rubinstein and Salant (2006)]] / [[@Salant2008|Salant and Rubinstein (2008)]] on list-ordered choice (where, unlike here, search order is observable), Masatlioglu and Nakajima (2009) on reference-dependent search (their dominating-anchor axiom is weaker than OWC), Masatlioglu, Nakajima, and Ozbay (2009) on attention filters, and [[@Manzini2007|Manzini and Mariotti (2007)]], Ergin (2003), Ergin and Sarver (2010) on procedural choice. The status-quo modeling connects to [[@Samuelson1988|Samuelson and Zeckhauser (1988)]]; the consideration-set framing to the marketing literature (Eliaz and Spiegler). Complementary process-tracing work (Payne et al. 1988/1993; Gabaix et al. 2006; Reutskaja et al.; Busemeyer and Townsend 1992; Rustichini 2008) observes search acts but does not tie them to choice implications, which is exactly the link choice process data supply. The companion experiment is Caplin, Dean, and Martin (forthcoming).
+The paper sits between standard revealed-preference theory and Stigler's (1961) sequential search and Simon's (1955) satisficing, which it makes testable. Choice process data were anticipated by Campbell (1978) and by Block–Marschak's (1960) call to enrich data to separate utility-based from information-based randomness. It is closely related to other "data-enrichment" and limited-consideration programs: [[@Rubinstein2006|Rubinstein and Salant (2006)]] / [[@Salant2008|Salant and Rubinstein (2008)]] on list-ordered choice (where, unlike here, search order is observable), Masatlioglu and Nakajima (2009) on reference-dependent search (their dominating-anchor axiom is weaker than OWC), Masatlioglu, Nakajima, and Ozbay (2009) on attention filters, and [[@Manzini2007|Manzini and Mariotti (2007)]], Ergin (2003), Ergin and Sarver (2010) on procedural choice. The status-quo modeling connects to [[@Samuelson1988|Samuelson and Zeckhauser (1988)]]; the consideration-set framing to the marketing literature (Eliaz and Spiegler). Complementary process-tracing work (Payne et al. 1988/1993; [[@Gabaix2006|Gabaix et al. 2006]]; Reutskaja et al.; Busemeyer and Townsend 1992; Rustichini 2008) observes search acts but does not tie them to choice implications, which is exactly the link choice process data supply. The companion experiment is Caplin, Dean, and Martin (forthcoming).
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

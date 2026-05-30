@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/ADF7H2TJ/Mullainathan2023.pdf
 tags: [literature]
 keywords: [anomaly-generation, machine-learning-for-theory, expected-utility-theory, adversarial-learning, prospect-theory, econometric-theory]
 topics: []
-related: [Fudenberg2019a, Fudenberg2020, Kahneman1979]
+related: [Andrews2022, Fudenberg2019a, Fudenberg2020, Fudenberg2022a, Kahneman1979]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -58,7 +58,7 @@ A unifying, domain-agnostic econometric language for "what is an anomaly" that c
 - Practical implementation (basis choice, $B$ samples, probability clipping at $\varepsilon=10^{-6}$ near the diverging weighting-function gradient) introduces tuning sensitivity flagged in Appendix D.
 
 ## Connections
-The framework directly engages the ML-meets-theory literature: it weakens and generalizes the "restrictiveness" notion of [[@Fudenberg2020|Fudenberg, Gao and Liang (2020)]], complements "completeness" measurement (Fudenberg et al., 2022), and reinterprets [[@Fudenberg2019a|Fudenberg and Liang (2019)]]'s game-prediction approach as a special-case heuristic of the adversarial characterization. The morphing procedure is the choice-theoretic analogue of Ludwig and Mullainathan (2023)'s image-morphing for hypothesis generation from mug-shots, and sits beside Andrews et al. (2022) on conformal transfer-performance of theories. Substantively it is rooted in the decision-under-uncertainty tradition — von Neumann-Morgenstern expected utility, the Allais (1953) paradox, [[@Kahneman1979|Kahneman-Tversky (1979)]] and cumulative prospect theory (Tversky and Kahneman, 1992), with probability weighting parametrized after Lattimore, Baker and Witte (1992). The optimization machinery imports adversarial/data-poisoning ideas (Madry et al., 2017) and non-convex/concave min-max results (Jin, Netrapalli and Jordan, 2019; Razaviyayn et al., 2020).
+The framework directly engages the ML-meets-theory literature: it weakens and generalizes the "restrictiveness" notion of [[@Fudenberg2020|Fudenberg, Gao and Liang (2020)]], complements "completeness" measurement ([[@Fudenberg2022a|Fudenberg et al., 2022]]), and reinterprets [[@Fudenberg2019a|Fudenberg and Liang (2019)]]'s game-prediction approach as a special-case heuristic of the adversarial characterization. The morphing procedure is the choice-theoretic analogue of Ludwig and Mullainathan (2023)'s image-morphing for hypothesis generation from mug-shots, and sits beside [[@Andrews2022|Andrews et al. (2022)]] on conformal transfer-performance of theories. Substantively it is rooted in the decision-under-uncertainty tradition — von Neumann-Morgenstern expected utility, the Allais (1953) paradox, [[@Kahneman1979|Kahneman-Tversky (1979)]] and cumulative prospect theory (Tversky and Kahneman, 1992), with probability weighting parametrized after Lattimore, Baker and Witte (1992). The optimization machinery imports adversarial/data-poisoning ideas (Madry et al., 2017) and non-convex/concave min-max results (Jin, Netrapalli and Jordan, 2019; Razaviyayn et al., 2020).
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/REK2W5YD/Loomes1986.pdf
 tags: [literature]
 keywords: [disappointment-theory, expected-utility, decision-under-uncertainty, independence-axiom, dynamic-consistency, allais-paradox, regret-theory]
 topics: []
-related: [Bell1985, Kahneman1979, Tversky1974, Tversky1981]
+related: [Bell1985, Kahneman1979, Tversky1981]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -40,13 +40,13 @@ For the multi-stage extension, dynamic consistency is built in by setting $C(x_{
 
 ## Data
 
-None—this is a theoretical paper. It is illustrated against published experimental evidence rather than new data: the Allais (1953) problem, [[@Kahneman1979|Kahneman and Tversky's (1979)]] common-ratio and common-consequence problems, and [[@Tversky1981|Tversky and Kahneman's (1981)]] three-problem isolation-effect design (85 of 205 subjects showed the common ratio effect; of these, 20 violated dynamic consistency and 65 the compound probability axiom).
+None—this is a theoretical paper. It is illustrated against published experimental evidence rather than new data: the Allais (1953) problem, Kahneman and Tversky's (1979) common-ratio and common-consequence problems, and Tversky and Kahneman's (1981) three-problem isolation-effect design (85 of 205 subjects showed the common ratio effect; of these, 20 violated dynamic consistency and 65 the compound probability axiom).
 
 ## Key findings
 
 - **Sure-thing-principle violations (common consequence effect).** Holding a common consequence $c^*$ as the only varying element, there exists a threshold $\theta$ with $A_1 \succeq A_2 \iff c^* \ge \theta$, so lowering $c^*$ flips the preference—exactly the observed reversal. Under symmetry, $0 < p < 0.5 < \lambda < 1$ guarantees the reversal as $c^*$ falls from $\lambda c$ to $0$. The result is robust to unequal expected basic utilities (via dominance-based constructions $A_3, A_4$) and to concave $C(\cdot)$.
 - **Common ratio effect** follows from the same expression (2) by instead varying $p$ with $c^*=0$.
-- **Relation to other models.** The implied Machina local utility function is derived; the model's assumptions ($C$ increasing, $0 \le D' < 1$) guarantee stochastic-dominance preference, and a $D$ that is convex-high/concave-low rationalises simultaneous gambling and insurance. The model is *not* a special case of Machina's (1982) Hypothesis II ("fanning out"): it permits preference "re-reversals" when expected basic utilities differ (none observed empirically). It is also distinguished from [[@Bell1985|Bell's (1985)]] kinked-linear formulation, which cannot explain anomalies among equal-expected-value prospects, whereas the non-linear $D$ can.
+- **Relation to other models.** The implied Machina local utility function is derived; the model's assumptions ($C$ increasing, $0 \le D' < 1$) guarantee stochastic-dominance preference, and a $D$ that is convex-high/concave-low rationalises simultaneous gambling and insurance. The model is *not* a special case of Machina's (1982) Hypothesis II ("fanning out"): it permits preference "re-reversals" when expected basic utilities differ (none observed empirically). It is also distinguished from Bell's (1985) kinked-linear formulation, which cannot explain anomalies among equal-expected-value prospects, whereas the non-linear $D$ can.
 - **Isolation effect.** With dynamic consistency imposed via $C(x_{ij})=E^*_j$, the model predicts $C \sim D \iff A \sim B$ but implies *no* equivalence between $\{C,D\}$ and $\{E,F\}$—so the isolation effect is a logical corollary of the common ratio effect, explaining why the compound probability axiom is violated far more often than dynamic consistency.
 
 ## Contribution
@@ -63,7 +63,7 @@ Provides a transitive, psychologically grounded model that (i) explains sure-thi
 
 ## Connections
 
-This paper is the explicit companion to the authors' own regret theory in Loomes & Sugden (1982) and Loomes & Sugden (1983), and builds directly on the disappointment intuition of [[@Bell1985|Bell (1985)]], whose kinked-linear "linear expectations" model it generalises (Bell (1982) covers the regret analogue). It is positioned within the non-EU "preference orderings over distributions" class anticipated by Samuelson (1950) and Allais (1953) and developed by Hagen (1979), Chew & MacCrimmon (1979), and Fishburn (1982, 1983); it is carefully contrasted with Machina's (1982) Generalized Expected Utility and Hypothesis II "fanning out." The anomalies it targets come from [[@Kahneman1979|Kahneman & Tversky (1979)]] (prospect theory), [[@Tversky1981|Tversky & Kahneman (1981)]] (framing and the isolation effect), Moskowitz (1974), and [[@Tversky1974|Slovic & Tversky (1974)]]; the normative debate engages Savage (1954), MacCrimmon (1968), MacCrimmon & Larsson (1979), and Morgenstern (1979).
+This paper is the explicit companion to the authors' own regret theory in Loomes & Sugden (1982) and Loomes & Sugden (1983), and builds directly on the disappointment intuition of [[@Bell1985|Bell (1985)]], whose kinked-linear "linear expectations" model it generalises (Bell (1982) covers the regret analogue). It is positioned within the non-EU "preference orderings over distributions" class anticipated by Samuelson (1950) and Allais (1953) and developed by Hagen (1979), Chew & MacCrimmon (1979), and Fishburn (1982, 1983); it is carefully contrasted with Machina's (1982) Generalized Expected Utility and Hypothesis II "fanning out." The anomalies it targets come from [[@Kahneman1979|Kahneman & Tversky (1979)]] (prospect theory), [[@Tversky1981|Tversky & Kahneman (1981)]] (framing and the isolation effect), Moskowitz (1974), and Slovic & Tversky (1974); the normative debate engages Savage (1954), MacCrimmon (1968), MacCrimmon & Larsson (1979), and Morgenstern (1979).
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

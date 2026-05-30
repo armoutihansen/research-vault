@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/MGYP28R6/deClippel2022.pdf
 tags: [literature]
 keywords: [bounded-rationality, choice-theory, revealed-preference, axiomatic-characterization, stochastic-choice, welfare-analysis]
 topics: []
-related: [Bernheim2009, Manzini2007, Manzini2012, Masatlioglu2012, Salant2008, Sen1971, Tyson2008]
+related: [Bernheim2009, Lleras2017, Manzini2007, Manzini2012, Masatlioglu2012, Salant2008, Sen1971, Tyson2008]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -63,7 +63,7 @@ The authors flag these explicitly (project-idea hooks):
 
 ## Connections
 
-Foundational benchmarks: Samuelson–Houthakker revealed preference and SARP/WARP/GARP; [[@Sen1971|Sen (1971)]] on $\alpha$/$\beta$/$\gamma$; Luce (1956, 1959) and McFadden's random-utility/logit tradition. Methodological framing follows Rubinstein (1998) on procedural decision-making and Conlisk (1996) on deliberation costs; it situates choice theory against the "Krepsian" decision-theoretic methodology (Lipman–Pesendorfer 2013; Spiegler 2013). Limited-attention and consideration-set work ([[@Masatlioglu2012|Masatlioglu, Nakajima, Ozbay 2012]]; [[@Manzini2007|Manzini–Mariotti 2007]] shortlists; Lleras et al. 2017), context/framing ([[@Salant2008|Salant–Rubinstein 2008]]; Masatlioglu–Ok 2005, 2014; [[@Bernheim2009|Bernheim–Rangel 2009]]), and stochastic choice (Natenzon 2019; Matějka–McKay 2015; Apesteguia–Ballester 2020) are the principal strands surveyed. The permissiveness result parallels and complements Giarlotta–Petralia–Watson (2021). Directly relevant to anyone modeling social preferences or estimating choice models who must decide how much structure to impose on the choice procedure and how to identify welfare from imperfect choice data.
+Foundational benchmarks: Samuelson–Houthakker revealed preference and SARP/WARP/GARP; [[@Sen1971|Sen (1971)]] on $\alpha$/$\beta$/$\gamma$; Luce (1956, 1959) and McFadden's random-utility/logit tradition. Methodological framing follows Rubinstein (1998) on procedural decision-making and Conlisk (1996) on deliberation costs; it situates choice theory against the "Krepsian" decision-theoretic methodology (Lipman–Pesendorfer 2013; Spiegler 2013). Limited-attention and consideration-set work ([[@Masatlioglu2012|Masatlioglu, Nakajima, Ozbay 2012]]; [[@Manzini2007|Manzini–Mariotti 2007]] shortlists; [[@Lleras2017|Lleras et al. 2017]]), context/framing ([[@Salant2008|Salant–Rubinstein 2008]]; Masatlioglu–Ok 2005, 2014; [[@Bernheim2009|Bernheim–Rangel 2009]]), and stochastic choice (Natenzon 2019; Matějka–McKay 2015; Apesteguia–Ballester 2020) are the principal strands surveyed. The permissiveness result parallels and complements Giarlotta–Petralia–Watson (2021). Directly relevant to anyone modeling social preferences or estimating choice models who must decide how much structure to impose on the choice procedure and how to identify welfare from imperfect choice data.
 
 Coverage note: the §7 conclusion / "future directions" and parts of §3.2–§3.3 and §5.2 fell beyond the PDF extractor's character cap; future directions above are synthesized from the abstract and the explicit open problems the authors raise throughout §§2–6 rather than from §7 verbatim.
 

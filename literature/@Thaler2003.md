@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/CK78Z2CX/Thaler2003.pdf
 tags: [literature]
 keywords: [libertarian-paternalism, behavioral-economics, choice-architecture, default-options, status-quo-bias, welfare-economics, nudge]
 topics: []
-related: [Benartzi2002, Loewenstein2001, Samuelson1988]
+related: [Benartzi2002, Samuelson1988]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -69,7 +69,7 @@ The authors flag several open problems, mostly around the welfare criterion:
 
 ## Connections
 
-The essay sits at the intersection of behavioral economics and welfare/public economics. It builds directly on the heuristics-and-biases program (Kahneman and Tversky 2000; Gilovich, Griffin, and Kahneman 2002) and on **status-quo bias** ([[@Samuelson1988|Samuelson and Zeckhauser 1988]]; Kahneman, Knetsch, and Thaler 1991). The savings applications rest on Madrian and Shea (2001), Choi, Laibson, Madrian, and Metrick (2002, 2003), [[@Benartzi2002|Benartzi and Thaler (2002)]], and Thaler and Benartzi's Save More Tomorrow. It is in explicit dialogue with companion AEA-session papers on *optimal* paternalism — Camerer, [[@Loewenstein2001|Issacharoff, Loewenstein, O'Donoghue, and Rabin (2001)]] on "asymmetric paternalism," O'Donoghue and Rabin (2003) on optimal sin taxes, and Choi et al. (2003b) "Optimal Defaults" — which formalize welfare-maximizing policy design where this essay argues informally. The line of work culminates in Thaler and Sunstein's *Nudge* and the broad literature on choice architecture and defaults.
+The essay sits at the intersection of behavioral economics and welfare/public economics. It builds directly on the heuristics-and-biases program (Kahneman and Tversky 2000; Gilovich, Griffin, and Kahneman 2002) and on **status-quo bias** ([[@Samuelson1988|Samuelson and Zeckhauser 1988]]; Kahneman, Knetsch, and Thaler 1991). The savings applications rest on Madrian and Shea (2001), Choi, Laibson, Madrian, and Metrick (2002, 2003), [[@Benartzi2002|Benartzi and Thaler (2002)]], and Thaler and Benartzi's Save More Tomorrow. It is in explicit dialogue with companion AEA-session papers on *optimal* paternalism — Camerer, Issacharoff, Loewenstein, O'Donoghue, and Rabin (2001) on "asymmetric paternalism," O'Donoghue and Rabin (2003) on optimal sin taxes, and Choi et al. (2003b) "Optimal Defaults" — which formalize welfare-maximizing policy design where this essay argues informally. The line of work culminates in Thaler and Sunstein's *Nudge* and the broad literature on choice architecture and defaults.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

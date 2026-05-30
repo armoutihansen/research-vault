@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/4HZFBX7D/Bertrand2016.pdf
 tags: [literature]
 keywords: [income-inequality, conspicuous-consumption, expenditure-cascades, household-saving, status-seeking, relative-income]
 topics: []
-related: [Charles2009, Frank2014, Heffetz2011]
+related: [Charles2009, Frank2014, Heffetz2011, Kuziemko2014]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -34,10 +34,10 @@ Because there is no clean instrument for top-income variation, identification of
 - Wealth/home-equity effects: re-estimate eq. (1) separately for homeowners vs. renters, and interact with the post-1995 housing-boom subperiod.
 - Local price pressure: regress local CPI on top income, then re-estimate eq. (1) controlling for log local CPI (overall and disaggregated into food, shelter, apparel, transportation, medical), both OLS and IV; supplement with Handbury-Weinstein "exact" price indices.
 - Rich-vs-nonrich consumption link: an IV specification instruments $\text{Log(ConsumptionofRich)}$ and $\text{Log(ConsumptionofVeryRich)}$ with the 80th/95th-percentile income thresholds, addressing both unobserved state shocks and CEX measurement error in rich consumption.
-- Mechanism (visibility vs. income elasticity): a demand-system regression of each category's budget share $x_{kist}$ ($k=1\dots15$) on instrumented rich consumption (with national CPI $P_t$, local CPI $p_{st}$, household controls, state/year FE, state trend; eq. 4). The estimated category coefficients $\beta_k$, scaled by mean budget share, are then plotted against [[@Heffetz2011|Heffetz's (2011)]] visibility score and against estimated income elasticity to see which dimension organizes the response.
+- Mechanism (visibility vs. income elasticity): a demand-system regression of each category's budget share $x_{kist}$ ($k=1\dots15$) on instrumented rich consumption (with national CPI $P_t$, local CPI $p_{st}$, household controls, state/year FE, state trend; eq. 4). The estimated category coefficients $\beta_k$, scaled by mean budget share, are then plotted against Heffetz's (2011) visibility score and against estimated income elasticity to see which dimension organizes the response.
 
 ## Data
-- **Consumer Expenditure Survey (CEX) Interview Survey, 1980-2008** (primary): annual household consumption built by summing four quarterly surveys; service-flow measures for vehicles (accelerated depreciation, ~15% of prior-year value) and shelter (payment-flow default, rental-equivalence alternative); excludes home/vehicle purchases. ~77,500 nonrich household-year observations; covers 44 states plus DC (six sparsely sampled states missing). Categories follow Charles et al. (2009), expanded to 15.
+- **Consumer Expenditure Survey (CEX) Interview Survey, 1980-2008** (primary): annual household consumption built by summing four quarterly surveys; service-flow measures for vehicles (accelerated depreciation, ~15% of prior-year value) and shelter (payment-flow default, rental-equivalence alternative); excludes home/vehicle purchases. ~77,500 nonrich household-year observations; covers 44 states plus DC (six sparsely sampled states missing). Categories follow [[@Charles2009|Charles et al. (2009)]], expanded to 15.
 - **March CPS** for state-year income-distribution percentiles (20th/50th/80th/90th/95th), used to classify CEX households as nonrich/rich/very rich.
 - **PSID 1980-2007** for the future-income (permanent-income / precautionary) tests.
 - **University of Michigan Surveys of Consumers** for income-growth expectations and the Index of Consumer Expectations.
@@ -60,7 +60,7 @@ Provides large-sample, within-market empirical evidence for "trickle-down consum
 - **Geographic coarseness:** the state is the finest CEX geographic unit, preventing analysis of the finer neighborhood dynamics that expenditure cascades likely operate through; they call for finding "naturally occurring experiments" at finer geography.
 - **CEX measurement error:** systematic and growing underreporting of consumption by the rich biases rich/very-rich consumption levels downward.
 - **The vehicle anomaly:** high-visibility vehicles show no response, inconsistent with prior "keeping up with the Joneses" car evidence and only partly explained by slow adjustment.
-- **Suggested future work:** lab/experimental settings on relative-position effects (citing Kuziemko et al., 2014); systematic study of the political economy of credit expansion and its relation to top-income growth; and how lenders responded to local inequality. The credit, bankruptcy, and HR 5334 voting evidence is flagged as "admittedly preliminary."
+- **Suggested future work:** lab/experimental settings on relative-position effects (citing [[@Kuziemko2014|Kuziemko et al., 2014]]); systematic study of the political economy of credit expansion and its relation to top-income growth; and how lenders responded to local inequality. The credit, bankruptcy, and HR 5334 voting evidence is flagged as "admittedly preliminary."
 
 ## Connections
 The paper sits at the intersection of consumption theory and inequality. It tests and rejects Friedman's (1957) permanent income hypothesis and Carroll's (1992) precautionary-saving motive as explanations, and pushes against the Mian-Sufi (2011) home-equity wealth-effect channel. Its positive interpretation revives Veblen (1899) and Duesenberry (1949) relative-income/conspicuous-consumption ideas, and most directly operationalizes [[@Frank2014|Frank, Levine, and Dijk (2014)]] "expenditure cascades," distinguishing it from the Luttmer (2005) "keeping up with the Joneses" formulation by emphasizing comparisons *up* the distribution rather than to peers. The visibility measurement builds on [[@Heffetz2011|Heffetz (2011)]] and [[@Charles2009|Charles, Hurst, and Roussanov (2009)]]; measurement issues draw on Aguiar and Bils (2015). The aggregate-saving and credit-supply narrative connects to Rajan (2010) on inequality-driven credit expansion and to the broader literature on the determinants of the U.S. saving-rate decline.

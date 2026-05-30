@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/3S9D3GCH/Benartzi1995.pdf
 tags: [literature]
 keywords: [behavioral-finance, myopic-loss-aversion, equity-premium-puzzle, prospect-theory, mental-accounting, loss-aversion, asset-allocation]
 topics: []
-related: [Kahneman1997, Tversky1992]
+related: [Tversky1992]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -60,7 +60,7 @@ Introduces the concept of **myopic loss aversion** and demonstrates that it quan
 - No single evaluation period fits all investors; the one-year figure is a plausible central case, not an estimated population parameter.
 
 ## Connections
-The paper sits directly against **Mehra and Prescott [1985, 1988]**, whose puzzle it answers, and the rational-resolution literature it argues is incomplete: **Reitz [1988]** (catastrophe risk), **Weil [1989]** and **Epstein-Zin [1990]** (Kreps-Porteus / Yaari non-expected-utility, which Weil shows merely transmutes the puzzle into the risk-free-rate puzzle), **Mankiw-Zeldes [1991]** (limited stock-market participation), and especially **Constantinides [1990]** habit formation — whose gain/loss asymmetry the authors endorse but relocate from consumption to returns. The preference model is **Kahneman-Tversky prospect theory [1979]** and its **cumulative** form [[[@Tversky1992|Tversky-Kahneman 1992]], with loss aversion calibrated against the endowment-effect experiments of **Kahneman, Knetsch, and Thaler [1990]** and **Tversky-Kahneman [1991]**, and mental accounting from **Thaler [1985]**. The horizon result deliberately contrasts with the classic **Merton [1969]/Samuelson [1969]** constant-allocation theorem and with **Samuelson's [1963]** repeated-bet fallacy. The agency extension draws on **Shleifer-Vishny [1990]** and **Lakonishok-Shleifer-Vishny [1992]** on short investor horizons. This work is itself the seed of a large myopic-loss-aversion experimental literature (e.g., [[@Kahneman1997|Thaler-Tversky-Kahneman-Schwartz 1997]] and Gneezy-Potters 1997).
+The paper sits directly against **Mehra and Prescott [1985, 1988]**, whose puzzle it answers, and the rational-resolution literature it argues is incomplete: **Reitz [1988]** (catastrophe risk), **Weil [1989]** and **Epstein-Zin [1990]** (Kreps-Porteus / Yaari non-expected-utility, which Weil shows merely transmutes the puzzle into the risk-free-rate puzzle), **Mankiw-Zeldes [1991]** (limited stock-market participation), and especially **Constantinides [1990]** habit formation — whose gain/loss asymmetry the authors endorse but relocate from consumption to returns. The preference model is **Kahneman-Tversky prospect theory [1979]** and its **cumulative** form [[[@Tversky1992|Tversky-Kahneman 1992]], with loss aversion calibrated against the endowment-effect experiments of **Kahneman, Knetsch, and Thaler [1990]** and **Tversky-Kahneman [1991]**, and mental accounting from **Thaler [1985]**. The horizon result deliberately contrasts with the classic **Merton [1969]/Samuelson [1969]** constant-allocation theorem and with **Samuelson's [1963]** repeated-bet fallacy. The agency extension draws on **Shleifer-Vishny [1990]** and **Lakonishok-Shleifer-Vishny [1992]** on short investor horizons. This work is itself the seed of a large myopic-loss-aversion experimental literature (e.g., Thaler-Tversky-Kahneman-Schwartz 1997 and Gneezy-Potters 1997).
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

@@ -29,7 +29,7 @@ The conceptual backbone is the axiomatic apparatus of standard choice theory and
 $$P(x,R)\ge P(x,S),\qquad x\in R\subset S,$$
 i.e. enlarging the choice set cannot raise an option's share. A stronger candidate, **proportionality** (a new option draws from incumbents in proportion to their shares), is shown to be too strong — Herne gives a spatial-voting counterexample (parties $l\succ c\succ r$ for two voters, $r\succ c\succ l$ for three) where proportionality fails even though individual IIA holds, because the centre party $c$ loses votes to $r$ while $l$ does not.
 
-The operative aggregate test is therefore [[@Tversky1993|Tversky and Simonson's (1993)]] **betweenness inequality**. With alternatives valued monotonically on each dimension $i$, $y$ lies between $x$ and $z$ if for every dimension either $x_i\le y_i\le z_i$ or $x_i\ge y_i\ge z_i$. Then if $y$ is between $x$ and $z$,
+The operative aggregate test is therefore Tversky and Simonson's (1993) **betweenness inequality**. With alternatives valued monotonically on each dimension $i$, $y$ lies between $x$ and $z$ if for every dimension either $x_i\le y_i\le z_i$ or $x_i\ge y_i\ge z_i$. Then if $y$ is between $x$ and $z$,
 $$P(y,R)>\frac{P(y,S)}{P(y,S)+P(x,S)}$$
 unless IIA or a **ranking condition** is violated, where the ranking condition requires $P(z\succ y\succ x)/P(z\succ x\succ y)>P(y,S)/P(x,S)$ — i.e. preference orders with the middle option between the extremes are relatively more common. A violation of betweenness inequality (an extreme option losing more share to another extreme than the middle option does) is read as evidence against IIA, conditional on the ranking condition's plausibility.
 

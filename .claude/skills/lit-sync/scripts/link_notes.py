@@ -32,10 +32,16 @@ import os
 import re
 import subprocess
 import sys
+import unicodedata
 from pathlib import Path
 
 FENCE = "%% ─── below is yours; regeneration never touches it ─── %%"
 HERE = Path(__file__).resolve().parent
+
+
+def fold(s):
+    """Accent- and case-fold a surname for matching: 'Kőszegi' / 'Köszegi' → 'koszegi'."""
+    return unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
 
 # A surname cluster (Caps words joined by & / and / , / en- or em-dash) followed by a nearby year.
 # The name and year MUST be separated by whitespace and/or an opening paren — so a real citation
@@ -44,6 +50,7 @@ HERE = Path(__file__).resolve().parent
 _NAME = r"[A-Z][A-Za-z'’]+(?:[-–][A-Z][A-Za-z'’]+)?"
 SPAN_RE = re.compile(
     rf"({_NAME}(?:\s*(?:&|and|,|–|—|-)\s*(?:and\s+)?{_NAME}){{0,3}})"
+    rf"(?:\s+et\s+al\.?,?)?"                       # optional "et al." — a very common citation form
     rf"(?:\s+\(?|\s*\()(?:\w+\.\s*)?(\d{{4}})[a-z]?\)?"
 )
 # An already-present piped wikilink: [[@citekey|display]]  (display is what the reader sees).
@@ -104,12 +111,22 @@ def resolve_span(names, year, context, index):
     """
     span_surn = [t.split("-")[0].split("–")[0] for t in re.findall(r"[A-Z][A-Za-z'’\-–]+", names)]
     span_set = set(span_surn)
-    # Match surnames on word boundaries, NOT substrings: "Mas" must not match inside "Masatlioglu",
-    # nor "Sen" inside "Sengupta", "Li" inside "Lim", "Pan" inside "Panunzi" (all observed false links).
+    if not span_set:
+        return None
+
+    def surname_matches(s, surnames):
+        # Word-level, accent/case-folded match (NOT substring): "Mas" must not match inside
+        # "Masatlioglu", but "Köszegi" must match "Kőszegi" and "Garcia" must match "García".
+        # `fold(s) in words` handles particle names ("Clippel" in "de Clippel").
+        fs = fold(s)
+        return any(fs == fold(c) or fs in [fold(w) for w in c.split()] for c in surnames)
+
+    # A candidate is eligible only if EVERY explicitly-named author in the span matches it. "et al."
+    # authors are elided before the year (not in `names`), so only the named ones are required — this
+    # both fixes recall ("Abeler et al. (2011)") and kills false positives where only the lead author
+    # coincides ("Tversky and Shafir 1992" must NOT link to Tversky & Kahneman 1992).
     cands = [ck for ck, m in index.items()
-             if m["year"] == year and (set(m["surnames"]) & span_set
-                                       or any(re.search(rf"\b{re.escape(s)}\b", names)
-                                              for s in m["surnames"]))]
+             if m["year"] == year and all(surname_matches(s, m["surnames"]) for s in span_set)]
     if len(cands) <= 1:
         return cands[0] if cands else None
     ctx = set(re.findall(r"[a-z]{4,}", context.lower()))

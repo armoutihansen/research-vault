@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/Q6HRUDW5/Andreoni2002.pdf
 tags: [literature]
 keywords: [revealed-preference, garp, altruism, social-preferences, dictator-game, ces-utility, preference-heterogeneity]
 topics: []
-related: [Bolton2000, Bruhin2019, Charness2002, Fehr1999, Fisman2007, Samuelson1938]
+related: [Bolton2000, Charness2002, Fehr1999, Fisman2007, Samuelson1938]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -55,7 +55,7 @@ First application of nonparametric revealed-preference analysis (GARP, CCEI) to 
 - The authors argue fairness must be modeled at the individual level because aggregate-fitting models may misdescribe individuals — an open modeling challenge.
 
 ## Connections
-Builds directly on the dictator game of Forsythe, Horowitz, Savin & Sefton (1994) and the revealed-preference machinery of [[@Samuelson1938|Samuelson (1938)]], Houthakker (1950), Afriat (1967, 1972), and Varian (1982, 1991, 1993); Bronars (1987) supplies the power test. Related individual-rationality GARP experiments include Cox (1997), Sippel (1997), Mattei (2000), and Harbaugh, Krause & Berry (2001) ("GARP for kids"). The estimated social-preference types anticipate and complement structural inequity-aversion and reciprocity models such as [[@Fehr1999|Fehr & Schmidt (1999)]], [[@Bolton2000|Bolton & Ockenfels (2000)]], and [[@Charness2002|Charness & Rabin (2002)]], and connect to warm-glow giving (Andreoni 1988, 1990). The prediction exercises draw on public-goods data from Isaac & Walker (1988), Andreoni (1995a, 1995b), and others, and the PD evidence from Andreoni & Miller (1993). Nonmonotonicity links to Ochs & Roth's (1989) disadvantageous counter-proposals and Palfrey & Prisbrey (1996, 1997). The crossing-budget design later underpins large-scale social-preference estimation, e.g. [[@Fisman2007|Fisman, Kariv & Markovits (2007)]] and [[@Bruhin2019|Bruhin, Fehr & Schmidt (2019)]].
+Builds directly on the dictator game of Forsythe, Horowitz, Savin & Sefton (1994) and the revealed-preference machinery of [[@Samuelson1938|Samuelson (1938)]], Houthakker (1950), Afriat (1967, 1972), and Varian (1982, 1991, 1993); Bronars (1987) supplies the power test. Related individual-rationality GARP experiments include Cox (1997), Sippel (1997), Mattei (2000), and Harbaugh, Krause & Berry (2001) ("GARP for kids"). The estimated social-preference types anticipate and complement structural inequity-aversion and reciprocity models such as [[@Fehr1999|Fehr & Schmidt (1999)]], [[@Bolton2000|Bolton & Ockenfels (2000)]], and [[@Charness2002|Charness & Rabin (2002)]], and connect to warm-glow giving (Andreoni 1988, 1990). The prediction exercises draw on public-goods data from Isaac & Walker (1988), Andreoni (1995a, 1995b), and others, and the PD evidence from Andreoni & Miller (1993). Nonmonotonicity links to Ochs & Roth's (1989) disadvantageous counter-proposals and Palfrey & Prisbrey (1996, 1997). The crossing-budget design later underpins large-scale social-preference estimation, e.g. [[@Fisman2007|Fisman, Kariv & Markovits (2007)]] and Bruhin, Fehr & Schmidt (2019).
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

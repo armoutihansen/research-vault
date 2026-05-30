@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/TIEF96L7/Koszegi2010.pdf
 tags: [literature]
 keywords: [personal-equilibrium, anticipatory-utility, reference-dependent-preferences, time-inconsistency, disappointment-aversion, informational-preferences, behavioral-economics]
 topics: []
-related: [Caplin2001, Eliaz2006, Koszegi2006b, Koszegi2009, Loewenstein1987]
+related: [Caplin2001, Koszegi2006b, Koszegi2009, Loewenstein1987]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -56,7 +56,7 @@ Provides a general, application-ready framework and the **personal equilibrium**
 - The three applications (reference dependence; emotions and self-regulation; intimidating/avoided decisions) are sketched, not fully developed — explicit invitations for follow-up modeling.
 
 ## Connections
-The paper is the theoretical spine of **expectations-based reference-dependence**: Kőszegi & [[@Koszegi2006b|Rabin]] (2006, 2007, 2009) adopt personal (and *preferred* personal) equilibrium to close their loss-aversion model, and Heidhues & Kőszegi (2005, 2008) apply it to firm pricing with loss-averse consumers. It directly extends **[[@Caplin2001|Caplin & Leahy (2001)]]** psychological expected utility by allowing anticipation–outcome interaction, and positions itself against **Kreps & Porteus (1978)** and the timing-of-resolution literature (Epstein–Zin 1989; Grant–Kajii–Polak 1998, 2000; Skiadas 1998). The solution concept generalizes **Geanakoplos, Pearce & Stacchetti (1989)** psychological equilibrium to a single-player/multiple-self setting and relates to **intergenerational-altruism** models (Hori–Kanaya, Bergstrom). On disappointment–information links it connects to **Dillenberger (2008)** and Kőszegi–[[@Koszegi2009|Rabin (2009)]]; on limits of informational preferences to **[[@Eliaz2006|Eliaz & Spiegler (2006)]]**. Antecedents on anticipatory emotions and time inconsistency include **[[@Loewenstein1987|Loewenstein (1987)]]**, and the broader self-control tradition (Strotz; Phelps–Pollak; Laibson) supplies the backdrop for the self-regulation application.
+The paper is the theoretical spine of **expectations-based reference-dependence**: Kőszegi & [[@Koszegi2006b|Rabin]] (2006, 2007, 2009) adopt personal (and *preferred* personal) equilibrium to close their loss-aversion model, and Heidhues & Kőszegi (2005, 2008) apply it to firm pricing with loss-averse consumers. It directly extends **[[@Caplin2001|Caplin & Leahy (2001)]]** psychological expected utility by allowing anticipation–outcome interaction, and positions itself against **Kreps & Porteus (1978)** and the timing-of-resolution literature (Epstein–Zin 1989; Grant–Kajii–Polak 1998, 2000; Skiadas 1998). The solution concept generalizes **Geanakoplos, Pearce & Stacchetti (1989)** psychological equilibrium to a single-player/multiple-self setting and relates to **intergenerational-altruism** models (Hori–Kanaya, Bergstrom). On disappointment–information links it connects to **Dillenberger (2008)** and Kőszegi–[[@Koszegi2009|Rabin (2009)]]; on limits of informational preferences to **Eliaz & Spiegler (2006)**. Antecedents on anticipatory emotions and time inconsistency include **[[@Loewenstein1987|Loewenstein (1987)]]**, and the broader self-control tradition (Strotz; Phelps–Pollak; Laibson) supplies the backdrop for the self-regulation application.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

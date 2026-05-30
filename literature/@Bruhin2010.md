@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/K4P44RMK/Bruhin2010.pdf
 tags: [literature]
 keywords: [prospect-theory, probability-weighting, finite-mixture-model, risk-preferences, latent-heterogeneity, expected-utility, behavioral-types]
 topics: []
-related: [Kahneman1979, Quiggin1982, Tversky1992]
+related: [Kahneman1979, Quiggin1982]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -63,7 +63,7 @@ The paper delivers the first demonstration of a *nearly identical* endogenous cl
 - **Aggregate consequences.** The authors conjecture (citing strategic-complementarity literature) that even a minority of near-rational actors may be decisive for market outcomes — an empirical hypothesis they do not test.
 
 ## Connections
-The behavioral backbone is [[@Tversky1992|Tversky and Kahneman's (1992)]] cumulative prospect theory and [[@Kahneman1979|Kahneman and Tversky (1979)]]; the weighting function is Goldstein and Einhorn (1987) and Lattimore, Baker and Witte (1992), with alternatives by [[@Quiggin1982|Quiggin (1982)]] and Prelec (1998), and functional-form guidance from Stott (2006). The EUT-types result is interpreted through Rabin's (2000) calibration theorem (EU maximizers should be near risk-neutral for small stakes). The finite-mixture/type-classification methodology builds on El-Gamal and Grether (1995), Stahl and Wilson (1995), and Houser and collaborators; ICL/NEC model selection follows Biernacki, Celeux and Govaert (1999, 2000) and Celeux and Soromenho (1996). The paper positions itself explicitly against the choice-sorting mixture approach of Andersen, Harrison and Rutström (2006) and Harrison and Rutström (2009), and reports corroborating British evidence from Conte, Hey and Moffatt (2010). Heteroskedastic-error modeling draws on Hey and Orme (1994) and Wilcox (2006, 2010); gender findings extend Fehr-Duda, de Gennaro and Schubert (2006); the Chinese-optimism result speaks to Kachelmeier and Shehata (1992) and Hsee and Weber (1999).
+The behavioral backbone is Tversky and Kahneman's (1992) cumulative prospect theory and [[@Kahneman1979|Kahneman and Tversky (1979)]]; the weighting function is Goldstein and Einhorn (1987) and Lattimore, Baker and Witte (1992), with alternatives by [[@Quiggin1982|Quiggin (1982)]] and Prelec (1998), and functional-form guidance from Stott (2006). The EUT-types result is interpreted through Rabin's (2000) calibration theorem (EU maximizers should be near risk-neutral for small stakes). The finite-mixture/type-classification methodology builds on El-Gamal and Grether (1995), Stahl and Wilson (1995), and Houser and collaborators; ICL/NEC model selection follows Biernacki, Celeux and Govaert (1999, 2000) and Celeux and Soromenho (1996). The paper positions itself explicitly against the choice-sorting mixture approach of Andersen, Harrison and Rutström (2006) and Harrison and Rutström (2009), and reports corroborating British evidence from Conte, Hey and Moffatt (2010). Heteroskedastic-error modeling draws on Hey and Orme (1994) and Wilcox (2006, 2010); gender findings extend Fehr-Duda, de Gennaro and Schubert (2006); the Chinese-optimism result speaks to Kachelmeier and Shehata (1992) and Hsee and Weber (1999).
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/HZ4R3WKL/Peterson2021.pdf
 tags: [literature]
 keywords: [risky-choice, prospect-theory, machine-learning, decision-theory, neural-networks, theory-discovery, expected-utility]
 topics: []
-related: [Fudenberg2019a]
+related: [Erev2017, Fudenberg2019a, Kleinberg2018, Plonsky2019]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -65,7 +65,7 @@ A general recipe — *differentiable theories embedding psychological constraint
 
 ## Connections
 
-The paper sits at the intersection of decision theory and machine-learning-driven theory discovery. It builds directly on expected-utility theory (von Neumann & Morgenstern, 1944; Bernoulli, 1954/1738) and prospect theory and its cumulative variant (Kahneman & Tversky, 1979; Tversky & Kahneman, 1992; Fennema & Wakker, 1997; Wakker, 2010), and uses a McFadden (1973) logit choice rule. Its central empirical foil is the BEAST process model and the large prior datasets of Erev, Ert, Plonsky and co-authors (Erev et al., 2017; Plonsky et al., 2019; Plonsky, Erev, Hazan & Tennenholtz, 2017), whose "psychological forest" represents the competing ML approach. The "measuring the completeness of theories" agenda of [[@Fudenberg2019a|Fudenberg, Kleinberg, Liang & Mullainathan (2019)]] is a close methodological cousin, as is work predicting behavior with ML in economics (Peysakhovich & Naecker, 2017; Kleinberg et al., 2018; Camerer, 2018) and game-theoretic settings (Hartford, Wright & Leyton-Brown, 2016). Anomalies motivating non-EU models trace to Allais (1953) and Ellsberg (1961). The mixture-of-experts architecture follows Jacobs, Jordan, Nowlan & Hinton (1991), dual-process accounts follow Mukherjee (2010), and the broader program of using large datasets to study cognition is articulated by Griffiths (2015). The companion Perspective is Bhatia & He.
+The paper sits at the intersection of decision theory and machine-learning-driven theory discovery. It builds directly on expected-utility theory (von Neumann & Morgenstern, 1944; Bernoulli, 1954/1738) and prospect theory and its cumulative variant (Kahneman & Tversky, 1979; Tversky & Kahneman, 1992; Fennema & Wakker, 1997; Wakker, 2010), and uses a McFadden (1973) logit choice rule. Its central empirical foil is the BEAST process model and the large prior datasets of Erev, Ert, Plonsky and co-authors ([[@Erev2017|Erev et al., 2017]]; [[@Plonsky2019|Plonsky et al., 2019]]; Plonsky, Erev, Hazan & Tennenholtz, 2017), whose "psychological forest" represents the competing ML approach. The "measuring the completeness of theories" agenda of [[@Fudenberg2019a|Fudenberg, Kleinberg, Liang & Mullainathan (2019)]] is a close methodological cousin, as is work predicting behavior with ML in economics (Peysakhovich & Naecker, 2017; [[@Kleinberg2018|Kleinberg et al., 2018]]; Camerer, 2018) and game-theoretic settings (Hartford, Wright & Leyton-Brown, 2016). Anomalies motivating non-EU models trace to Allais (1953) and Ellsberg (1961). The mixture-of-experts architecture follows Jacobs, Jordan, Nowlan & Hinton (1991), dual-process accounts follow Mukherjee (2010), and the broader program of using large datasets to study cognition is articulated by Griffiths (2015). The companion Perspective is Bhatia & He.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

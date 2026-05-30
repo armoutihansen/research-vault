@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/YKQ5FDEM/Benabou2011.pdf
 tags: [literature]
 keywords: [identity-economics, motivated-beliefs, self-signaling, moral-behavior, taboos, social-norms, anticipatory-utility, self-control]
 topics: []
-related: [Akerlof2000, Benabou2009, Benjamin2010]
+related: [Benabou2009, Benjamin2010]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -54,7 +54,7 @@ The authors are explicit on several fronts, offering clear project hooks:
 - **Section VII explicitly names two avenues for further research:** (1) **sacred values and taboos** — bringing the markets-vs.-morals debate into formal analysis; (2) **pride/dignity in bargaining and distributive conflict** — self-serving beliefs that shrink the set of sustainable sharing agreements and can cause bargaining impasse under symmetric information (Bénabou–[[@Benabou2009|Tirole 2009]]), with open questions on optimal contract/organization design and the political economy of reform when agents hold motivated beliefs.
 
 ## Connections
-The paper sits at the intersection of behavioral economics, the economics of identity, and political economy. It is the deepest synthesis of the authors' own self-signaling program (Bénabou & Tirole 2002 "Self-Confidence and Personal Motivation," 2004 "Willpower and Personal Rules," 2006 "Incentives and Prosocial Behavior") and is closest in mechanism to Bodner & Prelec (2003) on self-signaling and Bénabou & Tirole (2004) on rule-based behavior; Young (2006) and Dal Bó & Terviö (2008) extend single-agent self-reputation to steady states, and Battaglini, Bénabou & Tirole (2005) and Bernheim & Thomadsen (2005) to one-shot strategic interaction. It generalizes [[@Akerlof2000|Akerlof & Kranton's]] (2000–2005) identity economics and relates to Greif (2009) on externally defined moral standards, Shayo (2009) on identity and redistribution, and Austen-Smith & Fryer (2005) on "acting white." The taboo analysis connects to Fiske & Tetlock (1997), Tetlock et al. (2000), and Roth (2007) on repugnant markets; the social-norm results to Fehr & Gächter (2000) and Herrmann et al. (2008). The opening Adam Smith epigraph (the impartial spectator, "praiseworthiness") frames self-judgment as the paper's intellectual lineage.
+The paper sits at the intersection of behavioral economics, the economics of identity, and political economy. It is the deepest synthesis of the authors' own self-signaling program (Bénabou & Tirole 2002 "Self-Confidence and Personal Motivation," 2004 "Willpower and Personal Rules," 2006 "Incentives and Prosocial Behavior") and is closest in mechanism to Bodner & Prelec (2003) on self-signaling and Bénabou & Tirole (2004) on rule-based behavior; Young (2006) and Dal Bó & Terviö (2008) extend single-agent self-reputation to steady states, and Battaglini, Bénabou & Tirole (2005) and Bernheim & Thomadsen (2005) to one-shot strategic interaction. It generalizes Akerlof & Kranton's (2000–2005) identity economics and relates to Greif (2009) on externally defined moral standards, Shayo (2009) on identity and redistribution, and Austen-Smith & Fryer (2005) on "acting white." The taboo analysis connects to Fiske & Tetlock (1997), Tetlock et al. (2000), and Roth (2007) on repugnant markets; the social-norm results to Fehr & Gächter (2000) and Herrmann et al. (2008). The opening Adam Smith epigraph (the impartial spectator, "praiseworthiness") frames self-judgment as the paper's intellectual lineage.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

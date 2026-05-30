@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/Q8UYSXVW/Fudenberg2022.pdf
 tags: [literature]
 keywords: [model-completeness, irreducible-error, predictive-accuracy, machine-learning-economics, experimental-economics, behavioral-models]
 topics: []
-related: [Bruhin2010, Charness2002, Fudenberg2019a, Fudenberg2020, Peysakhovich2017, Tversky1992]
+related: [Charness2002, Fudenberg2019a, Fudenberg2020, Noti2016, Peysakhovich2017, Plonsky2017, Plonsky2019, Tversky1992]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -39,7 +39,7 @@ A model with completeness $0$ does no better than baseline; completeness $1$ rem
 
 ## Data
 Three experimental data sets, all with many observations per feature value:
-- **Lotteries (risk):** [[@Bruhin2010|Bruhin, Fehr-Duda & Epper (2010)]] — 8,906 certainty equivalents from 179 subjects over 50 two-outcome lotteries (Zurich 2003); plus Beijing 2005 (4,225 obs, 151 subjects) and Zurich 2006 (4,669 obs, 118 subjects). ~179 obs per unique lottery.
+- **Lotteries (risk):** Bruhin, Fehr-Duda & Epper (2010) — 8,906 certainty equivalents from 179 subjects over 50 two-outcome lotteries (Zurich 2003); plus Beijing 2005 (4,225 obs, 151 subjects) and Zurich 2006 (4,669 obs, 118 subjects). ~179 obs per unique lottery.
 - **Initial play in games:** [[@Fudenberg2019a|Fudenberg & Liang (2019)]] — 23,137 observations of row-player play in 486 $3\times3$ matrix games (pooled from a Wright–Leyton-Brown meta-set plus MTurk games, some algorithmically designed against level-1); no learning. ~50 obs per game. Analyzed via three subsamples (game sets A/B/C).
 - **Random sequences:** authors' own MTurk data — 21,975 length-8 strings from 167 subjects asked to mimic a Bernoulli(0.5) process (incentivized so payment required strings not detectable as human-generated). ~164 obs per length-7 prefix.
 
@@ -62,7 +62,7 @@ The paper is explicit about several open hooks:
 - **Alternative ways to estimate irreducible noise** (analogy to the "missing heritability" problem in biology) when lookup tables are infeasible.
 
 ## Connections
-The completeness ratio specializes, under MSE with an unconditional-mean baseline, to a ratio of the model's $R^2$ to the nonparametric $R^2$ (App. B). It is a companion to **[[@Fudenberg2020|Fudenberg, Gao & Liang (2020)]]** on model *restrictiveness* (completeness on synthetic data) and to **[[@Fudenberg2019a|Fudenberg & Liang (2019)]]** on predicting modal play; together these form a program for ML-assisted theory evaluation. It contrasts with earlier predictive-success measures — Selten (1991), Erev et al. (2007), Apesteguia & Ballester (2021) — by benchmarking against the *best achievable* prediction. Related ML-comparison work includes [[@Peysakhovich2017|Peysakhovich & Naecker (2017)]], Bodoh-Creed, Boehnke & Hickman (2019), Noti et al. (2016), Plonsky et al. (2017, 2019), Bourgin et al. (2019, on intrinsic noise), and the bias–variance/irreducible-error literature (Hastie, Tibshirani & Friedman 2009). The substantive models tested are [[@Tversky1992|Tversky & Kahneman (1992)]] CPT, the Camerer–Ho–Chong (2004) PCHM with its level-$k$ antecedents (Stahl & Wilson 1994; Nagel 1995), and [[@Charness2002|Rabin (2002)]] / Rabin & Vayanos (2010) on misperceived randomness.
+The completeness ratio specializes, under MSE with an unconditional-mean baseline, to a ratio of the model's $R^2$ to the nonparametric $R^2$ (App. B). It is a companion to **[[@Fudenberg2020|Fudenberg, Gao & Liang (2020)]]** on model *restrictiveness* (completeness on synthetic data) and to **[[@Fudenberg2019a|Fudenberg & Liang (2019)]]** on predicting modal play; together these form a program for ML-assisted theory evaluation. It contrasts with earlier predictive-success measures — Selten (1991), Erev et al. (2007), Apesteguia & Ballester (2021) — by benchmarking against the *best achievable* prediction. Related ML-comparison work includes [[@Peysakhovich2017|Peysakhovich & Naecker (2017)]], Bodoh-Creed, Boehnke & Hickman (2019), [[@Noti2016|Noti et al. (2016)]], [[@Plonsky2017|Plonsky et al.]] (2017, 2019), [[@Plonsky2019|Bourgin et al.]] (2019, on intrinsic noise), and the bias–variance/irreducible-error literature (Hastie, Tibshirani & Friedman 2009). The substantive models tested are [[@Tversky1992|Tversky & Kahneman (1992)]] CPT, the Camerer–Ho–Chong (2004) PCHM with its level-$k$ antecedents (Stahl & Wilson 1994; Nagel 1995), and [[@Charness2002|Rabin (2002)]] / Rabin & Vayanos (2010) on misperceived randomness.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

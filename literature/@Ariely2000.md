@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/4BIMRQFJ/Ariely2000.pdf
 tags: [literature]
 keywords: [sequential-choice, group-decision-making, variety-seeking, social-influence, need-for-uniqueness, consumer-behavior, goal-balancing]
 topics: []
-related: [Asch1955, Deutsch1955, Kahneman1979]
+related: [Asch1955, Kahneman1979]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -57,7 +57,7 @@ The authors flag several explicit open problems and boundary conditions, each a 
 - Prescriptive tension: "always order first" maximizes taste utility but pits taste satisfaction against the need to be polite — left for future research.
 
 ## Connections
-The paper bridges social-influence research ([[@Asch1955|Asch 1955]]; [[@Deutsch1955|Deutsch & Gerard's 1955]] normative vs. informational influence; Kaplan & Miller 1987) with the consumer variety-seeking literature (McAlister 1982 attribute-satiation; McAlister & Pessemier 1982; Simonson 1990 on purchase quantity/timing; Kahn 1995). The welfare-reducing variety motive connects to Ratner, Kahn & Kahneman (1999) "Choosing Less-Preferred Experiences for the Sake of Variety" and to naive diversification / diversification bias (Read & Loewenstein 1995; Thaler 1998). Loss aversion and regret derive from [[@Kahneman1979|Kahneman & Tversky (1979)]]; the construction-of-preference backdrop is Slovic (1995) and Payne, Bettman & Johnson (1993). The individual/group-goal scaffold is Mackie & Goethals (1987), here made dynamic. The uniqueness mechanism rests on Snyder & Fromkin (1977, 1980) and Hsee (1999). Within social-preference and sequential-choice work the result is notable for showing endogenous, welfare-reducing differentiation that arises without any imposed payoff externality — purely from the act of choosing in observed sequence.
+The paper bridges social-influence research ([[@Asch1955|Asch 1955]]; Deutsch & Gerard's 1955 normative vs. informational influence; Kaplan & Miller 1987) with the consumer variety-seeking literature (McAlister 1982 attribute-satiation; McAlister & Pessemier 1982; Simonson 1990 on purchase quantity/timing; Kahn 1995). The welfare-reducing variety motive connects to Ratner, Kahn & Kahneman (1999) "Choosing Less-Preferred Experiences for the Sake of Variety" and to naive diversification / diversification bias (Read & Loewenstein 1995; Thaler 1998). Loss aversion and regret derive from [[@Kahneman1979|Kahneman & Tversky (1979)]]; the construction-of-preference backdrop is Slovic (1995) and Payne, Bettman & Johnson (1993). The individual/group-goal scaffold is Mackie & Goethals (1987), here made dynamic. The uniqueness mechanism rests on Snyder & Fromkin (1977, 1980) and Hsee (1999). Within social-preference and sequential-choice work the result is notable for showing endogenous, welfare-reducing differentiation that arises without any imposed payoff externality — purely from the act of choosing in observed sequence.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

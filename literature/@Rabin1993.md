@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/7L3535MX/Rabin1993.pdf
 tags: [literature]
 keywords: [fairness, reciprocity, psychological-games, game-theory, behavioral-economics, fairness-equilibrium, social-preferences]
 topics: []
-related: [Akerlof1982, Bolton2000, Dufwenberg2004, Falk2006, Fehr1999]
+related: [Bolton2000, Dufwenberg2004, Falk2006, Fehr1999]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -62,7 +62,7 @@ Rabin is explicit about the model's shortfalls and the extensions needed for app
 - The model currently assumes a single shared kindness function and de-emphasizes mixed strategies; results are only *qualitative* (units of material payoff are undetermined), and the text's kindness function is not everywhere continuous, so the GPS existence theorem applies only to continuous variants (used to prove Prop. 6).
 
 ## Connections
-Built directly on **Geanakoplos, Pearce, and Stacchetti (1989)** psychological games (and Gilboa–Schmeidler 1988); motivated empirically by **Kahneman, Knetsch, and Thaler (1986)** on fairness as a constraint on profit-seeking, **Dawes and Thaler (1988)** on public goods, and ultimatum-game evidence surveyed by **Thaler (1988)**. The labor application formalizes **[[@Akerlof1982|Akerlof's (1982)]]** gift-exchange view of employment. It departs sharply from simple-altruism models by making concern for others *conditional on their intentions*. Downstream, it anchors the reciprocity literature ([[@Dufwenberg2004|Dufwenberg & Kirchsteiger 2004]]; [[@Falk2006|Falk & Fischbacher 2006]]) and sits in contrast to outcome-based distributional models ([[@Fehr1999|Fehr & Schmidt 1999]]; [[@Bolton2000|Bolton & Ockenfels 2000]]). Rabin (1992) is the companion working paper with additional labor examples and the multiple-kindness-function results.
+Built directly on **Geanakoplos, Pearce, and Stacchetti (1989)** psychological games (and Gilboa–Schmeidler 1988); motivated empirically by **Kahneman, Knetsch, and Thaler (1986)** on fairness as a constraint on profit-seeking, **Dawes and Thaler (1988)** on public goods, and ultimatum-game evidence surveyed by **Thaler (1988)**. The labor application formalizes **Akerlof's (1982)** gift-exchange view of employment. It departs sharply from simple-altruism models by making concern for others *conditional on their intentions*. Downstream, it anchors the reciprocity literature ([[@Dufwenberg2004|Dufwenberg & Kirchsteiger 2004]]; [[@Falk2006|Falk & Fischbacher 2006]]) and sits in contrast to outcome-based distributional models ([[@Fehr1999|Fehr & Schmidt 1999]]; [[@Bolton2000|Bolton & Ockenfels 2000]]). Rabin (1992) is the companion working paper with additional labor examples and the multiple-kindness-function results.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

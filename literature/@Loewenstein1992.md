@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/EPC4B6A7/Loewenstein1992.pdf
 tags: [literature]
 keywords: [anticipation, memory, savoring-and-dread, time-discounting, reference-dependence, internalities, intertemporal-choice]
 topics: []
-related: [Loewenstein1987]
+related: []
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -48,7 +48,7 @@ The chapter provides one of the foundational conceptual frameworks for "utility 
 The authors flag several explicitly: (i) it is impossible in general to predict which of the opposed effects dominates in a specific situation; (ii) the determinants of savoring and dread, and of contrast-effect framing, are poorly understood; (iii) whether people actually *internalize* backward consumption effects when making present consumption decisions is questionable—much apparent investment in memory may be ex-post rationalization (Thaler's conjecture that people underweight memory); (iv) whether *deliberate* memory creation is even possible is dubious, given the "be spontaneous!" paradox—planning experiences for the sake of memory can undermine the spontaneity that gives them value; (v) the relative importance of intertemporal "sympathy" vs. "empathy" is seemingly indeterminate, and "pure" discounting may be effectively zero (Ramsey) once forward contrast is netted out.
 
 ## Connections
-The piece sits alongside [[@Loewenstein1987|Loewenstein's (1987)]] "Anticipation and the Valuation of Delayed Consumption" and Prelec & Loewenstein's (1991) "Decision Making Over Time and Under Uncertainty," which argues backward endowment and forward contrast effects dominate in most situations. It draws heavily on Tversky & Griffin's endowment-vs-contrast distinction, Scitovsky's *The Joyless Economy*, Solomon & Corbit's opponent-process theory, and Stigler & Becker's "De Gustibus." The "internalities" framing connects to Herrnstein, Loewenstein, Prelec & Vaughan and to Herrnstein & Prelec's melioration (the following chapter). The probability-insensitivity of anticipatory emotion relates to Kahneman & Tversky's simulation heuristic and to Loewenstein & Prelec's "Negative Time Preference" and "Preference Over Outcome Sequences." Antecedents include Bentham, Hume's *Treatise*, Leibniz, and Jevons.
+The piece sits alongside Loewenstein's (1987) "Anticipation and the Valuation of Delayed Consumption" and Prelec & Loewenstein's (1991) "Decision Making Over Time and Under Uncertainty," which argues backward endowment and forward contrast effects dominate in most situations. It draws heavily on Tversky & Griffin's endowment-vs-contrast distinction, Scitovsky's *The Joyless Economy*, Solomon & Corbit's opponent-process theory, and Stigler & Becker's "De Gustibus." The "internalities" framing connects to Herrnstein, Loewenstein, Prelec & Vaughan and to Herrnstein & Prelec's melioration (the following chapter). The probability-insensitivity of anticipatory emotion relates to Kahneman & Tversky's simulation heuristic and to Loewenstein & Prelec's "Negative Time Preference" and "Preference Over Outcome Sequences." Antecedents include Bentham, Hume's *Treatise*, Leibniz, and Jevons.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

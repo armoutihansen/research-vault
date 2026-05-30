@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/9ZSICFEA/Fershtman2018.pdf
 tags: [literature]
 keywords: [social-influence, behavioral-preferences, endogenous-preferences, risk-aversion, group-polarization, decision-theory, fixed-point-existence]
 topics: []
-related: [Ariely2000, Chen2009, Fehr1999, Kuhn2011]
+related: [Ariely2000, Chen2009, Fehr1999]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -57,7 +57,7 @@ The paper is explicit about its two strong maintained assumptions and several ex
 - The base model also assumes a common preference over *sure* outcomes (increasing utilities), which excludes the menu/restaurant motivation itself; Remark 1's separable multivariate extension partially relaxes this.
 
 ## Connections
-Directly builds on **Postlewaite (2001, 2011)** and **Mailath–Postlewaite (2003)** (deep vs. reduced-form preferences). It positions itself against the **social/interdependent preferences** tradition — **[[@Fehr1999|Fehr–Schmidt (1999)]]**, **Fehr–Gächter (2000)**, **Sobel (2005)**, **[[@Kuhn2011|Charness–Kuhn (2011)]]**, and **Gul–Pesendorfer** on intentions — and against **status/conformity** models (**Bernheim 1994**, **Veblen 1899**, **Fershtman–Murphy–Weiss 1996**, **Frank 1985**, **Cole–Mailath–Postlewaite 1992**) and **fashion/anti-conformity** (**Karni–Schmeidler 1990**). The endogenous-preferences lineage cited includes evolutionary sociobiology (**Becker 1970**, **Dawkins 1976**, **Frank 1987**, **Samuelson 2001**) and cultural transmission (**Bisin–Verdier 2001**, **Boyd–Richardson 1985**, **Cavalli-Sforza–Feldman 1973**). Empirical/psychological anchors: **[[@Ariely2000|Ariely–Levav (2000)]]** and the group-polarization work of **Myers (1975)**, **Myers–Lamm (1976)**, and **Aronson**. The committee-deliberation application connects to the **Condorcet (1785)** jury tradition and the survey by **[[@Chen2009|Li–Suen (2009)]]**. Mathematically it rests on **Arzelà–Ascoli** and the **Schauder–Tychonoff** fixed-point theorem (Dunford–Schwartz 1958), the De Finetti (1977) compound-probability argument, and Blackorby–Primont–Russell (1978) on separability.
+Directly builds on **Postlewaite (2001, 2011)** and **Mailath–Postlewaite (2003)** (deep vs. reduced-form preferences). It positions itself against the **social/interdependent preferences** tradition — **[[@Fehr1999|Fehr–Schmidt (1999)]]**, **Fehr–Gächter (2000)**, **Sobel (2005)**, **Charness–Kuhn (2011)**, and **Gul–Pesendorfer** on intentions — and against **status/conformity** models (**Bernheim 1994**, **Veblen 1899**, **Fershtman–Murphy–Weiss 1996**, **Frank 1985**, **Cole–Mailath–Postlewaite 1992**) and **fashion/anti-conformity** (**Karni–Schmeidler 1990**). The endogenous-preferences lineage cited includes evolutionary sociobiology (**Becker 1970**, **Dawkins 1976**, **Frank 1987**, **Samuelson 2001**) and cultural transmission (**Bisin–Verdier 2001**, **Boyd–Richardson 1985**, **Cavalli-Sforza–Feldman 1973**). Empirical/psychological anchors: **[[@Ariely2000|Ariely–Levav (2000)]]** and the group-polarization work of **Myers (1975)**, **Myers–Lamm (1976)**, and **Aronson**. The committee-deliberation application connects to the **Condorcet (1785)** jury tradition and the survey by **[[@Chen2009|Li–Suen (2009)]]**. Mathematically it rests on **Arzelà–Ascoli** and the **Schauder–Tychonoff** fixed-point theorem (Dunford–Schwartz 1958), the De Finetti (1977) compound-probability argument, and Blackorby–Primont–Russell (1978) on separability.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

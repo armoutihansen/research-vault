@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/9ZQU9NPG/Carpenter2016.pdf
 tags: [literature]
 keywords: [mission-motivation, motivated-agents, real-effort-experiment, incentives, principal-agent, prosocial-motivation, field-experiment-design]
 topics: []
-related: [Benabou2003, Besley2005, Trueblood2013]
+related: [Benabou2003, Besley2005]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -59,7 +59,7 @@ The paper provides the first clean experimental estimate of the pure motivationa
 - Generalizability is limited to tasks that are not personally satisfying but feel worthwhile via the mission (clerical, manual, military, low-level bureaucratic work); the sample is college students.
 
 ## Connections
-The theoretical backbone is [[@Besley2005|Besley and Ghatak]] (2005, AER) on competition and incentives with motivated agents, whose substitutability prediction this paper tests; it builds on Francois (2000) on public-service motivation and Akerlof and Kranton (2005) on identity in organizations. The crowding-out non-result engages [[@Benabou2003|Benabou and Tirole (2003)]] and the survey by Bowles and Polania-Reyes (2012). Methodologically it follows the real-effort tradition of Van Dijk, Sonnemans, and Winden (2001), Gneezy and List (2006), and Hennig-Schmidt, Sadrieh, and Rockenbach (2010), and contrasts with chosen-effort / donation designs of Fehrler and Kosfeld (2014), Tonin and Vlassopoulos (2010, 2015), Gerhards (2012), and Gregg et al. (2011). Preference-intensity elicitation draws on Carpenter and Myers (2010), candidate placement on Krupka and Weber (2013), and the sorting/self-selection logic on Salop and Salop (1976) and Lazear and Oyer (2013). The substitutability of working-in vs. donating echoes [[@Trueblood2013|Brown, Meer, and Williams (2013)]].
+The theoretical backbone is [[@Besley2005|Besley and Ghatak]] (2005, AER) on competition and incentives with motivated agents, whose substitutability prediction this paper tests; it builds on Francois (2000) on public-service motivation and Akerlof and Kranton (2005) on identity in organizations. The crowding-out non-result engages [[@Benabou2003|Benabou and Tirole (2003)]] and the survey by Bowles and Polania-Reyes (2012). Methodologically it follows the real-effort tradition of Van Dijk, Sonnemans, and Winden (2001), Gneezy and List (2006), and Hennig-Schmidt, Sadrieh, and Rockenbach (2010), and contrasts with chosen-effort / donation designs of Fehrler and Kosfeld (2014), Tonin and Vlassopoulos (2010, 2015), Gerhards (2012), and Gregg et al. (2011). Preference-intensity elicitation draws on Carpenter and Myers (2010), candidate placement on Krupka and Weber (2013), and the sorting/self-selection logic on Salop and Salop (1976) and Lazear and Oyer (2013). The substitutability of working-in vs. donating echoes Brown, Meer, and Williams (2013).
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

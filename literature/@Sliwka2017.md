@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/AJCLKVP5/Sliwka2017.pdf
 tags: [literature]
 keywords: [gift-exchange, reciprocity, reference-dependence, loss-aversion, wage-dynamics, real-effort-experiment, narrow-bracketing]
 topics: []
-related: [Akerlof1982, Benartzi1995, Dufwenberg2004, Falk2006, Fehr1993, Kahneman1979, Koszegi2006b, Ockenfels2015, Rabin1993, Sliwka2007]
+related: [Akerlof1982, Benartzi1995, Dufwenberg2004, Falk2006, Fehr1993, Kahneman1979, Koszegi2006b, Ockenfels2015, Rabin1993]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -70,7 +70,7 @@ First systematic, *budget-neutral* comparison of wage *schedules* (rather than l
 
 ## Connections
 
-Builds directly on the gift-exchange literature ([[@Fehr1993|Fehr, Kirchsteiger, and Riedl 1993]]; [[@Akerlof1982|Akerlof 1982]]) and the reciprocity-preference models it uses or contrasts ([[@Rabin1993|Rabin 1993]]; [[@Dufwenberg2004|Dufwenberg and Kirchsteiger 2004]]; [[@Falk2006|Falk and Fischbacher 2006]]; Cox, Friedman, and Gjerstad 2007). The reference-dependence and loss-aversion machinery comes from [[@Kahneman1979|Kahneman and Tversky (1979)]] and Köszegi and [[@Koszegi2006b|Rabin (2006)]], with the adaptive-standard-plus-short-memory case equating to myopic loss aversion ([[@Benartzi1995|Benartzi and Thaler 1995]]) and the broad/narrow-bracketing distinction of Read, Loewenstein, and Rabin (1999) and Thaler (1999); Camerer et al. (1997) on taxi drivers is the canonical narrow-bracketing field analogue. The transient-bump result directly parallels field experiments by Gneezy and List (2006) and Bellemare and Shearer (2009); the reciprocity-heterogeneity result echoes Cohn, Fehr, and Götte (2015). It extends [[@Ockenfels2015|Ockenfels, Sliwka, and Werner (2015b)]] on multi-step increases and connects to deferred-pay incentive theory (Lazear 1979; Huck, Seltzer, and Wallace 2011) and preferences for rising wage profiles (Loewenstein and Sicherman 1991; Frank and Hutchens 1993; [[@Sliwka2007|Grund and Sliwka 2007]]).
+Builds directly on the gift-exchange literature ([[@Fehr1993|Fehr, Kirchsteiger, and Riedl 1993]]; [[@Akerlof1982|Akerlof 1982]]) and the reciprocity-preference models it uses or contrasts ([[@Rabin1993|Rabin 1993]]; [[@Dufwenberg2004|Dufwenberg and Kirchsteiger 2004]]; [[@Falk2006|Falk and Fischbacher 2006]]; Cox, Friedman, and Gjerstad 2007). The reference-dependence and loss-aversion machinery comes from [[@Kahneman1979|Kahneman and Tversky (1979)]] and Köszegi and [[@Koszegi2006b|Rabin (2006)]], with the adaptive-standard-plus-short-memory case equating to myopic loss aversion ([[@Benartzi1995|Benartzi and Thaler 1995]]) and the broad/narrow-bracketing distinction of Read, Loewenstein, and Rabin (1999) and Thaler (1999); Camerer et al. (1997) on taxi drivers is the canonical narrow-bracketing field analogue. The transient-bump result directly parallels field experiments by Gneezy and List (2006) and Bellemare and Shearer (2009); the reciprocity-heterogeneity result echoes Cohn, Fehr, and Götte (2015). It extends [[@Ockenfels2015|Ockenfels, Sliwka, and Werner (2015b)]] on multi-step increases and connects to deferred-pay incentive theory (Lazear 1979; Huck, Seltzer, and Wallace 2011) and preferences for rising wage profiles (Loewenstein and Sicherman 1991; Frank and Hutchens 1993; Grund and Sliwka 2007).
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

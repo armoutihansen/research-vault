@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/JY5IWZR8/Tversky1993.pdf
 tags: [literature]
 keywords: [context-dependent-choice, value-maximization, attraction-effect, compromise-effect, loss-aversion, independence-of-irrelevant-alternatives, contingent-weighting]
 topics: []
-related: [Huber1982, Simonson1989, Simonson1992, Tversky1972]
+related: [Huber1982, Simonson1989, Simonson1992]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -69,7 +69,7 @@ The authors explicitly note: (i) the model is "at best approximate and incomplet
 
 ## Connections
 
-Builds directly on the companion empirical paper [[@Simonson1992|Simonson and Tversky]] (1992, "Choice in Context") and on [[@Huber1982|Huber, Payne, and Puto (1982)]] on asymmetric dominance / the attraction effect, and [[@Simonson1989|Simonson (1989)]] on reason-based compromise. The relative-advantage term generalizes the loss-aversion machinery of Tversky and Kahneman (1991, "Loss Aversion in Riskless Choice") and prospect theory's convex disadvantage function. The background re-weighting term is an instance of contingent weighting (Tversky, Sattath, and Slovic 1988). $R(x,y)$ is explicitly related to Restle (1961) and [[@Tversky1972|Tversky's (1972)]] elimination-by-aspects set-theoretic binary choice probabilities. Range-frequency theory (Parducci 1965; Birnbaum 1974) is considered and rejected as an alternative account (per Huber and Puto 1983; Wedell 1991). The constructed-preference theme connects to Payne, Bettman, and Johnson (1992). Additive-representation foundations draw on Krantz et al. (1971), Keeney and Raiffa (1976), and Wakker (1989).
+Builds directly on the companion empirical paper [[@Simonson1992|Simonson and Tversky]] (1992, "Choice in Context") and on [[@Huber1982|Huber, Payne, and Puto (1982)]] on asymmetric dominance / the attraction effect, and [[@Simonson1989|Simonson (1989)]] on reason-based compromise. The relative-advantage term generalizes the loss-aversion machinery of Tversky and Kahneman (1991, "Loss Aversion in Riskless Choice") and prospect theory's convex disadvantage function. The background re-weighting term is an instance of contingent weighting (Tversky, Sattath, and Slovic 1988). $R(x,y)$ is explicitly related to Restle (1961) and Tversky's (1972) elimination-by-aspects set-theoretic binary choice probabilities. Range-frequency theory (Parducci 1965; Birnbaum 1974) is considered and rejected as an alternative account (per Huber and Puto 1983; Wedell 1991). The constructed-preference theme connects to Payne, Bettman, and Johnson (1992). Additive-representation foundations draw on Krantz et al. (1971), Keeney and Raiffa (1976), and Wakker (1989).
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

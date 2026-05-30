@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/5X3NDXHJ/Quiggin1982.pdf
 tags: [literature]
 keywords: [rank-dependent-utility, anticipated-utility, expected-utility-generalization, decision-weights, probability-weighting, stochastic-dominance, non-expected-utility, allais-paradox]
 topics: []
-related: [Kahneman1979, Tversky1974, Tversky1992]
+related: [Kahneman1979, Tversky1992]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -37,7 +37,7 @@ $$V=\int U(x)\,g(x)\,dx=\int U(x)\,dG(x).$$
 **Axioms.** Axiom 1 (completeness: $P$ complete, reflexive, transitive). Axiom 2 (dominance, on outcomes). Axiom 3 (continuity, on outcomes). Axiom 4 (**weak independence**): if every component of two prospects, paired and reduced to certainty equivalents of 50-50 bets, is matched, the resulting 50-50 combinations are indifferent — this restricts the controversial independence axiom to fifty-fifty gambles, where empirically distortion is minimal. Two richness conditions (R.1, R.2) on $X$ and $Y$ guarantee enough prospects for uniqueness. The proof (in the appendix) constructs $U$ on a binary-rational dense subset via 50-50 certainty equivalents, then extends to all $Y$ by induction.
 
 ## Data
-None — this is a pure axiomatic / decision-theoretic contribution. It is motivated by, and reinterprets, prior experimental evidence (Allais 1953, MacCrimmon 1968, [[@Tversky1974|Slovic-Tversky 1974]], [[@Kahneman1979|Kahneman-Tversky 1979]], Kunreuther et al. 1978 on under/over-insurance), but contains no new data or estimation.
+None — this is a pure axiomatic / decision-theoretic contribution. It is motivated by, and reinterprets, prior experimental evidence (Allais 1953, MacCrimmon 1968, Slovic-Tversky 1974, [[@Kahneman1979|Kahneman-Tversky 1979]], Kunreuther et al. 1978 on under/over-insurance), but contains no new data or estimation.
 
 ## Key findings
 - **Proposition 1 (representation & uniqueness):** Under R.1, R.2 and Axioms 1-4 there exists $V:Y\to\mathbb{R}$ with $V(y)\ge V(y')\iff yPy'$ and $V(x;p)=\sum_i h_i(p)U(x_i)$, with $h(1)=1$, $h(\tfrac12,\tfrac12)=(\tfrac12,\tfrac12)$; $U$ is unique up to a positive affine transformation $V'=aV+b$, $a>0$. This is the headline rank-dependent representation theorem.
@@ -57,7 +57,7 @@ Quiggin founds **rank-dependent expected utility**, one of the most influential 
 - Suggested application domains explicitly named as open: the apparent propensity to **over-insure**, the **economic analysis of gambling**, and decisions involving **catastrophic or extremely favourable low-probability outcomes**.
 
 ## Connections
-Generalizes **von Neumann-Morgenstern (1944)** expected utility, weakening its independence axiom (the version directly contradicted by **Allais 1953**). It is explicitly positioned against the earlier individual-probability decision-weight theories of **Handa (1977)** (shown by Fishburn 1978 to reduce to expected-return maximization and to violate dominance), **Karmarkar (1978, 1979)** subjectively weighted utility, and **[[@Kahneman1979|Kahneman-Tversky (1979)]]** original prospect theory (whose "editing" of dominated prospects produces intransitivity). The stochastic-dominance machinery builds on **Hadar-Russell (1969)** and **Fishburn (1964)**, with technical corrections from **Tesfatsion (1976)**. Empirical motivation draws on **MacCrimmon (1968)**, **[[@Tversky1974|Slovic-Tversky (1974)]]**, and **Kunreuther et al. (1978)**. Forward in time, this paper is the direct ancestor of cumulative prospect theory and rank-dependent utility as standard tools in choice modeling under risk.
+Generalizes **von Neumann-Morgenstern (1944)** expected utility, weakening its independence axiom (the version directly contradicted by **Allais 1953**). It is explicitly positioned against the earlier individual-probability decision-weight theories of **Handa (1977)** (shown by Fishburn 1978 to reduce to expected-return maximization and to violate dominance), **Karmarkar (1978, 1979)** subjectively weighted utility, and **[[@Kahneman1979|Kahneman-Tversky (1979)]]** original prospect theory (whose "editing" of dominated prospects produces intransitivity). The stochastic-dominance machinery builds on **Hadar-Russell (1969)** and **Fishburn (1964)**, with technical corrections from **Tesfatsion (1976)**. Empirical motivation draws on **MacCrimmon (1968)**, **Slovic-Tversky (1974)**, and **Kunreuther et al. (1978)**. Forward in time, this paper is the direct ancestor of cumulative prospect theory and rank-dependent utility as standard tools in choice modeling under risk.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes
