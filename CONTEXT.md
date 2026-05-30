@@ -32,7 +32,7 @@ Zotero ─/lit-sync─►  literature notes  ─/topic-cluster─►  topic note
 
 ### Layer 1 — Literature
 - **Literature note** — one note per in-scope Zotero item, file `literature/@<citekey>.md`.
-  A structured deep summary (~300–600 words) of a paper. See schema in `docs/architecture.md`.
+  A structured deep summary (~500–1000 words, LaTeX math) of a paper. See schema in `docs/architecture.md`.
 - **Citekey** — the BetterBibTeX citation key (e.g. `Bruhin2019`). The stable join key and
   the literature-note filename stem (`@Bruhin2019`). Comes from BBT, **not** `zotero.sqlite`.
 - **Obsidian scope** — the Layer-1 scope predicate: items with a PDF attachment **OR** tagged
@@ -44,6 +44,13 @@ Zotero ─/lit-sync─►  literature notes  ─/topic-cluster─►  topic note
   PDF was read (not skimmed) before a note is accepted.
 - **Manifest** — `.research/manifest.json`: per-citekey content hash (metadata + PDF path/mtime)
   used to detect new/changed items. Machine state; hidden from Obsidian (dot-folder).
+- **Citation link** — a `[[@citekey|display]]` wikilink in a note's prose pointing at another
+  in-scope paper it cites. Written by the `link_notes.py` post-pass (ADR-0013), never by hand;
+  the `related:` frontmatter mirrors them as a citekey edge-list. The citation graph is a primary
+  Layer-2 clustering signal alongside `keywords:`.
+- **Ghost link** — a citation link to an in-scope paper whose note doesn't exist **yet**. Valid in
+  Obsidian; resolves automatically once the note lands. Lets linking run before backfill completes.
+  Only in-scope citations are linked — out-of-scope mentions (Luce 1959) stay plain prose.
 
 ### Layer 2 — Topics
 - **Topic note** — `topics/<topic>.md`. An emergent subject cluster discovered **bottom-up** from

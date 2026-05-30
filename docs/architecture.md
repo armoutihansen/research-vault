@@ -27,6 +27,7 @@ lifecycle. Vocabulary is defined in [`CONTEXT.md`](../CONTEXT.md); each decision
 | 14 | Skill form | Skills + deterministic scripts + Workflow fan-out | [0011](adr/0011-skill-architecture.md) |
 | 15 | Cadence | All manual / prompted | [0012](adr/0012-manual-cadence.md) |
 | 16 | Reading | Section map-reduce + coverage check, length-adaptive | [0004](adr/0004-literature-note-schema.md) |
+| 17 | Citation linking | Re-runnable post-pass: in-scope prose citations → `[[@citekey]]` + `related:`, ghost links ok | [0013](adr/0013-citation-linking.md) |
 
 ## Data flow
 
@@ -35,7 +36,8 @@ Zotero ── saved search "Obsidian scope" (PDF ∪ #to-note)
    │
    ▼  /lit-sync   ─ enumerate (PDF ∪ #to-note) via sqlite/bib · enrich via BBT (abstract · path · highlights) · diff manifest
    │              ─ per new/changed item: segment PDF → map-reduce summarize → coverage check
-literature/@<citekey>.md       Layer 1  (AI region ⌐ + human region)
+   │              ─ link pass: resolve in-scope prose citations → [[@citekey]] + related: (ghost links ok)
+literature/@<citekey>.md       Layer 1  (AI region ⌐ + human region; citation graph → Layer-2 signal)
    │
    ▼  /topic-cluster  ─ incremental LLM-thematic; assign new notes to anchor or new topic
    │                  ─ refresh topic prose; propose merges/splits as a diff
@@ -77,7 +79,7 @@ pdf: "/Users/.../storage/.../x.pdf"
 tags: [literature]
 keywords: [predictive-completeness, social-preferences]   # extracted → fuels clustering
 topics: []        # [[wikilinks]] to topic notes — filled by /topic-cluster
-related: []       # [[@othercitekey]] — filled during synthesis
+related: []       # [[@othercitekey]] edge-list — filled by the link pass (ADR-0013)
 added: 2026-05-29
 generated: 2026-05-29                  # AI provenance
 ---
@@ -114,7 +116,7 @@ No OCR is installed (`tesseract`/`mutool` absent); the visual `Read` fallback co
 
 | Skill | Layer | Responsibility |
 |-------|-------|----------------|
-| `lit-sync` | 1 | Enumerate scope (PDF ∪ #to-note) via sqlite/bib → enrich via BBT (abstract, path, highlights) → diff manifest → map-reduce read → write/refresh `literature/@<citekey>.md` (AI region only) → update manifest. Bulk = Workflow fan-out (one agent/paper). |
+| `lit-sync` | 1 | Enumerate scope (PDF ∪ #to-note) via sqlite/bib → enrich via BBT (abstract, path, highlights) → diff manifest → map-reduce read → write/refresh `literature/@<citekey>.md` (AI region only) → update manifest → **link pass** (`link_notes.py`: resolve in-scope prose citations to `[[@citekey]]` wikilinks + `related:`, ADR-0013). Bulk = Workflow fan-out (one agent/paper) + one link pass per chunk. |
 | `topic-cluster` | 2 | Incremental LLM-thematic clustering of new/changed lit notes; refresh topic notes (themes, tensions, open questions, candidate ideas); propose merges/splits as a diff. |
 | `promote-idea` | 2→3 | Turn a chosen candidate idea into `projects/<slug>.md` at `status: feasibility`, linked to topic + source lit notes. |
 | `project-status` | 3 | Logged state transition: set `status`, stamp `updated`, append a Decision-log line; require a reason for `rejected`/`on-hold`. |

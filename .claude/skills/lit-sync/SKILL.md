@@ -23,6 +23,10 @@ map-reduce discipline below. See [`../../../CONTEXT.md`](../../../CONTEXT.md) an
 - `scripts/bbt.py attachments <citekey>` — PDF path **and the user's highlight annotations**.
 - `scripts/write_note.py --item item.json --body body.md --keywords a,b` — write/refresh the note
   (preserving the human region) and update the manifest. Never write `literature/*.md` by hand.
+- `scripts/link_notes.py --all` — resolve in-scope citations in every note's prose into
+  `[[@citekey|display]]` wikilinks and rebuild `related:` frontmatter (ADR-0013). Idempotent,
+  validate-and-augment; run once after a backfill chunk. `--rebuild-index` refreshes the candidate
+  index (`.research/link_index.json`) from Zotero first.
 
 ## Procedure
 
@@ -78,8 +82,9 @@ Per paper (fan out for bulk — see §4):
    - Do **not** put `$...$` inside the abstract callout unless the abstract itself is mathematical.
 
    Use the project's vocabulary (CONTEXT.md). *Limitations & open questions* is the project-idea
-   hook — make it substantive (name the explicit open problems the paper leaves). Leave *Connections*
-   light for now (Layer 2 fills links).
+   hook — make it substantive (name the explicit open problems the paper leaves). Write *Connections*
+   as prose naming related work in normal citation form ("Manzini & Mariotti (2007)"); the §3 link
+   pass turns in-scope citations into wikilinks automatically — do **not** hand-write `[[...]]`.
 5. **Coverage check** — confirm every major section of the paper is represented. If a section
    produced nothing (e.g. no Data section in a theory paper), say so explicitly rather than padding.
 6. **Extract keywords** — 3–8 lowercase-kebab concepts for clustering (e.g. `stochastic-choice`,
@@ -90,13 +95,27 @@ Per paper (fan out for bulk — see §4):
      --item <(jq '.items[i]' .research/work.json) --body /tmp/body.md --keywords "k1,k2,k3"
    ```
 
-### 3. Report
-Summarize: N created, N refreshed, N skipped, any `needs_visual`/targeted cases, any coverage gaps.
+### 3. Link citations (corpus-level post-pass)
+After a chunk of notes is written, resolve cross-references in one shot:
+```
+python3 .claude/skills/lit-sync/scripts/link_notes.py --rebuild-index --all
+```
+This rewrites every note's in-scope prose citations into `[[@citekey|display]]` wikilinks and
+rebuilds `related:`. It is idempotent and only ever touches the AI region. Links to in-scope papers
+that have no note *yet* are valid Obsidian "ghost" links — they resolve automatically once those
+notes land, so this is safe to run before the backfill is complete. Out-of-scope citations (Luce
+1959, Savage 1954) stay plain prose. Deterministic recall is high on `Surname (Year)` forms; an LLM
+enrichment pass for detached-year/year-less/acronym references is deferred until Layer-2 clustering
+needs denser edges (it layers on via `--add-links`).
 
-### 4. Bulk backfill (the ~471 set)
+### 4. Report
+Summarize: N created, N refreshed, N skipped, any `needs_visual`/targeted cases, any coverage gaps,
+and the edge count from the link pass.
+
+### 5. Bulk backfill (the ~471 set)
 Use the **Workflow** tool to fan out one agent per paper (requires the user to opt into workflows).
 Each agent does §2 for one work item and returns a status line. Pilot first (`--limit 15`), let the
-user review and tune this SKILL's template/prompt, *then* backfill the rest.
+user review and tune this SKILL's template/prompt, *then* backfill the rest. Run §3 once per chunk.
 
 ## Notes
 - Idempotent: re-running only rewrites the AI region; the user's `## My notes` is preserved.
