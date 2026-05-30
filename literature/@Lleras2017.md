@@ -38,14 +38,14 @@ The behavioral test weakens WARP by separating "feasible" from "considered." Sta
 Revealed preference is defined directly from choice reversals: $x\,P\,y$ if $x=c(S)$, $y=c(T)$ with $\{x,y\}\subseteq S\subset T$ (choosing $y$ from the larger menu certifies $y$ is considered in $S$, so picking $x$ in $S$ reveals $x\succ y$). $P_{T}$ is its transitive closure. The Appendix extends everything to **choice correspondences** with a weak order (allowing indifference), via two axioms: **Weak Revealed Indifference (WRI)** and **No Cyclic Choice Reversals (NCCR)**.
 
 ## Data
-None — this is a pure axiomatic decision-theory paper. It cites supporting empirical/eye-tracking evidence (Reutskaja et al. 2011; Miller 1956; marketing work of [[@Jeuland1983|Shugan 1983]], [[@Hauser1990|Hauser–Wernerfelt 1990)]] to motivate the competition-filter axiom, but proves no estimates and runs no experiment.
+None — this is a pure axiomatic decision-theory paper. It cites supporting empirical/eye-tracking evidence (Reutskaja et al. 2011; Miller 1956; marketing work of [[@Jeuland1983|Shugan 1983]], [[@Hauser1990|Hauser–Wernerfelt 1990]]) to motivate the competition-filter axiom, but proves no estimates and runs no experiment.
 
 ## Key findings
 - **Lemma 1.** $c$ satisfies WARP-CO if and only if the revealed-preference relation $P_{T}$ is acyclical.
 - **Theorem 1 (characterization).** $c$ is an Overwhelming Choice if and only if it satisfies WARP-CO. The model is thus fully testable nonparametrically from choice data even though consideration sets are never observed; only three observations can falsify it (e.g. $c(\{x,y,z,t\})=y$, $c(\{x,y,z\})=x$, $c(\{x,y\})=y$).
 - **Proposition 1 (revealed preference).** For an OC, $x$ is revealed preferred to $y$ (i.e. ranked above $y$ in *every* representation $(\Gamma,\succ)$) if and only if $x\,P_{T}\,y$. Choice reversals are both necessary and sufficient for preference revelation; being chosen alone reveals nothing.
 - **Corollary 1 (welfare / "more is less").** A smaller menu $S\subset T$ is strictly welfare-enhancing whenever $c(S)\,P_{T}\,c(T)$ (in particular when $c(T)\in S$ and $c(S)\neq c(T)$). Conversely, if $c(T)\notin S$ the larger menu can be welfare-enhancing, so even WARP-compliant data cannot guarantee "more is better."
-- **Indistinguishability result.** Any competition filter can be rewritten as both a categorization shading relation $\Gamma_{\sqsupset}$ ([[@Manzini2012a|Manzini–Mariotti 2012)]] and a set of rationales $\Gamma_{\{R_i\}}$ (Cherepanov et al. 2013); the three first stages generate identical choice behavior and are inseparable on choice data alone.
+- **Indistinguishability result.** Any competition filter can be rewritten as both a categorization shading relation $\Gamma_{\sqsupset}$ ([[@Manzini2012a|Manzini–Mariotti 2012]]) and a set of rationales $\Gamma_{\{R_i\}}$ (Cherepanov et al. 2013); the three first stages generate identical choice behavior and are inseparable on choice data alone.
 - **Theorem 2 / Propositions 2–4, Corollary 2.** For choice correspondences, OC is characterized by NCCR + WRI; $R=P\cup I$ has well-defined transitive closure $R_{T}$, and its asymmetric/symmetric parts $P_{T}$, $I_{T}$ exactly characterize revealed strict preference and revealed indifference.
 
 ## Contribution

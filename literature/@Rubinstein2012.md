@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/BLFLFD5D/Rubinstein2012.pdf
 tags: [literature]
 keywords: [behavioural-welfare, preference-elicitation, distortion-function, satisficing, bounded-rationality, revealed-preference, social-choice]
 topics: []
-related: [Manzini2007, Mas2009, Rubinstein2006, Salant2008, Tyson2008]
+related: [Manzini2007, Rubinstein2006, Salant2008, Tyson2008]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -64,7 +64,7 @@ Provides a unifying, "testable" framework for behavioural welfare analysis that 
 
 ## Connections
 
-The paper is the welfare-analysis companion to [[@Salant2008|Salant and Rubinstein (2008)]] "$(A,f)$: Choice with Frames," which supplies the frame/extended-choice-function foundation, and to [[@Rubinstein2006|Rubinstein and Salant (2006)]] "A Model of Choice from Lists." It contrasts sharply with the model-free Pareto approach of Bernheim and Rangel (2007, 2009) and the rationality-distance index of Apesteguia and Ballester (2010). It is allied with the procedural bounded-rationality literature that recovers preferences from a decision procedure — [[@Manzini2007|Manzini and Mariotti]] (2007; categorize-then-choose), Cherepanov, Feddersen and Sandroni (2008, rationalization), [[@Mas2009|Masatlioglu, Nakajima and Ozbay]] (2009, revealed attention), and Green and Hojman (2007). The satisficing model formalizes Simon (1955); see also [[@Tyson2008|Tyson (2008)]] and Salant (2011). The single-profile social-choice analogy draws on Roberts (1980) and Rubinstein (1984), and the suggested stochastic extension connects to Condorcet (1785), Young (1988), and Baldiga and Green (2009).
+The paper is the welfare-analysis companion to [[@Salant2008|Salant and Rubinstein (2008)]] "$(A,f)$: Choice with Frames," which supplies the frame/extended-choice-function foundation, and to [[@Rubinstein2006|Rubinstein and Salant (2006)]] "A Model of Choice from Lists." It contrasts sharply with the model-free Pareto approach of Bernheim and Rangel (2007, 2009) and the rationality-distance index of Apesteguia and Ballester (2010). It is allied with the procedural bounded-rationality literature that recovers preferences from a decision procedure — [[@Manzini2007|Manzini and Mariotti]] (2007; categorize-then-choose), Cherepanov, Feddersen and Sandroni (2008, rationalization), Masatlioglu, Nakajima and Ozbay (2009, revealed attention), and Green and Hojman (2007). The satisficing model formalizes Simon (1955); see also [[@Tyson2008|Tyson (2008)]] and Salant (2011). The single-profile social-choice analogy draws on Roberts (1980) and Rubinstein (1984), and the suggested stochastic extension connects to Condorcet (1785), Young (1988), and Baldiga and Green (2009).
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

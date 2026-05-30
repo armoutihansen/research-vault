@@ -27,7 +27,7 @@ How large is the cost, measured as lost out-of-sample predictive success, of imp
 ## Method / identification
 A two-part **adaptive experimental design** (building on Halevy, Persitz, and Zrill 2018). In **Part 1**, 171 subjects choose portfolios $x_i=(x_{i1},x_{i2})$ of state-contingent tokens from linear budget sets with normalized prices $p_i$ and two equally likely states (22 budget-set observations per subject). From these data, preferences are recovered two ways, automatically and within three minutes:
 
-(1) **Parametric**: a two-parameter Disappointment Aversion (DA) model ([[@Gul1991|Gul 1991)]], which nests Expected Utility and equals Rank-Dependent Utility under two equally likely states:
+(1) **Parametric**: a two-parameter Disappointment Aversion (DA) model ([[@Gul1991|Gul 1991]]), which nests Expected Utility and equals Rank-Dependent Utility under two equally likely states:
 $$u(x_{i1},x_{i2})=\gamma\,w\!\left(\max\{x_{i1},x_{i2}\}\right)+(1-\gamma)\,w\!\left(\min\{x_{i1},x_{i2}\}\right)$$
 with $\gamma=\frac{1}{2+\beta}$, $\beta>-1$, and CRRA utility-for-gains $w(z)=\frac{z^{1-\rho}}{1-\rho}$ for $\rho\ge 0,\ \rho\ne 1$ (and $w(z)=\ln z$ at $\rho=1$). Here $\gamma$ is the weight on the better outcome: $\beta>0$ is disappointment aversion (better outcome under-weighted), $\beta<0$ is elation seeking, and $\beta=0$ collapses to EU. Parameters are recovered by minimizing the **Money Metric Index (MMI)**, the income-metric incompatibility between revealed preferences and the parametric ranking.
 

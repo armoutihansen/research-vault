@@ -49,7 +49,7 @@ read as a *tournament*: x is scored by its summed relative-advantage matches aga
 
 ## Data
 
-None original. The paper reviews prior experiments (chiefly [[@Simonson1992|Simonson and Tversky 1992]]; [[@Huber1982|Huber, Payne, and Puto 1982)]] and reports their share statistics: e.g., tires/coupon gifts for background contrast; a $6-vs-Cross-pen plus a dominated pen lifting the pen's share from 36% to 46%; microwave ovens where a dominated $200 Panasonic raised the cheaper Panasonic's share from 43% to 60% (regularity violation); Minolta cameras where adding an extreme model made the middle option chosen by 57% (betweenness-inequality violation $P_z(y;x)-P(y;x)=0.22$, $t=3.2$); and AM-FM players showing compromise. The appendix notes the ranking condition held in every category tested.
+None original. The paper reviews prior experiments (chiefly [[@Simonson1992|Simonson and Tversky 1992]]; [[@Huber1982|Huber, Payne, and Puto 1982]]) and reports their share statistics: e.g., tires/coupon gifts for background contrast; a $6-vs-Cross-pen plus a dominated pen lifting the pen's share from 36% to 46%; microwave ovens where a dominated $200 Panasonic raised the cheaper Panasonic's share from 43% to 60% (regularity violation); Minolta cameras where adding an extreme model made the middle option chosen by 57% (betweenness-inequality violation $P_z(y;x)-P(y;x)=0.22$, $t=3.2$); and AM-FM players showing compromise. The appendix notes the ranking condition held in every category tested.
 
 ## Key findings
 

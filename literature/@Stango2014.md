@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/6H58PNZH/Stango2014.pdf
 tags: [literature]
 keywords: [limited-attention, salience, overdraft-fees, household-finance, consumer-protection, financial-literacy, reminders]
 topics: []
-related: [Barber2008, Chen2009, Eliaz2011a, Gabaix2006]
+related: [Barber2008, Eliaz2011a, Gabaix2006]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -54,7 +54,7 @@ First field evidence that uninformative salience shocks—reminders carrying no 
 - **Equilibrium/market design:** how would attention-reducing innovations (opt-out low-balance alerts, Mint/HelloWallet) and reminder provision by third parties reshape equilibrium contracts and pricing, and who should provide reminders?
 
 ## Connections
-The paper sits at the intersection of limited-attention behavioral economics and household finance. It operationalizes DellaVigna's (2009) salience taxonomy and connects to the shrouded-attributes / consumer-myopia framework of [[@Gabaix2006|Gabaix and Laibson (2006)]] and to consideration-set models ([[@Eliaz2011a|Eliaz and Spiegler 2011)]]. The reminder mechanism parallels Karlan, McConnell, Mullainathan, and Zinman's work on reminders and saving, and Bertrand et al. (2010) on advertising content. Limited-attention findings in financial markets—[[@Barber2008|Barber and Odean (2008)]], [[@Chen2009|Hirshleifer–Lim–Teoh, DellaVigna and Pollet (2009)]]—motivate the attention-substitution conjecture, while Lacetera, Pope, and Sydnor (2012) and Kőszegi and Szeidl (2013, focusing) provide the broader inattention/salience modeling context. On policy, it engages Armstrong and Vickers (2012) on contingent charges, Grubb (2012) on bill-shock regulation, and Barr–Mullainathan–Shafir on behaviorally informed regulation and default-undoing. It builds directly on the authors' own Stango and Zinman (2009, 2011) work on avoidable overdrafts and disclosure enforcement.
+The paper sits at the intersection of limited-attention behavioral economics and household finance. It operationalizes DellaVigna's (2009) salience taxonomy and connects to the shrouded-attributes / consumer-myopia framework of [[@Gabaix2006|Gabaix and Laibson (2006)]] and to consideration-set models ([[@Eliaz2011a|Eliaz and Spiegler 2011]]). The reminder mechanism parallels Karlan, McConnell, Mullainathan, and Zinman's work on reminders and saving, and Bertrand et al. (2010) on advertising content. Limited-attention findings in financial markets—[[@Barber2008|Barber and Odean (2008)]], Hirshleifer–Lim–Teoh, DellaVigna and Pollet (2009)—motivate the attention-substitution conjecture, while Lacetera, Pope, and Sydnor (2012) and Kőszegi and Szeidl (2013, focusing) provide the broader inattention/salience modeling context. On policy, it engages Armstrong and Vickers (2012) on contingent charges, Grubb (2012) on bill-shock regulation, and Barr–Mullainathan–Shafir on behaviorally informed regulation and default-undoing. It builds directly on the authors' own Stango and Zinman (2009, 2011) work on avoidable overdrafts and disclosure enforcement.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

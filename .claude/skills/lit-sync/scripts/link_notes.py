@@ -38,9 +38,13 @@ FENCE = "%% ─── below is yours; regeneration never touches it ─── %%
 HERE = Path(__file__).resolve().parent
 
 # A surname cluster (Caps words joined by & / and / , / en- or em-dash) followed by a nearby year.
+# The name and year MUST be separated by whitespace and/or an opening paren — so a real citation
+# "Eliaz (2011)" / "Tversky–Kahneman 1974" matches, but a glued citekey "Eliaz2011" (e.g. the innards
+# of a hand-written [[@Eliaz2011]]) does NOT, which would otherwise get wrapped into a malformed link.
 _NAME = r"[A-Z][A-Za-z'’]+(?:[-–][A-Z][A-Za-z'’]+)?"
 SPAN_RE = re.compile(
-    rf"({_NAME}(?:\s*(?:&|and|,|–|—|-)\s*(?:and\s+)?{_NAME}){{0,3}})\s*\(?(?:\w+\.\s*)?(\d{{4}})[a-z]?\)?"
+    rf"({_NAME}(?:\s*(?:&|and|,|–|—|-)\s*(?:and\s+)?{_NAME}){{0,3}})"
+    rf"(?:\s+\(?|\s*\()(?:\w+\.\s*)?(\d{{4}})[a-z]?\)?"
 )
 # An already-present piped wikilink: [[@citekey|display]]  (display is what the reader sees).
 LINK_RE = re.compile(r"\[\[@([^\]|]+)\|([^\]]+)\]\]")
@@ -100,9 +104,12 @@ def resolve_span(names, year, context, index):
     """
     span_surn = [t.split("-")[0].split("–")[0] for t in re.findall(r"[A-Z][A-Za-z'’\-–]+", names)]
     span_set = set(span_surn)
+    # Match surnames on word boundaries, NOT substrings: "Mas" must not match inside "Masatlioglu",
+    # nor "Sen" inside "Sengupta", "Li" inside "Lim", "Pan" inside "Panunzi" (all observed false links).
     cands = [ck for ck, m in index.items()
              if m["year"] == year and (set(m["surnames"]) & span_set
-                                       or any(s in names for s in m["surnames"]))]
+                                       or any(re.search(rf"\b{re.escape(s)}\b", names)
+                                              for s in m["surnames"]))]
     if len(cands) <= 1:
         return cands[0] if cands else None
     ctx = set(re.findall(r"[a-z]{4,}", context.lower()))
@@ -116,6 +123,39 @@ def resolve_span(names, year, context, index):
         return (lead, n_match, t_overlap)
 
     return max(sorted(cands), key=score)  # sorted() → deterministic tie-break by citekey
+
+
+def author_year(ck, index):
+    """A clean display for a citekey, e.g. "Manzini & Mariotti (2014)" / "Eliaz et al. (2011)"."""
+    m = index.get(ck)
+    if not m or not m.get("surnames"):
+        return None
+    s, y = m["surnames"], m.get("year", "")
+    names = s[0] if len(s) == 1 else f"{s[0]} & {s[1]}" if len(s) == 2 else f"{s[0]} et al."
+    return f"{names} ({y})" if y else names
+
+
+# A hand-written wikilink: [[@citekey]] (no pipe) or [[@citekey|display]]. Citekey ends in a 4-digit year.
+HANDWRITTEN_RE = re.compile(r"\[\[@([A-Za-z][\w-]*?\d{4}[a-z]?)(?:\|([^\]]*))?\]\]")
+
+
+def normalize_legacy_links(body, index):
+    """Repair hand-written cross-references from early notes before resolving.
+
+    Generating agents sometimes wrote `[[@Manzini2014]]` or `[[@Eliaz2011|Eliaz2011]]` (bare citekey as
+    display), occasionally with stray closers (`]]]]`). Collapse the stray brackets and rewrite any
+    bare-citekey link to its canonical author-year text, so the normal span pass re-links it cleanly
+    (`[[@Manzini2014|Manzini & Mariotti (2014)]]`). Proper links (real author-year display) are left for
+    unwrap_links to handle."""
+    body = re.sub(r"\]{3,}", "]]", body)
+
+    def repl(m):
+        ck, disp = m.group(1), m.group(2)
+        if disp is None or disp.strip() == ck:           # bare-citekey cross-reference
+            return author_year(ck, index) or ck
+        return m.group(0)                                 # real display → leave intact
+
+    return HANDWRITTEN_RE.sub(repl, body)
 
 
 def split_regions(text):
@@ -160,7 +200,7 @@ def link_body(self_ck, body, index, extra=None):
     re-run is a no-op. We do NOT carry prior in-prose links forward (that made the result path-dependent
     and let ambiguous spans oscillate); durable LLM-enrichment links arrive via `extra` instead.
     """
-    plain, _prior = unwrap_links(body)
+    plain, _prior = unwrap_links(normalize_legacy_links(body, index))
     sites = []      # (start, end, citekey, display) — one per occurrence to wrap
     claimed = []    # (start, end) regions already taken, to avoid overlapping wraps
     citekeys = set()
@@ -171,12 +211,18 @@ def link_body(self_ck, body, index, extra=None):
         ck = resolve_span(m.group(1), m.group(2), paragraph_around(plain, m.start()), index)
         if ck and ck != self_ck:
             start, end, disp = m.start(), m.end(), m.group(0)
-            # Compressed citations like "Manzini & Mariotti (2007, 2012)" leave the regex span with an
-            # open paren but no close — trim the display to the author cluster so the link reads clean
-            # ("[[...|Manzini & Mariotti]] (2007, 2012)") instead of "Manzini & Mariotti (2007".
+            # Keep the link display parenthesis-balanced. Two boundary cases arise because the span
+            # regex may grab a paren whose mate is outside the name cluster:
+            #   "Manzini & Mariotti (2007, 2012)" → open-without-close → trim to the author cluster
+            #     ("[[...|Manzini & Mariotti]] (2007, 2012)").
+            #   "(Manzini & Mariotti 2014)"       → close-without-open → drop the trailing ')'
+            #     ("([[...|Manzini & Mariotti 2014]])").
             if disp.count("(") > disp.count(")"):
                 disp = disp[:disp.rfind("(")].rstrip()
                 end = start + len(disp)
+            elif disp.count(")") > disp.count("(") and disp.endswith(")"):
+                disp = disp[:-1]
+                end -= 1
             if disp:
                 sites.append((start, end, ck, disp))
                 claimed.append((start, end))

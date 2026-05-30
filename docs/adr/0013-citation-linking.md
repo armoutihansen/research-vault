@@ -37,6 +37,11 @@ note count change.
   Surname+year collisions (`Manzini2012`/`Manzini2012a`; `Tversky1992`/`Simonson1992`) are ranked by
   leading-surname match, then surname-coverage, then title-token overlap with the **enclosing
   paragraph**, with ties broken on citekey — independent of dict/hash order across processes.
+  Precision guards learned from a corpus-wide audit: surnames match on **word boundaries** (so "Mas"
+  ≠ "Masatlioglu", "Sen" ≠ "Sengupta", "Pan" ≠ "Panunzi"), and the year must be **separated** from the
+  name by space/paren (so a glued citekey like "Eliaz2011" — e.g. inside a hand-written `[[@Eliaz2011]]`
+  — is not mistaken for a citation). Legacy hand-written bare-citekey links are normalized to canonical
+  author-year links before resolving, and link displays are kept parenthesis-balanced.
 - **LLM enrichment is deferred, not designed out.** Detached-year ("…prospect theory (1979)"),
   year-less ("Tversky's Elimination-by-Aspects"), and acronym references are missed by the regex. A
   candidate-shortlisted LLM pass (`scripts/link_candidates.py` + `link_notes.py --add-links`) recovers

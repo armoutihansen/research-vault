@@ -43,7 +43,7 @@ Identifies a clean, minimal structural condition — additivity on a normed spac
 ## Limitations & open questions
 - The axioms (additivity, independence, homotheticity) are acknowledged to have well-known *descriptive shortcomings*; the result is justified instrumentally via subjective-expected-value modelling rather than behavioral realism.
 - The vector-space proof of $(b)\Rightarrow(c)$ uses the metric induced by the norm; the group version needs nets. An open direction (implicit) is how far beyond normed/metrizable structure the equivalence extends — e.g. general topological vector spaces or non-metrizable ordered spaces.
-- The paper does not characterize the *gap* between continuity and hemicontinuity when additivity fails (that is treated in the author's companion [[@Gerasimou2013|Gerasimou 2013)]]; a unified characterization across structured and unstructured domains remains open.
+- The paper does not characterize the *gap* between continuity and hemicontinuity when additivity fails (that is treated in the author's companion [[@Gerasimou2013|Gerasimou 2013]]); a unified characterization across structured and unstructured domains remains open.
 - Whether analogous equivalences hold for strict-preference relations $\succ$ or for multi-utility representations under additivity is not addressed.
 
 ## Connections

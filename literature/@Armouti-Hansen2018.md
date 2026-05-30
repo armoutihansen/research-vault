@@ -54,7 +54,7 @@ The paper closes a gap explicitly left open by [[@Manzini2007|Manzini & Mariotti
 ## Limitations & open questions
 
 - **Indecisiveness vs. indifference is not always separable from choice data.** Building on Mandler (2009), the authors concede that with multiple elimination criteria the boundary becomes fluid; if only choices (not preference judgments) are observable, distinguishing the two is "difficult, if not impossible." Allowing weak rationales $P'$ creates two non-coinciding maximization notions (only one of which preserves scope for indecisiveness, per Danan 2003).
-- **Frame-based singleton selection is sketched but not characterized.** They suggest viewing $C_c$ as induced by frame-sensitive RSM choice functions, $\gamma(S,f)=\max(\max(\max(S;P_1);P_2);f)$ (à la [[@Salant2008|Salant & Rubinstein 2008)]], and relate it to behavioral data sets and distortion functions ([[@Rubinstein2012|Rubinstein & Salant 2012)]], but leave a full account of how DMs resolve indecisiveness as open.
+- **Frame-based singleton selection is sketched but not characterized.** They suggest viewing $C_c$ as induced by frame-sensitive RSM choice functions, $\gamma(S,f)=\max(\max(\max(S;P_1);P_2);f)$ (à la [[@Salant2008|Salant & Rubinstein 2008]]), and relate it to behavioral data sets and distortion functions ([[@Rubinstein2012|Rubinstein & Salant 2012]]), but leave a full account of how DMs resolve indecisiveness as open.
 - The two-stage / single-shading structure is fixed; longer elimination sequences and the welfare implications of indecisive choice are not pursued.
 
 ## Connections
