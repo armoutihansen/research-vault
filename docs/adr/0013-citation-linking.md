@@ -27,7 +27,10 @@ note count change.
   the output path-dependent and let ambiguous spans oscillate across runs (a span like
   "Tversky–Kahneman (1992)" flip-flopping between `Tversky1992` and `Simonson1992`). Never touches
   below the human fence (ADR-0005). Re-runs are free and a true no-op, so the update path on
-  corpus/scope growth is a single `link_notes.py --rebuild-index --all`.
+  corpus/scope growth is a single `link_notes.py --rebuild-index --all`. **Every** occurrence of a
+  resolved citation is linked (not just the first), so a paper cited in both Summary and Connections
+  is clickable in both; compressed citations ("Manzini & Mariotti (2007, 2012)") trim the link display
+  to the author cluster to keep parentheses balanced.
 - **Resolution is deterministic (span-first) for v1.** A regenerable candidate index
   (`.research/link_index.json`, citekey → surnames/year/title, built from `enumerate.py`) backs a
   matcher that finds `Surname (Year)` citation spans and resolves each to a unique in-scope citekey.

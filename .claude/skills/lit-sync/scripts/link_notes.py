@@ -161,33 +161,46 @@ def link_body(self_ck, body, index, extra=None):
     and let ambiguous spans oscillate); durable LLM-enrichment links arrive via `extra` instead.
     """
     plain, _prior = unwrap_links(body)
-    resolved = {}  # display span -> citekey  (first occurrence wins for replacement)
+    sites = []      # (start, end, citekey, display) — one per occurrence to wrap
+    claimed = []    # (start, end) regions already taken, to avoid overlapping wraps
+    citekeys = set()
 
-    # 1) deterministic span matches, disambiguated against the enclosing paragraph
+    # 1) every deterministic span occurrence (not just the first), disambiguated per paragraph.
+    #    A paper cited in Summary AND Connections should be linked in BOTH places.
     for m in SPAN_RE.finditer(plain):
-        names, year = m.group(1), m.group(2)
-        ck = resolve_span(names, year, paragraph_around(plain, m.start()), index)
+        ck = resolve_span(m.group(1), m.group(2), paragraph_around(plain, m.start()), index)
         if ck and ck != self_ck:
-            resolved.setdefault(m.group(0), ck)
+            start, end, disp = m.start(), m.end(), m.group(0)
+            # Compressed citations like "Manzini & Mariotti (2007, 2012)" leave the regex span with an
+            # open paren but no close — trim the display to the author cluster so the link reads clean
+            # ("[[...|Manzini & Mariotti]] (2007, 2012)") instead of "Manzini & Mariotti (2007".
+            if disp.count("(") > disp.count(")"):
+                disp = disp[:disp.rfind("(")].rstrip()
+                end = start + len(disp)
+            if disp:
+                sites.append((start, end, ck, disp))
+                claimed.append((start, end))
+                citekeys.add(ck)
 
-    # 2) explicit enrichment links (LLM pass / sidecar): {display span -> citekey}
+    # 2) explicit enrichment links (LLM pass / sidecar): wrap every occurrence of each display
+    #    span that doesn't overlap a region a regex span already claimed.
     for disp, ck in (extra or {}).items():
-        if ck in index and ck != self_ck and disp in plain:
-            resolved.setdefault(disp, ck)
+        if ck not in index or ck == self_ck:
+            continue
+        pos = 0
+        while (i := plain.find(disp, pos)) != -1:
+            j = i + len(disp)
+            if not any(s < j and i < e for s, e in claimed):
+                sites.append((i, j, ck, disp))
+                claimed.append((i, j))
+                citekeys.add(ck)
+            pos = j
 
-    # apply: wrap the first occurrence of each display span, longest spans first to avoid nesting
+    # apply right-to-left so earlier offsets stay valid as we insert
     new_body = plain
-    for disp in sorted(resolved, key=len, reverse=True):
-        ck = resolved[disp]
-        wrapped = f"[[@{ck}|{disp}]]"
-        # only wrap an occurrence that is not already inside a wikilink
-        idx = new_body.find(disp)
-        while idx != -1:
-            if new_body.count("[[", 0, idx) == new_body.count("]]", 0, idx):  # not already linked
-                new_body = new_body[:idx] + wrapped + new_body[idx + len(disp):]
-                break
-            idx = new_body.find(disp, idx + 1)
-    return new_body, set(resolved.values())
+    for start, end, ck, disp in sorted(sites, key=lambda s: s[0], reverse=True):
+        new_body = new_body[:start] + f"[[@{ck}|{disp}]]" + new_body[end:]
+    return new_body, citekeys
 
 
 def set_related(fm, citekeys):

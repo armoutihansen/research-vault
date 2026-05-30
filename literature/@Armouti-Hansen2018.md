@@ -20,7 +20,7 @@ generated: 2026-05-30
 
 ## Summary
 
-The paper generalizes two workhorse models of sequential boundedly rational choice — the Rational Shortlist Method (RSM) and the Categorize Then Choose (CTC) heuristic of [[@Manzini2007|Manzini & Mariotti (2007]], 2012) — from single-valued choice *functions* to set-valued choice *correspondences*. The motivating phenomenon is **indecisiveness**: after a decision-maker (DM) sequentially eliminates dominated options, several mutually incomparable alternatives may survive, and the DM is content to settle for any of them rather than force a unique winner. The authors provide full behavioral characterizations of both generalized procedures via revealed-preference axioms, thereby filling a gap that Manzini & Mariotti themselves flagged for the correspondence domain.
+The paper generalizes two workhorse models of sequential boundedly rational choice — the Rational Shortlist Method (RSM) and the Categorize Then Choose (CTC) heuristic of [[@Manzini2007|Manzini & Mariotti]] (2007, 2012) — from single-valued choice *functions* to set-valued choice *correspondences*. The motivating phenomenon is **indecisiveness**: after a decision-maker (DM) sequentially eliminates dominated options, several mutually incomparable alternatives may survive, and the DM is content to settle for any of them rather than force a unique winner. The authors provide full behavioral characterizations of both generalized procedures via revealed-preference axioms, thereby filling a gap that Manzini & Mariotti themselves flagged for the correspondence domain.
 
 ## Research question
 
@@ -49,7 +49,7 @@ None — this is a pure decision-theory paper. Illustrations are a running resta
 
 ## Contribution
 
-The paper closes a gap explicitly left open by Manzini & Mariotti (2007, p. 1833), who noted the lack of conditions for general choice *correspondences*. By transforming WARP-style axioms from functions to correspondences while preserving their intuition (no choice re-reversals; expansion consistency), it delivers clean necessary-and-sufficient characterizations that nest the original decisive models as special cases, and it gives a precise revealed-preference home to "settling for any non-inferior option" behavior.
+The paper closes a gap explicitly left open by [[@Manzini2007|Manzini & Mariotti]] (2007, p. 1833), who noted the lack of conditions for general choice *correspondences*. By transforming WARP-style axioms from functions to correspondences while preserving their intuition (no choice re-reversals; expansion consistency), it delivers clean necessary-and-sufficient characterizations that nest the original decisive models as special cases, and it gives a precise revealed-preference home to "settling for any non-inferior option" behavior.
 
 ## Limitations & open questions
 
@@ -59,7 +59,7 @@ The paper closes a gap explicitly left open by Manzini & Mariotti (2007, p. 1833
 
 ## Connections
 
-Directly generalizes Manzini & Mariotti (2007) (Rational Shortlist Method) and [[@Manzini2012a|Manzini & Mariotti (2012)]] (Categorize Then Choose). The indifference-vs-indecisiveness theme draws on [[@Eliaz2006|Eliaz & Ok (2006)]], [[@Sen1993|Sen (1993)]], Kreps (1988), Danan (2003), Mandler (2009), Hill (2012), and Savage (1954). Related sequential-rationalization and multiple-rationales work includes [[@Kalai2002|Kalai, Rubinstein & Spiegler (2002)]], [[@Apesteguia2005|Apesteguia & Ballester (2005)]], [[@Au2011|Au & Kawai (2011)]], and [[@Cherepanov2013|Cherepanov, Feddersen & Sandroni (2013)]]; limited-attention/consideration models include [[@Masatlioglu2012|Masatlioglu, Nakajima & Ozbay (2012)]] and Lleras, Masatlioglu, Nakajima & Ozbay (2014). Frame- and list-based choice connects to [[@Salant2008|Salant & Rubinstein (2008)]], [[@Rubinstein2006|Rubinstein & Salant (2006]], 2012). The behavioral motivation (hard-to-resolve conflict) cites [[@Shafir1993|Shafir, Simonson & Tversky (1993)]].
+Directly generalizes [[@Manzini2007|Manzini & Mariotti (2007)]] (Rational Shortlist Method) and [[@Manzini2012a|Manzini & Mariotti (2012)]] (Categorize Then Choose). The indifference-vs-indecisiveness theme draws on [[@Eliaz2006|Eliaz & Ok (2006)]], [[@Sen1993|Sen (1993)]], Kreps (1988), Danan (2003), Mandler (2009), Hill (2012), and Savage (1954). Related sequential-rationalization and multiple-rationales work includes [[@Kalai2002|Kalai, Rubinstein & Spiegler (2002)]], [[@Apesteguia2005|Apesteguia & Ballester (2005)]], [[@Au2011|Au & Kawai (2011)]], and [[@Cherepanov2013|Cherepanov, Feddersen & Sandroni (2013)]]; limited-attention/consideration models include [[@Masatlioglu2012|Masatlioglu, Nakajima & Ozbay (2012)]] and Lleras, Masatlioglu, Nakajima & Ozbay (2014). Frame- and list-based choice connects to [[@Salant2008|Salant & Rubinstein (2008)]], [[@Rubinstein2006|Rubinstein & Salant]] (2006, 2012). The behavioral motivation (hard-to-resolve conflict) cites [[@Shafir1993|Shafir, Simonson & Tversky (1993)]].
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes
