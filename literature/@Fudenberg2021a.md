@@ -1,0 +1,55 @@
+---
+citekey: Fudenberg2021a
+title: Evaluating And Extending Theories of Choice Under Risk
+authors: ["Fudenberg, Drew", "Puri, Indira"]
+year: 2021
+type: manuscript
+doi: ""
+zotero: "zotero://select/library/items/QZJ2A8VP"
+pdf: /Users/jesper/Zotero/storage/YCEWCIQR/Fudenberg2021.pdf
+tags: [literature]
+keywords: [probability-weighting, simplicity-theory, cumulative-prospect-theory, risk-preferences, mixture-models, predictive-completeness, heterogeneous-agents]
+topics: []
+related: [Bruhin2010, Erev2010, Fudenberg2020, Fudenberg2020a, Fudenberg2022a, Kahneman1979, Peysakhovich2017, Tversky1992]
+added: 2026-05-30
+generated: 2026-05-30
+---
+
+> [!abstract] Abstract
+> Prospect theory ([[@Kahneman1979|Kahneman and Tversky (1979)]]) and cumulative prospect theory ([[@Tversky1992|Tversky and Kahneman (1992)]]) model agents who overweight small probabilities, while simplicity theory ([[@Fudenberg2022a|Puri (2022)]]) models agents who prefer lotteries with fewer outcomes. We evaluate the predictive performance of these theories, and of hybrid models that combine them, on lotteries with varying numbers of outcomes. A heterogeneous-agent model that combines simplicity theory with cumulative prospect theory has the highest outsample predictive accuracy, and comes close to machine learning performance. We also study the relationship between probability weighting and simplicity, and analyze observable determinants of membership in each behavioral group.
+
+## Summary
+Fudenberg and Puri horse-race expected utility, prospect theory (PT), cumulative prospect theory (CPT), Puri's simplicity theory, and two hybrids (PT-Simplicity, CPT-Simplicity) on their out-of-sample ability to predict certainty equivalents for lotteries with 2, 4, and 6 outcomes. Each model is fit as a finite-mixture (heterogeneous-agent) model via EM, with the number of groups chosen on a validation set, and benchmarked against machine-learning algorithms (neural nets, k-means, gradient boosting). A three-group CPT-Simplicity model attains a 93% "ML completeness score," nearly matching the best ML algorithm (k-means), and recovers three behavioral types differing in how strongly they weight probabilities and how complexity-averse they are.
+
+## Research question
+Which theory of choice under risk best predicts behavior out-of-sample once lotteries vary in the *number* of outcomes (support size), and does adding a preference for simplicity (fewer outcomes) over and above probability weighting improve predictions? Relatedly: how do probability weighting and simplicity relate, and can observable characteristics predict an agent's behavioral type?
+
+## Method / identification
+Models are specified over monetary lotteries $p$ with ordered outcomes and support size from 2 to 6, using CRRA utility $u(x)=x^{\alpha}$ and the Kahneman-Tversky one-parameter weighting function $\pi(p)=\frac{p^{\gamma}}{(p^{\gamma}+(1-p)^{\gamma})^{1/\gamma}}$. CPT evaluates $u(p)=\sum_i u(x_i)\left[\pi\!\left(\sum_{k=1}^{i}p_k\right)-\pi\!\left(\sum_{k=1}^{i-1}p_k\right)\right]$ (gains domain, reference point 0, so equivalent to rank-dependent EU). Simplicity theory subtracts a complexity cost: $u(p)=\sum_i u(x_i)p(x_i)-C(\lvert\mathrm{support}(p)\rvert)$. The hybrids add $C(\cdot)$ additively to the PT/CPT valuation. They introduce a new three-parameter sigmoid cost $C(x)=\frac{\iota}{1+e^{\kappa(x-\rho)}}-\frac{\iota}{1+e^{\kappa(1-\rho)}}$, normalized so $C(1)=0$, with all parameters constrained weakly positive (so all groups are complexity-averse).
+
+Estimation is a finite-mixture model: individual $i$'s observed certainty equivalent is $ce_{i,l}=\hat{ce}_l(\theta)+\epsilon_{i,l}$ with $\epsilon_{i,l}\sim N(0,\sigma_i)$ and individual-specific variance. The mixture log-likelihood $\sum_i \ln\sum_c \pi_c f(ce_i;\theta_c,\sigma_i)$ is maximized by EM (Dempster-Laird-Rubin), estimating group parameters $\theta_c$, mixing weights $\pi_c$, and per-individual variances. The number of groups $k\in\{1,2,3\}$ is a hyperparameter chosen on validation MSE. Evaluation uses 5-fold cross-validation (60% train / 20% validation / 20% test, folds balanced across complexity levels) wrapped in a 1000-seed bootstrap, with numerical-stability bounds on $\pi_k$ and $\sigma_i$. Models are scored by a *machine-learning completeness score* (adapting [[@Fudenberg2020a|Fudenberg et al. 2020]]): $\text{Score}=\frac{MSE_{naive}-MSE_{model}}{MSE_{naive}-MSE_{ML}}$, using expected value as the naive benchmark and the best ML algorithm as the 100% benchmark. ML comparators are neural networks, k-means clustering (predicting $i$'s CE as the leave-one-out group mean), and gradient boosting trees.
+
+## Data
+Original experiment on Amazon Mechanical Turk (May-June 2022), 201 clean responses (55 excluded for failing comprehension checks). Each participant gave certainty equivalents for 30 lotteries (10 each of 2, 4, 6 outcomes), elicited via a multiple-price-list with single switching (20 evenly-spaced rows). Lotteries are generated uniformly at random with probabilities in 0.05 increments and payoffs in $0.25 increments over $1-$10, matched on mean/variance/skewness across complexity levels so support size is uncorrelated with moments. Demographics plus three Lusardi-Mitchell financial-literacy questions were collected. Three external datasets are used for validation tests (Allais-type behavior; Bernheim-Sprenger 2020 event-splitting; prize-linked savings).
+
+## Key findings
+1. **CPT-Simplicity wins.** Test MSE ranking (best to worst): CPT-Simplicity (2.477, 93% completeness), Simplicity (2.486, 92%), CPT (2.514, 91%), PT-Simplicity (2.616, 86%), PT (2.814, 76%), EU (3.083, 62%); ML benchmark 2.337 (100%). Simplicity *alone* beats both CPT and PT. With only six test lotteries, standard errors are large and the gap to the next three models is not statistically significant, but the "one standard error rule" still selects CPT-Simplicity.
+2. **Three behavioral types.** Group 1 (~42%): complexity-averse, mild probability distortion ($\alpha\approx0.78$, $\gamma\approx0.81$). Group 2 (~36%): less complexity-averse, mild distortion ($\gamma\approx0.88$). Group 3 (~21%): strong probability weighting ($\gamma\approx0.51$) and high complexity aversion.
+3. **Simplicity is distinct from a certainty premium.** Regressing CPT residuals on the number of outcomes (groups defined by the CPT model) gives a significant slope for two of three groups, indicating complexity aversion beyond a mere preference for certainty. Re-estimating on the 14 undominated lotteries shows CPT-Simplicity still beats CPT, so simplicity's value is not just accommodating dominance violations.
+4. **External validity.** The estimated CPT-Simplicity model approximately predicts Allais-type behavior and replicates Bernheim-Sprenger event-splitting patterns.
+5. **Type determinants.** Education, employment, age, and race do not predict membership; financial literacy, gender, and income do (lower literacy and being female raise the probability of the strongly-weighting Group 3), though every group contains both literate and illiterate members.
+
+## Contribution
+First systematic out-of-sample horse-race of EU/PT/CPT/simplicity and their hybrids on lotteries with *varying support size*, using heterogeneous-agent mixture models benchmarked against ML via a completeness score. It provides the first parametric functional form (a normalized sigmoid) for Puri's simplicity cost, shows simplicity adds predictive power on top of probability weighting, and improves the Bruhin-Epper-Fehr-Duda mixture-estimation pipeline by using validation sets to select the number of groups and outsample (rather than insample) evaluation.
+
+## Limitations & open questions
+The authors flag: (i) support size is only one notion of complexity — irregularity of the distribution, linguistic complexity, and ease-of-computation effects (Enke-Graeber 2021; [[@Fudenberg2022a|Puri 2022]]) are not captured; (ii) lotteries are generated uniformly at random, so results may not generalize to structured distributions (normal, exponential, skewed binomial); (iii) only $k\le3$ groups are attempted and only three support sizes observed, limiting the resolution of the cost function and clustering; (iv) cross-validation has high variance and the test set has only six lotteries, so no model is within one standard error of ML; (v) the additive combination of simplicity cost with PT/CPT is assumed, not axiomatized; (vi) results rest on MTurk certainty-equivalent elicitation, which other procedures may not reproduce. Open hooks: richer complexity measures, larger/finer datasets, and combination ML-theory algorithms (explicitly left to others).
+
+> [!note] Reader's critique
+> The vault owner's PDF annotations raise methodological concerns worth flagging as project hooks: (a) the claim that [[@Fudenberg2020a|Fudenberg et al. (2020)]] predicts average certainty equivalents well is questioned, since that work reuses [[@Bruhin2010|Bruhin et al. (2010)]] group assignments and may leak test-set information; (b) it is unclear how the fitted mixture generates predictions — population type distribution, posterior-by-Bayes given a subject's choices, or hard clustering; (c) the k-means/cross-validation split is on *games*, so the task is predicting held-out lotteries given known subjects, and predicting subject $i$'s CE uses the group-average of *other* subjects in the same validation/test fold, which arguably leaks information across the train/test boundary; (d) a soft-clustering Gaussian mixture and allowing more than three clusters would likely improve ML performance, weakening the "near-ML" claim.
+
+## Connections
+This paper sits at the intersection of behavioral risk theory and the predictive/completeness program. It directly builds on simplicity theory (Puri (2020, 2022); Goodman & Puri (2022)) and on the mixture-model estimation of Bruhin, Epper & Fehr-Duda (2010), Conte, Hey & Moffatt (2011), and [[@Fudenberg2020|Fudenberg et al. (2020)]], whose completeness metric it adapts. The probability-weighting machinery descends from [[@Kahneman1979|Kahneman & Tversky (1979)]], [[@Tversky1992|Tversky & Kahneman (1992)]], Quiggin's rank-dependent utility, and parametric estimates in Wu & Gonzalez (1996), Camerer & Ho (1994), and Tanaka, Camerer & Nguyen (2010); the survey of weighting heterogeneity is Fehr-Duda & Epper (2012). On certainty/complexity preferences it relates to Dillenberger (2010) and Cerreia-Vioglio, Dillenberger & Ortoleva (2015) (cautious expected utility), and to the event-splitting and rank-dependence critique of Bernheim & Sprenger (2020) and Andreoni & Sprenger (2011). The ML-for-risk lineage includes [[@Erev2010|Erev et al.]] (2010, 2017), Plonsky et al. (2016, 2017), Ke et al. (2020), and [[@Peysakhovich2017|Peysakhovich & Naecker (2017)]], while Enke & Graeber (2021) offers an alternative cognitive-uncertainty account of probability distortion.
+
+%% ─── below is yours; regeneration never touches it ─── %%
+## My notes
