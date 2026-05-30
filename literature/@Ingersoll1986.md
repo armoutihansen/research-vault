@@ -1,0 +1,46 @@
+---
+citekey: Ingersoll1986
+title: Theory Of Financial Decision Making by Ingersoll - Google Search
+authors: [Ingersoll]
+year: 1986
+type: book
+doi: ""
+zotero: "zotero://select/library/items/D4XEYQGF"
+pdf: /Users/jesper/Zotero/storage/8XP4HWSJ/Ingersoll1986.pdf
+tags: [literature]
+keywords: [asset-pricing, expected-utility, no-arbitrage, portfolio-choice, capm, option-pricing, financial-economics]
+topics: []
+related: [Manzini2007]
+added: 2026-05-30
+generated: 2026-05-30
+---
+
+> [!abstract] Abstract
+> (no abstract in Zotero)
+
+## Summary
+This is Jonathan E. Ingersoll, Jr.'s graduate textbook *Theory of Financial Decision Making* (1986), a systematic doctoral-level treatment of the core theory of financial economics as taught by the author at Chicago and Yale. It builds the subject from microeconomic foundations — utility theory, arbitrage, and portfolio choice — through single-period equilibrium models (mean-variance/CAPM, generalized risk, the APT, complete markets), into multiperiod and continuous-time models (dynamic programming, Merton's intertemporal CAPM, the consumption-based asset pricing model), and culminates in option pricing (Black-Scholes), the term structure of interest rates, and corporate capital structure. Note: the Zotero record for this item is corrupted — the stored title reads "Theory Of Financial Decision Making by Ingersoll - Google Search," the abstract is empty, and the PDF's first page is a mis-scanned, unrelated astronomy article (VEGA balloon results); the actual book content begins thereafter. This note is built from a targeted reading (391-page book): preface, glossary, full table of contents, and a close reading of Chapter 1 (Utility Theory), with the chapter structure used to characterize the remainder.
+
+## Research question
+As a textbook rather than a research article, the organizing question is pedagogical and synthetic: *what is the unified theoretical core of modern financial economics, and how can the pricing of assets and the optimal allocation of risk be derived from a small set of primitives — preferences, the absence of arbitrage, and equilibrium?* The book repeatedly returns to a few unifying threads: how asset prices reflect information (efficient/rational markets), how the absence of arbitrage alone restricts prices, and how preferences plus distributional assumptions generate portfolio-separation and factor-pricing results.
+
+## Method / identification
+The "method" is the formal derivation of financial theory. The book is structured in four parts. (i) *Foundations* (Ch. 1-3): ordinal and cardinal (expected) utility built from preference axioms — completeness, reflexivity, transitivity, and continuity — yielding a continuous ordinal utility function (Theorem 1); the von Neumann-Morgenstern expected-utility representation via the independence axiom; Arrow-Pratt risk-aversion measures; arbitrage and state-price/risk-neutral pricing; the single-period portfolio problem and efficient-markets theory. (ii) *Single-period equilibrium* (Ch. 4-9): mean-variance analysis and the CAPM, generalized risk measures (Rothschild-Stiglitz mean-preserving spreads, second-order stochastic dominance), mutual-fund/portfolio-separation theorems, the linear factor model and Arbitrage Pricing Theory, complete-markets (Arrow-Debreu) valuation and Pareto optimality, and a representative-investor aggregation. (iii) *Multiperiod models* (Ch. 10-15): discrete-time intertemporal consumption-investment via dynamic programming, continuous-time portfolio selection, Merton's intertemporal CAPM with hedging demands, arbitrage-based option restrictions, and the consumption-based asset pricing model. (iv) *Continuous-time finance* (Ch. 16-19): a heuristic introduction to Ito calculus, advanced option pricing, the term structure of interest rates, and contingent-claims analysis of corporate capital structure. The treatment is explicitly heuristic where rigorous (measure-theoretic) treatment would obscure intuition; every major result is presented verbally, mathematically, and often graphically and numerically. The argumentative engine throughout is *no-arbitrage reasoning*, which the author calls the farthest-reaching argument in financial economics.
+
+## Data
+None — this is a theoretical textbook. It contains no empirical estimation or dataset; the author explicitly excludes empirical tests, market microstructure/institutional description, and market imperfections, noting these would each require a separate book and that perfect-market predictions are "surprisingly robust." Worked numerical examples are illustrative, not data.
+
+## Key findings
+Rather than novel results, the book canonizes the central theorems of the field. Highlights include: the existence of a continuous ordinal utility function from the four preference axioms (Theorem 1), with lexicographic preferences as the canonical counterexample that violates continuity; the expected-utility representation and the boundedness/St.-Petersburg discussion; the absence-of-arbitrage pricing theorem and its dual state-price vector $p$ giving "risk-neutral" valuation under the martingale measure $\Lambda$; the Capital Asset Pricing Model, with $\beta\equiv\operatorname{Cov}(\tilde z,\tilde Z_m)$ as the measure of systematic risk and the consistency of mean-variance analysis with expected-utility maximization; Rothschild-Stiglitz characterizations of increasing risk and their link to second-order stochastic dominance; mutual-fund/portfolio-separation theorems (one-fund, two-fund/money, and $K$-fund separation) and the distinction between factor pricing and separation; complete-markets valuation and the Pareto optimality of equilibrium, plus "effectively complete" incomplete markets; the Arbitrage Pricing Theory with asymptotic-arbitrage pricing bounds; Merton's intertemporal CAPM with hedging portfolios; and the Black-Scholes option-pricing formula $W(S,\tau)$ derived by arbitrage, extended to the term structure and to corporate claims.
+
+## Contribution
+The book's contribution is integrative and pedagogical: it assembles two decades of finance research into a single coherent doctoral text, foregrounding the *theoretical scaffolding* (preferences, arbitrage, equilibrium, spanning) rather than empirics or institutions. It has served as a standard reference for the mathematical apparatus of asset pricing — state prices, separation theorems, the relationship between mean-variance and expected utility, and the arbitrage logic linking discrete-state and continuous-time models. Its careful axiomatic build-up of utility and risk aversion makes it a useful bridge between decision theory and asset pricing.
+
+## Limitations & open questions
+The author is explicit about scope exclusions, each of which is a hook: (1) *empirical testing* of the theories is omitted entirely — the gap between these models and data is left to other work; (2) *market imperfections* (frictions, transaction costs, incomplete information beyond the efficient-markets treatment) are not modeled, with the author conceding theory there "has not yet been fully developed"; (3) institutional and microstructural realism is absent; (4) rigor is deliberately traded for intuition in the stochastic-calculus chapters, leaving measure-theoretic foundations to other texts; (5) the completeness axiom is flagged as failing for many preference functions under uncertainty (St. Petersburg paradox), and transitivity is acknowledged to fail in multi-attribute comparisons (Arrow's voter paradox), though the author argues finance comparisons are "most often one dimensional" — a claim that is itself questionable once richer (e.g., social or multi-attribute) preferences enter.
+
+## Connections
+The utility-theoretic foundations connect directly to von Neumann & Morgenstern (1944) on expected utility and the independence axiom, to Savage (1954) on subjective probability, and to Arrow (1965) and Pratt (1964) on risk-aversion measures. The acknowledgement that completeness and transitivity can fail under uncertainty and in multi-attribute settings links to Arrow's (1951) impossibility/voter-paradox work and anticipates the bounded-rationality and incomplete-preference literatures (e.g., Bewley's incomplete-preferences models; and, in choice modeling, [[@Manzini2007|Manzini & Mariotti (2007)]] on rationalizable choice). The risk material rests on Rothschild & Stiglitz (1970) on increasing risk and second-order stochastic dominance, and on Hadar & Russell on stochastic dominance. The equilibrium core draws on Markowitz (1952) mean-variance analysis, Sharpe (1964), Lintner (1965), and Mossin (1966) on the CAPM, Ross (1976) on the Arbitrage Pricing Theory, and Arrow (1964)-Debreu (1959) complete-markets/state-price theory. The multiperiod and continuous-time chapters build on Merton (1969, 1971, 1973) on intertemporal portfolio choice and the ICAPM, Samuelson (1969) on lifetime portfolio selection, Lucas (1978) and Breeden (1979) on consumption-based pricing, and Black & Scholes (1973) and Merton (1973) on option pricing, with the term-structure chapter relating to Cox, Ingersoll & Ross (1985). The efficient-markets material connects to Fama (1970) and the Grossman-Stiglitz (1980) information-aggregation problem.
+
+%% ─── below is yours; regeneration never touches it ─── %%
+## My notes
