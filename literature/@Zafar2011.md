@@ -1,0 +1,54 @@
+---
+citekey: Zafar2011
+title: An experimental investigation of why individuals conform
+authors: ["Zafar, Basit"]
+year: 2011
+type: journalArticle
+doi: 10.1016/j.euroecorev.2011.01.002
+zotero: "zotero://select/library/items/U8P5THPD"
+pdf: /Users/jesper/Zotero/storage/EZ5J62WA/Zafar2011.pdf
+tags: [literature]
+keywords: [conformity, image-concerns, social-comparison, social-norms, charitable-giving, lab-experiment, prosocial-behavior]
+topics: []
+related: [Ariely2009, Benabou2006, Mas2009]
+added: 2026-05-30
+generated: 2026-05-30
+---
+
+> [!abstract] Abstract
+> Social interdependence is believed to play an important role in individual choice behavior. I first outline a simple model constructed on the premise that people are motivated by their own payoff and by how their action compares to others in their reference group. I show that conformity in actions may arise from learning about the descriptive norm, or from image-related concerns. In order to empirically disentangle the two, I use the fact that image-related concerns can only be present if actions are publicly observable. The model predictions are then tested in a charitable contribution experiment in which the actions and identities of the subjects are unmasked in a controlled and systematic way. Both learning about the descriptive norm (i.e., what others are doing) and image-related concerns play an important role in the choices of the subjects. Individuals indulge in social comparison and change their contributions in the direction of the social norm even when their identities are hidden. Once identities and contribution distributions of group members are revealed, individuals conform to the choice of other group members. Moreover, I find that social ties (defined as subjects knowing each other from outside the lab) affect the role of social influence: Subjects only respond to the choices of group members they are friends with. In particular, a low contribution norm evolves that causes individuals to contribute less in the presence of friends. This suggests that social comparison and image-related concerns may not always lead to higher contributions.
+
+## Summary
+Zafar studies *why* people conform rather than just *whether* they do. He builds a simple charitable-giving model in which conformity can arise from social comparison (using others' choices as a reference point) or from image-related concerns (caring about how others perceive your type), and notes that image concerns operate only when actions are publicly observable. A six-round within-subject charity-contribution lab experiment unmasks others' actions and identities in stages, letting him attribute round-to-round changes to specific mechanisms. Both social comparison and image concerns drive conformity, but because the group settles on a *low*-contribution norm, social information here lowers rather than raises giving—and individuals respond only to the choices of group members they already know.
+
+## Research question
+When an individual's choice correlates with that of their reference group, which underlying mechanism is responsible—social learning, social comparison, strategic complementarities, or image-related concerns? In particular, can social comparison and image concerns be empirically disentangled and quantified, and how do real-world social ties (friendship) modulate the image channel?
+
+## Method / identification
+The core identifying idea: image-related concerns can affect behavior only when one's actions are *observable* to the reference group, whereas social comparison can operate even under anonymity. The design isolates each channel by manipulating observability across rounds within subjects.
+
+Theoretically, an agent with endowment normalized to $1$ chooses a donation $x\in[0,1]$. Agents are typed as self-interested ($u(1-x_i)$), altruistic ($u(1-x_i,\sum_j x_j)$), or warm-glow ($u(1-x_i,x_i)$). In the limited-information case the utility adds a conformity penalty scaled by a private taste parameter $t\in[0,\bar t]$:
+$$U(x_i,t_i)=\mathbf{1}_{SI}\,u(1-x_i)+\mathbf{1}_{A}\,u\!\Big(1-x_i,\textstyle\sum_j x_j\Big)+\mathbf{1}_{WG}\,u(1-x_i,x_i)+t_i\,G\!\left(\frac{|x_i-s_{-i}|}{\sigma_{-i}}\right),$$
+where $s_{-i}$ is the observed group statistic and $\sigma_{-i}$ its dispersion; the distance is normalized by dispersion so conformity pressure falls when others' choices are spread out. $G(\cdot)$ is strictly concave with $\arg\max G=0$. In the full-information case a perceived image term $p$ (normalized to type, $p=t$) enters utility, with consumption and image assumed weak substitutes; this is the lever that can raise contributions once actions are observed.
+
+Key derived predictions: Proposition 1 ($x^{**}(t)\in[0,s)$ for a self-interested agent); Proposition 2 (comparative statics—$x^{**}$ weakly increasing in $t$, increasing in $s$, decreasing in dispersion $\sigma$ when $x^{**}<s$, with signs reversing in the full-conformity regime); Claim 1 (no contribution change under information without social comparison); Claims 2–3 (contributions move toward $s$ and rise with $s$); Claim 4 (full-information contribution CDF first-order stochastically dominates the limited-information CDF); Claim 5 (mass at $0$ and at $1$); Claim 6 (mass at zero should not grow from round 4 to round 5).
+
+Empirically, a within-subject design over six one-shot rounds: round 1 = no information (beliefs about the group average elicited, incentivized); rounds 2–3 = limited information (group mean revealed, identities hidden → social comparison); rounds 4–6 = full information (own contribution and identity revealed → image concerns added). A 40% chance that a donation fails to go through (probability of going through $0.6$, raised to $1$ in rounds 5–6) preserves plausible deniability for zero contributions. Round-to-round differencing nets out fixed concerns (e.g. experimenter scrutiny).
+
+## Data
+Lab experiment: 101 Northwestern undergraduates (55 female), recruited via flyers, Facebook, and the econ listserv; run in z-Tree across nine sessions. Subjects randomly assigned to 21 groups (11 of size 4, 3 of size 5, 7 of size 6), with multiple groups per session to obscure membership. $4 show-up fee plus $10 endowment per round; one round paid at random; mean earnings $12.67. Donations went to the American Red Cross (a large, well-known charity—chosen to shut down charity-quality learning). A Marlowe–Crowne (M–C 2(10)) social-desirability scale and demographics were collected.
+
+## Key findings
+Both mechanisms matter. In round 1, contributions correlate with elicited beliefs about the group average (social proof). Under limited information, conformity appears but asymmetrically: in round 2 only subjects *above* the group average lower their contributions toward the (low) norm, since conforming downward also raises own payoff; in round 3, with impending (anonymous) publicity, subjects *below* the norm raise contributions—consistent with guilt/shame salience. The Wilcoxon signed-rank test finds the only significant between-round shift at round 4 ($p=0.048$), the first round where identity is revealed—evidence for image concerns. As predicted (Claim 4), the round-4 contribution distribution first-order stochastically dominates round 3. Across rounds 4–6, for every dollar a subject's contribution lies away from a group statistic (mode/median/mean), they adjust $0.05$–$0.17 toward it. Removing all action uncertainty in rounds 5–6 does *not* raise giving, because a low-contribution norm has set in (prestige attaches to the descriptive norm, which is low here). Social-ties result: individuals respond only to the contributions of group members they know from outside the lab, and the downward adjustment of those above their friends exceeds the upward adjustment of those below—so a low-contribution norm emerges among friends. Persistent heterogeneity: 45 of 101 subjects never change their contribution at all.
+
+## Contribution
+Moves the social-interactions literature past *measuring* peer effects toward *identifying* the channels that generate conformity. By eliminating reciprocity/strategic complementarities (own payoff depends only on own action) and charity-quality learning (large known charity), the design cleanly disentangles and quantifies social comparison versus image concerns within subject. It opens the "black box" of image concerns by showing they are gated by real social ties (friendship), and—counter to the prevailing fundraising narrative—demonstrates that social information and image concerns can *reduce* prosocial giving when a low-contribution norm prevails.
+
+## Limitations & open questions
+The author flags several explicitly. (1) The evidence is from a stylized, low-stakes lab setting; extrapolation is hazardous, though he argues the effects are a lower bound for the field. (2) Self-signaling cannot be separated from social-signaling: the design manipulates observability of actions but not of the choice environment richly enough (donation success fixed at $0.6$ then $1$). (3) Altruistic updating about total charity receipts cannot be ruled out as a partial driver of rounds 2–3, since types are not identifiable from actions—if present, that part of conformity would be social learning rather than social comparison. (4) The signaling model admits both separating and pooling equilibria under conditions not pinned down. The proposed next step is field experiments with targeted interventions (e.g. knowledge dissemination vs. seeding popular individuals) to identify mechanisms outside the lab.
+
+## Connections
+The model builds on warm-glow giving (Andreoni, 1990) and altruism (Anderson et al., 1998), and on conformity/status models in economics (Jones, 1984; Bernheim, 1994). The image-concern apparatus connects directly to Bénabou & [[@Benabou2006|Tirole (2006)]], Andreoni & Bernheim (2009) on signaling and the equal-split norm in dictator games, and [[@Ariely2009|Ariely, Bracha & Meier (2009)]] on image motivation. Social-learning and herding foundations come from Banerjee (1992) and Bikhchandani, Hirshleifer & Welch (1992), with experimental tests in Anderson & Holt (1997). On revealing identity and prosocial behavior it speaks to Andreoni & Petrie (2004), Rege & Telle (2004), and Bohnet & Frey (1999); on information about others' giving to Frey & Meier (2004), Croson & Shang (2008), Shang & Croson (2009), and Bardsley & Sausgruber (2005). The identification framing draws on Manski (1993, 2000) and Moffitt (2001). The social-ties / friends-conform-to-a-common-norm result parallels Bandiera, Barankay & Rasul (2007) and the workplace-observability evidence of [[@Mas2009|Mas & Moretti (2009)]]; guilt aversion as an alternative reading of round 3 references Charness & Dufwenberg (2006).
+
+%% ─── below is yours; regeneration never touches it ─── %%
+## My notes

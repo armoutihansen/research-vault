@@ -5,6 +5,12 @@
     "pdf": "/Users/jesper/Zotero/storage/GLRKN3UE/Abeler2011.pdf",
     "title": "Reference Points and Effort Provision"
   },
+  "Aggarwal1999": {
+    "generated": "2026-05-30",
+    "hash": "d652c0555bad2e60",
+    "pdf": "/Users/jesper/Zotero/storage/U8V8VB5W/Aggarwal1999.pdf",
+    "title": "The Other Side of the Trade‐Off: The Impact of Risk on Executive Compensation"
+  },
   "Aggarwal2002": {
     "generated": "2026-05-29",
     "hash": "f4c5baf397c00894",
@@ -131,6 +137,12 @@
     "pdf": "/Users/jesper/Zotero/storage/TE9JWXM8/Arteaga2022.pdf",
     "title": "xlogit: An open-source Python package for GPU-accelerated estimation of Mixed Logit models"
   },
+  "Athey2019": {
+    "generated": "2026-05-30",
+    "hash": "4cfd3873367a7500",
+    "pdf": "/Users/jesper/Zotero/storage/H7Y8VLG6/Athey2019.pdf",
+    "title": "Machine Learning Methods That Economists Should Know About"
+  },
   "Au2011": {
     "generated": "2026-05-29",
     "hash": "9d2e0816d5a251cf",
@@ -196,6 +208,12 @@
     "hash": "a76938bf76317341",
     "pdf": "/Users/jesper/Zotero/storage/XCIJBT8L/Baucells2017.pdf",
     "title": "Temporal Profiles of Instant Utility During Anticipation, Event, and Recall"
+  },
+  "Bayer2016": {
+    "generated": "2026-05-30",
+    "hash": "38297de09a642407",
+    "pdf": "/Users/jesper/Zotero/storage/AY8288A5/Bayer2016.pdf",
+    "title": "fastFM: A Library for Factorization Machines"
   },
   "Bell1985": {
     "generated": "2026-05-29",
@@ -359,6 +377,12 @@
     "pdf": "/Users/jesper/Zotero/storage/UCIPBW8V/Camerer2011.pdf",
     "title": "Advances in Behavioral Economics"
   },
+  "Candes2009": {
+    "generated": "2026-05-30",
+    "hash": "c5440f6e1b3c1550",
+    "pdf": "/Users/jesper/Zotero/storage/ATI48PAP/Candes2009.pdf",
+    "title": "Exact Matrix Completion via Convex Optimization"
+  },
   "Caplin2001": {
     "generated": "2026-05-29",
     "hash": "984488567c25a3d3",
@@ -425,6 +449,12 @@
     "pdf": "/Users/jesper/Zotero/storage/F2GR445C/Chen2011.pdf",
     "title": "The Potential of Social Identity for Equilibrium Selection"
   },
+  "Chen2013": {
+    "generated": "2026-05-30",
+    "hash": "13fd0b3700b2a6c4",
+    "pdf": "/Users/jesper/Zotero/storage/JWISWU8I/Chen2013.pdf",
+    "title": "Optimistic versus Pessimistic--Optimal Judgemental Bias with Reference Point"
+  },
   "Cherepanov2013": {
     "generated": "2026-05-29",
     "hash": "1f27c3ba2010e8f1",
@@ -437,17 +467,65 @@
     "pdf": "/Users/jesper/Zotero/storage/L389NQC8/Chi2016.pdf",
     "title": "k-POD: A Method for k-Means Clustering of Missing Data"
   },
+  "Conlisk1993": {
+    "generated": "2026-05-30",
+    "hash": "fb551c535835db71",
+    "pdf": "/Users/jesper/Zotero/storage/WFA3YR2R/Conlisk1993.pdf",
+    "title": "The utility of gambling"
+  },
+  "Cox2004": {
+    "generated": "2026-05-30",
+    "hash": "cd61016c9393738f",
+    "pdf": "/Users/jesper/Zotero/storage/W8N3XCQL/Cox2004.pdf",
+    "title": "How to identify trust and reciprocity"
+  },
+  "Croissant2020": {
+    "generated": "2026-05-30",
+    "hash": "502f463e8af5f830",
+    "pdf": "/Users/jesper/Zotero/storage/THSJIQFD/Croissant2020.pdf",
+    "title": "Estimation of Random Utility Models in R: The mlogit Package"
+  },
   "Dardanoni2020": {
     "generated": "2026-05-29",
     "hash": "2c324c0d495486ca",
     "pdf": "/Users/jesper/Zotero/storage/X3KGV5RH/Dardanoni2020.pdf",
     "title": "Inferring Cognitive Heterogeneity From Aggregate Choices"
   },
+  "DeJarnette2020": {
+    "generated": "2026-05-30",
+    "hash": "fe41e0471be2c1d5",
+    "pdf": "/Users/jesper/Zotero/storage/ZYIXYH8W/DeJarnette2020.pdf",
+    "title": "Time Lotteries and Stochastic Impatience"
+  },
   "Delfgaauw2016": {
     "generated": "2026-05-30",
     "hash": "5a821d31dc3b8648",
     "pdf": "/Users/jesper/Zotero/storage/9V4JF3AX/Delfgaauw and Swank - 2016 - Task-Specific Human Capital and Organizational Ine.pdf",
     "title": "Task-Specific Human Capital and Organizational Inertia"
+  },
+  "DellaVigna2018": {
+    "generated": "2026-05-30",
+    "hash": "f27b72ca57691f4a",
+    "pdf": "/Users/jesper/Zotero/storage/RMCWKW6R/DellaVigna2018.pdf",
+    "title": "What Motivates Effort? Evidence and Expert Forecasts"
+  },
+  "Dempster1977": {
+    "generated": "2026-05-30",
+    "hash": "f0c341206b70e15f",
+    "pdf": "/Users/jesper/Zotero/storage/APLTF7WY/Dempster1977.pdf",
+    "title": "Maximum Likelihood from Incomplete Data Via the EM Algorithm"
+  },
+  "Ehlers2008": {
+    "generated": "2026-05-30",
+    "hash": "f45e450160c9663c",
+    "pdf": "/Users/jesper/Zotero/storage/WIQGGD6W/Ehlers2008.pdf",
+    "title": "Weakened WARP and top-cycle choice rules"
+  },
+  "Elenkov2002": {
+    "generated": "2026-05-30",
+    "hash": "f14fd1e9de060197",
+    "pdf": "/Users/jesper/Zotero/storage/7ZP5RPNL/Elenkov2002.pdf",
+    "title": "Effects of leadership on organizational performance in Russian companies"
   },
   "Eliaz2011": {
     "generated": "2026-05-29",
@@ -473,6 +551,12 @@
     "pdf": "/Users/jesper/Zotero/storage/QHJRCX9A/Erev2017.pdf",
     "title": "From anomalies to forecasts: Toward a descriptive model of decisions under risk, under ambiguity, and from experience"
   },
+  "Esteves-Sorenson2018": {
+    "generated": "2026-05-30",
+    "hash": "5c65695bbbbe2ea0",
+    "pdf": "/Users/jesper/Zotero/storage/NQNXRDM7/Esteves-Sorenson2018.pdf",
+    "title": "Gift Exchange in the Workplace: Addressing the Conflicting Evidence with a Careful Test"
+  },
   "Evers-Kiebooms2002": {
     "generated": "2026-05-29",
     "hash": "dc1287dee0abd059",
@@ -485,17 +569,41 @@
     "pdf": "/Users/jesper/Zotero/storage/UF6NXCR6/Fahn and Hakenes - 2018 - Teamwork as a Self-Disciplining Device Online Appendix.pdf",
     "title": "Teamwork as a Self-Disciplining Device Online Appendix"
   },
+  "Falk2008": {
+    "generated": "2026-05-30",
+    "hash": "4bc513a849e14f59",
+    "pdf": "/Users/jesper/Zotero/storage/EZV2AARM/Falk2008.pdf",
+    "title": "Testing theories of fairness—Intentions matter"
+  },
   "Falk2016": {
     "generated": "2026-05-29",
     "hash": "c22cf64a12e9c047",
     "pdf": "/Users/jesper/Zotero/storage/QJHDNZ2V/Falk2016.pdf",
     "title": "Beliefs and Utility: Experimental Evidence on Preferences for Information"
   },
+  "Farber2008": {
+    "generated": "2026-05-30",
+    "hash": "bf2dab907648b09f",
+    "pdf": "/Users/jesper/Zotero/storage/MRBHBBJ4/Farber2008.pdf",
+    "title": "Reference-Dependent Preferences and Labor Supply: The Case of New York City Taxi Drivers"
+  },
+  "Farquhar1993": {
+    "generated": "2026-05-30",
+    "hash": "7fdcde6fa90f615a",
+    "pdf": "/Users/jesper/Zotero/storage/924UG3SF/Farquhar1993.pdf",
+    "title": "Decision Structuring with Phantom Alternatives"
+  },
   "Fehr1997": {
     "generated": "2026-05-30",
     "hash": "15c945ec8412c709",
     "pdf": "/Users/jesper/Zotero/storage/II28CYYH/Fehr1997.pdf",
     "title": "Reciprocity as a Contract Enforcement Device: Experimental Evidence"
+  },
+  "Fehr2007": {
+    "generated": "2026-05-30",
+    "hash": "8687f0e3f08c0502",
+    "pdf": "/Users/jesper/Zotero/storage/G5GLGGI9/Fehr2007.pdf",
+    "title": "Fairness and Contract Design"
   },
   "Fershtman2018": {
     "generated": "2026-05-29",
@@ -509,11 +617,41 @@
     "pdf": "/Users/jesper/Zotero/storage/FM4NHF6K/Fisman2007.pdf",
     "title": "Individual preferences for giving"
   },
+  "Freeman2016": {
+    "generated": "2026-05-30",
+    "hash": "9222778fe2412061",
+    "pdf": "/Users/jesper/Zotero/storage/UNSZMBI4/Freeman2016.pdf",
+    "title": "Preferred Personal Equilibrium and Choice under Risk"
+  },
+  "Freeman2017": {
+    "generated": "2026-05-30",
+    "hash": "2817fb70f4e2dc14",
+    "pdf": "/Users/jesper/Zotero/storage/2JGLRKSZ/Freeman2017.pdf",
+    "title": "Preferred personal equilibrium and simple choices"
+  },
+  "Freeman2019": {
+    "generated": "2026-05-30",
+    "hash": "86fc476f504235f7",
+    "pdf": "/Users/jesper/Zotero/storage/52H2UH89/Freeman2019.pdf",
+    "title": "Expectations-based reference-dependence and choice under risk"
+  },
+  "Fudenberg2019a": {
+    "generated": "2026-05-30",
+    "hash": "fdd0e2fb8899354a",
+    "pdf": "/Users/jesper/Zotero/storage/PI6QUWFY/Fudenberg2019.pdf",
+    "title": "Predicting and Understanding Initial Play"
+  },
   "Fudenberg2020a": {
     "generated": "2026-05-29",
     "hash": "5a87a118a363b7e7",
     "pdf": "/Users/jesper/Zotero/storage/9PTI7GRE/Fudenberg2020b_appendix.pdf",
     "title": "Predicting Cooperation with Learning Models"
+  },
+  "Fudenberg2020b": {
+    "generated": "2026-05-30",
+    "hash": "f3d8be379f732b5d",
+    "pdf": "/Users/jesper/Zotero/storage/2P4FIMAU/Fudenberg2020a.pdf",
+    "title": "Machine learning for evaluating and improving theories"
   },
   "Fudenberg2021": {
     "generated": "2026-05-29",
@@ -538,6 +676,12 @@
     "hash": "241b33384d279e75",
     "pdf": "/Users/jesper/Zotero/storage/VDU9MYE3/Fudenberg2022a.pdf",
     "title": "Simplicity and Probability Weighting in Choice under Risk"
+  },
+  "Gerasimou2010": {
+    "generated": "2026-05-30",
+    "hash": "edbe619e9d037902",
+    "pdf": "/Users/jesper/Zotero/storage/9WV9EFWX/Gerasimou2010.pdf",
+    "title": "Consumer theory with bounded rational preferences"
   },
   "Gerasimou2015": {
     "generated": "2026-05-29",
@@ -575,6 +719,30 @@
     "pdf": "/Users/jesper/Zotero/storage/86ARY8C2/Gneezy2000.pdf",
     "title": "A Fine Is a Price"
   },
+  "Gollier2010": {
+    "generated": "2026-05-30",
+    "hash": "57196e590ea9d1f3",
+    "pdf": "/Users/jesper/Zotero/storage/A6VGIG9S/Gollier2010.pdf",
+    "title": "Optimal Choice and Beliefs with Ex Ante Savoring and Ex Post Disappointment"
+  },
+  "Gourville2007": {
+    "generated": "2026-05-30",
+    "hash": "f784dd0258750bf9",
+    "pdf": "/Users/jesper/Zotero/storage/YL7HFK7S/Gourville2007.pdf",
+    "title": "Extremeness Seeking: When and Why Consumers Prefer the Extremes"
+  },
+  "Hastie2001": {
+    "generated": "2026-05-30",
+    "hash": "c8a5a0c2956c2c8d",
+    "pdf": "/Users/jesper/Zotero/storage/SQ87PJV8/Hastie2001.pdf",
+    "title": "The Elements of Statistical Learning"
+  },
+  "Heller2012": {
+    "generated": "2026-05-30",
+    "hash": "8588bdbfe06735da",
+    "pdf": "/Users/jesper/Zotero/storage/JIYYE3EH/Heller2012.pdf",
+    "title": "Justifiable choice"
+  },
   "Herne1997": {
     "generated": "2026-05-29",
     "hash": "f45520b1b489048d",
@@ -593,11 +761,23 @@
     "pdf": "/Users/jesper/Zotero/storage/488PQGTI/Hoff2016.pdf",
     "title": "Striving for balance in economics: Towards a theory of the social determination of behavior"
   },
+  "Hole2012": {
+    "generated": "2026-05-30",
+    "hash": "4a58e2b270a14f80",
+    "pdf": "/Users/jesper/Zotero/storage/AL39X24C/Hole and Kolstad - 2012 - Mixed logit estimation of willingness to pay distr.pdf",
+    "title": "Mixed logit estimation of willingness to pay distributions: a comparison of models in preference and WTP space using data from a health-related choice experiment"
+  },
   "Horan2016": {
     "generated": "2026-05-29",
     "hash": "de9940c4b5538819",
     "pdf": "/Users/jesper/Zotero/storage/J9M27C42/Horan2016.pdf",
     "title": "A simple model of two-stage choice"
+  },
+  "Huffman2022": {
+    "generated": "2026-05-30",
+    "hash": "cf68f420b03f17ee",
+    "pdf": "/Users/jesper/Zotero/storage/76YQD7R7/Huffman2022.pdf",
+    "title": "Persistent overconfidence and biased memory: Evidence from managers"
   },
   "Inderst2009": {
     "generated": "2026-05-29",
@@ -611,17 +791,41 @@
     "pdf": "/Users/jesper/Zotero/storage/E5XDS4NZ/Inderst2013.pdf",
     "title": "Sales Talk, Cancellation Terms and the Role of Consumer Protection"
   },
+  "Isler2023": {
+    "generated": "2026-05-30",
+    "hash": "7f1d6154db4bb9cf",
+    "pdf": "/Users/jesper/Zotero/storage/PQSY27TD/Isler2023.pdf",
+    "title": "Scarcity improves economic valuations when cognitively salient"
+  },
+  "Jones2009": {
+    "generated": "2026-05-30",
+    "hash": "08cc2af4726dcc0e",
+    "pdf": "/Users/jesper/Zotero/storage/RZ9BUQB5/Jones2009.pdf",
+    "title": "The development of imitation in infancy"
+  },
   "Jouini2014": {
     "generated": "2026-05-30",
     "hash": "cf81b540f3b1a163",
     "pdf": "/Users/jesper/Zotero/storage/LTAW59JF/Jouini2014.pdf",
     "title": "On Portfolio Choice with Savoring and Disappointment"
   },
+  "Kahneman1979": {
+    "generated": "2026-05-30",
+    "hash": "a00840153fcd32f1",
+    "pdf": "/Users/jesper/Zotero/storage/7PTSFF77/Kahneman1979.pdf",
+    "title": "Prospect theory: An analysis of decision under risk"
+  },
   "Kaur2015": {
     "generated": "2026-05-30",
     "hash": "3ae2b8bc5046b511",
     "pdf": "/Users/jesper/Zotero/storage/LDGJHWWU/Kaur2015.pdf",
     "title": "Self-Control at Work"
+  },
+  "Kaus2013": {
+    "generated": "2026-05-30",
+    "hash": "d5c98aa414f4f0a0",
+    "pdf": "/Users/jesper/Zotero/storage/UI73DN2Q/Kaus2013.pdf",
+    "title": "Conspicuous consumption and “race”: Evidence from South Africa"
   },
   "Koszegi2010": {
     "generated": "2026-05-29",
@@ -635,11 +839,23 @@
     "pdf": "/Users/jesper/Zotero/storage/XPZLQVLZ/Koszegi2014.pdf",
     "title": "Behavioral Contract Theory"
   },
+  "Kramer": {
+    "generated": "2026-05-30",
+    "hash": "9bcfc9dbd7a5b6ab",
+    "pdf": "/Users/jesper/Zotero/storage/RJI99L2X/Kraemer2023.pdf",
+    "title": "Image concerns and crowding out in the context of prosocial behavior"
+  },
   "Krueger2021": {
     "generated": "2026-05-29",
     "hash": "9f3636d12d2e9c0d",
     "pdf": "/Users/jesper/Zotero/storage/JY6TUPSP/Krueger2021.pdf",
     "title": "Evaluating the predictive abilities of mixed logit models with unobserved inter- and intra-individual heterogeneity"
+  },
+  "Kube2013": {
+    "generated": "2026-05-30",
+    "hash": "1d41eaf85c33494c",
+    "pdf": "/Users/jesper/Zotero/storage/RJM8P5MR/Kube2013.pdf",
+    "title": "Do Wage Cuts Damage Work Morale? Evidence from a Natural Field Experiment"
   },
   "Kuhn2011": {
     "generated": "2026-05-30",
@@ -713,6 +929,12 @@
     "pdf": "/Users/jesper/Zotero/storage/3P7R5P4G/Loewenstein2001.pdf",
     "title": "Risk as feelings."
   },
+  "Lombardi2009": {
+    "generated": "2026-05-30",
+    "hash": "85dbf97a681d34e7",
+    "pdf": "/Users/jesper/Zotero/storage/FX5HAP97/Lombardi2009.pdf",
+    "title": "Reason-based choice correspondences"
+  },
   "Loomes1986": {
     "generated": "2026-05-30",
     "hash": "5cded2e228011ffe",
@@ -767,6 +989,12 @@
     "pdf": "/Users/jesper/Zotero/storage/58FJZE89/Manzini2014.pdf",
     "title": "Stochastic Choice and Consideration Sets"
   },
+  "Manzini2015": {
+    "generated": "2026-05-30",
+    "hash": "12c03be1fc61c49b",
+    "pdf": "/Users/jesper/Zotero/storage/WZNVIAH8/Manzini2015.pdf",
+    "title": "State dependent choice"
+  },
   "Manzini2016": {
     "generated": "2026-05-29",
     "hash": "80f7335db4b734dd",
@@ -797,6 +1025,12 @@
     "pdf": "/Users/jesper/Zotero/storage/EQEXU4GB/May1954.pdf",
     "title": "Intransitivity, Utility, and the Aggregation of Preference Patterns"
   },
+  "Mayzlin2014": {
+    "generated": "2026-05-30",
+    "hash": "04a1e1bb9f767ed1",
+    "pdf": "/Users/jesper/Zotero/storage/SIWGNQ76/Mayzlin2014.pdf",
+    "title": "Promotional Reviews: An Empirical Investigation of Online Review Manipulation"
+  },
   "McFadden1979": {
     "generated": "2026-05-30",
     "hash": "94ba856c18c658b0",
@@ -814,6 +1048,12 @@
     "hash": "cd49d4cbe8efbbff",
     "pdf": "/Users/jesper/Zotero/storage/Z9US6AXR/McFadden2000.pdf",
     "title": "Rationality for Economists?"
+  },
+  "McLachlan2019": {
+    "generated": "2026-05-30",
+    "hash": "bbc36a6285fafaf5",
+    "pdf": "/Users/jesper/Zotero/storage/P9HGIIPG/McLachlan2019.pdf",
+    "title": "Finite Mixture Models"
   },
   "Melitz2008": {
     "generated": "2026-05-30",
@@ -844,6 +1084,12 @@
     "hash": "e0c5e0acf23d62fe",
     "pdf": "/Users/jesper/Zotero/storage/ADF7H2TJ/Mullainathan2023.pdf",
     "title": "From Predictive Algorithms to Automatic Generation of Anomalies"
+  },
+  "Murphy2012": {
+    "generated": "2026-05-30",
+    "hash": "45f0061e46cf6eee",
+    "pdf": "/Users/jesper/Zotero/storage/JV3UU7KQ/Murphy - 2012 - Machine learning a probabilistic perspective.pdf",
+    "title": "Machine learning: a probabilistic perspective"
   },
   "Murphy2022": {
     "generated": "2026-05-30",
@@ -899,6 +1145,12 @@
     "pdf": "/Users/jesper/Zotero/storage/JBQPNTXM/Papi2012.pdf",
     "title": "Satisficing choice procedures"
   },
+  "Pattanayak2023": {
+    "generated": "2026-05-30",
+    "hash": "21bfe6665ec1631b",
+    "pdf": "/Users/jesper/Zotero/storage/4DXNGX9A/Pattanayak - 2023 - Pro Deep Learning with TensorFlow 2.0 A Mathemati.pdf",
+    "title": "Pro Deep Learning with TensorFlow 2.0: A Mathematical Approach to Advanced Artificial Intelligence in Python"
+  },
   "Payne1976": {
     "generated": "2026-05-30",
     "hash": "749445ddbe7421fc",
@@ -953,11 +1205,29 @@
     "pdf": "/Users/jesper/Zotero/storage/HIHC7SN6/Pope2011.pdf",
     "title": "Is Tiger Woods Loss Averse? Persistent Bias in the Face of Experience, Competition, and High Stakes"
   },
+  "Prakash2021": {
+    "generated": "2026-05-30",
+    "hash": "64a9aec888080e73",
+    "pdf": "/Users/jesper/Zotero/storage/3LZEI7S5/Prakash and Kanagachidambaresan - 2021 - Programming with TensorFlow Solution for Edge Com.pdf",
+    "title": "Programming with TensorFlow: Solution for Edge Computing Applications"
+  },
   "Prendergast1996": {
     "generated": "2026-05-30",
     "hash": "4658ac70d964997a",
     "pdf": "/Users/jesper/Zotero/storage/53XRPTGY/Prendergast1996.pdf",
     "title": "Favoritism in Organizations"
+  },
+  "Prendergast2002": {
+    "generated": "2026-05-30",
+    "hash": "ac41021d7d84b715",
+    "pdf": "/Users/jesper/Zotero/storage/8WGL77FI/Prendergast - 2002 - Uncertainty and Incentives.pdf",
+    "title": "Uncertainty and Incentives"
+  },
+  "Prendergast2002a": {
+    "generated": "2026-05-30",
+    "hash": "db3159e635799081",
+    "pdf": "/Users/jesper/Zotero/storage/T9WTM8IG/Prendergast - 2002 - The Tenuous Trade‐off between Risk and Incentives.pdf",
+    "title": "The Tenuous Trade‐off between Risk and Incentives"
   },
   "Qin2017": {
     "generated": "2026-05-29",
@@ -1043,11 +1313,23 @@
     "pdf": "/Users/jesper/Zotero/storage/H32MWYNG/Samuelson1988.pdf",
     "title": "Status quo bias in decision making"
   },
+  "Sarver2008": {
+    "generated": "2026-05-30",
+    "hash": "df07737ceab9f452",
+    "pdf": "/Users/jesper/Zotero/storage/IRU9Y9LN/Sarver2008.pdf",
+    "title": "Anticipating Regret: Why Fewer Options May Be Better"
+  },
   "Sarver2012": {
     "generated": "2026-05-30",
     "hash": "312d2bc56fac3c7d",
     "pdf": "/Users/jesper/Zotero/storage/2KJFFT7E/Sarver2012.pdf",
     "title": "Optimal Reference Points and Anticipation"
+  },
+  "Sarver2018": {
+    "generated": "2026-05-30",
+    "hash": "f7e60955c845cc4b",
+    "pdf": "/Users/jesper/Zotero/storage/GIVFTBPI/Sarver2018b.pdf",
+    "title": "Dynamic Mixture-Averse Preferences"
   },
   "Schmitz2012": {
     "generated": "2026-05-29",
@@ -1096,6 +1378,12 @@
     "hash": "4a50be08a81f7458",
     "pdf": "/Users/jesper/Zotero/storage/ECDMHVSP/Shafir1993.pdf",
     "title": "Reason-based choice"
+  },
+  "Shalev2000": {
+    "generated": "2026-05-30",
+    "hash": "f51150078f09a8ce",
+    "pdf": "/Users/jesper/Zotero/storage/CJYD6MJY/Shalev2000.pdf",
+    "title": "Loss aversion equilibrium"
   },
   "Shoshan2023": {
     "generated": "2026-05-29",
@@ -1252,6 +1540,18 @@
     "hash": "4d610aa9d813a5b4",
     "pdf": "/Users/jesper/Zotero/storage/5GUUUPIS/Yildiz2016.pdf",
     "title": "List-rationalizable choice"
+  },
+  "Zafar2011": {
+    "generated": "2026-05-30",
+    "hash": "27b34584686eb628",
+    "pdf": "/Users/jesper/Zotero/storage/EZ5J62WA/Zafar2011.pdf",
+    "title": "An experimental investigation of why individuals conform"
+  },
+  "Zhao2022": {
+    "generated": "2026-05-30",
+    "hash": "8dbb40f8ead1ff6d",
+    "pdf": "/Users/jesper/Zotero/storage/TDTHAD2P/Zhao2022.pdf",
+    "title": "Pigeonhole Design: Balancing Sequential Experiments from an Online Matching Perspective"
   },
   "Zimmerman2003": {
     "generated": "2026-05-30",
