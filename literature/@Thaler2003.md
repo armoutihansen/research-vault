@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/CK78Z2CX/Thaler2003.pdf
 tags: [literature]
 keywords: [libertarian-paternalism, behavioral-economics, choice-architecture, default-options, status-quo-bias, welfare-economics, nudge]
 topics: []
-related: []
+related: [Benartzi2002, Loewenstein2001, Samuelson1988]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -42,7 +42,7 @@ The constructive contribution is a decision toolbox for planners. When welfare c
 
 ## Data
 
-None — this is a four-page essay with no original dataset or estimation. It draws on prior empirical work by others: Benartzi and Thaler (2002) on investors' (dis)satisfaction with their own portfolios (only 20 percent preferred their own portfolio to the median); Madrian and Shea (2001), where automatic enrollment raised 401(k) participation from 49 to 86 percent; Choi et al. (2002, 2003a) on default and forced-choice enrollment; and Thaler and Benartzi (2003) Save More Tomorrow (savings rates rising from 3.5 to 11.6 percent over about two years).
+None — this is a four-page essay with no original dataset or estimation. It draws on prior empirical work by others: [[@Benartzi2002|Benartzi and Thaler (2002)]] on investors' (dis)satisfaction with their own portfolios (only 20 percent preferred their own portfolio to the median); Madrian and Shea (2001), where automatic enrollment raised 401(k) participation from 49 to 86 percent; Choi et al. (2002, 2003a) on default and forced-choice enrollment; and Thaler and Benartzi (2003) Save More Tomorrow (savings rates rising from 3.5 to 11.6 percent over about two years).
 
 ## Key findings
 
@@ -69,7 +69,7 @@ The authors flag several open problems, mostly around the welfare criterion:
 
 ## Connections
 
-The essay sits at the intersection of behavioral economics and welfare/public economics. It builds directly on the heuristics-and-biases program (Kahneman and Tversky 2000; Gilovich, Griffin, and Kahneman 2002) and on **status-quo bias** (Samuelson and Zeckhauser 1988; Kahneman, Knetsch, and Thaler 1991). The savings applications rest on Madrian and Shea (2001), Choi, Laibson, Madrian, and Metrick (2002, 2003), Benartzi and Thaler (2002), and Thaler and Benartzi's Save More Tomorrow. It is in explicit dialogue with companion AEA-session papers on *optimal* paternalism — Camerer, Issacharoff, Loewenstein, O'Donoghue, and Rabin (2001) on "asymmetric paternalism," O'Donoghue and Rabin (2003) on optimal sin taxes, and Choi et al. (2003b) "Optimal Defaults" — which formalize welfare-maximizing policy design where this essay argues informally. The line of work culminates in Thaler and Sunstein's *Nudge* and the broad literature on choice architecture and defaults.
+The essay sits at the intersection of behavioral economics and welfare/public economics. It builds directly on the heuristics-and-biases program (Kahneman and Tversky 2000; Gilovich, Griffin, and Kahneman 2002) and on **status-quo bias** ([[@Samuelson1988|Samuelson and Zeckhauser 1988]]; Kahneman, Knetsch, and Thaler 1991). The savings applications rest on Madrian and Shea (2001), Choi, Laibson, Madrian, and Metrick (2002, 2003), Benartzi and Thaler (2002), and Thaler and Benartzi's Save More Tomorrow. It is in explicit dialogue with companion AEA-session papers on *optimal* paternalism — Camerer, [[@Loewenstein2001|Issacharoff, Loewenstein, O'Donoghue, and Rabin (2001)]] on "asymmetric paternalism," O'Donoghue and Rabin (2003) on optimal sin taxes, and Choi et al. (2003b) "Optimal Defaults" — which formalize welfare-maximizing policy design where this essay argues informally. The line of work culminates in Thaler and Sunstein's *Nudge* and the broad literature on choice architecture and defaults.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

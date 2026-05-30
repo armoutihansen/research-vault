@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/B39UVXN2/Gerasimou2015.pdf
 tags: [literature]
 keywords: [incomplete-preferences, continuity, hemicontinuity, additivity, decision-theory, order-topology, independence-axiom]
 topics: []
-related: []
+related: [Gerasimou2013]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -43,11 +43,11 @@ Identifies a clean, minimal structural condition — additivity on a normed spac
 ## Limitations & open questions
 - The axioms (additivity, independence, homotheticity) are acknowledged to have well-known *descriptive shortcomings*; the result is justified instrumentally via subjective-expected-value modelling rather than behavioral realism.
 - The vector-space proof of $(b)\Rightarrow(c)$ uses the metric induced by the norm; the group version needs nets. An open direction (implicit) is how far beyond normed/metrizable structure the equivalence extends — e.g. general topological vector spaces or non-metrizable ordered spaces.
-- The paper does not characterize the *gap* between continuity and hemicontinuity when additivity fails (that is treated in the author's companion Gerasimou 2013); a unified characterization across structured and unstructured domains remains open.
+- The paper does not characterize the *gap* between continuity and hemicontinuity when additivity fails (that is treated in the author's companion [[@Gerasimou2013|Gerasimou 2013)]]; a unified characterization across structured and unstructured domains remains open.
 - Whether analogous equivalences hold for strict-preference relations $\succ$ or for multi-utility representations under additivity is not addressed.
 
 ## Connections
-The note sits in the incomplete-preferences literature stemming from Bewley (2002) "Knightian decision theory" and Schmeidler (1971), and is a direct companion to Gerasimou (2013, *Soc. Choice Welf.*) on continuity of incomplete preferences. The equivalence-under-completeness baseline is Ward (1954) and the survey of Bridges & Mehta (1995). Methodologically it parallels Karni (2007), who related Archimedean and mixture continuity via "local mixture dominance," and Gilboa, Maccheroni, Marinacci & Schmeidler (2010, Lemma 3), who linked closed-graph and mixture continuity for incomplete monotone-independent preorders. The cone/representation backdrop is Wong & Ng (1973) and Candeal-Haro & Indurain-Eraso (1992) (weak-utility representations on ordered topological groups). The applied target is Ghirardato, Maccheroni & Marinacci (2004) on differentiating ambiguity from ambiguity attitude, and de Finetti (1937) / Gilboa (2009) on subjective expected value. Examples 1 and 3's group extension are credited to E. Minguzzi and H.-P. Künzi respectively.
+The note sits in the incomplete-preferences literature stemming from Bewley (2002) "Knightian decision theory" and Schmeidler (1971), and is a direct companion to [[@Gerasimou2013|Gerasimou (2013]], *Soc. Choice Welf.*) on continuity of incomplete preferences. The equivalence-under-completeness baseline is Ward (1954) and the survey of Bridges & Mehta (1995). Methodologically it parallels Karni (2007), who related Archimedean and mixture continuity via "local mixture dominance," and Gilboa, Maccheroni, Marinacci & Schmeidler (2010, Lemma 3), who linked closed-graph and mixture continuity for incomplete monotone-independent preorders. The cone/representation backdrop is Wong & Ng (1973) and Candeal-Haro & Indurain-Eraso (1992) (weak-utility representations on ordered topological groups). The applied target is Ghirardato, Maccheroni & Marinacci (2004) on differentiating ambiguity from ambiguity attitude, and de Finetti (1937) / Gilboa (2009) on subjective expected value. Examples 1 and 3's group extension are credited to E. Minguzzi and H.-P. Künzi respectively.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

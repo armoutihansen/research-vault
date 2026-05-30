@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/LUZUE8JE/Bernheim2009.pdf
 tags: [literature]
 keywords: [behavioral-welfare-economics, revealed-preference, choice-theory, time-inconsistency, pareto-efficiency, libertarian-paternalism]
 topics: []
-related: []
+related: [Iyengar2000, Kahneman1997, Salant2008, Thaler2003]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -38,7 +38,7 @@ $$x\,P^{*}\,y \iff \forall (X,d)\in\mathcal{G}\text{ with }x,y\in X,\ y\notin C(
 So $xP^{*}y$ means $y$ is *never* chosen when $x$ is available. $P'$ is the asymmetric part of $R'$; $R^{*}$ is the finest relation whose asymmetric part is $P^{*}$ ($xR^{*}y \iff \sim yP^{*}x$). One shows $xP^{*}y \Rightarrow xP'y \Rightarrow xR'y \Rightarrow xR^{*}y$, and that all four collapse to standard $R,P$ when choice is ancillary-invariant and axiom-consistent. Welfare optima are defined as $P^{*}$- (or $P'$-) maximal elements. Applied tools (compensating/equivalent variation, consumer surplus, generalized Pareto optima, competitive equilibrium) are constructed as direct analogues using these relations.
 
 ## Data
-None. This is a theoretical paper; illustrations use stylized models (coherent arbitrariness with decision utility $U(y,z\mid d)=u(y)+d\,v(z)$; the $\beta,\delta$ quasi-hyperbolic model; a two-person Edgeworth-box example; a jam-variety example based on Iyengar and Lepper 2000). The authors note applications by others to real data (e.g., sales-tax salience in Chetty, Looney, and Kroft 2008).
+None. This is a theoretical paper; illustrations use stylized models (coherent arbitrariness with decision utility $U(y,z\mid d)=u(y)+d\,v(z)$; the $\beta,\delta$ quasi-hyperbolic model; a two-person Edgeworth-box example; a jam-variety example based on [[@Iyengar2000|Iyengar and Lepper 2000)]]. The authors note applications by others to real data (e.g., sales-tax salience in Chetty, Looney, and Kroft 2008).
 
 ## Key findings
 - **Theorem 1 (no money pump):** any chain $x_1 R' x_2 \cdots R' x_N$ containing at least one strict link $x_k P^{*} x_{k+1}$ cannot close ($\sim x_N R' x_1$).
@@ -64,7 +64,7 @@ Provides the first general, axiom-free choice-theoretic foundation for behaviora
 - **Backward-looking preferences** for the $\beta,\delta$ self are untestable from choice, motivating (but not fully settling) the robust multiself Pareto refinement.
 
 ## Connections
-The paper positions itself against the "experienced/true utility" program (Kahneman, Wakker, and Sarin 1997; Kahneman 1999) and against rejecting choice as a normative basis (Sugden 2004). It contrasts with Green and Hojman (2007), who rationalize anomalies via conflicting preferences and evaluate by unanimity (and need not coincide with standard welfare under rationality). The unambiguous-choice relation is closely related to independent work by Rubinstein and Salant (2008) on "frames" and to Mandler (2006) and Salant-Rubinstein on status-quo bias; the multi-agent efficiency results lean on Fon and Otani (1979), Rigotti and Shannon (2005), and Mandler (2006) for economies with incomplete/intransitive preferences. Applications to time inconsistency engage the $\beta,\delta$ literature (Laibson, Repetto, and Tobacman 1998) and to addiction the authors' own Bernheim and Rangel (2004). Empirically the framework is operationalized by Chetty, Looney, and Kroft (2008) on tax salience and Burghart, Cameron, and Gerdes (2007). It connects to the broader debate on nonchoice evidence (Gul and Pesendorfer 2008; Caplin and Schotter 2008) and to libertarian-paternalist policy proposals (Thaler and Sunstein 2003).
+The paper positions itself against the "experienced/true utility" program ([[@Kahneman1997|Kahneman, Wakker, and Sarin 1997]]; Kahneman 1999) and against rejecting choice as a normative basis (Sugden 2004). It contrasts with Green and Hojman (2007), who rationalize anomalies via conflicting preferences and evaluate by unanimity (and need not coincide with standard welfare under rationality). The unambiguous-choice relation is closely related to independent work by [[@Salant2008|Rubinstein and Salant (2008)]] on "frames" and to Mandler (2006) and Salant-Rubinstein on status-quo bias; the multi-agent efficiency results lean on Fon and Otani (1979), Rigotti and Shannon (2005), and Mandler (2006) for economies with incomplete/intransitive preferences. Applications to time inconsistency engage the $\beta,\delta$ literature (Laibson, Repetto, and Tobacman 1998) and to addiction the authors' own Bernheim and Rangel (2004). Empirically the framework is operationalized by Chetty, Looney, and Kroft (2008) on tax salience and Burghart, Cameron, and Gerdes (2007). It connects to the broader debate on nonchoice evidence (Gul and Pesendorfer 2008; Caplin and Schotter 2008) and to libertarian-paternalist policy proposals ([[@Thaler2003|Thaler and Sunstein 2003)]].
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

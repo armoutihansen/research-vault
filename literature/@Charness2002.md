@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/MU7TD2PN/Charness2002.pdf
 tags: [literature]
 keywords: [social-preferences, inequality-aversion, reciprocity, social-welfare-preferences, experimental-economics, distributional-preferences, behavioral-game-theory]
 topics: []
-related: []
+related: [Andreoni2002, Bolton2000, Fehr1999, Rabin1993]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -60,7 +60,7 @@ The authors are explicit that they do *not* claim to have disproven difference a
 - **Tractability vs. realism.** The RFE model is admittedly too complex for calibration yet still too restrictive (homogeneous preferences, equilibrium-only, omits complicity); the authors frame the trade-off between simple applicable models and psychologically accurate ones as unresolved. The strategy method, role reversal, and the relatively low rate of retaliation also caution against extrapolation.
 
 ## Connections
-Directly contests the **difference/inequality-aversion** program of Fehr & Schmidt (1999) and Bolton & Ockenfels (2000), and the earlier Bolton (1991) model that posited $\rho=0$. It extends **Andreoni & Miller (2002)**, whose dictator-menu evidence of giving to richer recipients the authors recast as social-welfare preferences, and builds on **Rabin (1993)** intention-based reciprocity (while arguing helpful sacrifice is *not* mostly positive reciprocity). The reciprocity formalism adopts the psychological-games apparatus of **Geanakoplos, Pearce & Stacchetti (1989)** and relates to **Dufwenberg & Kirchsteiger** and **Falk & Fischbacher (1998)** (which blends difference aversion with reciprocity), differing by omitting sequential-rationality refinements. The social-welfare/maximin criterion echoes **Yaari & Bar-Hillel (1984)** and Rawlsian fairness. Corroborating evidence on inequality-reduction's weak role is cited from Kagel & Wolfe (1999) and Engelmann & Strobel (2001); on inequality-increasing giving from Charness & Grosskopf (2001) and Kritikos & Bolle. The lone counter-note on positive reciprocity comes from McCabe, Rigdon & Smith (2000).
+Directly contests the **difference/inequality-aversion** program of [[@Fehr1999|Fehr & Schmidt (1999)]] and [[@Bolton2000|Bolton & Ockenfels (2000)]], and the earlier Bolton (1991) model that posited $\rho=0$. It extends **[[@Andreoni2002|Andreoni & Miller (2002)]]**, whose dictator-menu evidence of giving to richer recipients the authors recast as social-welfare preferences, and builds on **[[@Rabin1993|Rabin (1993)]]** intention-based reciprocity (while arguing helpful sacrifice is *not* mostly positive reciprocity). The reciprocity formalism adopts the psychological-games apparatus of **Geanakoplos, Pearce & Stacchetti (1989)** and relates to **Dufwenberg & Kirchsteiger** and **Falk & Fischbacher (1998)** (which blends difference aversion with reciprocity), differing by omitting sequential-rationality refinements. The social-welfare/maximin criterion echoes **Yaari & Bar-Hillel (1984)** and Rawlsian fairness. Corroborating evidence on inequality-reduction's weak role is cited from Kagel & Wolfe (1999) and Engelmann & Strobel (2001); on inequality-increasing giving from Charness & Grosskopf (2001) and Kritikos & Bolle. The lone counter-note on positive reciprocity comes from McCabe, Rigdon & Smith (2000).
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/D2KB4755/Heskes1998.pdf
 tags: [literature]
 keywords: [bias-variance-decomposition, kullback-leibler-divergence, log-likelihood, logarithmic-opinion-pool, ensemble-learning, cross-entropy, zero-one-loss]
 topics: []
-related: []
+related: [Tibshirani1996]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -58,7 +58,7 @@ A unifying, one-page-deep theoretical result showing that the elegant additivity
 - The note is silent on estimation/finite-sample issues: how to estimate these terms from a finite number of training sets, and how the framework interacts with model averaging in practice, are left open.
 
 ## Connections
-The paper sits squarely in the late-1990s line of work generalizing the classic MSE bias/variance dilemma of Geman, Bienenstock and Doursat (1992) to other losses. It adopts the desiderata and variance-first philosophy of James and Hastie (1997) and is most directly a corrective to Wolpert's (1997) "On bias plus variance" and Hall's (1987) KL-loss decomposition, both of which used arithmetic averaging and obtained target-dependent variance terms. The zero-one-loss discussion engages with Breiman (1996), Dietterich and Bakiri (1995), Friedman (1996), Tibshirani (1996), and Kohavi and Wolpert (1996). The central technical device — the logarithmic opinion pool / geometric mean of expert densities — connects to the literature on combining probability forecasts (Bordley 1982; Genest and Zidek 1986; Jacobs 1995) and to the author's own companion work on selecting weighting factors in logarithmic opinion pools (Heskes 1998, NIPS 10). The mean-and-variance example links to input-dependent-noise regression (Bishop and Qazaz 1997; Williams 1996).
+The paper sits squarely in the late-1990s line of work generalizing the classic MSE bias/variance dilemma of Geman, Bienenstock and Doursat (1992) to other losses. It adopts the desiderata and variance-first philosophy of James and Hastie (1997) and is most directly a corrective to Wolpert's (1997) "On bias plus variance" and Hall's (1987) KL-loss decomposition, both of which used arithmetic averaging and obtained target-dependent variance terms. The zero-one-loss discussion engages with Breiman (1996), Dietterich and Bakiri (1995), Friedman (1996), [[@Tibshirani1996|Tibshirani (1996)]], and Kohavi and Wolpert (1996). The central technical device — the logarithmic opinion pool / geometric mean of expert densities — connects to the literature on combining probability forecasts (Bordley 1982; Genest and Zidek 1986; Jacobs 1995) and to the author's own companion work on selecting weighting factors in logarithmic opinion pools (Heskes 1998, NIPS 10). The mean-and-variance example links to input-dependent-noise regression (Bishop and Qazaz 1997; Williams 1996).
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

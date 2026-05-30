@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/UH9MEV4Y/Simonson1992.pdf
 tags: [literature]
 keywords: [context-effects, tradeoff-contrast, extremeness-aversion, compromise-effect, attraction-effect, loss-aversion, consumer-choice]
 topics: []
-related: []
+related: [Huber1982, Simonson1989, Tversky1972]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -36,7 +36,7 @@ The **design** uses a "Survey of Consumer Preferences" questionnaire (3–14 pro
 **Theoretical model.** A context-dependent additive ("contingent additive") model: $V^S(x)=\sum_i v_i^S(x_i)$ where the set $S$ adjusts the rate-of-exchange weights (capturing tradeoff contrast) and reference point. Generalizing to $v_i^S(x_i)=w_i^S f_i[v_i(x_i)-v_i(m_i^S)]$, with $m_i^S$ the minimal level of attribute $i$ in $S$: compromise arises when both $f_i$ are strictly concave; polarization when one is concave and the other linear.
 
 ## Data
-Original experimental data from 22 between-subjects studies (no secondary dataset); product categories include 35mm cameras, personal computers, unleaded gasoline, tires, paper towels/facial tissues, microwaves, cash-vs-pen, calculator batteries, calculators, portable grills, AM/FM cassette players, dental insurance, and binoculars. Several studies reuse data from Simonson (1989).
+Original experimental data from 22 between-subjects studies (no secondary dataset); product categories include 35mm cameras, personal computers, unleaded gasoline, tires, paper towels/facial tissues, microwaves, cash-vs-pen, calculator batteries, calculators, portable grills, AM/FM cassette players, dental insurance, and binoculars. Several studies reuse data from [[@Simonson1989|Simonson (1989)]].
 
 ## Key findings
 - **Background contrast.** Subjects exposed to a high cost-of-memory background later chose the bigger-memory PC far more (52% vs. 18%); for gifts, a \$5/coupon background pushed 73% to the larger-cash gift vs. 47% under \$15/coupon. Effect holds even with a *single* background comparison (PCs $t=4.7$; tires $t=3.7$), and cannot be explained by attribute-range manipulations.
@@ -56,7 +56,7 @@ Unifies the previously scattered literature on context effects (attraction, comp
 - *Estimating the contingent additive model.* The full model "cannot be readily estimated from aggregate data"; developing a simplified, estimable version to revise standard VM-based prediction methods (e.g., conjoint) is left for future research.
 
 ## Connections
-Directly extends loss aversion and reference-dependence (Kahneman, Knetsch, and Thaler 1991; Tversky and Kahneman 1991) by redefining the reference point relative to other alternatives in the set. It builds on and unifies the **attraction/asymmetric-dominance effect** (Huber, Payne, and Puto 1982; Huber and Puto 1983) and the **compromise effect** (Simonson 1989), and engages the constructive-preference view (Bettman, Johnson, and Payne 1991; Payne, Bettman, and Johnson 1992). The formal model draws on contingent weighting (Tversky, Sattath, and Slovic 1988) and is developed further in Tversky and Simonson (in press, "Context-Dependent Preferences"). Its challenge to context-independent VM bears on probabilistic choice models (Luce 1977; McFadden 1973; Tversky 1972) and on conjoint-based market-share prediction (Green and Srinivasan 1990), with practical links to sales promotions (Blattberg and Neslin 1990) via the asymmetric-dominance interpretation of deals.
+Directly extends loss aversion and reference-dependence (Kahneman, Knetsch, and Thaler 1991; Tversky and Kahneman 1991) by redefining the reference point relative to other alternatives in the set. It builds on and unifies the **attraction/asymmetric-dominance effect** ([[@Huber1982|Huber, Payne, and Puto 1982]]; Huber and Puto 1983) and the **compromise effect** ([[@Simonson1989|Simonson 1989)]], and engages the constructive-preference view (Bettman, Johnson, and Payne 1991; Payne, Bettman, and Johnson 1992). The formal model draws on contingent weighting (Tversky, Sattath, and Slovic 1988) and is developed further in Tversky and Simonson (in press, "Context-Dependent Preferences"). Its challenge to context-independent VM bears on probabilistic choice models (Luce 1977; McFadden 1973; [[@Tversky1972|Tversky 1972)]] and on conjoint-based market-share prediction (Green and Srinivasan 1990), with practical links to sales promotions (Blattberg and Neslin 1990) via the asymmetric-dominance interpretation of deals.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

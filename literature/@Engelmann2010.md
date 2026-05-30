@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/ZNLLJNJA/Engelmann2010.pdf
 tags: [literature]
 keywords: [inequality-aversion, reciprocity, moonlighting-game, social-preferences, experimental-economics, reference-points]
 topics: []
-related: []
+related: [Bolton2000, Charness2002, Cox2004, Dufwenberg2004, Falk2006, Falk2008, Fehr1999]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -49,7 +49,7 @@ Original lab data: six z-Tree sessions (three per treatment, ~16 subjects each, 
 - **Result 6.** Player 1 behavior is nearly identical across treatments (mean transfer $-3$ vs $-3.63$, $p>0.5$), contradicting inequality aversion's prediction of more taking in T2.
 
 ## Contribution
-The paper isolates negative reciprocity from advantageous inequality aversion within a single canonical game and shows reciprocity dominates. It reframes a large literature: the empirical success of Fehr-Schmidt / Bolton-Ockenfels models is substantially an artifact of design choices where equal payoffs are the focal neutral point (the kind are poor, the unkind rich). It complements Falk-Fehr-Fischbacher (2008) by showing that when reciprocity is *not merely removed* but set *in opposition*, inequality aversion fails outright; and it mirrors the authors' own distribution-game finding (Engelmann-Strobel 2004) that subjects rarely punish blameless rich players, here adding that they readily punish blameworthy poor ones.
+The paper isolates negative reciprocity from advantageous inequality aversion within a single canonical game and shows reciprocity dominates. It reframes a large literature: the empirical success of Fehr-Schmidt / Bolton-Ockenfels models is substantially an artifact of design choices where equal payoffs are the focal neutral point (the kind are poor, the unkind rich). It complements [[@Falk2008|Falk-Fehr-Fischbacher (2008)]] by showing that when reciprocity is *not merely removed* but set *in opposition*, inequality aversion fails outright; and it mirrors the authors' own distribution-game finding (Engelmann-Strobel 2004) that subjects rarely punish blameless rich players, here adding that they readily punish blameworthy poor ones.
 
 ## Limitations & open questions
 The authors are unusually explicit about boundaries and open hooks:
@@ -60,7 +60,7 @@ The authors are unusually explicit about boundaries and open hooks:
 - The experiment was **not purpose-built to test Cox-Friedman-Sadiraj** (it predates it); the authors flag an ideal three-treatment design in which P2 faces the *identical budget set* after a take in the asymmetric treatment, a send in the symmetric treatment, and a neutral action — letting all behavioral differences be attributed cleanly to the status-quo shift.
 
 ## Connections
-Directly extends Falk, Fehr and Fischbacher (2008, *GEB*), whose random-move moonlighting treatment removed reciprocity; this paper instead opposes it. It builds on the moonlighting game of Abbink, Irlenbusch and Renner (2000). The targets of critique are the inequality-aversion models of Fehr and Schmidt (1999) and Bolton and Ockenfels (2000, ERC). It situates against the explicit reciprocity theories of Dufwenberg and Kirchsteiger (2004), Falk and Fischbacher (2006), and especially Cox, Friedman and Sadiraj (2008, "Revealed Altruism"), whose status-quo Axiom S best rationalizes the data. The distributional backdrop — that efficiency and maximin often beat inequality aversion — comes from Charness and Rabin (2002) and the authors' own Engelmann and Strobel (2004, *AER*) and (2007). Related identification strategies appear in Cox (2004), Kagel and Wolfe (2001), and Bolton, Brandts and Ockenfels (1998). The trust/investment paradigm referenced is Berg, Dickhaut and McCabe (1995).
+Directly extends [[@Falk2008|Falk, Fehr and Fischbacher (2008]], *GEB*), whose random-move moonlighting treatment removed reciprocity; this paper instead opposes it. It builds on the moonlighting game of Abbink, Irlenbusch and Renner (2000). The targets of critique are the inequality-aversion models of [[@Fehr1999|Fehr and Schmidt (1999)]] and [[@Bolton2000|Bolton and Ockenfels (2000]], ERC). It situates against the explicit reciprocity theories of [[@Dufwenberg2004|Dufwenberg and Kirchsteiger (2004)]], [[@Falk2006|Falk and Fischbacher (2006)]], and especially Cox, Friedman and Sadiraj (2008, "Revealed Altruism"), whose status-quo Axiom S best rationalizes the data. The distributional backdrop — that efficiency and maximin often beat inequality aversion — comes from [[@Charness2002|Charness and Rabin (2002)]] and the authors' own Engelmann and Strobel (2004, *AER*) and (2007). Related identification strategies appear in [[@Cox2004|Cox (2004)]], Kagel and Wolfe (2001), and Bolton, Brandts and Ockenfels (1998). The trust/investment paradigm referenced is Berg, Dickhaut and McCabe (1995).
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/9FSHPQ2Q/Trueblood2013.pdf
 tags: [literature]
 keywords: [context-effects, attraction-effect, similarity-effect, compromise-effect, perceptual-choice, stochastic-choice, simple-scalability]
 topics: []
-related: []
+related: [Huber1982, Simonson1989, Tversky1972, Tversky1993]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -45,7 +45,7 @@ Behavioral data from three samples of undergraduates run for course credit: Exp.
 ## Key findings
 
 - **Attraction effect (Exp. 1):** the focal option was chosen significantly more often than the nonfocal option, $t(48)=2.601$, $p=.012$. Effect-size ordering matched the consumer literature (Huber et al., 1982): range strongest, $t(48)=3.616$, $p<.001$; range-frequency next, $t(48)=2.085$, $p=.042$; frequency negligible, $t(48)=1.135$, $p=.262$. 69% / 61% / 59% of subjects showed range / range-frequency / frequency effects.
-- **Similarity effect (Exp. 2):** the dissimilar (focal) option gained share, $t(61)=2.882$, $p=.006$, consistently across both orientations; 69% of subjects showed it—far more than the 3-of-8 in Tversky's (1972) perceptual task.
+- **Similarity effect (Exp. 2):** the dissimilar (focal) option gained share, $t(61)=2.882$, $p=.006$, consistently across both orientations; 69% of subjects showed it—far more than the 3-of-8 in [[@Tversky1972|Tversky's (1972)]] perceptual task.
 - **Compromise effect (Exp. 3):** the compromise option was preferred over the extreme option, $t(58)=1.967$, $p=.054$ (two-tailed; significant one-tailed, which the directional hypothesis justifies); 66% of subjects showed it. First evidence of a perceptual compromise effect.
 - All three effects co-occur in one paradigm with nonhedonic stimuli, so explanations resting on attribute-level gains/losses cannot be the common cause.
 
@@ -65,7 +65,7 @@ The authors flag several explicit open problems:
 
 ## Connections
 
-Directly operationalizes the three canonical context effects from Huber, Payne, and Puto (1982) (attraction), Tversky (1972) (similarity, via elimination-by-aspects), and Simonson (1989) (compromise). The reductionist move builds on Choplin & Hummel (2005) (perceptual attraction with ovals) and Tsetsos, Usher, & McClelland (2011) (perceptual similarity). The constructive theoretical targets are the dynamic accumulator models MDFT (Roe, Busemeyer, & Townsend, 2001; Hotaling, Busemeyer, & Li, 2010) and LCA (Usher & McClelland, 2004), and the paper positions itself against Tversky & Kahneman (1991) and Tversky & Simonson (1993) reference-dependent, loss-aversion theories. For economists working on stochastic choice and menu-dependent (context-dependent) preferences, this is a clean existence proof that violations of simple scalability / IIA-type regularity arise even absent semantic content, motivating process models over static random-utility specifications.
+Directly operationalizes the three canonical context effects from [[@Huber1982|Huber, Payne, and Puto (1982)]] (attraction), [[@Tversky1972|Tversky (1972)]] (similarity, via elimination-by-aspects), and [[@Simonson1989|Simonson (1989)]] (compromise). The reductionist move builds on Choplin & Hummel (2005) (perceptual attraction with ovals) and Tsetsos, Usher, & McClelland (2011) (perceptual similarity). The constructive theoretical targets are the dynamic accumulator models MDFT (Roe, Busemeyer, & Townsend, 2001; Hotaling, Busemeyer, & Li, 2010) and LCA (Usher & McClelland, 2004), and the paper positions itself against Tversky & Kahneman (1991) and [[@Tversky1993|Tversky & Simonson (1993)]] reference-dependent, loss-aversion theories. For economists working on stochastic choice and menu-dependent (context-dependent) preferences, this is a clean existence proof that violations of simple scalability / IIA-type regularity arise even absent semantic content, motivating process models over static random-utility specifications.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

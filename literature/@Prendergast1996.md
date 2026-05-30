@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/53XRPTGY/Prendergast1996.pdf
 tags: [literature]
 keywords: [favoritism, subjective-performance-evaluation, principal-agent, incentive-compensation, bureaucracy, promotion, personnel-economics]
 topics: []
-related: []
+related: [Holmstrom1982]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -52,7 +52,7 @@ First systematic treatment of favoritism arising from *subjective, noncontractib
 - The optimal tying of wages to jobs depends on parameter values trading incentive provision against misallocation; characterizing this boundary more generally is left informal.
 
 ## Connections
-Built directly on Holmstrom and Milgrom (1987) linear-contract / CARA-normal foundations and extends Prendergast (1993) on subjective evaluation; the "yes men" and training-substitution results draw on Holmstrom and Milgrom (1992) and Prendergast (1993). It is positioned as complementary to but distinct from Milgrom (1988) and Milgrom and Roberts (1988, 1990) on influence costs—here the firm bears the distortion, not wasteful influence activities. Holmstrom (1982) career-concerns reputation effects are deliberately shut down by the assumption that promotion carries no return in the base model. The bureaucracy result connects to Milkovich and Wigdor (1991) on decoupling appraisal from merit pay. The paper anticipates later work on subjective performance evaluation, relational contracts, and the design of discretion in organizations.
+Built directly on Holmstrom and Milgrom (1987) linear-contract / CARA-normal foundations and extends Prendergast (1993) on subjective evaluation; the "yes men" and training-substitution results draw on Holmstrom and Milgrom (1992) and Prendergast (1993). It is positioned as complementary to but distinct from Milgrom (1988) and Milgrom and Roberts (1988, 1990) on influence costs—here the firm bears the distortion, not wasteful influence activities. [[@Holmstrom1982|Holmstrom (1982)]] career-concerns reputation effects are deliberately shut down by the assumption that promotion carries no return in the base model. The bureaucracy result connects to Milkovich and Wigdor (1991) on decoupling appraisal from merit pay. The paper anticipates later work on subjective performance evaluation, relational contracts, and the design of discretion in organizations.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

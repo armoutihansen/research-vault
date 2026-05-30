@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/QZT5GMIX/Bastani2022.pdf
 tags: [literature]
 keywords: [interpretable-reinforcement-learning, human-ai-interface, sequential-decision-making, behavioral-operations, model-distillation, randomized-controlled-experiment, algorithm-aversion]
 topics: []
-related: []
+related: [Fudenberg2019a]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -59,7 +59,7 @@ Human trace data from a custom virtual kitchen-management game (Overcooked-inspi
 - External validity: the study is a stylized game on AMT crowdworkers, not field workers (physicians, drivers) the motivation invokes.
 
 ## Connections
-The interpretable-RL machinery builds directly on model distillation (Buciluǎ et al. 2006; Hinton et al. 2015) and policy-distillation/VIPER-style interpretable RL (Verma et al. 2018; Bastani et al. 2018), reusing the latter's performance-difference lemma. It contrasts with work that predicts *when* humans deviate from optimal but uninterpretably — notably the Fudenberg–Liang line on predicting choice mistakes (Fudenberg and Liang 2019; Fudenberg et al. 2021) and McIlroy-Young et al. (2020) on human-like chess — which is methodologically adjacent to Jesper's choice-modeling/predicting-complexity-of-social-preferences interests. On the behavioral-operations side it connects to process-standardization and peer-learning literatures (Song et al. 2017 on physician best-practice diffusion; Ramdas et al. 2017; Ibanez et al. 2018) and to debiasing-via-simple-rules training (Morewedge et al. 2015; Sellier et al. 2019). The compliance results engage algorithm-aversion work (Dietvorst et al. 2015; Dawes et al. 1989) and interpretable-ML advocacy (Rudin 2019). The human-AI-advice framing relates broadly to recommendation-adoption and nudge literatures (Benjamin et al. 2010).
+The interpretable-RL machinery builds directly on model distillation (Buciluǎ et al. 2006; Hinton et al. 2015) and policy-distillation/VIPER-style interpretable RL (Verma et al. 2018; Bastani et al. 2018), reusing the latter's performance-difference lemma. It contrasts with work that predicts *when* humans deviate from optimal but uninterpretably — notably the Fudenberg–Liang line on predicting choice mistakes ([[@Fudenberg2019a|Fudenberg and Liang 2019]]; Fudenberg et al. 2021) and McIlroy-Young et al. (2020) on human-like chess — which is methodologically adjacent to Jesper's choice-modeling/predicting-complexity-of-social-preferences interests. On the behavioral-operations side it connects to process-standardization and peer-learning literatures (Song et al. 2017 on physician best-practice diffusion; Ramdas et al. 2017; Ibanez et al. 2018) and to debiasing-via-simple-rules training (Morewedge et al. 2015; Sellier et al. 2019). The compliance results engage algorithm-aversion work (Dietvorst et al. 2015; Dawes et al. 1989) and interpretable-ML advocacy (Rudin 2019). The human-AI-advice framing relates broadly to recommendation-adoption and nudge literatures (Benjamin et al. 2010).
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

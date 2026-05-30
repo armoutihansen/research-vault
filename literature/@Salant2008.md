@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/MUUJATYV/Salant2008.pdf
 tags: [literature]
 keywords: [bounded-rationality, framing-effects, revealed-preference, choice-theory, limited-attention, reference-dependence]
 topics: []
-related: []
+related: [Manzini2007, Rubinstein2006, Sen1971]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -46,7 +46,7 @@ None — this is a theoretical paper. Six illustrative extended-choice models ar
 ## Key findings
 
 - **Observation 1.** Without structure the two models are indistinguishable: every choice correspondence $C$ equals $C_c$ for some extended choice function $c$ when frames are unobserved (proved by a direct construction). So frames add nothing unless one restricts the class.
-- **Proposition 1.** A correspondence $C$ equals $C_\succ$ for some asymmetric, transitive (possibly incomplete) $\succ$ **iff** there is a Salient Consideration function satisfying $\gamma$-extended with $C=C_c$. The proof routes through **Lemma 1**: $C$ satisfies $\alpha$, $\alpha^+$, $\gamma$ iff it maximizes an asymmetric transitive relation (building on Sen 1971, with $\alpha^+$ supplying transitivity beyond acyclicity).
+- **Proposition 1.** A correspondence $C$ equals $C_\succ$ for some asymmetric, transitive (possibly incomplete) $\succ$ **iff** there is a Salient Consideration function satisfying $\gamma$-extended with $C=C_c$. The proof routes through **Lemma 1**: $C$ satisfies $\alpha$, $\alpha^+$, $\gamma$ iff it maximizes an asymmetric transitive relation (building on [[@Sen1971|Sen 1971]], with $\alpha^+$ supplying transitivity beyond acyclicity).
 - **Proposition 2.** $C=C_{\succeq}$ for a *complete* and transitive $\succeq$ **iff** there is a Salient Consideration function satisfying the stronger $\gamma^+$-extended. **Lemma 2** establishes that $\alpha$, $\alpha^+$, $\gamma^+$ jointly characterize complete-transitive maximization.
 - **Limits of the correspondence view (Section 4).** Three negative results: (a) the induced correspondence may carry *no* information — e.g. the advertisement model gives $C_c(A)=A$ for every menu; (b) reasonable extended choice functions (e.g. good-mood maximize / bad-mood minimize an ordering) induce correspondences that *cannot* be rationalized by any transitive relation; (c) even when a transitive relation exists, it conflates preference with procedure (in the limited-attention model $\succ$ treats the attention ordering $O$ and the preference ordering $P$ symmetrically), and its symmetric component need not mean indifference.
 - **Limited-attention characterization (Section 5).** The class $c^{O,P}(A,n)$ — pick the $P$-best among the first $\min\{n,|A|\}$ elements under attention ordering $O$ — is characterized by three "Attention" axioms (Attention 1–3) relating one-element vs full-attention binary choices and accessibility-monotone menu expansion.
@@ -57,7 +57,7 @@ Provides a clean, classical-theory-compatible language for framing/bounded-ratio
 
 ## Limitations & open questions
 
-- The paper deliberately brackets **welfare**: it constructs rationalizing relations but argues (citing Rubinstein 2006; Rubinstein and Salant 2008) that identifying choice with well-being is a strong, separate assumption. How to extract welfare from frame-sensitive data is left open — exactly the gap Bernheim and Rangel pursue.
+- The paper deliberately brackets **welfare**: it constructs rationalizing relations but argues (citing [[@Rubinstein2006|Rubinstein 2006]]; Rubinstein and Salant 2008) that identifying choice with well-being is a strong, separate assumption. How to extract welfare from frame-sensitive data is left open — exactly the gap Bernheim and Rangel pursue.
 - It flags but does not resolve the **identification problem** that the rationalizing relation entangles preference and procedure (e.g. $O$ vs $P$ in limited attention); disentangling them requires richer, frame-level data.
 - The authors caution that the framework should *not* be applied when the "frame" is in fact payoff-relevant (their matchmaking example $(A,f)$), but give no formal test to distinguish genuine frames from relevant covariates.
 - Domain restrictions and invariance requirements (e.g. list invariance) are noted as modelling choices to be made case by case rather than derived.
@@ -65,7 +65,7 @@ Provides a clean, classical-theory-compatible language for framing/bounded-ratio
 
 ## Connections
 
-This is a foundational entry in the "choice with frames / bounded rationality" literature. It is developed in parallel with Bernheim and Rangel (2007)'s "choice with ancillary conditions," which shares the $(A,f)$ structure but targets behavioural welfare economics. It consolidates Rubinstein and Salant (2006a, "A Model of Choice from Lists") and (2006b, "Two Comments on the Principle of Revealed Preference"). The limited-attention example connects to two-stage / consideration-set procedures: Manzini and Mariotti (2007)'s Rational Shortlist Method and Eliaz and Spiegler (2007)'s consideration sets. The default/status-quo model links to Zhou (1997), Masatlioglu and Ok (2005, 2006), and Sagi (2006). The list/satisficing example operationalizes Simon (1955). The technical backbone is Sen (1971) on consistency conditions ($\alpha$, $\gamma$) and revealed preference. Together these works seed the modern literature on limited attention and reference-dependent, procedurally rational choice.
+This is a foundational entry in the "choice with frames / bounded rationality" literature. It is developed in parallel with Bernheim and Rangel (2007)'s "choice with ancillary conditions," which shares the $(A,f)$ structure but targets behavioural welfare economics. It consolidates [[@Rubinstein2006|Rubinstein and Salant (2006a]], "A Model of Choice from Lists") and (2006b, "Two Comments on the Principle of Revealed Preference"). The limited-attention example connects to two-stage / consideration-set procedures: [[@Manzini2007|Manzini and Mariotti (2007)]]'s Rational Shortlist Method and Eliaz and Spiegler (2007)'s consideration sets. The default/status-quo model links to Zhou (1997), Masatlioglu and Ok (2005, 2006), and Sagi (2006). The list/satisficing example operationalizes Simon (1955). The technical backbone is [[@Sen1971|Sen (1971)]] on consistency conditions ($\alpha$, $\gamma$) and revealed preference. Together these works seed the modern literature on limited attention and reference-dependent, procedurally rational choice.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

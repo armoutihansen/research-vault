@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/K9Z68K8T/Eliaz2011a.pdf
 tags: [literature]
 keywords: [choice-correspondence, consideration-sets, axiomatization, bounded-rationality, revealed-preference, shortlisting]
 topics: []
-related: []
+related: [Sprumont2000]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -60,7 +60,7 @@ Supplies the missing behavioral characterizations for *small-set* (specifically 
 - For the team interpretation the model is silent on within-pair structure (e.g., president vs. vice-president roles); it treats the pair as unordered.
 
 ## Connections
-Squarely in the bounded-rationality / two-stage choice literature. It contrasts itself with **Manzini & Mariotti** (sequentially rationalizable choice, 2007; consumer choice and revealed bounded rationality, 2009) and **Masatlioglu, Nakajima & Ozbay** (revealed attention, 2008): those papers observe the *final* choice and *infer* the shortlist/attention filter, whereas here the shortlist itself is the observable. The consideration-set reading draws on **Kreps (1979)** on preference for flexibility and on the authors' own **Eliaz & Spiegler (2009)** on consideration sets and competitive marketing. The top-and-the-top connects to multi-rationale rationalization (**Aizerman & Malishevski 1981**) and, via the Pareto interpretation of two individuals' orderings, to testable implications of collective choice (**Sprumont 2000**). The two-agent organizational reading (a screener plus a top manager) cites **García-Sanz (2008)**.
+Squarely in the bounded-rationality / two-stage choice literature. It contrasts itself with **Manzini & Mariotti** (sequentially rationalizable choice, 2007; consumer choice and revealed bounded rationality, 2009) and **Masatlioglu, Nakajima & Ozbay** (revealed attention, 2008): those papers observe the *final* choice and *infer* the shortlist/attention filter, whereas here the shortlist itself is the observable. The consideration-set reading draws on **Kreps (1979)** on preference for flexibility and on the authors' own **Eliaz & Spiegler (2009)** on consideration sets and competitive marketing. The top-and-the-top connects to multi-rationale rationalization (**Aizerman & Malishevski 1981**) and, via the Pareto interpretation of two individuals' orderings, to testable implications of collective choice (**[[@Sprumont2000|Sprumont 2000]]**). The two-agent organizational reading (a screener plus a top manager) cites **García-Sanz (2008)**.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

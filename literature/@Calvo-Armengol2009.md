@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/DTW22VBK/Calvo-Armengol2009.pdf
 tags: [literature]
 keywords: [peer-effects, social-networks, katz-bonacich-centrality, network-games, identification, education-economics, spatial-econometrics]
 topics: []
-related: []
+related: [Sacerdote2001]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -60,7 +60,7 @@ The authors are explicit about several hooks:
 - Extending the network-location lens to **other outcomes** — labour markets, crime, smoking — is offered as a direction.
 
 ## Connections
-Directly extends Ballester, Calvó-Armengol and Zenou (2006) "Who's Who in Networks. Wanted: The Key Player" (the source of the Bonacich-equilibrium machinery and optimal network policy). The identification argument builds on and parallels Bramoullé, Djebbari and Fortin (2009) on identification of peer effects through social networks, and confronts Manski (1993)'s reflection problem head-on. Centrality concepts trace to Katz (1953) and Bonacich (1987); the econometrics is the spatial error model of Anselin (1988). It sits within the economics-of-networks programme surveyed by Goyal (2007) and Jackson (2008), and complements the natural-experiment / IV peer-effects literature (Sacerdote 2001; Angrist and Lavy 1999; De Giorgi, Pellizzari and Redaelli 2007) by taking a structural rather than reduced-form route. The supermodular-games literature (Topkis 1979; Vives 2005) is invoked for the multiple-equilibria regime when $\phi\omega(g)<1$ fails.
+Directly extends Ballester, Calvó-Armengol and Zenou (2006) "Who's Who in Networks. Wanted: The Key Player" (the source of the Bonacich-equilibrium machinery and optimal network policy). The identification argument builds on and parallels Bramoullé, Djebbari and Fortin (2009) on identification of peer effects through social networks, and confronts Manski (1993)'s reflection problem head-on. Centrality concepts trace to Katz (1953) and Bonacich (1987); the econometrics is the spatial error model of Anselin (1988). It sits within the economics-of-networks programme surveyed by Goyal (2007) and Jackson (2008), and complements the natural-experiment / IV peer-effects literature ([[@Sacerdote2001|Sacerdote 2001]]; Angrist and Lavy 1999; De Giorgi, Pellizzari and Redaelli 2007) by taking a structural rather than reduced-form route. The supermodular-games literature (Topkis 1979; Vives 2005) is invoked for the multiple-equilibria regime when $\phi\omega(g)<1$ fails.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

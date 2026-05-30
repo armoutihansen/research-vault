@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/GKXB45TB/Milgrom1981.pdf
 tags: [literature]
 keywords: [monotone-likelihood-ratio, information-economics, first-order-stochastic-dominance, principal-agent, disclosure-games, winners-curse]
 topics: []
-related: []
+related: [Akerlof1970]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -60,7 +60,7 @@ Provides the now-standard formal vocabulary linking first-order stochastic domin
 
 ## Connections
 
-Builds directly on Holmström (1979) "Moral Hazard and Observability" (and the diminishing-returns correction by Grossman–Hart 1980), supplying the MLRP justification for monotone contracts. The persuasion/unraveling result parallels Grossman (1980) on warranties and disclosure, foundational for the verifiable-disclosure literature. The favorableness/MLRP apparatus feeds into Milgrom–Weber (1980) "A Theory of Auctions and Competitive Bidding" and the affiliation concept, and connects to the winner's-curse analyses of R. Wilson (1977) and Milgrom (1979, 1981). The signaling/adverse-selection backdrop is Spence (1973), Akerlof (1970, 1976), Rothschild–Stiglitz (1976), and C. Wilson (1977); the asset-pricing application links to Cox–Ross (1976) and Harrison–Kreps (1979). Sequential equilibrium is taken from Kreps–Wilson (1980).
+Builds directly on Holmström (1979) "Moral Hazard and Observability" (and the diminishing-returns correction by Grossman–Hart 1980), supplying the MLRP justification for monotone contracts. The persuasion/unraveling result parallels Grossman (1980) on warranties and disclosure, foundational for the verifiable-disclosure literature. The favorableness/MLRP apparatus feeds into Milgrom–Weber (1980) "A Theory of Auctions and Competitive Bidding" and the affiliation concept, and connects to the winner's-curse analyses of R. Wilson (1977) and Milgrom (1979, 1981). The signaling/adverse-selection backdrop is Spence (1973), [[@Akerlof1970|Akerlof (1970]], 1976), Rothschild–Stiglitz (1976), and C. Wilson (1977); the asset-pricing application links to Cox–Ross (1976) and Harrison–Kreps (1979). Sequential equilibrium is taken from Kreps–Wilson (1980).
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

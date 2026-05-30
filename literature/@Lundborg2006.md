@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/3ALSMGI8/Lundborg2006.pdf
 tags: [literature]
 keywords: [peer-effects, adolescent-substance-use, reflection-problem, fixed-effects, instrumental-variables, health-economics, social-interactions]
 topics: []
-related: []
+related: [Gaviria2001]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -55,7 +55,7 @@ The paper improves credibility over earlier neighbourhood- or school-level peer-
 - **External validity.** Estimates come from a single Swedish municipality, leaving generalisability to other institutional settings open.
 
 ## Connections
-The framing is squarely Manski (1993, 1995): endogenous vs. contextual vs. correlated effects, and the reflection problem the two-stage strategy attacks. The fixed-effects-plus-class-average-instruments design is borrowed explicitly from Case and Katz (1991) and Gaviria and Raphael (2001), with the latter also supplying the comparison estimates (peer marginal effects of ~0.32/0.35/0.16) and the single-parent null. Norton, Lindrooth and Ennett (1998) supply much larger neighbourhood-level estimates. Methodological scaffolding comes from Maddala (1983) for the two-stage probit, Rivers and Vuong (1988) for the endogeneity test and control-function alternative, Bollen et al. (1995) for overidentification testing, and Guilkey et al. (1992) for the finding that Maddala's standard-error correction offers no finite-sample gain. Related contemporaneous peer-effect work includes Clark and Lohéac (2004), Krauth (2004), and the room-mate randomisation of Kremer and Levy (2003). Theoretically the paper sits beside the addiction/price literature (Becker and Murphy, 1988; Becker, 1992) and social-interaction welfare results (Laux, 2000), with the risk-perception findings echoing Viscusi (1990, 1991) and the author's own work with Lindgren (2002, 2004).
+The framing is squarely Manski (1993, 1995): endogenous vs. contextual vs. correlated effects, and the reflection problem the two-stage strategy attacks. The fixed-effects-plus-class-average-instruments design is borrowed explicitly from Case and Katz (1991) and [[@Gaviria2001|Gaviria and Raphael (2001)]], with the latter also supplying the comparison estimates (peer marginal effects of ~0.32/0.35/0.16) and the single-parent null. Norton, Lindrooth and Ennett (1998) supply much larger neighbourhood-level estimates. Methodological scaffolding comes from Maddala (1983) for the two-stage probit, Rivers and Vuong (1988) for the endogeneity test and control-function alternative, Bollen et al. (1995) for overidentification testing, and Guilkey et al. (1992) for the finding that Maddala's standard-error correction offers no finite-sample gain. Related contemporaneous peer-effect work includes Clark and Lohéac (2004), Krauth (2004), and the room-mate randomisation of Kremer and Levy (2003). Theoretically the paper sits beside the addiction/price literature (Becker and Murphy, 1988; Becker, 1992) and social-interaction welfare results (Laux, 2000), with the risk-perception findings echoing Viscusi (1990, 1991) and the author's own work with Lindgren (2002, 2004).
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

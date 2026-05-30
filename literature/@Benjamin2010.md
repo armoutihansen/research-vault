@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/N7SMX942/Benjamin2010.pdf
 tags: [literature]
 keywords: [social-identity, time-preference, risk-aversion, priming, behavioral-economics, self-categorization, identity-economics]
 topics: []
-related: []
+related: [Akerlof2000, Chen2009]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -59,7 +59,7 @@ The paper is an early and influential demonstration that **social identity causa
 - **Transitory vs. steady-state:** primes perturb $s$ only temporarily; whether repeated real-world primes accumulate into persistent preference change (and the welfare/policy implications of a "benevolent policymaker" using primes for savings or voting) is left open.
 
 ## Connections
-The theoretical backbone is **Akerlof and Kranton (2000)**, "Economics and Identity," which the quadratic-loss model directly operationalizes. The priming manipulations adapt **Shih, Pittinsky, and Ambady (1999)** on ethnicity/gender salience and math performance, and the broader self-categorization tradition (James 1890; Turner 1985). On contested black-norm claims it engages **Sowell (1975, 1981)** and **Murray (1984)** versus patience-emphasizing accounts (Storing, West, Bell). Preference-elicitation and validation draw on **Frederick, Loewenstein, and O'Donoghue (2002)** for time discounting and **Barsky et al. (1997)**, Dohmen et al. (2005), and Sahm (2007) for risk measurement; the inertia argument for long-run policy relevance leans on **Madrian and Shea (2001)** and **Choi et al. (2002)**. It is adjacent to economics-of-identity work on discrimination and group identity (Hoff and Pandey 2006; **Chen and Li 2009**) and on incentive effects in experiments (Camerer and Hogarth 1999; Holt and Laury 2002). The acting-white field literature (Austen-Smith and Fryer 2005; Fryer and Torelli 2005) motivates the confounding problem the experiment is designed to escape.
+The theoretical backbone is **[[@Akerlof2000|Akerlof and Kranton (2000)]]**, "Economics and Identity," which the quadratic-loss model directly operationalizes. The priming manipulations adapt **Shih, Pittinsky, and Ambady (1999)** on ethnicity/gender salience and math performance, and the broader self-categorization tradition (James 1890; Turner 1985). On contested black-norm claims it engages **Sowell (1975, 1981)** and **Murray (1984)** versus patience-emphasizing accounts (Storing, West, Bell). Preference-elicitation and validation draw on **Frederick, Loewenstein, and O'Donoghue (2002)** for time discounting and **Barsky et al. (1997)**, Dohmen et al. (2005), and Sahm (2007) for risk measurement; the inertia argument for long-run policy relevance leans on **Madrian and Shea (2001)** and **Choi et al. (2002)**. It is adjacent to economics-of-identity work on discrimination and group identity (Hoff and Pandey 2006; **[[@Chen2009|Chen and Li 2009]]**) and on incentive effects in experiments (Camerer and Hogarth 1999; Holt and Laury 2002). The acting-white field literature (Austen-Smith and Fryer 2005; Fryer and Torelli 2005) motivates the confounding problem the experiment is designed to escape.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

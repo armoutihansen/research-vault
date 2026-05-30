@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/32LPA4U9/Mandler2012.pdf
 tags: [literature]
 keywords: [checklists, utility-maximization, bounded-rationality, elimination-by-aspects, lexicographic-utility, revealed-preference, choice-function, procedural-rationality]
 topics: []
-related: []
+related: [Manzini2014]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -53,7 +53,7 @@ Bridges procedural/bounded-rationality decision models from psychology and marke
 - Whether *natural* properties exist is context-dependent (summer/winter fruits vs. a disparate retirement-spending menu); the availability of natural properties, not just their logical existence, determines whether substantively rational behavior actually materializes — a behavioral question left unformalized.
 
 ## Connections
-The procedural targets are Tversky's **elimination-by-aspects** (of which the deterministic checklist is a simplification) and the "fast and frugal"/non-compensatory heuristics of **Gigerenzer & Goldstein**, set against **Simon's** procedural-vs-substantive rationality. The representation results connect to **Chipman's** lexicographic utility and the ordinal-number constructions of Cuesta Dutari and Sierpinski; the characterization side relates to **Richter's** revealed-preference theorem and the strong axiom. Theorem 3's binary-search/twenty-questions framing links to **Huffman coding** and classic algorithmics. Within the bounded-rationality literature it is a companion to Manzini & Mariotti's work on shortlisting and consideration sets (see Manzini2014 in this vault), and the alternative's representation as a bundle of attributes follows **Lancaster** characteristics theory.
+The procedural targets are Tversky's **elimination-by-aspects** (of which the deterministic checklist is a simplification) and the "fast and frugal"/non-compensatory heuristics of **Gigerenzer & Goldstein**, set against **Simon's** procedural-vs-substantive rationality. The representation results connect to **Chipman's** lexicographic utility and the ordinal-number constructions of Cuesta Dutari and Sierpinski; the characterization side relates to **Richter's** revealed-preference theorem and the strong axiom. Theorem 3's binary-search/twenty-questions framing links to **Huffman coding** and classic algorithmics. Within the bounded-rationality literature it is a companion to Manzini & Mariotti's work on shortlisting and consideration sets (see [[@Manzini2014|Manzini2014]] in this vault), and the alternative's representation as a bundle of attributes follows **Lancaster** characteristics theory.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

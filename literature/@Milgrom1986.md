@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/MBV6FNYS/Milgrom1986.pdf
 tags: [literature]
 keywords: [signaling, advertising, product-quality, experience-goods, equilibrium-refinement, industrial-organization, repeat-purchases]
 topics: []
-related: []
+related: [Nelson1970]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -54,7 +54,7 @@ First fully specified formal model jointly endogenizing price *and* dissipative 
 - **Endogenous conditions.** Propositions 1–4 are stated on the endogenous $\Pi$ function; whether they hold must be checked in primitive-based models, done only for one example.
 
 ## Connections
-The paper is the formal completion of **Nelson (1970, 1974, 1978)** on search vs. experience goods and advertising as a quality signal. It is the multidimensional, price-inclusive counterpart to **Kihlstrom and Riordan (1984)**, where firms do not choose prices, and is contrasted with **Schmalensee (1978)** (rule-of-thumb consumers, low-quality firms advertise) and **Johnsen (1976)** (no existence with two signals). On the quality-as-choice / repeat-business side it complements **Klein and Leffler (1981)** and **Shapiro (1983)**. The signaling structure descends from **Spence (1973)**; the refinement apparatus draws on **Kreps and Wilson (1982)** (sequential equilibrium), **Moulin (1979)** and **Pearce (1982)** (dominance), **Kreps (1984)** (intuitive criterion), and **Kohlberg and Mertens (1984)** (strategic stability), with **Milgrom and Roberts (1982)** as the authors' related limit-pricing/entry-signaling work. **Wilson (1985)** extends the model to a quality continuum and arbitrarily many signals.
+The paper is the formal completion of **[[@Nelson1970|Nelson (1970]], 1974, 1978)** on search vs. experience goods and advertising as a quality signal. It is the multidimensional, price-inclusive counterpart to **Kihlstrom and Riordan (1984)**, where firms do not choose prices, and is contrasted with **Schmalensee (1978)** (rule-of-thumb consumers, low-quality firms advertise) and **Johnsen (1976)** (no existence with two signals). On the quality-as-choice / repeat-business side it complements **Klein and Leffler (1981)** and **Shapiro (1983)**. The signaling structure descends from **Spence (1973)**; the refinement apparatus draws on **Kreps and Wilson (1982)** (sequential equilibrium), **Moulin (1979)** and **Pearce (1982)** (dominance), **Kreps (1984)** (intuitive criterion), and **Kohlberg and Mertens (1984)** (strategic stability), with **Milgrom and Roberts (1982)** as the authors' related limit-pricing/entry-signaling work. **Wilson (1985)** extends the model to a quality continuum and arbitrarily many signals.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

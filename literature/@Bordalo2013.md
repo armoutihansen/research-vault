@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/NL4KNN9J/Bordalo2013.pdf
 tags: [literature]
 keywords: [salience-theory, context-dependent-choice, behavioral-economics, decoy-effect, reference-dependence, willingness-to-pay, attention]
 topics: []
-related: []
+related: [Bernheim2009, Eliaz2011, Hauser1990, Heidhues2008, Huber1982, Kahneman1979, Kamenica2008, Koszegi2006b, Shafir1993, Simonson1989]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -52,12 +52,12 @@ None. This is a pure theory paper; it reinterprets thought experiments and prior
 
 ## Contribution
 
-Provides a tractable, falsifiable, attention-based microfoundation for context-dependent riskless choice that unifies phenomena previously treated piecemeal (mental accounting, transaction utility, reference dependence). Unlike loss-aversion/external-reference-point models (Tversky-Kahneman 1991; Tversky-Simonson 1993; Bodner-Prelec 1994), salience predicts choice of *extreme* options and the empirically documented *asymmetry* of decoy and sales effects; unlike Gabaix (2012) ex-ante rational inattention, attention is allocated *ex post* to whatever stands out; unlike Koszegi-Szeidl (2013), it retains diminishing sensitivity (handling the Savage puzzle). It delivers a genuinely new theory of misleading sales tying inflated reference prices to decoy logic, consistent with regulatory concerns over fictitious "original" prices.
+Provides a tractable, falsifiable, attention-based microfoundation for context-dependent riskless choice that unifies phenomena previously treated piecemeal (mental accounting, transaction utility, reference dependence). Unlike loss-aversion/external-reference-point models (Tversky-Kahneman 1991; [[@Shafir1993|Tversky-Simonson 1993]]; Bodner-Prelec 1994), salience predicts choice of *extreme* options and the empirically documented *asymmetry* of decoy and sales effects; unlike Gabaix (2012) ex-ante rational inattention, attention is allocated *ex post* to whatever stands out; unlike Koszegi-Szeidl (2013), it retains diminishing sensitivity (handling the Savage puzzle). It delivers a genuinely new theory of misleading sales tying inflated reference prices to decoy logic, consistent with regulatory concerns over fictitious "original" prices.
 
 ## Limitations & open questions
 
 The authors explicitly flag several hooks:
-- The **choice set / consideration set is taken as exogenous**; endogenizing the evoked set (typically 2-5 goods) is named as "an important direction of future work" (cf. Hauser-Wernerfelt 1990; Eliaz-Spiegler 2011).
+- The **choice set / consideration set is taken as exogenous**; endogenizing the evoked set (typically 2-5 goods) is named as "an important direction of future work" (cf. [[@Hauser1990|Hauser-Wernerfelt 1990]]; [[@Eliaz2011|Eliaz-Spiegler 2011)]].
 - **Rational expectations for the reference price** is a disciplining assumption that "may need to be revised in some applications" (e.g., airport-sandwich or ballpark-hotdog prices perceived as abnormal).
 - **Rank-based salience weighting** can make valuation non-monotonic in attributes (online Appendix C shows continuous weighting removes this), an undesirable feature in some applications.
 - **Quality measurement** is delicate (the octane-vs-"regular/premium" gasoline ambiguity); the authors recommend treating quality as a *latent* variable to be estimated jointly even when proxies exist.
@@ -66,7 +66,7 @@ The authors explicitly flag several hooks:
 
 ## Connections
 
-Directly builds on the authors' own salience theory of risky choice, Bordalo, Gennaioli, and Shleifer (2012), porting overweighting of salient lottery states to overweighting of salient goods attributes. It situates itself against the reference-dependence and loss-aversion tradition (Kahneman and Tversky 1979; Tversky and Kahneman 1991; Koszegi and Rabin 2006, whose expectation-based reference points it adapts but replaces loss aversion with salience) and against information-theoretic accounts of decoys (Wernerfelt 1995; Kamenica 2008). It is closest in spirit to Koszegi and Szeidl (2013) on ordering/focusing and to relative-thinking models (Azar 2007; Cunningham 2011), differing by combining ordering *with* diminishing sensitivity. Empirically it speaks to Thaler (1985, 1999) on transaction utility and mental accounting, Hastings and Shapiro (2013) on gasoline, Heath and Chatterjee (1995) and Simonson (1989)/Huber-Payne-Puto (1982) on decoy/compromise effects, and the standard price-discrimination theory of sales (Varian 1980; Sobel 1984; Lazear 1986; Heidhues-Koszegi 2008). The neuroeconomic evidence of attention-modulated attribute weighting (Hare-Camerer-Rangel 2009; Fehr-Rangel 2011) and the "core number system" psychology (Feigenson-Dehaene-Spelke 2004) provide external grounding for the salience-weighting and homogeneity-of-degree-zero assumptions.
+Directly builds on the authors' own salience theory of risky choice, Bordalo, Gennaioli, and Shleifer (2012), porting overweighting of salient lottery states to overweighting of salient goods attributes. It situates itself against the reference-dependence and loss-aversion tradition ([[@Kahneman1979|Kahneman and Tversky 1979]]; Tversky and Kahneman 1991; [[@Koszegi2006b|Koszegi and Rabin 2006]], whose expectation-based reference points it adapts but replaces loss aversion with salience) and against information-theoretic accounts of decoys (Wernerfelt 1995; [[@Kamenica2008|Kamenica 2008)]]. It is closest in spirit to Koszegi and Szeidl (2013) on ordering/focusing and to relative-thinking models (Azar 2007; Cunningham 2011), differing by combining ordering *with* diminishing sensitivity. Empirically it speaks to Thaler (1985, 1999) on transaction utility and mental accounting, Hastings and Shapiro (2013) on gasoline, Heath and Chatterjee (1995) and [[@Simonson1989|Simonson (1989)]]/[[@Huber1982|Huber-Payne-Puto (1982)]] on decoy/compromise effects, and the standard price-discrimination theory of sales (Varian 1980; Sobel 1984; Lazear 1986; [[@Heidhues2008|Heidhues-Koszegi 2008)]]. The neuroeconomic evidence of attention-modulated attribute weighting ([[@Bernheim2009|Hare-Camerer-Rangel 2009]]; Fehr-Rangel 2011) and the "core number system" psychology (Feigenson-Dehaene-Spelke 2004) provide external grounding for the salience-weighting and homogeneity-of-degree-zero assumptions.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

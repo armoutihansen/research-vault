@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/XDL272I8/Apesteguia2013.pdf
 tags: [literature]
 keywords: [bounded-rationality, choice-theory, revealed-preference, sequential-rationalizability, status-quo-bias, game-tree-rationalizability, decision-theory]
 topics: []
-related: []
+related: [Kalai2002, Manzini2007, Salant2008, Xu2007]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -54,7 +54,7 @@ Provides a unifying procedural language that subsumes four major choice models a
 The authors explicitly flag three forward-looking lines: (1) studying *manipulation of routes* by a marketer or principal in market-interaction settings; (2) using route procedures as a *learning/de-biasing tool* — walking a DM through multiple routes to make her aware of route-dependence and reconsider inconsistent binary comparisons; (3) using *the size and composition of the set of routes consistent with observed behavior as a quantitative measure of rationality* (more consistent routes = less capricious behavior). The framework is also confined to single-valued choice on a finite universal domain with deterministic data; stochastic choice, infinite/continuous alternatives, and limited-domain data are out of scope.
 
 ## Connections
-The paper sits at the intersection of three literatures it explicitly unifies: status-quo bias (Masatlioglu and Ok 2005, 2010; Thaler 1980; Kahneman, Knetsch and Thaler 1991), rationalizability by game trees / multi-self conflict (Xu and Zhou 2007; Kalai, Rubinstein and Spiegler 2002; Horan 2009; de Clippel and Eliaz 2010), and sequential / shortlisting rationalization (Manzini and Mariotti 2007 on Rational Shortlist Methods; Salant and Rubinstein 2008 on choice with frames; Tyson 2011). The "measure of rationality" agenda connects to the authors' own Apesteguia and Ballester (2011) and to revealed-preference-violation measures (Echenique, Lee and Shum 2010; Beatty and Crawford 2010; Choi et al. 2011). Methodologically it belongs to the procedural / heuristic decision-making tradition (Gigerenzer et al. 1999; Manrai and Prabhakant 1989 on elimination-by-cutoffs).
+The paper sits at the intersection of three literatures it explicitly unifies: status-quo bias (Masatlioglu and Ok 2005, 2010; Thaler 1980; Kahneman, Knetsch and Thaler 1991), rationalizability by game trees / multi-self conflict ([[@Xu2007|Xu and Zhou 2007]]; [[@Kalai2002|Kalai, Rubinstein and Spiegler 2002]]; Horan 2009; de Clippel and Eliaz 2010), and sequential / shortlisting rationalization ([[@Manzini2007|Manzini and Mariotti 2007]] on Rational Shortlist Methods; [[@Salant2008|Salant and Rubinstein 2008]] on choice with frames; Tyson 2011). The "measure of rationality" agenda connects to the authors' own Apesteguia and Ballester (2011) and to revealed-preference-violation measures (Echenique, Lee and Shum 2010; Beatty and Crawford 2010; Choi et al. 2011). Methodologically it belongs to the procedural / heuristic decision-making tradition (Gigerenzer et al. 1999; Manrai and Prabhakant 1989 on elimination-by-cutoffs).
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

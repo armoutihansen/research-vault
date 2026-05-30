@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/AHXD9F9F/Bhargava2015.pdf
 tags: [literature]
 keywords: [behavioral-economics, public-policy, nudge, internalities, consumer-protection, health-insurance]
 topics: []
-related: []
+related: [Thaler2003]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -41,7 +41,7 @@ There are no theorems; the contribution is a set of arguments illustrated by thr
 - **Synthesizing example.** Tobacco control is held up as a successful merger of traditional levers (taxes, bans) with psychologically motivated measures (vivid warning labels, public-health campaigns, substitute products), one of the most successful US policy initiatives in history.
 
 ## Contribution
-The essay reframes the BE-and-policy agenda. Against the dominant "libertarian paternalism / nudge" framing (Thaler and Sunstein 2003, 2008; Camerer et al. 2003), it argues that BE need not confine itself to choice-preserving, low-burden interventions and that more aggressive, structurally targeted policies "need not be more controversial" than the original nudge proposals. It supplies a compact vocabulary (internalities, behavioral exploitation, perceived incentives) and a three-principle scaffold that has been widely cited as the manifesto for a "second generation" of behavioral public policy. It is explicitly pedagogical, positioning these tools - taxes, subsidies, regulations, nudges, educational campaigns - as a full complement that students of policy should learn.
+The essay reframes the BE-and-policy agenda. Against the dominant "libertarian paternalism / nudge" framing ([[@Thaler2003|Thaler and Sunstein 2003]], 2008; Camerer et al. 2003), it argues that BE need not confine itself to choice-preserving, low-burden interventions and that more aggressive, structurally targeted policies "need not be more controversial" than the original nudge proposals. It supplies a compact vocabulary (internalities, behavioral exploitation, perceived incentives) and a three-principle scaffold that has been widely cited as the manifesto for a "second generation" of behavioral public policy. It is explicitly pedagogical, positioning these tools - taxes, subsidies, regulations, nudges, educational campaigns - as a full complement that students of policy should learn.
 
 ## Limitations & open questions
 The authors themselves flag that stronger policy interventions "should not be taken lightly, given concerns about overreach and unexpected outcomes." Several open problems are hooks for further work:

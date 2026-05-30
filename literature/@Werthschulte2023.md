@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/6KM25RWG/Werthschulte2023.pdf
 tags: [literature]
 keywords: [present-bias, energy-consumption, billing-systems, lab-experiment, intertemporal-choice, real-effort-task]
 topics: []
-related: []
+related: [Kaur2015, ODonoghue2015, Sprenger2015]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -56,7 +56,7 @@ First experimental evidence that isolates *payment timing per se* in a billing c
 - **External validity.** Lab, student sample, single site; the author cites strong site-specific effects (Allcott 2015; Vivalt 2020) and frames the study as a proof of concept that timing matters.
 
 ## Connections
-Methodologically rooted in real-effort time-preference experiments: Augenblick, Niederle & Sprenger (2015) and Augenblick & Rabin (2019) on dynamic inconsistency over effort, and Kaur, Kremer & Mullainathan (2015) "Self-Control at Work," whose effort cost form $e(t,\ell) = -\tfrac{1}{\theta}\!\left(\tfrac{t}{\ell}\right)^{\theta}$ is borrowed for calibration; Aggarwal et al. (2020) supply the null-effect counterpoint. The present-focus debate over monetary payments (Andreoni & Sprenger 2012; Sprenger 2015; Cohen et al. 2020; Ericson & Laibson 2019) motivates the design's controls. On energy/billing it sits beside Jack & Smith (2020) and Qiu et al. (2017) on prepaid metering, the salience/feedback strand (Sallee 2014; Jessoe & Rapson 2014; Gilbert & Zivin 2014, 2020; Gans et al. 2013; Lynham et al. 2016), and the author's own Werthschulte & Löschel (2021) linking present bias to household electricity use. The credit-card present-bias literature (Meier & Sprenger 2010; Kuchler & Pagel 2021; Laibson et al. 2007) is the consumer-finance analogue, with O'Donoghue & Rabin (2015) supplying the interpretive rule used to read the short-horizon discount estimate.
+Methodologically rooted in real-effort time-preference experiments: [[@Sprenger2015|Augenblick, Niederle & Sprenger (2015)]] and Augenblick & Rabin (2019) on dynamic inconsistency over effort, and [[@Kaur2015|Kaur, Kremer & Mullainathan (2015)]] "Self-Control at Work," whose effort cost form $e(t,\ell) = -\tfrac{1}{\theta}\!\left(\tfrac{t}{\ell}\right)^{\theta}$ is borrowed for calibration; Aggarwal et al. (2020) supply the null-effect counterpoint. The present-focus debate over monetary payments (Andreoni & Sprenger 2012; [[@Sprenger2015|Sprenger 2015]]; Cohen et al. 2020; Ericson & Laibson 2019) motivates the design's controls. On energy/billing it sits beside Jack & Smith (2020) and Qiu et al. (2017) on prepaid metering, the salience/feedback strand (Sallee 2014; Jessoe & Rapson 2014; Gilbert & Zivin 2014, 2020; Gans et al. 2013; Lynham et al. 2016), and the author's own Werthschulte & Löschel (2021) linking present bias to household electricity use. The credit-card present-bias literature (Meier & Sprenger 2010; Kuchler & Pagel 2021; Laibson et al. 2007) is the consumer-finance analogue, with [[@ODonoghue2015|O'Donoghue & Rabin (2015)]] supplying the interpretive rule used to read the short-horizon discount estimate.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

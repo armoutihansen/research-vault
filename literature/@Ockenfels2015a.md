@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/EHWB7JZT/Ockenfels2015a.pdf
 tags: [literature]
 keywords: [reference-dependent-preferences, bonus-pay, pay-transparency, loss-aversion, social-comparison, subjective-performance-evaluation, negative-reciprocity]
 topics: []
-related: []
+related: [Bolton2000, Fehr1999, Prendergast1996, Prendergast2002]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -60,7 +60,7 @@ Provides large-scale field evidence that a *naturally occurring* reference point
 - Out-of-equilibrium supervisor behavior (some supervisors not realizing the harm) suggests the studied institution was not in equilibrium—raising open questions about optimal bonus-system design.
 
 ## Connections
-Builds on reference-dependent and social-preference models—Fehr and Schmidt (1999), [[@Bolton2000]] (Bolton–Ockenfels ERC), and loss aversion in the Köszegi–Rabin tradition—and on subjective-evaluation theory (Prendergast and Topel 1996; Prendergast 2002). It operationalizes Akerlof–Yellen's fair wage–effort hypothesis and Bewley's pay-inequity findings with field data. Closely related field studies: Mas (2006) on arbitration reference points, Card et al. (2012) on wage-transparency and satisfaction, Cohn et al. (2014) on asymmetric wage cuts, and Barankay (2012) on relative-ranking feedback. The transparency mechanism connects to social-psychology work on the accessibility of comparison standards (Mussweiler and Damisch 2008).
+Builds on reference-dependent and social-preference models—[[@Fehr1999|Fehr and Schmidt (1999)]], [[@Bolton2000]] (Bolton–Ockenfels ERC), and loss aversion in the Köszegi–Rabin tradition—and on subjective-evaluation theory ([[@Prendergast1996|Prendergast and Topel 1996]]; [[@Prendergast2002|Prendergast 2002)]]. It operationalizes Akerlof–Yellen's fair wage–effort hypothesis and Bewley's pay-inequity findings with field data. Closely related field studies: Mas (2006) on arbitration reference points, Card et al. (2012) on wage-transparency and satisfaction, Cohn et al. (2014) on asymmetric wage cuts, and Barankay (2012) on relative-ranking feedback. The transparency mechanism connects to social-psychology work on the accessibility of comparison standards (Mussweiler and Damisch 2008).
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

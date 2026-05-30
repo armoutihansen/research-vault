@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/XUH5I2LG/Berns2006.pdf
 tags: [literature]
 keywords: [dread, intertemporal-choice, neuroeconomics, anticipation-utility, pain-matrix, fmri, experienced-utility, discounting]
 topics: []
-related: []
+related: [Caplin2001, Kahneman1997, Loewenstein1987]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -55,7 +55,7 @@ The paper supplies a neurobiological substrate for the *utility of dread*, a lon
 - Generalization beyond the **pain domain** (the cortical pain matrix) and beyond a single aversive modality is raised as a target for the same modeling approach.
 
 ## Connections
-The economic backbone is Loewenstein's anticipation model (Loewenstein 1987) and the Caplin–Leahy (2001) formalization of anxiety/anticipatory feelings, set against Samuelson's (1937) discounted utility. The experienced-vs-decision-utility framing draws on Kahneman, Wakker & Sarin (1997) and Camerer, Loewenstein & Prelec (2005). It contrasts with McClure, Laibson, Loewenstein & Cohen (2004) on the neural basis of intertemporal choice — crucially, Berns et al. obtain their signals *passively* rather than during choice. The "pain matrix" mapping builds on Ploghaus et al. (1999, 2003) and Koyama et al. (2005) on pain anticipation, Craig (2003) and Vogt (2005) on insular and cingulate organization, and Phelps (2006) on the amygdala in aversive conditioning. The contrast with trial-based learning — Rescorla–Wagner and temporal-difference (Sutton) models — highlights that those theories predict learning from prediction error but say little about the *shape* of anticipation leading up to an outcome, which the dread integral specifies.
+The economic backbone is Loewenstein's anticipation model ([[@Loewenstein1987|Loewenstein 1987)]] and the [[@Caplin2001|Caplin–Leahy (2001)]] formalization of anxiety/anticipatory feelings, set against Samuelson's (1937) discounted utility. The experienced-vs-decision-utility framing draws on [[@Kahneman1997|Kahneman, Wakker & Sarin (1997)]] and Camerer, Loewenstein & Prelec (2005). It contrasts with McClure, Laibson, Loewenstein & Cohen (2004) on the neural basis of intertemporal choice — crucially, Berns et al. obtain their signals *passively* rather than during choice. The "pain matrix" mapping builds on Ploghaus et al. (1999, 2003) and Koyama et al. (2005) on pain anticipation, Craig (2003) and Vogt (2005) on insular and cingulate organization, and Phelps (2006) on the amygdala in aversive conditioning. The contrast with trial-based learning — Rescorla–Wagner and temporal-difference (Sutton) models — highlights that those theories predict learning from prediction error but say little about the *shape* of anticipation leading up to an outcome, which the dread integral specifies.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

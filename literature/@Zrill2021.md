@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/IVBU85L8/Zrill2021a.pdf
 tags: [literature]
 keywords: [revealed-preference, decision-under-risk, disappointment-aversion, out-of-sample-prediction, non-parametric-bounds, adaptive-experiment, garp]
 topics: []
-related: []
+related: [Andreoni2002, Fisman2007, Gul1991, Heidhues2018, Peysakhovich2017]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -27,7 +27,7 @@ How large is the cost, measured as lost out-of-sample predictive success, of imp
 ## Method / identification
 A two-part **adaptive experimental design** (building on Halevy, Persitz, and Zrill 2018). In **Part 1**, 171 subjects choose portfolios $x_i=(x_{i1},x_{i2})$ of state-contingent tokens from linear budget sets with normalized prices $p_i$ and two equally likely states (22 budget-set observations per subject). From these data, preferences are recovered two ways, automatically and within three minutes:
 
-(1) **Parametric**: a two-parameter Disappointment Aversion (DA) model (Gul 1991), which nests Expected Utility and equals Rank-Dependent Utility under two equally likely states:
+(1) **Parametric**: a two-parameter Disappointment Aversion (DA) model ([[@Gul1991|Gul 1991)]], which nests Expected Utility and equals Rank-Dependent Utility under two equally likely states:
 $$u(x_{i1},x_{i2})=\gamma\,w\!\left(\max\{x_{i1},x_{i2}\}\right)+(1-\gamma)\,w\!\left(\min\{x_{i1},x_{i2}\}\right)$$
 with $\gamma=\frac{1}{2+\beta}$, $\beta>-1$, and CRRA utility-for-gains $w(z)=\frac{z^{1-\rho}}{1-\rho}$ for $\rho\ge 0,\ \rho\ne 1$ (and $w(z)=\ln z$ at $\rho=1$). Here $\gamma$ is the weight on the better outcome: $\beta>0$ is disappointment aversion (better outcome under-weighted), $\beta<0$ is elation seeking, and $\beta=0$ collapses to EU. Parameters are recovered by minimizing the **Money Metric Index (MMI)**, the income-metric incompatibility between revealed preferences and the parametric ranking.
 
@@ -58,7 +58,7 @@ The author is explicit about several open problems:
 - **Extending the recoverability method** beyond simple utility maximization to demanding models (expected-utility, homothetic, correlation-neutral preferences) is flagged as a natural extension.
 
 ## Connections
-The design directly extends **Halevy, Persitz, and Zrill (2018)** (same Part-1 elicitation, MMI vs NLLS recovery, Theorems 1-2 underpinning the bounds and misspecification measure) and the linear-budget elicitation of **Choi et al. (2007, 2014)**, with antecedents in **Andreoni and Miller (2002)** and **Fisman, Kariv, and Markovits (2007)** for other-regarding preferences and **Andreoni and Sprenger (2012)** for intertemporal choice. The parametric model is **Gul's (1991)** Disappointment Aversion; the non-parametric machinery rests on **Afriat (1967)**, **Varian (1982, 1990)**. Goodness-of-fit and approximate-rationalization links connect to **Polisson, Quah, and Renou (2020)**, **Echenique, Imai, and Saito (2021)**, **de Clippel and Rozen (2020)**, **Heufer and Hjertstrand (2019)**, **Nishimura, Ok, and Quah (2017)**, **Aguiar, Hjertstrand, and Serrano (2020)**, and the income-expansion-path approach of **Blundell, Browning, and Crawford (2003, 2008)**. The out-of-sample-prediction framing parallels machine-learning train/test logic (**Mullainathan and Spiess 2017**), the completeness/predictability discussion of **Fudenberg et al. (2021)**, and cross-validation work by **Peysakhovich and Naecker (2017)** and **Breig (2020)**. Related adaptive-design work includes **DOSE** (**Chapman et al. 2018**; **Camerer and Imai 2018**), and the structural-behavioral-estimation concerns of **DellaVigna (2018)**.
+The design directly extends **Halevy, Persitz, and Zrill (2018)** (same Part-1 elicitation, MMI vs NLLS recovery, Theorems 1-2 underpinning the bounds and misspecification measure) and the linear-budget elicitation of **Choi et al. (2007, 2014)**, with antecedents in **[[@Andreoni2002|Andreoni and Miller (2002)]]** and **[[@Fisman2007|Fisman, Kariv, and Markovits (2007)]]** for other-regarding preferences and **Andreoni and Sprenger (2012)** for intertemporal choice. The parametric model is **[[@Gul1991|Gul's (1991)]]** Disappointment Aversion; the non-parametric machinery rests on **Afriat (1967)**, **Varian (1982, 1990)**. Goodness-of-fit and approximate-rationalization links connect to **Polisson, Quah, and Renou (2020)**, **Echenique, Imai, and Saito (2021)**, **de Clippel and Rozen (2020)**, **Heufer and Hjertstrand (2019)**, **Nishimura, Ok, and Quah (2017)**, **Aguiar, Hjertstrand, and Serrano (2020)**, and the income-expansion-path approach of **Blundell, Browning, and Crawford (2003, 2008)**. The out-of-sample-prediction framing parallels machine-learning train/test logic (**Mullainathan and Spiess 2017**), the completeness/predictability discussion of **Fudenberg et al. (2021)**, and cross-validation work by **[[@Peysakhovich2017|Peysakhovich and Naecker (2017)]]** and **Breig (2020)**. Related adaptive-design work includes **DOSE** (**Chapman et al. 2018**; **Camerer and Imai 2018**), and the structural-behavioral-estimation concerns of **[[@Heidhues2018|DellaVigna (2018)]]**.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

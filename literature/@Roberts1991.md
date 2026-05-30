@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/XL2ZWWEC/Roberts1991.pdf
 tags: [literature]
 keywords: [consideration-set, choice-modeling, multinomial-logit, multiattribute-utility, search-costs, two-stage-choice]
 topics: []
-related: []
+related: [Hauser1990]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -52,7 +52,7 @@ The paper supplies one of the first closed-form, individual-level models of cons
 The authors explicitly flag: (1) Consideration of a brand is assumed independent of its *similarity* to other brands already in the set, so nothing can be said about the "shape" of the set; remedies suggested include structuring the market into homogeneous groups, nested MNL (cf. Bechtel 1990 on IIA), or a generalized-logit model of the choice of consideration set from all possible sets. (2) The model is static — composition at a point in time — and cannot describe how the set evolves as search proceeds. (3) Only the *compensatory* aspect of consideration is modeled; directly modeling the conjunctive (noncompensatory screening) aspect warrants further attention. (4) There is no consensus on operationalizing "consideration"; a fuzzy-set approach allowing degrees of consideration may have more process validity than the discrete in/out treatment. (5) New-product share forecasts ignore dynamic adjustment of the set after a new brand enters (incumbents are not allowed to leave).
 
 ## Connections
-The consideration component builds directly on Roberts (1989), "A Grounded Model of Consideration Set Size and Composition," from which the single-brand entry criterion and log-sum benefit are adapted. It positions itself against Hauser and Wernerfelt (1990), whose evoked-set/evaluation-cost model is aggregate and market-structural, whereas this paper is individual-level. The choice machinery rests on McFadden (1973) MNL and the log-sum expected-maximum-utility result of Ben-Akiva and Lerman (1985). The cost-of-thinking foundation comes from Shugan (1980) and the information-search economics of Stigler (1961), Ratchford (1980), and Weitzman (1979). The two-stage screen-then-choose architecture echoes Wright and Barbour (1977) and Gensch (1987b); probabilistic consideration-set models include Swait and Ben-Akiva (1987). The compensatory-vs-noncompensatory debate references Gensch, Johnson and Meyer (1984), and Nedungadi (1990) on salience/recall in consideration.
+The consideration component builds directly on Roberts (1989), "A Grounded Model of Consideration Set Size and Composition," from which the single-brand entry criterion and log-sum benefit are adapted. It positions itself against [[@Hauser1990|Hauser and Wernerfelt (1990)]], whose evoked-set/evaluation-cost model is aggregate and market-structural, whereas this paper is individual-level. The choice machinery rests on McFadden (1973) MNL and the log-sum expected-maximum-utility result of Ben-Akiva and Lerman (1985). The cost-of-thinking foundation comes from Shugan (1980) and the information-search economics of Stigler (1961), Ratchford (1980), and Weitzman (1979). The two-stage screen-then-choose architecture echoes Wright and Barbour (1977) and Gensch (1987b); probabilistic consideration-set models include Swait and Ben-Akiva (1987). The compensatory-vs-noncompensatory debate references Gensch, Johnson and Meyer (1984), and Nedungadi (1990) on salience/recall in consideration.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

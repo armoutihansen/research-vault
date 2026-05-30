@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/RNEX3TIF/Ghahramani1993.pdf
 tags: [literature]
 keywords: [em-algorithm, mixture-models, missing-data, density-estimation, supervised-learning, gaussian-mixture]
 topics: []
-related: []
+related: [Dempster1977]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -48,7 +48,7 @@ The paper unifies two previously separate uses of EM — fitting mixture densiti
 The authors flag that parametric methods can lack flexibility versus nonparametric ones (argued to be largely circumvented by mixtures, but not eliminated). They note density estimation in high dimensions is generally harder and needs more parameters than function approximation — an implicit scaling concern. The motivation for the density-based generality points to a stated open agenda: solving inverse problems / inverting causal systems where data come from a *relation* rather than a noisy function, pursued in a companion paper (Ghahramani, 1994). The number of mixture components $M$ is taken as given; model selection is not addressed. The missing-data treatment assumes the EM/likelihood machinery is appropriate (effectively missing-at-random style assumptions inherited from Little & Rubin) without separate discussion.
 
 ## Connections
-The work sits squarely on Dempster, Laird & Rubin (1977), whose EM algorithm it applies twice, and on Little & Rubin (1987) for the missing-data branch. It is a sibling to the mixtures-of-experts line (Jacobs et al., 1991; Jordan & Jacobs, 1994), differing by estimating the joint density rather than a conditional regression. It relates to decision-tree and spline regressors CART (Breiman et al., 1984) and MARS (Friedman, 1991), and to general regression neural networks (Specht, 1991) and the rule-based network structuring of Tresp et al. (1993). The companion Ghahramani (1994) extends the framework to inverse problems. As an early, clean statement of mixture-model EM with missing data, it is a foundational reference for later latent-variable and probabilistic-modeling work relevant to choice modeling and structural estimation with incomplete observations.
+The work sits squarely on [[@Dempster1977|Dempster, Laird & Rubin (1977)]], whose EM algorithm it applies twice, and on Little & Rubin (1987) for the missing-data branch. It is a sibling to the mixtures-of-experts line (Jacobs et al., 1991; Jordan & Jacobs, 1994), differing by estimating the joint density rather than a conditional regression. It relates to decision-tree and spline regressors CART (Breiman et al., 1984) and MARS (Friedman, 1991), and to general regression neural networks (Specht, 1991) and the rule-based network structuring of Tresp et al. (1993). The companion Ghahramani (1994) extends the framework to inverse problems. As an early, clean statement of mixture-model EM with missing data, it is a foundational reference for later latent-variable and probabilistic-modeling work relevant to choice modeling and structural estimation with incomplete observations.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/E5XDS4NZ/Inderst2013.pdf
 tags: [literature]
 keywords: [cheap-talk, return-policy, consumer-protection, credulity, commitment, sales-advice]
 topics: []
-related: []
+related: [Inderst2009, Milgrom1986]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -51,13 +51,13 @@ The paper unifies cheap-talk advice (Crawford–Sobel) with optimal contract/ret
 The authors flag several explicit extensions (mostly in the Conclusion and footnotes):
 - The baseline abstracts from heterogeneous usage intensities; non-linear pricing (free samples/base capacity for commitment, or quantity discounts to exploit credulity) is conjectured but not modelled.
 - The contractual variable is the refund level; the dual variable—the *length* of the cancellation/trial period—is discussed only informally (rational buyers get efficient duration; credulous buyers get inefficiently short trials).
-- Agency distortions between seller and sales agent are excluded; the authors conjecture an extension via Inderst–Ottaviani (2009) on incentive provision to a wealth-constrained agent.
+- Agency distortions between seller and sales agent are excluded; the authors conjecture an extension via [[@Inderst2009|Inderst–Ottaviani (2009)]] on incentive provision to a wealth-constrained agent.
 - The model assumes either fully rational or fully credulous customers; mixed populations are not solved.
 - Signalling timing (offering the contract only after observing $s$) is set aside because the model lacks single-crossing, leaving equilibrium-refinement questions open.
 - Secondary/grey markets only partly constrain exploitation; their full interaction with refund policy is sketched, not characterized.
 
 ## Connections
-The advice stage is a cheap-talk game in the tradition of Crawford & Sobel (1982); credulity follows Kartik, Ottaviani & Squintani (2007) and Ottaviani & Squintani (2006) on naive audiences and communication bias. The return-policy literature it builds on includes Che (1996) on customer return policies for experience goods, Davis–Gerstner–Hagerty (1995) on money-back guarantees, Courty & Li (2000) on sequential screening, and Matthews & Persico (2007) on information acquisition and refunds. The commitment-through-costly-terms logic connects to Grossman (1981) and Milgrom & Roberts (1986) on disclosure and reliance on interested parties, and to the authors' own program on misselling and advice (Inderst & Ottaviani 2009, 2012a, 2012b on commissions, kickbacks, and consumer financial protection). The online-review application engages Dellarocas (2006) on manipulation of opinion forums. Within Jesper's social-preferences/choice-modeling interests, the paper is a clean reference point for how behavioural biases (credulity) interact with market institutions and regulation, and how commitment devices substitute for trust.
+The advice stage is a cheap-talk game in the tradition of Crawford & Sobel (1982); credulity follows Kartik, Ottaviani & Squintani (2007) and Ottaviani & Squintani (2006) on naive audiences and communication bias. The return-policy literature it builds on includes Che (1996) on customer return policies for experience goods, Davis–Gerstner–Hagerty (1995) on money-back guarantees, Courty & Li (2000) on sequential screening, and Matthews & Persico (2007) on information acquisition and refunds. The commitment-through-costly-terms logic connects to Grossman (1981) and [[@Milgrom1986|Milgrom & Roberts (1986)]] on disclosure and reliance on interested parties, and to the authors' own program on misselling and advice ([[@Inderst2009|Inderst & Ottaviani 2009]], 2012a, 2012b on commissions, kickbacks, and consumer financial protection). The online-review application engages Dellarocas (2006) on manipulation of opinion forums. Within Jesper's social-preferences/choice-modeling interests, the paper is a clean reference point for how behavioural biases (credulity) interact with market institutions and regulation, and how commitment devices substitute for trust.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

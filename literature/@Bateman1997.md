@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/VX897QR4/Bateman1997.pdf
 tags: [literature]
 keywords: [reference-dependent-preferences, loss-aversion, wta-wtp-disparity, experimental-economics, becker-degroot-marschak, contingent-valuation, endowment-effect]
 topics: []
-related: []
+related: [Tversky1990]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -56,7 +56,7 @@ The paper converts a loose, pre-existing body of WTA–WTP evidence into a sharp
 - **Not fully between-subjects.** Sample-size constraints forced a partial within-subject design; cross-task contamination is mitigated by spacing and randomization but not eliminated. A companion binary-choice experiment (comparing implicit valuations against revealed choices) is deferred to another paper.
 
 ## Connections
-The theoretical target is Tversky and Kahneman's [1991] reference-dependent / loss-aversion model; the response-mode predictions draw on their contingent-weighting theory (Tversky, Sattath, Slovic 1988) and the preference-reversal literature (Slovic–Lichtenstein 1983; Tversky, Slovic, Kahneman 1990). The WTA–WTP disparity tradition includes Knetsch–Sinden [1984], Knetsch [1989], and Kahneman, Knetsch, Thaler [1990] on endowment effects, with related field/lab evidence from Samuelson–Zeckhauser [1988] (status quo bias), Andreoni [1995], Myagkov–Plott [1995], and Benartzi–Thaler [1995] (equity premium). The Hicksian-defense / substitution-effect counterargument is Hanemann [1991], building on Randall–Stoll [1980] and Hicks [1943, 1956]; Shogren et al. [1994] is the closest prior attempt to separate substitution from loss aversion. The contingent-valuation policy backdrop is Mitchell–Carson [1989] and the NOAA panel (Arrow et al. 1993). The stochastic-preference econometric framework comes from Becker–DeGroot–Marschak [1963] and Loomes–Sugden [1995], and the incentive mechanism from Becker–DeGroot–Marschak [1964].
+The theoretical target is Tversky and Kahneman's [1991] reference-dependent / loss-aversion model; the response-mode predictions draw on their contingent-weighting theory (Tversky, Sattath, Slovic 1988) and the preference-reversal literature (Slovic–Lichtenstein 1983; [[@Tversky1990|Tversky, Slovic, Kahneman 1990)]]. The WTA–WTP disparity tradition includes Knetsch–Sinden [1984], Knetsch [1989], and Kahneman, Knetsch, Thaler [1990] on endowment effects, with related field/lab evidence from Samuelson–Zeckhauser [1988] (status quo bias), Andreoni [1995], Myagkov–Plott [1995], and Benartzi–Thaler [1995] (equity premium). The Hicksian-defense / substitution-effect counterargument is Hanemann [1991], building on Randall–Stoll [1980] and Hicks [1943, 1956]; Shogren et al. [1994] is the closest prior attempt to separate substitution from loss aversion. The contingent-valuation policy backdrop is Mitchell–Carson [1989] and the NOAA panel (Arrow et al. 1993). The stochastic-preference econometric framework comes from Becker–DeGroot–Marschak [1963] and Loomes–Sugden [1995], and the incentive mechanism from Becker–DeGroot–Marschak [1964].
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

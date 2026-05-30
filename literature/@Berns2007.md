@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/FL6JZXYF/Berns2007.pdf
 tags: [literature]
 keywords: [intertemporal-choice, hyperbolic-discounting, neuroeconomics, self-control, dynamic-inconsistency, time-preference, present-bias]
 topics: []
-related: []
+related: [Loewenstein1987]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -57,7 +57,7 @@ The authors are candid that increased realism has come "at the expense of simpli
 - The flagship neural evidence (McClure et al.) is correlational and "does not provide definitive evidence of causal relationships."
 
 ## Connections
-The review is anchored by Samuelson's (1937) DU model and Strotz's (1956) early analysis of dynamic inconsistency. The psychological challenge originates with Ainslie's hyperbolic discounting and Rachlin & Green's commitment/self-control work; the economic formalization runs through Phelps & Pollak (1968) and especially Laibson (1997) "Golden eggs and hyperbolic discounting" (quasi-hyperbolic $\beta$–$\delta$). The self-control modeling literature it draws on includes Thaler & Shefrin's planner-doer model, Gul & Pesendorfer (2001) temptation preferences, Fudenberg & Levine's dual-self model, Bernheim & Rangel on cue-triggered addiction, and O'Donoghue & Rabin / Akerlof on procrastination. The anticipation strand builds on Loewenstein (1987) and pain-anticipation neuroimaging; representation/framing draws on Kahneman-style heuristics-and-biases, Mischel's delay-of-gratification studies, Read et al.'s date/delay effect, and Prelec & Loewenstein on sequences. On the neuroscience side it connects to McClure et al. (2004, 2007), Montague & Berns, Schultz's reward-prediction work, and Glimcher et al. on neuroeconomic impulsivity. Frederick, Loewenstein & O'Donoghue's (2002) critical review is the natural companion survey.
+The review is anchored by Samuelson's (1937) DU model and Strotz's (1956) early analysis of dynamic inconsistency. The psychological challenge originates with Ainslie's hyperbolic discounting and Rachlin & Green's commitment/self-control work; the economic formalization runs through Phelps & Pollak (1968) and especially Laibson (1997) "Golden eggs and hyperbolic discounting" (quasi-hyperbolic $\beta$–$\delta$). The self-control modeling literature it draws on includes Thaler & Shefrin's planner-doer model, Gul & Pesendorfer (2001) temptation preferences, Fudenberg & Levine's dual-self model, Bernheim & Rangel on cue-triggered addiction, and O'Donoghue & Rabin / Akerlof on procrastination. The anticipation strand builds on [[@Loewenstein1987|Loewenstein (1987)]] and pain-anticipation neuroimaging; representation/framing draws on Kahneman-style heuristics-and-biases, Mischel's delay-of-gratification studies, Read et al.'s date/delay effect, and Prelec & Loewenstein on sequences. On the neuroscience side it connects to McClure et al. (2004, 2007), Montague & Berns, Schultz's reward-prediction work, and Glimcher et al. on neuroeconomic impulsivity. Frederick, Loewenstein & O'Donoghue's (2002) critical review is the natural companion survey.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

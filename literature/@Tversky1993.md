@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/JY5IWZR8/Tversky1993.pdf
 tags: [literature]
 keywords: [context-dependent-choice, value-maximization, attraction-effect, compromise-effect, loss-aversion, independence-of-irrelevant-alternatives, contingent-weighting]
 topics: []
-related: []
+related: [Huber1982, Simonson1989, Simonson1992, Tversky1972]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -49,7 +49,7 @@ read as a *tournament*: x is scored by its summed relative-advantage matches aga
 
 ## Data
 
-None original. The paper reviews prior experiments (chiefly Simonson and Tversky 1992; Huber, Payne, and Puto 1982) and reports their share statistics: e.g., tires/coupon gifts for background contrast; a $6-vs-Cross-pen plus a dominated pen lifting the pen's share from 36% to 46%; microwave ovens where a dominated $200 Panasonic raised the cheaper Panasonic's share from 43% to 60% (regularity violation); Minolta cameras where adding an extreme model made the middle option chosen by 57% (betweenness-inequality violation $P_z(y;x)-P(y;x)=0.22$, $t=3.2$); and AM-FM players showing compromise. The appendix notes the ranking condition held in every category tested.
+None original. The paper reviews prior experiments (chiefly [[@Simonson1992|Simonson and Tversky 1992]]; [[@Huber1982|Huber, Payne, and Puto 1982)]] and reports their share statistics: e.g., tires/coupon gifts for background contrast; a $6-vs-Cross-pen plus a dominated pen lifting the pen's share from 36% to 46%; microwave ovens where a dominated $200 Panasonic raised the cheaper Panasonic's share from 43% to 60% (regularity violation); Minolta cameras where adding an extreme model made the middle option chosen by 57% (betweenness-inequality violation $P_z(y;x)-P(y;x)=0.22$, $t=3.2$); and AM-FM players showing compromise. The appendix notes the ranking condition held in every category tested.
 
 ## Key findings
 
@@ -69,7 +69,7 @@ The authors explicitly note: (i) the model is "at best approximate and incomplet
 
 ## Connections
 
-Builds directly on the companion empirical paper Simonson and Tversky (1992, "Choice in Context") and on Huber, Payne, and Puto (1982) on asymmetric dominance / the attraction effect, and Simonson (1989) on reason-based compromise. The relative-advantage term generalizes the loss-aversion machinery of Tversky and Kahneman (1991, "Loss Aversion in Riskless Choice") and prospect theory's convex disadvantage function. The background re-weighting term is an instance of contingent weighting (Tversky, Sattath, and Slovic 1988). $R(x,y)$ is explicitly related to Restle (1961) and Tversky's (1972) elimination-by-aspects set-theoretic binary choice probabilities. Range-frequency theory (Parducci 1965; Birnbaum 1974) is considered and rejected as an alternative account (per Huber and Puto 1983; Wedell 1991). The constructed-preference theme connects to Payne, Bettman, and Johnson (1992). Additive-representation foundations draw on Krantz et al. (1971), Keeney and Raiffa (1976), and Wakker (1989).
+Builds directly on the companion empirical paper [[@Simonson1992|Simonson and Tversky (1992]], "Choice in Context") and on [[@Huber1982|Huber, Payne, and Puto (1982)]] on asymmetric dominance / the attraction effect, and [[@Simonson1989|Simonson (1989)]] on reason-based compromise. The relative-advantage term generalizes the loss-aversion machinery of Tversky and Kahneman (1991, "Loss Aversion in Riskless Choice") and prospect theory's convex disadvantage function. The background re-weighting term is an instance of contingent weighting (Tversky, Sattath, and Slovic 1988). $R(x,y)$ is explicitly related to Restle (1961) and [[@Tversky1972|Tversky's (1972)]] elimination-by-aspects set-theoretic binary choice probabilities. Range-frequency theory (Parducci 1965; Birnbaum 1974) is considered and rejected as an alternative account (per Huber and Puto 1983; Wedell 1991). The constructed-preference theme connects to Payne, Bettman, and Johnson (1992). Additive-representation foundations draw on Krantz et al. (1971), Keeney and Raiffa (1976), and Wakker (1989).
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

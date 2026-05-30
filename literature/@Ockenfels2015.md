@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/V5ENZ4G6/Ockenfels2015.pdf
 tags: [literature]
 keywords: [gift-exchange, positive-reciprocity, field-experiment, wage-timing, worker-honesty, narrow-bracketing]
 topics: []
-related: []
+related: [Akerlof1982, Dufwenberg2004, Falk2006, Rabin1993]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -57,7 +57,7 @@ First field study to isolate the effect of the *timing* of unexpected kindness, 
 - Small sample (98), one-day one-shot relationships, single task; external validity to ongoing employment relationships is uncertain.
 
 ## Connections
-Builds directly on the gift-exchange field tradition of Gneezy & List (2006) and Bellemare & Shearer (2009), both of which found *transient* effects — the persistence result here is the contrast. The "gift sensation over monetary value" interpretation draws on Kube, Marechal & Puppe (2012) on the currency of reciprocity and Kosfeld & Neckermann (2011) on symbolic awards. Theoretical roots in gift-exchange and reciprocity models: Akerlof (1982), Rabin (1993), Dufwenberg & Kirchsteiger (2004), Falk & Fischbacher (2006). The honesty margin connects to Greenberg (1990) on underpayment and theft, and to Gill, Prowse & Vlassopoulos (2012) on workplace cheating. The bracketing conjecture invokes Read, Loewenstein & Rabin (1999), and the System 1/2 framing Kahneman (2011) and Evans (2008).
+Builds directly on the gift-exchange field tradition of Gneezy & List (2006) and Bellemare & Shearer (2009), both of which found *transient* effects — the persistence result here is the contrast. The "gift sensation over monetary value" interpretation draws on Kube, Marechal & Puppe (2012) on the currency of reciprocity and Kosfeld & Neckermann (2011) on symbolic awards. Theoretical roots in gift-exchange and reciprocity models: [[@Akerlof1982|Akerlof (1982)]], [[@Rabin1993|Rabin (1993)]], [[@Dufwenberg2004|Dufwenberg & Kirchsteiger (2004)]], [[@Falk2006|Falk & Fischbacher (2006)]]. The honesty margin connects to Greenberg (1990) on underpayment and theft, and to Gill, Prowse & Vlassopoulos (2012) on workplace cheating. The bracketing conjecture invokes Read, Loewenstein & Rabin (1999), and the System 1/2 framing Kahneman (2011) and Evans (2008).
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

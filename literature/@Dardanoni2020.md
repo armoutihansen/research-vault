@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/X3KGV5RH/Dardanoni2020.pdf
 tags: [literature]
 keywords: [bounded-rationality, limited-attention, consideration-set, stochastic-choice, identification, tensor-decomposition, aggregate-choice-shares]
 topics: []
-related: []
+related: [Lleras2017, Manzini2014, Masatlioglu2012]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -31,7 +31,7 @@ Can the distribution $F$ of unobserved cognitive characteristics (how much atten
 The setup is abstract choice theory plus a population distribution over cognitive types. Each agent has cognitive type $\theta\in\Theta\subset\mathbb{R}$ drawn from cdf $F$; given a menu, type $\theta$ chooses alternative $x$ with probability $p_\theta(x)$, and the observed aggregate share is $p(x)=\int_\Theta p_\theta(x)\,dF$. Agents consider only a subset (the *consideration set*) and maximize a common linear preference order over it; the default $d$ is chosen if nothing is considered. Two attention models are studied:
 
 - **Consideration capacity model.** Type $\gamma\in\{0,1,2,\dots\}$ caps the cardinality of the consideration set; for $1\le\gamma<n$ all $\binom{n}{\gamma}$ subsets of that size are equally likely. Writing the kth-best option as $k$, the type-conditional share is $p_\gamma(k)=\binom{n-k}{\gamma-1}/\binom{n}{\gamma}$, and aggregate shares are $p(k)=\sum_{\gamma}p_\gamma(k)\pi(\gamma)$ where $\pi(\gamma)$ are the capacity probability masses.
-- **Consideration probability model** (special case, after Manzini-Mariotti 2014): each option is considered independently with probability $\rho\in[0,1]$, so $\pi(\gamma)=\binom{n}{\gamma}\int_0^1\rho^\gamma(1-\rho)^{n-\gamma}\,dF$ and $p(k)=\int_0^1 \rho(1-\rho)^{k-1}\,dF$.
+- **Consideration probability model** (special case, after [[@Manzini2014|Manzini-Mariotti 2014)]]: each option is considered independently with probability $\rho\in[0,1]$, so $\pi(\gamma)=\binom{n}{\gamma}\int_0^1\rho^\gamma(1-\rho)^{n-\gamma}\,dF$ and $p(k)=\int_0^1 \rho(1-\rho)^{k-1}\,dF$.
 
 The identification engine is linear algebra. Stacking shares gives $p=C\pi$ with $C$ an upper-antitriangular, left-stochastic matrix; its lower-antitriangular inverse yields $\pi=C^{-1}p$ in closed form. For the probability model a second upper-triangular matrix $Q$ links capacity masses to raw moments $m_j=\int_0^1\rho^j\,dF$, so $m=[CQ]^{-1}p$. To go *from moments to the distribution*, two routes: (i) for discrete $F$ on $L$ types over a known grid, the Vandermonde system is uniquely solvable when $n\ge 2L$ (Cohen-Yeredor 2011); (ii) for $F$ with a density, a *maximum-entropy* reconstruction on the Hausdorff moment problem, $\max -\int f_n\log f_n$ subject to the moment constraints, gives a sequence $\hat F_n$ converging weakly to $F$ (Mead-Papanicolaou 1984).
 
@@ -60,7 +60,7 @@ The authors are explicit about extension hooks: (1) *tighten preference identifi
 
 ## Connections
 
-The consideration-probability model is the one sketched in Manzini and Mariotti (2014, Sec 7.2); the capacity model connects to Barseghyan, Molinari and Thirkettle (2019) and de Clippel, Eliaz and Rozen (2014). The paper positions itself against covariate-based identification (Abaluck-Adams 2017; Barseghyan, Coughlin, Molinari, Teitelbaum 2019) and against richness-demanding revealed-preference results (Aguiar, Boccardi, Kashaev, Kim 2018; Cattaneo, Ma, Masatlioglu, Suleymanov 2017; Caplin-Dean 2015; Masatlioglu, Nakajima, Ozbay 2012). The framework parallels mixed/random-coefficient discrete-choice models (Train 2009; McFadden 2001) but uses the type $\theta$ to vary *cognition* rather than tastes, so the conditional choice probabilities are explicitly *non*-logit. Mathematically it draws on tensor algebra (Kruskal 1977; Sidiropoulos-Bro 2000; Allman-Matias-Rhodes 2009; Rhodes 2010), Vandermonde/sparsity theory (Cohen-Yeredor 2011), and the Hausdorff moment problem with maximum entropy (Mead-Papanicolaou 1984). The "consideration set" terminology is borrowed from marketing (Roberts-Lattin 1997; Shocker et al. 1991).
+The consideration-probability model is the one sketched in [[@Manzini2014|Manzini and Mariotti (2014]], Sec 7.2); the capacity model connects to Barseghyan, Molinari and Thirkettle (2019) and de Clippel, Eliaz and Rozen (2014). The paper positions itself against covariate-based identification (Abaluck-Adams 2017; Barseghyan, Coughlin, Molinari, Teitelbaum 2019) and against richness-demanding revealed-preference results (Aguiar, Boccardi, Kashaev, Kim 2018; [[@Lleras2017|Cattaneo, Ma, Masatlioglu, Suleymanov 2017]]; Caplin-Dean 2015; [[@Masatlioglu2012|Masatlioglu, Nakajima, Ozbay 2012)]]. The framework parallels mixed/random-coefficient discrete-choice models (Train 2009; McFadden 2001) but uses the type $\theta$ to vary *cognition* rather than tastes, so the conditional choice probabilities are explicitly *non*-logit. Mathematically it draws on tensor algebra (Kruskal 1977; Sidiropoulos-Bro 2000; Allman-Matias-Rhodes 2009; Rhodes 2010), Vandermonde/sparsity theory (Cohen-Yeredor 2011), and the Hausdorff moment problem with maximum entropy (Mead-Papanicolaou 1984). The "consideration set" terminology is borrowed from marketing (Roberts-Lattin 1997; Shocker et al. 1991).
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

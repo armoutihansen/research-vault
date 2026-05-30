@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/Z9US6AXR/McFadden2000.pdf
 tags: [literature]
 keywords: [behavioral-decision-theory, rationality, prospect-theory, cognitive-anomalies, stochastic-rationality, survey-measurement, contingent-valuation]
 topics: []
-related: []
+related: [McFadden1981]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -30,7 +30,7 @@ This is a conceptual survey and synthesis, not an empirical estimation paper. It
 - **Preference-rationality**: preferences are primitive, complete, transitive, and immutable (representable by a utility index; under completeness + transitivity preferences yield a numerical scale).
 - **Process-rationality**: the cognitive process is simply preference maximization given constraints.
 
-He situates two historical templates: a broad *19th-century* view in which "preference maximization is a synonym for choice" (volatile, context-dependent), and the *20th-century Debreu-Deaton-Muellbauer* view where the consumer chooses a complete life-course plan over fully specified contingent commodities. He proposes **stochastic rationality** as the minimal structure that rescues most economic objectives: assume only that the *population distribution* of preferences is stationary even if individual preferences are volatile, so social-choice analysis treats individual volatility exactly as it treats cross-individual heterogeneity (citing McFadden 1981, 1997). The key refutable implication retained is the **regularity property**: a choice probability for an alternative cannot rise when the choice set is enlarged.
+He situates two historical templates: a broad *19th-century* view in which "preference maximization is a synonym for choice" (volatile, context-dependent), and the *20th-century Debreu-Deaton-Muellbauer* view where the consumer chooses a complete life-course plan over fully specified contingent commodities. He proposes **stochastic rationality** as the minimal structure that rescues most economic objectives: assume only that the *population distribution* of preferences is stationary even if individual preferences are volatile, so social-choice analysis treats individual volatility exactly as it treats cross-individual heterogeneity (citing [[@McFadden1981|McFadden 1981]], 1997). The key refutable implication retained is the **regularity property**: a choice probability for an alternative cannot rise when the choice set is enlarged.
 
 The opposing pole, *K-T man* (Kahneman-Tversky), is characterized via prospect theory and the rule-driven / problem-solving view of cognition. The paper formalizes prospect theory's mechanics: choice maximizes a weighted value function over gains/losses relative to an edited reference point, with value function $v(x)$ ($v(0)=0$) capturing the gain/loss asymmetry and probability weight $\pi(p)$ overweighting improbable and underweighting probable events. A worked Tversky-Fox (1995) example uses segregation — paying net $W$ for ticket $(x,p)$ is *not* evaluated as the merged lottery $(x-W, p;\, -W, 1-p)$ — so the median willingness-to-pay $w(100,0.05)=14$ satisfies $\pi(0.05)\cdot v(100)+v(-14)=0$, fit by $\pi(0.05)=0.2$, $\pi(0.95)=0.9$ and a piecewise-linear $v$. Machina's caveat is noted: if $W$ and $(x,p)$ *were* evaluated as the merged lottery (as EU requires), the data are inconsistent with any monotone increasing value function even allowing biased probability weights.
 

@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/INJ22AEA/Tversky1990.pdf
 tags: [literature]
 keywords: [preference-reversal, procedure-invariance, scale-compatibility, contingent-weighting, intransitivity, time-preference]
 topics: []
-related: []
+related: [Grether1979, Kahneman1979]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -61,7 +61,7 @@ The paper reframes PR from a transitivity violation into a violation of **proced
 
 ## Connections
 
-This is a capstone of the Lichtenstein-Slovic (1971, 1973) PR program and a direct rebuttal to the economists' challenge of Grether and Plott (1979). It defeats the nonindependence rescue of Holt (1986), Karni and Safra (1987), and Segal (1988), and the intransitivity-based regret theory of Loomes and Sugden (1982, 1983) and Fishburn's SSB (1984, 1985). The scale-compatibility / contingent-weighting machinery comes from Tversky, Sattath, and Slovic (1988) and Slovic, Griffin, and Tversky (1990); the BDM elicitation it scrutinizes is Becker, DeGroot, and Marschak (1964). It sits alongside Tversky and Kahneman (1986) on framing (description invariance) and prospect theory (Kahneman and Tversky 1979), and connects to Bostic, Herrnstein, and Luce (1990) and Schkade and Johnson (1989, process evidence). Within choice modeling broadly, it is a foundational demonstration that elicitation method is not a neutral window onto a fixed preference — a caution central to any structural estimation of preferences from choice or valuation data.
+This is a capstone of the Lichtenstein-Slovic (1971, 1973) PR program and a direct rebuttal to the economists' challenge of [[@Grether1979|Grether and Plott (1979)]]. It defeats the nonindependence rescue of Holt (1986), Karni and Safra (1987), and Segal (1988), and the intransitivity-based regret theory of Loomes and Sugden (1982, 1983) and Fishburn's SSB (1984, 1985). The scale-compatibility / contingent-weighting machinery comes from Tversky, Sattath, and Slovic (1988) and Slovic, Griffin, and Tversky (1990); the BDM elicitation it scrutinizes is Becker, DeGroot, and Marschak (1964). It sits alongside Tversky and Kahneman (1986) on framing (description invariance) and prospect theory ([[@Kahneman1979|Kahneman and Tversky 1979)]], and connects to Bostic, Herrnstein, and Luce (1990) and Schkade and Johnson (1989, process evidence). Within choice modeling broadly, it is a foundational demonstration that elicitation method is not a neutral window onto a fixed preference — a caution central to any structural estimation of preferences from choice or valuation data.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

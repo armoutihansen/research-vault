@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/WYCQBZXY/Tversky1992.pdf
 tags: [literature]
 keywords: [cumulative-prospect-theory, loss-aversion, probability-weighting, rank-dependent-utility, decision-under-risk, reference-dependence, fourfold-pattern]
 topics: []
-related: []
+related: [Kahneman1979, Quiggin1982]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -59,7 +59,7 @@ The authors are explicit that the cumulative functional "is unlikely to be accur
 - **Behavior near probability endpoints** is ill-behaved: very small probabilities can be greatly overweighted *or* neglected, which the smooth weighting form does not pin down.
 
 ## Connections
-Direct successor to **Kahneman & Tversky (1979)** prospect theory and to **Tversky & Kahneman (1986, 1991)** on framing and loss aversion. The cumulative functional adapts the rank-dependent representations of **Quiggin (1982)**, **Yaari (1987)**, **Weymark (1981)**, and **Schmeidler (1989)** (Choquet integral over capacities), with axiomatics drawn heavily from **Wakker (1989a,b, 1991, 1992)** and the joint-receipt approach of **Luce & Fishburn (1991)**. It empirically adjudicates against **regret theory (Loomes & Sugden)** and **Fishburn's SSA**. The fourfold pattern and small-probability overweighting connect to lottery/insurance demand, the Allais and Ellsberg paradoxes, and downstream work on probability weighting (Prelec 1998), ambiguity, and reference-dependent preferences. For a researcher in social preferences and choice modeling, this is the canonical reference-dependent utility specification and the source of the standard loss-aversion and probability-weighting parameterizations.
+Direct successor to **[[@Kahneman1979|Kahneman & Tversky (1979)]]** prospect theory and to **Tversky & Kahneman (1986, 1991)** on framing and loss aversion. The cumulative functional adapts the rank-dependent representations of **[[@Quiggin1982|Quiggin (1982)]]**, **Yaari (1987)**, **Weymark (1981)**, and **Schmeidler (1989)** (Choquet integral over capacities), with axiomatics drawn heavily from **Wakker (1989a,b, 1991, 1992)** and the joint-receipt approach of **Luce & Fishburn (1991)**. It empirically adjudicates against **regret theory (Loomes & Sugden)** and **Fishburn's SSA**. The fourfold pattern and small-probability overweighting connect to lottery/insurance demand, the Allais and Ellsberg paradoxes, and downstream work on probability weighting (Prelec 1998), ambiguity, and reference-dependent preferences. For a researcher in social preferences and choice modeling, this is the canonical reference-dependent utility specification and the source of the standard loss-aversion and probability-weighting parameterizations.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

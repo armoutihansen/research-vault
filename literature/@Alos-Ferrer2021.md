@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/MWT2Y69L/Alos-Ferrer2021.pdf
 tags: [literature]
 keywords: [revealed-preference, stochastic-choice, response-times, random-utility-models, drift-diffusion-model, chronometric-function, nonparametric-identification]
 topics: []
-related: []
+related: [Bernheim2009, Manzini2014]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -59,7 +59,7 @@ Resolves a foundational, "well-known but rarely stated" identification failure i
 - **Incomplete revelation.** Theorem 1 may leave some preferences unrevealed (39% of cases here), and a violation contradicts specific subclasses but not the general approach.
 
 ## Connections
-Builds directly on **Horan, Manzini & Mariotti (2019)** for when utility-difference distributions are (a)symmetric (source of the asymmetric-Gumbel counterexample) and generalizes the deterministic "fast/slow third-option" intuition of **Krajbich, Oud & Fehr (2014)** to the stochastic setting. The chronometric function's optimality foundation comes from **Fudenberg, Strack & Strzalecki (2018)** (optimal evidence accumulation; used in the Prop. 6 proof) and **Woodford (2014)**; the DDM lineage is **Ratcliff (1978)**, **Shadlen & Kiani (2013)**, and the axiomatization of **Baldassi et al. (2020)**. It complements structural RT-augmented estimation (**Clithero 2018**, whose data are used; **Konovalov & Krajbich 2019**; **Schotter & Trevino 2021**) by instead solving the *nonparametric* identification problem that fails even with rich choice data. Related stochastic-choice and behavioral-welfare work includes **Block & Marschak (1960)**, **Apesteguía & Ballester (2015, 2018)**, **Manzini & Mariotti (2014)**, **Bernheim & Rangel (2009)**, and **Echenique & Saito (2017)** (chronometric axiomatization, but deterministic). The Fechnerian backbone traces to **Fechner (1860)**, **Thurstone (1927)**, **Debreu (1958)**, and **Luce (1959)**; the modern RUM tradition to **McFadden (1974, 2001)**.
+Builds directly on **Horan, Manzini & Mariotti (2019)** for when utility-difference distributions are (a)symmetric (source of the asymmetric-Gumbel counterexample) and generalizes the deterministic "fast/slow third-option" intuition of **Krajbich, Oud & Fehr (2014)** to the stochastic setting. The chronometric function's optimality foundation comes from **Fudenberg, Strack & Strzalecki (2018)** (optimal evidence accumulation; used in the Prop. 6 proof) and **Woodford (2014)**; the DDM lineage is **Ratcliff (1978)**, **Shadlen & Kiani (2013)**, and the axiomatization of **Baldassi et al. (2020)**. It complements structural RT-augmented estimation (**Clithero 2018**, whose data are used; **Konovalov & Krajbich 2019**; **Schotter & Trevino 2021**) by instead solving the *nonparametric* identification problem that fails even with rich choice data. Related stochastic-choice and behavioral-welfare work includes **Block & Marschak (1960)**, **Apesteguía & Ballester (2015, 2018)**, **[[@Manzini2014|Manzini & Mariotti (2014)]]**, **[[@Bernheim2009|Bernheim & Rangel (2009)]]**, and **Echenique & Saito (2017)** (chronometric axiomatization, but deterministic). The Fechnerian backbone traces to **Fechner (1860)**, **Thurstone (1927)**, **Debreu (1958)**, and **Luce (1959)**; the modern RUM tradition to **McFadden (1974, 2001)**.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

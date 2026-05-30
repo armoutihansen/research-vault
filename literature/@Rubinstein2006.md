@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/QYC7D5V8/Rubinstein2006.pdf
 tags: [literature]
 keywords: [choice-from-lists, rational-choice, revealed-preference, bounded-rationality, random-choice, order-effects, satisficing]
 topics: []
-related: []
+related: [Simonson1992, Tversky1972]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -56,7 +56,7 @@ The paper installs the *list* as an alternative primitive for choice theory and 
 - The duplication extension establishes that PI*/LIIA* diverge but does not fully characterize the weaker LIIA* class.
 
 ## Connections
-The procedural primitive (successive register-based choice) draws on Salant (2003) on limited computational resources favoring rationality, and the satisficing example is Simon (1955). The set-based partition condition mirrors Plott (1973) on path independence, and the correspondence results lean on the standard WARP $\Rightarrow$ rationalization result in Mas-Colell, Whinston, and Green (1995). The random-choice connections engage Luce (1959) and Luce–Suppes (1965) on monotone/Luce-form choice and Tversky (1972) "elimination by aspects," plus Simonson and Tversky (1992) on context effects; the reference-point example cites Tversky and Kahneman (1991). Empirical order effects are surveyed via panel-judging studies (Bruine de Bruin 2005; Glejser and Heyndels 2001; Wilson 1977), the hide-and-seek games of Rubinstein, Tversky, and Heller (1996), Attali and Bar-Hillel (2003) on multiple-choice answer placement, Christenfeld (1995) on choices from identical options, and Liu and Simonson (2005), whose ten-product keep-or-replace task instantiates Example 5. The paper is a touchstone for later work formalizing choice with frames, attention, and consideration sets.
+The procedural primitive (successive register-based choice) draws on Salant (2003) on limited computational resources favoring rationality, and the satisficing example is Simon (1955). The set-based partition condition mirrors Plott (1973) on path independence, and the correspondence results lean on the standard WARP $\Rightarrow$ rationalization result in Mas-Colell, Whinston, and Green (1995). The random-choice connections engage Luce (1959) and Luce–Suppes (1965) on monotone/Luce-form choice and [[@Tversky1972|Tversky (1972)]] "elimination by aspects," plus [[@Simonson1992|Simonson and Tversky (1992)]] on context effects; the reference-point example cites Tversky and Kahneman (1991). Empirical order effects are surveyed via panel-judging studies (Bruine de Bruin 2005; Glejser and Heyndels 2001; Wilson 1977), the hide-and-seek games of Rubinstein, Tversky, and Heller (1996), Attali and Bar-Hillel (2003) on multiple-choice answer placement, Christenfeld (1995) on choices from identical options, and Liu and Simonson (2005), whose ten-product keep-or-replace task instantiates Example 5. The paper is a touchstone for later work formalizing choice with frames, attention, and consideration sets.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

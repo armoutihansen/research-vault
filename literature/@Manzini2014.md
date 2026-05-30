@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/58FJZE89/Manzini2014.pdf
 tags: [literature]
 keywords: [stochastic-choice, consideration-sets, limited-attention, random-utility, revealed-preference, luce-model, identification, bounded-rationality]
 topics: []
-related: []
+related: [Manzini2007, Masatlioglu2012]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -22,7 +22,7 @@ generated: 2026-05-29
 Introduces the **random consideration set model** (RCSM): a boundedly rational agent has a fixed strict preference $\succ$ and maximizes it over a *stochastically formed* consideration set, where each alternative $a$ enters that set independently with a menu-independent **attention parameter** $\gamma(a)\in(0,1)$. The paper gives a two-axiom characterization and shows that **both** $\succ$ and $\gamma$ are *uniquely identified* from stochastic choice data — a sharp identification that deterministic consideration-set models cannot deliver.
 
 ## Research question
-Can the randomness in observed choice be attributed to **limited attention** (consideration errors) rather than utility noise, in a way that (i) is testable by simple axioms on choice frequencies and (ii) — unlike the deterministic attention model of Masatlioglu, Nakajima & Ozbay (2012, "MNO") — **uniquely recovers** both the preference ordering and the attention parameters from the choice data it generates?
+Can the randomness in observed choice be attributed to **limited attention** (consideration errors) rather than utility noise, in a way that (i) is testable by simple axioms on choice frequencies and (ii) — unlike the deterministic attention model of [[@Masatlioglu2012|Masatlioglu, Nakajima & Ozbay (2012]], "MNO") — **uniquely recovers** both the preference ordering and the attention parameters from the choice data it generates?
 
 ## Method / identification
 The primitive is a random choice rule $p(a\mid A)$ over menus $A$ from a rich domain, with a **default** option $a^*$ (the agent may pick nothing). The model posits a strict total order $\succ$ and attention parameters $\gamma:X\to(0,1)$ with
@@ -72,7 +72,7 @@ The first stochastic consideration-set model that is simultaneously **axiomatica
 - Empirically the model explains only **weak** stochastic-transitivity violations, not the more pervasive **strong** ones — its descriptive reach is bounded.
 
 ## Connections
-Extends Manzini & Mariotti (2007) "shortlisting" and MNO (2012); contrasts with Luce (1959)/multinomial logit (McFadden 1974), the attribute rule of Gul–Natenzon–Pesendorfer (2010), and Tversky's Elimination-by-Aspects; situates the rule inside Block–Marschak/McFadden RUM.
+Extends [[@Manzini2007|Manzini & Mariotti (2007)]] "shortlisting" and MNO (2012); contrasts with Luce (1959)/multinomial logit (McFadden 1974), the attribute rule of Gul–Natenzon–Pesendorfer (2010), and Tversky's Elimination-by-Aspects; situates the rule inside Block–Marschak/McFadden RUM.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

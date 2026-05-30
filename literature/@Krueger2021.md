@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/JY6TUPSP/Krueger2021.pdf
 tags: [literature]
 keywords: [mixed-logit, discrete-choice, unobserved-heterogeneity, choice-prediction, recommender-systems, bayesian-estimation, maximum-simulated-likelihood]
 topics: []
-related: []
+related: [Revelt1998, Revelt2000]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -56,7 +56,7 @@ The authors are explicit about several open hooks:
 - **Integrating matrix-factorisation latent structure** into collaborative-learning and RUM utility equations is suggested as an improvement path.
 
 ## Connections
-The model formulation builds directly on Hess and Rose (2009) and Hess and Train (2011), with the Gibbs sampler from Becker et al. (2018); the half-$t$ prior follows Huang and Wand (2013) and Akinc and Vandebroek (2018). The study is a direct, critical rejoinder to Danaf et al. (2019) and Xie et al. (2020), who advocated inter-intra mixed logit for recommender systems. The baseline panel mixed-logit estimator is Revelt and Train (1998); the foundational mixed-logit and conditional-recovery machinery is McFadden and Train (2000) and Train (2009). The unconditional-prediction null aligns with Cherchi and Cirillo (2010), Zhao et al. (2020), and Wang et al. (2021). The forward-looking alternatives connect to the ML-econometrics literature: matrix factorisation in RUM (Athey et al. 2018; Donnelly et al. 2019; Gopalan et al. 2013), collaborative learning (Zhu et al. 2020), amortised VI (Rodrigues 2020; cf. scalable VI in Bansal et al. 2020), and neural/tree utilities (Sifringer et al. 2020; Wang et al. 2020; Kindo et al. 2016). Within a prediction-vs-explanation framing, this note is a useful counterpoint for any project comparing the predictive value of structured versus unstructured heterogeneity in discrete choice.
+The model formulation builds directly on Hess and Rose (2009) and Hess and Train (2011), with the Gibbs sampler from Becker et al. (2018); the half-$t$ prior follows Huang and Wand (2013) and Akinc and Vandebroek (2018). The study is a direct, critical rejoinder to Danaf et al. (2019) and Xie et al. (2020), who advocated inter-intra mixed logit for recommender systems. The baseline panel mixed-logit estimator is [[@Revelt1998|Revelt and Train (1998)]]; the foundational mixed-logit and conditional-recovery machinery is [[@Revelt2000|McFadden and Train (2000)]] and Train (2009). The unconditional-prediction null aligns with Cherchi and Cirillo (2010), Zhao et al. (2020), and Wang et al. (2021). The forward-looking alternatives connect to the ML-econometrics literature: matrix factorisation in RUM (Athey et al. 2018; Donnelly et al. 2019; Gopalan et al. 2013), collaborative learning (Zhu et al. 2020), amortised VI (Rodrigues 2020; cf. scalable VI in Bansal et al. 2020), and neural/tree utilities (Sifringer et al. 2020; Wang et al. 2020; Kindo et al. 2016). Within a prediction-vs-explanation framing, this note is a useful counterpoint for any project comparing the predictive value of structured versus unstructured heterogeneity in discrete choice.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

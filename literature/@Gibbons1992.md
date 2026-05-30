@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/K9ISCHLC/Gibbons1992.pdf
 tags: [literature]
 keywords: [career-concerns, incentive-contracts, implicit-incentives, executive-compensation, principal-agent, dynamic-agency, bayesian-learning]
 topics: []
-related: []
+related: [Coughlan1985, Holmstrom1982, Tirole1988]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -41,7 +41,7 @@ A longitudinal panel built from the Forbes Executive Compensation Surveys (1971-
 - **Empirical support.** Each 10% change in shareholder wealth corresponds to ~1.5% cash-compensation change for CEOs within three years of retirement vs. only ~0.9% for those farther out — the predicted steepening near retirement. The result survives controls for firm size (median-firm sensitivity ~0.93 per \$1,000 of shareholder wealth), though the "Few Years Left" interaction becomes statistically insignificant once firm-specific elasticities are allowed (point estimate $\beta_i=.0297$, $t=1.4$), modestly weakening support for hypothesis H1.
 
 ## Contribution
-The paper unifies two previously separate literatures: career-concerns models (Fama 1980; Holmstrom 1982) that have incentives, learning, and market forces but no contracts or risk aversion, and dynamic agency models (Holmstrom-Milgrom 1987 and others) that have contracts and risk aversion but no learning or market forces. By incorporating all five elements (incentives, learning, market forces, contracts, risk aversion), it shows career concerns matter *even with* contracts, and yields the sharp, testable, and empirically borne-out prediction that explicit pay-performance sensitivity rises over the career. It is a foundational reference for understanding implicit vs. explicit incentives and the design of executive compensation.
+The paper unifies two previously separate literatures: career-concerns models (Fama 1980; [[@Holmstrom1982|Holmstrom 1982)]] that have incentives, learning, and market forces but no contracts or risk aversion, and dynamic agency models (Holmstrom-Milgrom 1987 and others) that have contracts and risk aversion but no learning or market forces. By incorporating all five elements (incentives, learning, market forces, contracts, risk aversion), it shows career concerns matter *even with* contracts, and yields the sharp, testable, and empirically borne-out prediction that explicit pay-performance sensitivity rises over the career. It is a foundational reference for understanding implicit vs. explicit incentives and the design of executive compensation.
 
 ## Limitations & open questions
 - The model is deliberately stylized via strong assumptions (linear short-term contracts (A1); no long-term contracts (A2); exponential utility with perfect capital access). The authors expect the qualitative results to be robust but note weaker assumptions would surface additional effects.
@@ -52,7 +52,7 @@ The paper unifies two previously separate literatures: career-concerns models (F
 - New data on internal organization are identified as essential for future progress.
 
 ## Connections
-Builds directly on Fama (1980), who argued the managerial labor market alone disciplines managers, and Holmstrom (1982), who showed labor-market discipline is an imperfect substitute (effort too high early, too low late) — this paper restores a role for contracts. It draws the linearity of optimal contracts from Holmstrom and Milgrom (1987), and relates to dynamic agency and consumption-smoothing models (Lambert 1983; Rogerson 1985; Murphy 1986; Fudenberg, Holmstrom, and Milgrom 1987). The pay-performance estimation connects to the executive-compensation literature (Coughlan and Schmidt 1985; Gibbons and Murphy 1990). The promotion-incentive intuition echoes Rosen (1986) on tournaments, and the career-concerns mechanism parallels the "ratchet effect" in regulation and employment (Laffont-Tirole 1988; Lazear 1986; Gibbons 1987).
+Builds directly on Fama (1980), who argued the managerial labor market alone disciplines managers, and [[@Holmstrom1982|Holmstrom (1982)]], who showed labor-market discipline is an imperfect substitute (effort too high early, too low late) — this paper restores a role for contracts. It draws the linearity of optimal contracts from Holmstrom and Milgrom (1987), and relates to dynamic agency and consumption-smoothing models (Lambert 1983; Rogerson 1985; Murphy 1986; Fudenberg, Holmstrom, and Milgrom 1987). The pay-performance estimation connects to the executive-compensation literature ([[@Coughlan1985|Coughlan and Schmidt 1985]]; Gibbons and Murphy 1990). The promotion-incentive intuition echoes Rosen (1986) on tournaments, and the career-concerns mechanism parallels the "ratchet effect" in regulation and employment ([[@Tirole1988|Laffont-Tirole 1988]]; Lazear 1986; Gibbons 1987).
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

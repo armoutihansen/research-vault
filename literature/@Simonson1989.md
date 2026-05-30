@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/DQSUS4KA/Simonson1989.pdf
 tags: [literature]
 keywords: [compromise-effect, attraction-effect, context-effects, choice-justification, preference-uncertainty, accountability, consumer-choice]
 topics: []
-related: []
+related: [Huber1982, Kahneman1979, Tversky1972]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -63,7 +63,7 @@ Additional open threads raised in discussion: reconciling the *weak/inconsistent
 
 ## Connections
 
-The intellectual lineage runs through **Montgomery (1983)**, **Slovic (1975)**, and **Slovic, Fischhoff & Lichtenstein** on justification-driven choice, and **Tversky (1972)** on elimination-by-aspects. The attraction effect originates with **Huber, Payne & Puto (1982)** and **Huber & Puto (1983)**; **Ratneshwar, Shocker & Stewart (1987)** challenged its robustness. The justification/accountability machinery draws on **Tetlock (1985)** ("preemptive self-criticism") and self-presentation work (Schlenker, Baumeister). The compromise effect is connected to **prospect theory** (Kahneman & Tversky 1979): switching from a middle reference point to an extreme incurs a salient loss. Downstream, this paper seeds the large literature on context/menu effects, reference-dependence, and rationalization-based choice models, and is a natural companion to work on social preferences and choice consistency where set-dependent justification matters.
+The intellectual lineage runs through **Montgomery (1983)**, **Slovic (1975)**, and **Slovic, Fischhoff & Lichtenstein** on justification-driven choice, and **[[@Tversky1972|Tversky (1972)]]** on elimination-by-aspects. The attraction effect originates with **[[@Huber1982|Huber, Payne & Puto (1982)]]** and **Huber & Puto (1983)**; **Ratneshwar, Shocker & Stewart (1987)** challenged its robustness. The justification/accountability machinery draws on **Tetlock (1985)** ("preemptive self-criticism") and self-presentation work (Schlenker, Baumeister). The compromise effect is connected to **prospect theory** ([[@Kahneman1979|Kahneman & Tversky 1979)]]: switching from a middle reference point to an extreme incurs a salient loss. Downstream, this paper seeds the large literature on context/menu effects, reference-dependence, and rationalization-based choice models, and is a natural companion to work on social preferences and choice consistency where set-dependent justification matters.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

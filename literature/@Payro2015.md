@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/FVEIKZ8X/Payro2015.pdf
 tags: [literature]
 keywords: [bounded-rationality, similarity, choice-theory, revealed-preference, cyclic-choice, rationalizability]
 topics: []
-related: []
+related: [Dutta2015, Manzini2007]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -66,7 +66,7 @@ The paper offers a clean, single-axiom revealed-preference foundation for a psyc
 - The bundle/complementarity reinterpretation is sketched only for representation (1); a parallel development (and matching-theoretic implications) for representation (2) is not pursued.
 
 ## Connections
-The paper sits in the **boundedly rational / multistage choice** literature but deliberately breaks from it: in **Manzini and Mariotti (2007)** "sequentially rationalizable choice," **Masatlıoğlu, Nakajima and Özbay (2012)** "revealed attention," **Dutta and Horan (2015)**, and **Bajraj and Ülkü (2015)**, alternatives are *eliminated* stage by stage until a single survivor remains; here the first-stage winner survives but *passed-over* alternatives can re-enter the choice set, an opposite movement. The formal backbone is **Arrow (1959)** and the revealed-preference tradition summarized by **Moulin (1985)**, with the linear-extension construction relying on **Szpilrajn (1930)**. The similarity primitive draws on **Tversky (1977)** (non-symmetric, non-transitive similarity) and contrasts with **Rubinstein (1988)**, where similarity *completes* an incomplete preference over lotteries (an Allais-paradox resolution) rather than *causing* behavioral irrationality. The bundle reinterpretation links to choice functions in two-sided **matching** (**Roth and Sotomayor 1990**; **Chambers and Yenmez 2013**).
+The paper sits in the **boundedly rational / multistage choice** literature but deliberately breaks from it: in **[[@Manzini2007|Manzini and Mariotti (2007)]]** "sequentially rationalizable choice," **Masatlıoğlu, Nakajima and Özbay (2012)** "revealed attention," **[[@Dutta2015|Dutta and Horan (2015)]]**, and **Bajraj and Ülkü (2015)**, alternatives are *eliminated* stage by stage until a single survivor remains; here the first-stage winner survives but *passed-over* alternatives can re-enter the choice set, an opposite movement. The formal backbone is **Arrow (1959)** and the revealed-preference tradition summarized by **Moulin (1985)**, with the linear-extension construction relying on **Szpilrajn (1930)**. The similarity primitive draws on **Tversky (1977)** (non-symmetric, non-transitive similarity) and contrasts with **Rubinstein (1988)**, where similarity *completes* an incomplete preference over lotteries (an Allais-paradox resolution) rather than *causing* behavioral irrationality. The bundle reinterpretation links to choice functions in two-sided **matching** (**Roth and Sotomayor 1990**; **Chambers and Yenmez 2013**).
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

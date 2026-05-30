@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/2KJFFT7E/Sarver2012.pdf
 tags: [literature]
 keywords: [reference-dependent-utility, loss-aversion, anticipatory-utility, recursive-utility, equity-premium-puzzle, first-order-risk-aversion, decision-theory, epstein-zin]
 topics: []
-related: []
+related: [Benartzi1995, Gul1991, Kahneman1979, Koszegi2006b]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -65,7 +65,7 @@ A novel, axiomatically-grounded theory of reference-point formation by *optimiza
 
 ## Connections
 
-Builds directly on the recursive-utility machinery of **Epstein–Zin (1989)** and **Kreps–Porteus (1978)** (and Weil 1989/1990), which it nests and reinterprets. It is positioned against the two dominant reference-point theories: **history-dependent** formation (Benartzi–Thaler 1995; Barberis–Huang–Santos 2001) and expectations-based formation (**Kőszegi–Rabin 2006, 2007**). Loss aversion and gains/losses trace to **Markowitz (1952)** and **Kahneman–Tversky (1979)**; the kink delivers first-order risk aversion à la **Segal–Spivak (1990)**. The asset-pricing puzzles addressed are Mehra–Prescott's equity premium, Weil's risk-free rate puzzle, and **Rabin (2000)**'s calibration paradox. The local-expected-utility reading of $\phi\circ u_{t+1}$ connects to **Machina (1982, 1984)**, and the paper relates the representation to **betweenness** preferences (Chew 1983; Dekel 1986), Gul (1991) disappointment aversion, and to the induced-preference literature (Kreps–Porteus 1979; Ergin–Sarver 2011). Marinacci–Montrucchio (2010) supply the fixed-point results for the homothetic value function.
+Builds directly on the recursive-utility machinery of **Epstein–Zin (1989)** and **Kreps–Porteus (1978)** (and Weil 1989/1990), which it nests and reinterprets. It is positioned against the two dominant reference-point theories: **history-dependent** formation ([[@Benartzi1995|Benartzi–Thaler 1995]]; Barberis–Huang–Santos 2001) and expectations-based formation (**Kőszegi–[[@Koszegi2006b|Rabin 2006]], 2007**). Loss aversion and gains/losses trace to **Markowitz (1952)** and **[[@Kahneman1979|Kahneman–Tversky (1979)]]**; the kink delivers first-order risk aversion à la **Segal–Spivak (1990)**. The asset-pricing puzzles addressed are Mehra–Prescott's equity premium, Weil's risk-free rate puzzle, and **Rabin (2000)**'s calibration paradox. The local-expected-utility reading of $\phi\circ u_{t+1}$ connects to **Machina (1982, 1984)**, and the paper relates the representation to **betweenness** preferences (Chew 1983; Dekel 1986), [[@Gul1991|Gul (1991)]] disappointment aversion, and to the induced-preference literature (Kreps–Porteus 1979; Ergin–Sarver 2011). Marinacci–Montrucchio (2010) supply the fixed-point results for the homothetic value function.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

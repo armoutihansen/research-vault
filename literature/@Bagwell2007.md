@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/N3SGUX3I/Bagwell2007.pdf
 tags: [literature]
 keywords: [advertising, industrial-organization, persuasive-vs-informative, dorfman-steiner, quality-signaling, endogenous-sunk-costs, market-structure]
 topics: []
-related: []
+related: [Milgrom1986, Nelson1974]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -33,7 +33,7 @@ Two parametric examples nest the views: a vertical-differentiation utility $\the
 
 **Normative theory** uses the same framework: Braithwaite's consumption-distortion argument (consumer surplus gain $G$ from a lower price versus loss $L$ from distorted purchases at pre-advertising preferences) and Dixit-Norman (1978), who compare market and socially-optimal advertising and argue advertising may be *excessively* supplied.
 
-**Quality-signalling models.** A monopolist privately knows quality $t\in\{L,H\}$, picks $(P,A)$, and consumers form belief $b(P,A)$. The **least-cost separating equilibrium** solves $\max_{P,A}\Pi(P,A,1,H)$ s.t. $\Pi(P,A,1,L)\le\pi_M(L)$. The Milgrom-Roberts (1986) two-period extension adds a repeat-business effect: dissipative advertising signals quality only if marginal cost rises with quality ($c(H)>c(L)$). The survey also covers Bagwell-Ramey dissipative/multi-firm price models, loss-leader commitment/signalling models, Sutton's sunk-cost multi-stage entry games, and NEIO structural estimation (specify demand, marginal-cost, and supply first-order/conduct equations; estimate jointly via SCPP-vs-NEIO contrast).
+**Quality-signalling models.** A monopolist privately knows quality $t\in\{L,H\}$, picks $(P,A)$, and consumers form belief $b(P,A)$. The **least-cost separating equilibrium** solves $\max_{P,A}\Pi(P,A,1,H)$ s.t. $\Pi(P,A,1,L)\le\pi_M(L)$. The [[@Milgrom1986|Milgrom-Roberts (1986)]] two-period extension adds a repeat-business effect: dissipative advertising signals quality only if marginal cost rises with quality ($c(H)>c(L)$). The survey also covers Bagwell-Ramey dissipative/multi-firm price models, loss-leader commitment/signalling models, Sutton's sunk-cost multi-stage entry games, and NEIO structural estimation (specify demand, marginal-cost, and supply first-order/conduct equations; estimate jointly via SCPP-vs-NEIO contrast).
 
 ## Data
 None of its own — this is a survey. It catalogs others' data: inter-industry advertising/sales ratios (Bain, Telser, Comanor-Wilson); brand panels (Lambin's 107 brands, 16 classes, 8 countries); household scanner panels (Section 8.1); and industry structural studies on cigarettes (Roberts-Samuelson), cola (Gasmi-Laffont-Vuong), photographic film (Kadiyali), and saltine crackers (Slade).
@@ -57,7 +57,7 @@ Bagwell explicitly flags that "many of the most important questions remain unres
 - **Behavioral / neuroeconomics**: two-system (deliberative/affective, "cold/hot") models of choice (Loewenstein-O'Donoghue, Bernheim-Rangel) and fMRI evidence (McClure et al. Coke/Pepsi) raise the question of *which preferences* should anchor welfare when ads activate affective systems — reopening the persuasive-view welfare debate on new foundations.
 
 ## Connections
-The persuasive view descends from **Marshall (1890)**, **Chamberlin (1933)**, **Robinson (1933)**, **Braithwaite (1928)**, and **Kaldor (1950)**; the informative view from the Chicago School — **Stigler (1961)**, **Telser (1964)**, **Nelson (1974)** (search vs experience goods, signalling-efficiency); the complementary view from **Becker-Murphy (1993)**. Formal modeling rests on **Dorfman-Steiner (1954)** and **Dixit-Norman (1978)**; signalling on **Milgrom-Roberts (1986)**, **Kihlstrom-Riordan (1984)**, and **Schmalensee (1978)**; reach/dissipation on **Butters (1977)** and **Grossman-Shapiro (1984)**; the integrative bounds program on **Sutton (1991)** *Sunk Costs and Market Structure* and **Bresnahan (1989)** on NEIO. It sits alongside the earlier *Handbook* treatments by Schmalensee (1989) and Stiglitz (1989) and complements the Farrell-Klemperer chapter on switching costs and network effects.
+The persuasive view descends from **Marshall (1890)**, **Chamberlin (1933)**, **Robinson (1933)**, **Braithwaite (1928)**, and **Kaldor (1950)**; the informative view from the Chicago School — **Stigler (1961)**, **Telser (1964)**, **[[@Nelson1974|Nelson (1974)]]** (search vs experience goods, signalling-efficiency); the complementary view from **Becker-Murphy (1993)**. Formal modeling rests on **Dorfman-Steiner (1954)** and **Dixit-Norman (1978)**; signalling on **Milgrom-Roberts (1986)**, **Kihlstrom-Riordan (1984)**, and **Schmalensee (1978)**; reach/dissipation on **Butters (1977)** and **Grossman-Shapiro (1984)**; the integrative bounds program on **Sutton (1991)** *Sunk Costs and Market Structure* and **Bresnahan (1989)** on NEIO. It sits alongside the earlier *Handbook* treatments by Schmalensee (1989) and Stiglitz (1989) and complements the Farrell-Klemperer chapter on switching costs and network effects.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

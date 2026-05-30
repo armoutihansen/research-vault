@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/XSQPAL4E/Baigent1996.pdf
 tags: [literature]
 keywords: [choice-theory, revealed-preference, social-norms, rationalizability, axiomatization, choice-function-consistency]
 topics: []
-related: []
+related: [Sen1993]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -44,7 +44,7 @@ None — this is a theoretical, axiomatic paper. The only empirical content is i
 - A structural observation: when the maximal set is non-unique the rule actually *does* select largest (maximal) elements, so it is a "preference optimizing principle of a richer type," not a satisficing rule.
 
 ## Contribution
-The paper extends a choice function mentioned by Sen (1993) into a fully axiomatized object and shows, against the usual presumption, that choices violating the canonical rationalizability conditions ($\alpha$ and $\gamma$) are not beyond analysis. It operationalizes Sen's argument that the consistency of choices across subsets cannot be judged without an *external reference*: here the reference is the explicit norm/quality structure encoded in $C(A)=M(A\setminus M^*(A,q),q)$. The authors stress they study *internalized* norms (where violation costs integrity and self-respect), sharply distinguishing this from game-theoretic accounts where norm-conforming behaviour is merely strategic equilibrium play. They also argue that working with *incompletely described* alternatives (commodity bundles, tax schedules, pieces of cake) is the empirically relevant case, rather than refusing the puzzle by appeal to fully specified states of the world. Methodologically, the axioms are characterized as "anatomic" — dissecting an existing phenomenon into components — and several are shown to be close relatives of standard axioms (3.1 weakens Arrow 1959; 3.2(i) mirrors $\gamma$ in structure but reverses its implication; 3.2(ii) is $\beta$).
+The paper extends a choice function mentioned by [[@Sen1993|Sen (1993)]] into a fully axiomatized object and shows, against the usual presumption, that choices violating the canonical rationalizability conditions ($\alpha$ and $\gamma$) are not beyond analysis. It operationalizes Sen's argument that the consistency of choices across subsets cannot be judged without an *external reference*: here the reference is the explicit norm/quality structure encoded in $C(A)=M(A\setminus M^*(A,q),q)$. The authors stress they study *internalized* norms (where violation costs integrity and self-respect), sharply distinguishing this from game-theoretic accounts where norm-conforming behaviour is merely strategic equilibrium play. They also argue that working with *incompletely described* alternatives (commodity bundles, tax schedules, pieces of cake) is the empirically relevant case, rather than refusing the puzzle by appeal to fully specified states of the world. Methodologically, the axioms are characterized as "anatomic" — dissecting an existing phenomenon into components — and several are shown to be close relatives of standard axioms (3.1 weakens Arrow 1959; 3.2(i) mirrors $\gamma$ in structure but reverses its implication; 3.2(ii) is $\beta$).
 
 ## Limitations & open questions
 - **The $k$-th largest generalization:** the authors note it would be "mathematically tempting to axiomatize the choice of the $k$-th largest element," but they explicitly decline because they cannot formulate a *norm* that would motivate this extension.
