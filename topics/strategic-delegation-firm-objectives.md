@@ -16,7 +16,7 @@ This topic covers the theory of the firm's *objective function* once ownership a
 ## Sub-themes
 
 - **Strategic delegation as oligopoly commitment.** The canonical trio [[@Fershtman1987|Fershtman & Judd (1987)]], [[@Sklivas1987|Sklivas (1987)]], and [[@Vickers1985|Vickers (1985)]] independently establish that owners write contracts on a profit/sales mix ($O_i=\alpha_i\pi_i+(1-\alpha_i)S_i$) or a cost-shifter ($\theta_i$) to commit managers to aggression (Cournot, $\alpha<1$) or softness (Bertrand, $\lambda>1$). [[@Tirole1988|Tirole (1988)]] embeds this in the broader "is profit-maximization defensible?" question.
-- **Authority and initiative.** [[@Aghion1997|Aghion & Tirole (1997)]] (and its duplicate ingest `zotero-item-205`) separate *formal* from *real* authority: delegation raises agent initiative at the cost of principal control, via an endogenous information-acquisition channel.
+- **Authority and initiative.** [[@Aghion1997|Aghion & Tirole (1997)]] separate *formal* from *real* authority: delegation raises agent initiative at the cost of principal control, via an endogenous information-acquisition channel.
 - **Delegation as investment and empowerment.** [[@Sliwka2001|Sliwka (2001)]] reframes delegation as experimentation on unknown ability and as an implicit-incentive (career-concerns) device, generating a reputation-driven holdup problem.
 - **Foundations / selection critique.** [[@Vickers1985|Vickers (1985)]] and [[@Tirole1988|Tirole (1988)]] both confront whether evolutionary "natural selection" rescues profit-maximization once delegation is possible.
 
