@@ -91,6 +91,19 @@ Zotero ─/lit-sync─►  literature notes  ─/topic-cluster─►  topics ⊂
   (recorded in the project note's `repo:` property). The vault hands off to it; it is *not* the vault.
 
 ### Cross-cutting
+- **Biblio lookup** — the **only** way the system touches *external* literature: a single deterministic
+  client (`biblio`) that queries **open** bibliographic sources (OpenAlex, Crossref, RePEc/EconPapers)
+  for **metadata + abstracts only**, never full-text. It powers *discovery* (newer/relevant work),
+  *verification* (does a cited paper actually exist?), and feeds the **Acquire-list**. It never downloads
+  a PDF — full-text always enters through the user's Zotero. Open-access by construction; enforced by a
+  host allowlist + a `WebFetch`-blocking hook (ADR-0015). Used by idea harvesting/vetting and `lit-sync`
+  freshness; **not** by `topic-cluster` (which works on the existing corpus only).
+- **Acquire-list** — the set of papers a skill has identified as *relevant but not yet in the
+  library*, emitted with each item's DOI and (when open-access) a direct link, for **the user** to
+  acquire through a channel they are entitled to use and route back via Zotero → `lit-sync`. The system
+  never downloads full-text itself; the acquire-list is how it says *"here is what you need and where to
+  get it."* The shared output of **biblio lookup** — used by `lit-sync` (version updates), the
+  feasibility check, and idea vetting. Every entry is existence-verified before it is surfaced.
 - **AI region / human region** — every generated note splits at a fence marker; everything above
   is agent-owned and regenerable, everything below (`## My notes`) is the user's and never
   overwritten on regeneration.
