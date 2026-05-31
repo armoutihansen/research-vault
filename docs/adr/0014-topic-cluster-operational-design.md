@@ -40,22 +40,29 @@ compared to the citation-modularity partition and **large disagreements are flag
 informs and audits; the LLM decides. Promoting graph community detection to the partitioner is a possible
 future refinement, not v1.
 
-### First-run bootstrap — five phases, single-context taxonomy, human-gated
+### First-run bootstrap — four phases, single-context taxonomy, human-gated
 1. **Taxonomy (one agent, one shot).** A deterministic script emits the compact representation of all 469
-   notes (~70k tokens); one Opus 1M-context agent proposes the whole topic set — `{topic, slug, scope,
-   members[]}` — as **one globally consistent partition**. Single-context is deliberate: it avoids the
-   cross-batch topic-merge problem a map-reduce or competing-panel approach would create, and the human
-   gate below already catches a bad partition.
-2. **Critic/refine (1 agent, ≤2 rounds).** Audits the taxonomy for three failure modes — *grab-bag*
-   topics (no internal tension → split), *near-duplicate* topics (→ merge), and *coverage* (every note
-   assigned or explicitly orphaned) — and runs the graph cross-check.
-3. **Human gate.** The refined taxonomy is presented as a reviewable proposal (topics · sizes · member
-   previews · flags) and approved/edited before anything is written. The bootstrap is the largest "diff"
-   Layer 2 will ever produce, so it is gated like every later merge/split (ADR-0007).
+   notes (~110k tokens); one Opus 1M-context agent proposes the whole topic set — `{topic, slug, scope,
+   members[]}` — as **one globally consistent partition**, self-checking for grab-bags, near-duplicates,
+   and coverage before returning. Single-context is deliberate: it avoids the cross-batch topic-merge
+   problem a map-reduce or competing-panel approach would create.
+2. **Human gate, with deterministic annotation.** There is **no separate LLM "critic" phase.** With a
+   single taxonomy agent (not a competing panel), a second agent re-running the same thematic judgment is
+   just that judgment done twice, with no fitness signal to iterate against — and the genuine cold-eyes
+   review is the *human's*. What the critic was really doing splits in two: the **mechanical** checks
+   (coverage, cap/singletons, empty topics, and the **graph cross-check** — agreement of the thematic
+   partition with the Louvain citation communities) are deterministic and move into a script
+   (`report_taxonomy.py`); the **judgment** calls (grab-bag? duplicate?) are the human's, made far better
+   with those stats in front of them. So: annotate the proposal, present it (topics · sizes · member
+   previews · orphans · flags), and the user approves/edits before anything is written. Refinement is
+   *iteration here*, driven by the user's calls — which is where revision finally has a signal. The
+   bootstrap is the largest "diff" Layer 2 will ever produce, so it is gated like every later merge/split
+   (ADR-0007).
+3. **Apply membership (deterministic write-back).** Stamps `topics:` into member frontmatter (idempotent,
+   AI region only) and records state.
 4. **Topic prose (fan-out, one agent/topic).** Each agent reads the **full summaries** of its members and
-   writes the topic note: scope · sub-themes · cross-paper tensions · open questions · candidate ideas.
-5. **Write-back (deterministic script).** Stamps `topics:` into member frontmatter and writes
-   `topics/<slug>.md`. Idempotent; AI region only.
+   writes the topic note: scope · sub-themes · cross-paper tensions · open questions · candidate ideas;
+   the script adds the derived Members/Bordering-work/Promoted blocks and writes `topics/<slug>.md`.
 
 ### Membership — multi, by centrality, not a partition
 A literature note is a full **member of one *or more* topics** (overriding ADR-0007's singular "a topic"),

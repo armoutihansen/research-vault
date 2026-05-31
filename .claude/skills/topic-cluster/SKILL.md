@@ -27,7 +27,7 @@ and [`../../../docs/adr/0014-topic-cluster-operational-design.md`](../../../docs
 ## Prerequisites
 - Run from the vault root. Layer 1 must exist (`literature/@*.md` with `keywords:` + `related:`).
 - `uv` available (for the optional Louvain community prior — degrades gracefully if absent).
-- **Bulk fan-out (Phase B, re-prose) uses the Workflow tool** — requires the user to opt into workflows.
+- **Bulk fan-out (Phase C, topic prose) uses the Workflow tool** — requires the user to opt into workflows.
 
 ## Scripts (deterministic — always use these)
 - `scripts/make_input.py --mode bootstrap|incremental` — emit the clustering input JSON: a compact rep
@@ -51,35 +51,42 @@ uv run python .claude/skills/topic-cluster/scripts/make_input.py --mode bootstra
 Hand the **whole** file to **one** agent (it fits one Opus 1M context, ~110k tokens for 469 notes).
 Brief: *"Partition these literature notes into topics at the idea-generativity grain (above). Use
 `community`/`related`/keywords as priors you may override on thematic grounds. Assign every note to ≥1
-topic by centrality (cap ~3); send genuine misfits to `orphans` with a one-line reason."* Require this
+topic by centrality (cap ~3); send genuine misfits to `orphans` with a one-line reason. Before
+returning, self-check: no grab-bag topics, no near-duplicate topics, full coverage."* Require this
 **structured output**:
 ```json
 { "topics": [ {"slug": "kebab-slug", "title": "Human Title", "scope": "one line",
                "members": ["Citekey1", "..."], "rationale": "why this is one idea-generative topic"} ],
   "orphans": [ {"citekey": "X", "reason": "..."} ] }
 ```
-(Slugs are kebab-case and become permanent identities — choose carefully.)
-
-### Phase A′ — Critic / refine (1 agent, ≤2 rounds)
-Give a second agent the proposed taxonomy + the input. It checks three failure modes — **grab-bag**
-topics (no internal tension → split), **near-duplicate** topics (→ merge), **coverage** (every note
-assigned or explicitly orphaned) — and the **graph cross-check** (flag topics that shred a tight
-`community`, or a community scattered across many topics). It returns a revised taxonomy + notes.
+(Slugs are kebab-case and become permanent identities — choose carefully.) There is **no separate LLM
+"critic" pass**: a second agent re-running the same thematic judgment adds nothing the human gate
+doesn't, and has no fitness signal to iterate against. The cold-eyes review is the **human's**, informed
+by the deterministic annotation below.
 
 ### Human gate (required)
-Present the refined taxonomy to the user as a **reviewable proposal**: topic count, each topic's
-title · scope · size · a few member previews, the orphan list, and the critic's flags. The user
-approves/edits before anything is written. This is the largest diff Layer 2 will ever produce.
+Annotate the proposal deterministically, then hand it to the user:
+```
+uv run python .claude/skills/topic-cluster/scripts/report_taxonomy.py --taxonomy .research/tmp/proposed_taxonomy.json
+```
+This prints the gate summary — topic count + size distribution, coverage/orphans, multi-membership and
+cap/singleton flags, and the **graph cross-check**: each topic's agreement (purity) with the Louvain
+citation communities, flagging topics that span many communities and communities scattered across many
+topics. Present to the user: topics (title · scope · size · member previews), the orphan list, and
+these flags. The user approves/edits **before anything is written** — the largest diff Layer 2 will
+ever produce. **Refinement is iteration here**, driven by the user's calls ("split 7", "merge 3 and
+12"): re-run the taxonomy agent with that feedback or hand-edit, re-annotate, re-gate. Save the
+approved result to `.research/tmp/approved.json`.
 
-### Phase C — Apply membership (deterministic)
+### Phase B — Apply membership (deterministic)
 Write the membership straight from the approved taxonomy (it accepts the `orphans` objects as-is):
 ```
 uv run python .claude/skills/topic-cluster/scripts/apply_taxonomy.py --taxonomy .research/tmp/approved.json --require-full-coverage
 ```
 This stamps `topics:` into every member note, records state, and validates. It will warn that each
-slug still lacks a `topics/<slug>.md` — that's Phase B.
+slug still lacks a `topics/<slug>.md` — that's Phase C.
 
-### Phase B — Topic prose (fan out, one agent per topic)
+### Phase C — Topic prose (fan out, one agent per topic)
 Use the **Workflow** tool (one agent/topic, parallel). Each agent reads the **full** summaries of its
 members (the lit notes) and writes the thematic prose only — `## Scope`, `## Sub-themes`,
 `## Cross-paper tensions`, `## Open questions`, `## Candidate ideas` (the Layer-3 hook: make ideas
@@ -108,7 +115,7 @@ the current `taxonomy`. One agent assigns each pending note to best-fit topic(s)
 `needs_new_topic` (with a proposed name). **Pool** new-topic flags — one stray paper doesn't mint a
 topic; a burst of related ones might — and run them through the same human gate. Then `apply_taxonomy`
 (without `--require-full-coverage`, since only pending notes are in scope) and re-prose **only the
-topics that gained/lost members** via Phase B. Anchors and untouched members are left alone.
+topics that gained/lost members** via Phase C. Anchors and untouched members are left alone.
 
 ## Procedure — re-balance (merge/split), explicit and gated
 Run on request (`--rebalance` intent) or when a heuristic trips: a topic > ~40 members (split
