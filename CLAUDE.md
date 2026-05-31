@@ -8,6 +8,13 @@ lifecycle.
 - **Design:** [`docs/architecture.md`](docs/architecture.md) — full design, data flow, build order.
 - **Decisions:** [`docs/adr/`](docs/adr/) — one ADR per architectural choice.
 
+## Python
+
+Run **all** Python via **`uv run python …`**, never bare `python3`. The interpreter and the one
+third-party dep (`networkx`, for topic-cluster's Louvain prior) are pinned in `pyproject.toml` /
+`uv.lock`; `uv run` provisions the `.venv` (gitignored) on first use. Skill scripts are otherwise
+standard-library; bare `python3` mostly works but is off-environment and skips networkx.
+
 ## Agent skills
 
 ### Issue tracker

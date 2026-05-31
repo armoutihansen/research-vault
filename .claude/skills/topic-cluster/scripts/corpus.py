@@ -6,15 +6,15 @@ the way `lit-sync` writes them — frontmatter is plain `key: [a, b]` lines (wri
 the AI body is `## Section` blocks above the FENCE, the human region is below it. We never parse below
 the fence and never write here (the write side lives in apply_taxonomy.py / write_topic.py).
 
-Also builds the citation graph from `related:` and, when `uv`+networkx are available, a Louvain
-community id per note — a *prior* the taxonomy agent may follow or override (ADR-0014), never the
-partitioner. Graceful no-op (empty community map) if the graph step can't run.
+Also builds the citation graph from `related:` and a Louvain community id per note — a *prior* the
+taxonomy agent may follow or override (ADR-0014), never the partitioner. Graceful no-op (empty
+community map) if networkx isn't importable.
 
-Standard library only; the optional Louvain step shells out to `uv run --with networkx`.
+Standard library + networkx (the only third-party dep). Run the skill scripts via `uv run` so the
+pinned environment (pyproject.toml / uv.lock) provides networkx; bare `python3` still works but skips
+the community prior.
 """
-import json
 import re
-import subprocess
 import sys
 from pathlib import Path
 
@@ -139,38 +139,27 @@ def citation_edges(notes):
     return sorted(edges)
 
 
-_LOUVAIN = r"""
-import sys, json, networkx as nx
-from networkx.algorithms.community import louvain_communities
-edges = json.load(sys.stdin)
-G = nx.Graph(); G.add_edges_from(tuple(e) for e in edges)
-out = {}
-for i, c in enumerate(sorted(louvain_communities(G, seed=0, resolution=1.0), key=len, reverse=True)):
-    for node in c:
-        out[node] = i
-print(json.dumps(out))
-"""
-
-
 def communities(notes):
-    """citekey -> Louvain community id (a clustering *prior*). {} if uv/networkx unavailable —
-    the prior is simply absent and the LLM clusters without it (ADR-0014)."""
+    """citekey -> Louvain community id (a clustering *prior*). {} if networkx is unavailable — the
+    prior is simply absent and the LLM clusters without it (ADR-0014). Deterministic via a fixed seed."""
     edges = citation_edges(notes)
     if not edges:
         return {}
     try:
-        r = subprocess.run(
-            ["uv", "run", "--quiet", "--with", "networkx", "python", "-c", _LOUVAIN],
-            input=json.dumps(edges), capture_output=True, text=True, timeout=120,
-        )
-        if r.returncode != 0:
-            print(f"[topic-cluster] community detection skipped: {r.stderr.strip()[:200]}",
-                  file=sys.stderr)
-            return {}
-        return json.loads(r.stdout)
-    except Exception as e:  # uv missing, timeout, etc. — degrade gracefully
-        print(f"[topic-cluster] community detection skipped: {e}", file=sys.stderr)
+        import networkx as nx
+        from networkx.algorithms.community import louvain_communities
+    except ImportError as e:
+        print(f"[topic-cluster] community prior skipped (networkx unavailable: {e}); "
+              f"run via `uv run` to enable it", file=sys.stderr)
         return {}
+    g = nx.Graph()
+    g.add_edges_from(edges)
+    out = {}
+    for i, comm in enumerate(sorted(louvain_communities(g, seed=0, resolution=1.0),
+                                    key=len, reverse=True)):
+        for node in comm:
+            out[node] = i
+    return out
 
 
 def bordering_work(slug, members_by_slug, notes_by_ck):

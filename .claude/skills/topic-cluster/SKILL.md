@@ -46,7 +46,7 @@ and [`../../../docs/adr/0014-topic-cluster-operational-design.md`](../../../docs
 
 ### Phase A — Taxonomy (one agent, one shot)
 ```
-python3 .claude/skills/topic-cluster/scripts/make_input.py --mode bootstrap --out .research/tmp/taxonomy_input.json
+uv run python .claude/skills/topic-cluster/scripts/make_input.py --mode bootstrap --out .research/tmp/taxonomy_input.json
 ```
 Hand the **whole** file to **one** agent (it fits one Opus 1M context, ~110k tokens for 469 notes).
 Brief: *"Partition these literature notes into topics at the idea-generativity grain (above). Use
@@ -74,7 +74,7 @@ approves/edits before anything is written. This is the largest diff Layer 2 will
 ### Phase C — Apply membership (deterministic)
 Write the membership straight from the approved taxonomy (it accepts the `orphans` objects as-is):
 ```
-python3 .claude/skills/topic-cluster/scripts/apply_taxonomy.py --taxonomy .research/tmp/approved.json --require-full-coverage
+uv run python .claude/skills/topic-cluster/scripts/apply_taxonomy.py --taxonomy .research/tmp/approved.json --require-full-coverage
 ```
 This stamps `topics:` into every member note, records state, and validates. It will warn that each
 slug still lacks a `topics/<slug>.md` — that's Phase B.
@@ -85,7 +85,7 @@ members (the lit notes) and writes the thematic prose only — `## Scope`, `## S
 `## Cross-paper tensions`, `## Open questions`, `## Candidate ideas` (the Layer-3 hook: make ideas
 specific, grounded in the members' open questions/tensions). Then it calls:
 ```
-python3 .claude/skills/topic-cluster/scripts/write_topic.py --slug <slug> --title "<title>" \
+uv run python .claude/skills/topic-cluster/scripts/write_topic.py --slug <slug> --title "<title>" \
   --scope "<scope>" --members "<ck1,ck2,…>" --body /tmp/<slug>.md
 ```
 The `## Members` / `## Bordering work` / `## Promoted from this topic` blocks are added by the script —
@@ -93,7 +93,7 @@ The `## Members` / `## Bordering work` / `## Promoted from this topic` blocks ar
 
 ### Finalize
 ```
-python3 .claude/skills/topic-cluster/scripts/apply_taxonomy.py --validate-only
+uv run python .claude/skills/topic-cluster/scripts/apply_taxonomy.py --validate-only
 ```
 Expect a clean pass (no dangling membership links). Report: N topics, size distribution, N orphans,
 and any graph-disagreement flags worth a human look.
@@ -101,7 +101,7 @@ and any graph-disagreement flags worth a human look.
 ## Procedure — incremental run (after the bootstrap)
 For new notes from `lit-sync` or `changed` notes:
 ```
-python3 .claude/skills/topic-cluster/scripts/make_input.py --mode incremental --out .research/tmp/incr.json
+uv run python .claude/skills/topic-cluster/scripts/make_input.py --mode incremental --out .research/tmp/incr.json
 ```
 This selects only **pending** notes (empty `topics:`, or manifest hash ≠ last-clustered) and includes
 the current `taxonomy`. One agent assigns each pending note to best-fit topic(s) **or** flags

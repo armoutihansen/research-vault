@@ -1,0 +1,11 @@
+[project]
+name = "research-vault"
+version = "0.1.0"
+description = "Helper scripts for the research-vault Obsidian skills (lit-sync, topic-cluster)."
+requires-python = ">=3.9"
+# networkx is the only third-party dependency — the Louvain citation-community prior in
+# topic-cluster (ADR-0014). Everything else in the skill scripts is the standard library.
+dependencies = ["networkx"]
+
+[tool.uv]
+package = false  # this is an environment for the skill scripts, not an installable package

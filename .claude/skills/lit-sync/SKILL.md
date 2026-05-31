@@ -32,7 +32,7 @@ map-reduce discipline below. See [`../../../CONTEXT.md`](../../../CONTEXT.md) an
 
 ### 1. Enumerate
 ```
-python3 .claude/skills/lit-sync/scripts/enumerate.py --status new,changed --out .research/work.json
+uv run python .claude/skills/lit-sync/scripts/enumerate.py --status new,changed --out .research/work.json
 ```
 For a **pilot**, add `--limit 15`. The work-list `.items[]` each have: citekey, title, authors,
 year, type, doi, abstract, pdf_path, hash, status.
@@ -91,14 +91,14 @@ Per paper (fan out for bulk — see §4):
    `limited-attention`).
 7. **Write** — pass the work item and your body to `write_note.py`:
    ```
-   python3 .claude/skills/lit-sync/scripts/write_note.py \
+   uv run python .claude/skills/lit-sync/scripts/write_note.py \
      --item <(jq '.items[i]' .research/work.json) --body /tmp/body.md --keywords "k1,k2,k3"
    ```
 
 ### 3. Link citations (corpus-level post-pass)
 After a chunk of notes is written, resolve cross-references in one shot:
 ```
-python3 .claude/skills/lit-sync/scripts/link_notes.py --rebuild-index --all
+uv run python .claude/skills/lit-sync/scripts/link_notes.py --rebuild-index --all
 ```
 This rewrites every note's in-scope prose citations into `[[@citekey|display]]` wikilinks and
 rebuilds `related:`. It is idempotent and only ever touches the AI region. Links to in-scope papers

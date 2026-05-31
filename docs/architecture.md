@@ -162,3 +162,6 @@ scripts** the skills call; only judgment steps (summarize, cluster, synthesize) 
   running). Mature personal vault `Zettelkasten` (695 notes) with citation-plugin, dataview, kanban,
   pandoc-reference-list, omnisearch already configured.
 - **Tooling**: `pdftotext` ✓, `sqlite3` ✓; `tesseract`/`mutool`/`ollama`/`llm` ✗; no embedding API keys.
+- **Python**: run via `uv` (`uv run python …`); interpreter + the lone third-party dep (`networkx`,
+  topic-cluster's Louvain prior) pinned in `pyproject.toml`/`uv.lock`. `.venv` is gitignored. Skill
+  scripts are otherwise stdlib-only.
