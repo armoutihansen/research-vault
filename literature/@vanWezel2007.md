@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/RG3HJ8UA"
 pdf: /Users/jesper/Zotero/storage/F3AWDZN8/vanWezel2007.pdf
 tags: [literature]
 keywords: [ensemble-learning, brand-choice, bias-variance-decomposition, decision-trees, boosting, bagging, choice-modeling]
-topics: []
+topics: ["[[ml-evaluating-economic-theories]]"]
 related: [Heskes1998]
 added: 2026-05-30
 generated: 2026-05-30
