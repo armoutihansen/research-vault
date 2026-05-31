@@ -28,6 +28,19 @@ A topic is the **smallest cluster that still carries internal tension worth a ca
 than a survey area ("social preferences"), coarser than a single paper. Operationally this lands ~20–35
 topics of ~10–25 members over the 469 notes, but the *count is an outcome of the principle*, not a target.
 
+### Areas over topics — a two-level emergent hierarchy (amended 2026-05-31)
+The idea-generative topics have a parent structure a flat list loses: inequity aversion / reciprocity
+are *social preferences*; satisficing / shortlist methods are *bounded rationality*. That structure is
+already latent — the Louvain communities are essentially these fields, and the bootstrap's own gate
+grouped the 35 topics under exactly such headers. So Layer 2 is a **two-level hierarchy**: a broad
+**area** (`areas/<slug>.md`, ~6–8 fields) over the fine **topics**. Decisions: **two levels only** (area
+⊃ topic; no deeper tree); each topic in **exactly one area** (a clean navigational tree — genuine
+cross-field bridges surface via the citation graph / shared papers, not multi-parenting); area notes are
+**synthesis-bearing** (field-level cross-topic tensions + major open questions + a dataview child list),
+not mere indexes; the grouping is **emergent + human-gated** like topics (group the existing topics, with
+communities as a prior). Single source of truth: a topic's `area:` frontmatter link; area notes derive
+their child roster via dataview. The level is **additive** — paper→topic memberships are unchanged.
+
 ### The LLM clusters; the citation graph is a prior and a cross-check
 Clustering is **LLM-thematic** (ADR-0007), not graph community detection. Even with `networkx` now
 installable via `uv`, modularity partitions by *who-cites-whom* (methodological schools, author cliques,

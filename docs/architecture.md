@@ -42,7 +42,7 @@ literature/@<citekey>.md       Layer 1  (AI region ⌐ + human region; citation 
    │
    ▼  /topic-cluster  ─ incremental LLM-thematic; assign new notes to anchor or new topic
    │                  ─ refresh topic prose; propose merges/splits as a diff
-topics/<topic>.md              Layer 2  (scope · tensions · open questions · candidate ideas · dataview list)
+topics/<topic>.md ⊂ areas/<area>.md   Layer 2  (idea-generative topics grouped into ~6–8 broad areas; both synthesis-bearing, dataview rosters)
    │
    ▼  /promote-idea   ─ human picks a candidate idea (the gate)
 projects/<slug>.md             Layer 3  status: feasibility → planned → ongoing → finished

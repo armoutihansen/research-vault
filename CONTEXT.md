@@ -14,7 +14,7 @@ also a git repo. It turns a Zotero library into structured knowledge and, ultima
 research projects, across **three layers**:
 
 ```
-Zotero ─/lit-sync─►  literature notes  ─/topic-cluster─►  topic notes
+Zotero ─/lit-sync─►  literature notes  ─/topic-cluster─►  topics ⊂ areas
                        (Layer 1)                            (Layer 2)
                                                                │ candidate ideas
                                                                ▼ /promote-idea (human gate)
@@ -52,12 +52,18 @@ Zotero ─/lit-sync─►  literature notes  ─/topic-cluster─►  topic note
   Obsidian; resolves automatically once the note lands. Lets linking run before backfill completes.
   Only in-scope citations are linked — out-of-scope mentions (Luce 1959) stay plain prose.
 
-### Layer 2 — Topics
+### Layer 2 — Areas & Topics
+- **Area** — `areas/<slug>.md`. A broad research field (e.g. *social preferences*, *bounded
+  rationality*) — the **upper** level of the emergent Layer-2 hierarchy. Groups the fine **topic
+  notes** beneath it; carries field-level synthesis (cross-topic tensions, the field's major open
+  questions) plus a live dataview list of its child topics. Discovered bottom-up by grouping the
+  topics (human-gated), with the citation-community structure as a prior (community ≈ area).
 - **Topic note** — `topics/<topic>.md`. An emergent subject cluster discovered **bottom-up** from
-  the literature notes. Contains: scope, sub-themes, cross-paper tensions, **open questions**, and
-  **candidate ideas**, plus a live dataview list of member literature notes. **Granularity is set by
-  idea-generativity**: a topic is the smallest cluster that still carries internal tension worth a
-  candidate idea — finer than a survey area ("social preferences"), coarser than a single paper.
+  the literature notes — the **lower**, idea-generative level. Contains: scope, sub-themes, cross-paper
+  tensions, **open questions**, and **candidate ideas**, plus a live dataview list of member literature
+  notes. **Granularity is set by idea-generativity**: a topic is the smallest cluster that still carries
+  internal tension worth a candidate idea — finer than its parent **area** ("social preferences"),
+  coarser than a single paper. Each topic belongs to **exactly one area** (`area:` frontmatter link).
 - **Anchor** — an existing topic note that persists across re-clustering. New/changed literature
   notes are clustered **incrementally** against anchors; merges/splits are proposed as a diff.
 - **Membership** — a literature note's relationship to a topic. A note can be a full **member** of

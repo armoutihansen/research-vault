@@ -68,12 +68,13 @@ def bordering_block(slug, members, notes):
     return "\n".join(lines) + "\n"
 
 
-def build_frontmatter(slug, title, scope, created, generated):
+def build_frontmatter(slug, title, scope, area_raw, created, generated):
     rows = [
         ("slug", yaml_scalar(slug)),
         ("title", yaml_scalar(title)),
         ("type", "topic"),
         ("scope", yaml_scalar(scope)),
+        ("area", area_raw or '""'),  # "[[area-slug]]" link, set by apply_areas.py; preserved on re-prose
         ("tags", "[topic]"),
         ("created", yaml_scalar(created)),
         ("generated", yaml_scalar(generated)),
@@ -81,9 +82,11 @@ def build_frontmatter(slug, title, scope, created, generated):
     return "---\n" + "".join(f"{k}: {v}\n" for k, v in rows) + "---\n"
 
 
-def existing_created(text, fallback):
-    m = re.search(r"^created:\s*(.*)$", text, flags=re.M)
-    return (m.group(1).strip().strip('"') if m else None) or fallback
+def existing_field(text, key, fallback=""):
+    """Raw value of a frontmatter line in an existing note (verbatim, so an `area: "[[x]]"` link is
+    preserved exactly when re-prosing)."""
+    m = re.search(rf"^{key}:\s*(.*)$", text, flags=re.M)
+    return (m.group(1).strip() if m else "") or fallback
 
 
 def split_human(existing):
@@ -98,6 +101,7 @@ def main():
     ap.add_argument("--title", required=True)
     ap.add_argument("--scope", default="")
     ap.add_argument("--members", default="", help="comma-separated member citekeys")
+    ap.add_argument("--area", default="", help="parent area slug (else preserved from existing note)")
     ap.add_argument("--body", required=True, help="agent prose markdown (path or '-')")
     ap.add_argument("--generated", default=date.today().isoformat())
     ap.add_argument("--vault", default=None)
@@ -111,9 +115,11 @@ def main():
     path = vault / "topics" / f"{args.slug}.md"
     path.parent.mkdir(parents=True, exist_ok=True)
     prior = path.read_text() if path.exists() else None
-    created = existing_created(prior, args.generated) if prior else args.generated
+    created = existing_field(prior, "created", args.generated) if prior else args.generated
+    # area: from --area, else preserve the existing link (apply_areas.py is the usual setter)
+    area_raw = f'"[[{args.area}]]"' if args.area else (existing_field(prior, "area") if prior else "")
 
-    fm = build_frontmatter(args.slug, args.title, args.scope, created, args.generated)
+    fm = build_frontmatter(args.slug, args.title, args.scope, area_raw, created, args.generated)
     derived = "\n".join([MEMBERS_BLOCK.rstrip(), "", bordering_block(args.slug, members, notes).rstrip(),
                          "", PROMOTED_BLOCK.rstrip()])
     ai_region = fm + "\n" + body.strip() + "\n\n" + derived + "\n\n"

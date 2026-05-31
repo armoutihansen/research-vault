@@ -23,6 +23,9 @@ and [`../../../docs/adr/0014-topic-cluster-operational-design.md`](../../../docs
 - **Orphans, not junk drawers.** A note that fits nothing goes to `orphans` with a reason → `topics: []`.
 - **Membership lives only in lit-note `topics:`.** Topic notes derive rosters via dataview. The writers
   are idempotent and touch only the AI region; re-running with no new/changed notes is a no-op.
+- **Two levels.** Topics are grouped into broad **areas** (`areas/<slug>.md`, ADR-0014): each topic
+  links up via a single `area:`; area notes carry field-level synthesis + a dataview child list. Areas
+  are grouped from the topics, human-gated, the same way topics are clustered from papers.
 
 ## Prerequisites
 - Run from the vault root. Layer 1 must exist (`literature/@*.md` with `keywords:` + `related:`).
@@ -39,7 +42,11 @@ and [`../../../docs/adr/0014-topic-cluster-operational-design.md`](../../../docs
   `--validate-only`.
 - `scripts/write_topic.py --slug S --title T --scope … --members ck,… --body body.md` — write/refresh
   `topics/<slug>.md`: frontmatter + your prose + the derived `## Members` / `## Bordering work` /
-  `## Promoted from this topic` blocks + the human fence. `created` is fixed at birth.
+  `## Promoted from this topic` blocks + the human fence. `created` is fixed at birth; `area:` preserved.
+- `scripts/apply_areas.py --areas FILE` — stamp each topic's parent `area:` link (idempotent, single
+  source of truth) + validate (single-parent, no dangling area). `--validate-only`, `--dry-run`.
+- `scripts/write_area.py --slug S --title T --scope … --body body.md` — write/refresh `areas/<slug>.md`:
+  frontmatter + your synthesis prose + the derived `## Topics` dataview child-list + the human fence.
 - `scripts/corpus.py` — shared readers (imported by the above); not a CLI.
 
 ## Procedure — first-run bootstrap (no anchors yet)
@@ -98,12 +105,26 @@ uv run python .claude/skills/topic-cluster/scripts/write_topic.py --slug <slug> 
 The `## Members` / `## Bordering work` / `## Promoted from this topic` blocks are added by the script —
 **do not** hand-write rosters or wikilink lists. Never write below the fence.
 
+### Phase D — Group topics into areas (the upper level)
+Group the topics into ~6–8 broad **areas**: one cheap LLM pass over the topic titles/scopes (the
+Louvain communities are a prior — community ≈ area), each topic to **exactly one** area, human-gated
+like the taxonomy. Save the approved map to `.research/tmp/area_map.json`
+(`{"areas":[{"slug","title","scope","topics":[...]}]}`), then stamp the parent links:
+```
+uv run python .claude/skills/topic-cluster/scripts/apply_areas.py --areas .research/tmp/area_map.json
+```
+Then fan out **one agent per area** (Workflow): each reads its child *topic notes* and writes the
+area's field-level synthesis prose — `## Scope`, `## Sub-areas / themes`, `## Cross-topic tensions`,
+`## Open questions` — then calls `write_area.py`. The `## Topics` child-list is added by the script.
+(Area synthesis reads topic notes, so run this after Phase C.)
+
 ### Finalize
 ```
 uv run python .claude/skills/topic-cluster/scripts/apply_taxonomy.py --validate-only
+uv run python .claude/skills/topic-cluster/scripts/apply_areas.py --validate-only
 ```
-Expect a clean pass (no dangling membership links). Report: N topics, size distribution, N orphans,
-and any graph-disagreement flags worth a human look.
+Expect clean passes (no dangling membership/area links). Report: N areas, N topics + size
+distribution, N orphans, and any graph-disagreement flags worth a human look.
 
 ## Procedure — incremental run (after the bootstrap)
 For new notes from `lit-sync` or `changed` notes:
@@ -115,7 +136,9 @@ the current `taxonomy`. One agent assigns each pending note to best-fit topic(s)
 `needs_new_topic` (with a proposed name). **Pool** new-topic flags — one stray paper doesn't mint a
 topic; a burst of related ones might — and run them through the same human gate. Then `apply_taxonomy`
 (without `--require-full-coverage`, since only pending notes are in scope) and re-prose **only the
-topics that gained/lost members** via Phase C. Anchors and untouched members are left alone.
+topics that gained/lost members** via Phase C. Anchors and untouched members are left alone. A
+genuinely **new topic** also gets an area (assign it in `area_map.json`, run `apply_areas`, and refresh
+that area note); a new note rarely shifts an existing topic's area.
 
 ## Procedure — re-balance (merge/split), explicit and gated
 Run on request (`--rebalance` intent) or when a heuristic trips: a topic > ~40 members (split
