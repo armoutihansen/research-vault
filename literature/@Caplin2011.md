@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/2R6F7CLJ"
 pdf: /Users/jesper/Zotero/storage/EVX3G5HI/Caplin2011.pdf
 tags: [literature]
 keywords: [revealed-preference, search-theory, bounded-rationality, stochastic-choice, satisficing, choice-process-data, incomplete-information, framing-effects]
-topics: []
+topics: ["[[limited-attention-consideration-sets]]", "[[satisficing-search-revealed-preference]]"]
 related: [Gabaix2006, Manzini2007, Rubinstein2006, Salant2008, Samuelson1988, Tyson2008]
 added: 2026-05-29
 generated: 2026-05-29

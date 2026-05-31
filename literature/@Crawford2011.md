@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/RP48KTDN"
 pdf: /Users/jesper/Zotero/storage/HWBNCJRP/Crawford2011.pdf
 tags: [literature]
 keywords: [reference-dependent-preferences, labor-supply, loss-aversion, rational-expectations, koszegi-rabin, income-targeting]
-topics: []
+topics: ["[[expectations-based-reference-dependence]]"]
 related: [Abeler2011, Farber2005, Kahneman1979, Koszegi2006b]
 added: 2026-05-30
 generated: 2026-05-30

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/FK8MU97Q"
 pdf: /Users/jesper/Zotero/storage/SYZ7PL87/Kolay2013.pdf
 tags: [literature]
 keywords: [channel-coordination, vertical-contracting, two-part-tariffs, quantity-discounts, dominant-retailer, competitive-fringe, mechanism-design]
-topics: []
+topics: ["[[distribution-channels-vertical-integration]]"]
 related: [Jeuland1983, Kolay2004, Moorthy1987]
 added: 2026-05-30
 generated: 2026-05-30

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/H5GN5FG2"
 pdf: /Users/jesper/Zotero/storage/UZJQQTRP/Ganguly2017.pdf
 tags: [literature]
 keywords: [anticipatory-utility, information-avoidance, information-consumption-complementarity, non-instrumental-information, belief-based-utility, health-information, lab-experiment]
-topics: []
+topics: ["[[anticipatory-utility-motivated-beliefs]]"]
 related: [Caplin2001, Loewenstein1987, Milgrom1981]
 added: 2026-05-30
 generated: 2026-05-30

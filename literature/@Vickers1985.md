@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/KTZGWWY2"
 pdf: /Users/jesper/Zotero/storage/VP7LBQ2D/Vickers - 1985 - Delegation and the theory of the firm.pdf
 tags: [literature]
 keywords: [strategic-delegation, theory-of-the-firm, incentive-compatibility, cournot-oligopoly, principal-agent, stackelberg-leadership]
-topics: []
+topics: ["[[strategic-delegation-firm-objectives]]"]
 related: [Lazear1981, Nalebuff1983]
 added: 2026-05-30
 generated: 2026-05-30

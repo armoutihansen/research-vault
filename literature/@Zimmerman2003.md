@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/DHFI2HU6"
 pdf: /Users/jesper/Zotero/storage/D7QQ5JXQ/Zimmerman2003.pdf
 tags: [literature]
 keywords: [peer-effects, natural-experiment, random-assignment, education-economics, roommate-effects, causal-identification]
-topics: []
+topics: ["[[peer-effects-social-interactions]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

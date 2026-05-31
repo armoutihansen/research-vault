@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/BRBT4HDG"
 pdf: /Users/jesper/Zotero/storage/TLI3EQG9/Loewenstein1987.pdf
 tags: [literature]
 keywords: [intertemporal-choice, anticipation, savouring-and-dread, discounted-utility, time-inconsistency, negative-discounting, behavioral-economics]
-topics: []
+topics: ["[[anticipatory-utility-motivated-beliefs]]"]
 related: [Caplin2001]
 added: 2026-05-30
 generated: 2026-05-30

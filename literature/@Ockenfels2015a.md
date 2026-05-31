@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/YZX4PHH2"
 pdf: /Users/jesper/Zotero/storage/EHWB7JZT/Ockenfels2015a.pdf
 tags: [literature]
 keywords: [reference-dependent-preferences, bonus-pay, pay-transparency, loss-aversion, social-comparison, subjective-performance-evaluation, negative-reciprocity]
-topics: []
+topics: ["[[expectations-based-reference-dependence]]"]
 related: [Bolton2000, Fehr1999, Prendergast1996, Prendergast2002]
 added: 2026-05-30
 generated: 2026-05-30

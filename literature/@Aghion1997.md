@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/9GH63QS7"
 pdf: /Users/jesper/Zotero/storage/VMQBI6JR/Aghion and Tirole - 1997 - Formal and Real Authority in Organizations.pdf
 tags: [literature]
 keywords: [formal-authority, real-authority, delegation, incomplete-contracts, principal-agent, initiative, organizational-economics]
-topics: []
+topics: ["[[strategic-delegation-firm-objectives]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

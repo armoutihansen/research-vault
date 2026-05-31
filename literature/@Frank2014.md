@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/U9GMXWZ9"
 pdf: /Users/jesper/Zotero/storage/4IRMYMMU/Frank2014.pdf
 tags: [literature]
 keywords: [relative-income-hypothesis, expenditure-cascades, conspicuous-consumption, income-inequality, savings-rate, financial-distress]
-topics: []
+topics: ["[[conspicuous-consumption-status]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

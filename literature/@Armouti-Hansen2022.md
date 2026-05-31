@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/XJY3CVR2"
 pdf: /Users/jesper/Zotero/storage/5FH7U7XR/Armouti-Hansen2022.pdf
 tags: [literature]
 keywords: [decision-theory, bounded-rationality, reference-dependence, social-preferences, model-completeness, machine-learning, revealed-preference]
-topics: []
+topics: ["[[ml-evaluating-economic-theories]]"]
 related: [Abeler2011, Baillon2020, Berns2006, Dekel2010, Fehr1999, Goeree2001, Harless1994, Kahneman1979, Koszegi2006b, Manzini2007, Manzini2012a, Oster2013a, Schmitz2012]
 added: 2026-05-30
 generated: 2026-05-30

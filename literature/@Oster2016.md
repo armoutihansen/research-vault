@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/ZE5JJS6V"
 pdf: /Users/jesper/Zotero/storage/93N95DIA/Oster2016.pdf
 tags: [literature]
 keywords: [optimal-expectations, motivated-beliefs, information-avoidance, bayesian-updating, huntington-disease, overoptimism, corrigendum]
-topics: []
+topics: ["[[anticipatory-utility-motivated-beliefs]]"]
 related: [Brunnermeier2005, Caplin2001, Oster2013a]
 added: 2026-05-30
 generated: 2026-05-30

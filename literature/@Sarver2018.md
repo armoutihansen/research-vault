@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/Y97IIW2B"
 pdf: /Users/jesper/Zotero/storage/GIVFTBPI/Sarver2018b.pdf
 tags: [literature]
 keywords: [mixture-aversion, optimal-risk-attitude, recursive-utility, non-expected-utility, comparative-risk-aversion, stock-market-participation, rabin-paradox]
-topics: []
+topics: ["[[disappointment-regret-nonexpected-utility]]"]
 related: [Gul1991, Kahneman1979, Quiggin1982, Sydnor2010]
 added: 2026-05-30
 generated: 2026-05-30

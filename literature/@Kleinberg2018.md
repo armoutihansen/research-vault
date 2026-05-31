@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/RWBTNRX9"
 pdf: /Users/jesper/Zotero/storage/7HYTHG3A/Kleinberg2018.pdf
 tags: [literature]
 keywords: [machine-learning, selective-labels, bail-decisions, prediction-policy-problems, omitted-payoff-bias, judicial-decision-making]
-topics: []
+topics: ["[[ml-evaluating-economic-theories]]"]
 related: [Hastie2001, Tversky1974]
 added: 2026-05-30
 generated: 2026-05-30

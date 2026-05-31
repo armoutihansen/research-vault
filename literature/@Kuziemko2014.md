@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/WM68JNMI"
 pdf: /Users/jesper/Zotero/storage/5KK45Y6C/Kuziemko2014.pdf
 tags: [literature]
 keywords: [last-place-aversion, relative-position, ordinal-rank, redistribution-preferences, distributional-preferences, inequality-aversion, minimum-wage]
-topics: []
+topics: ["[[inequity-aversion-distributional-preferences]]"]
 related: [Bolton2000, Charles2009, Charness2002, Fehr1999]
 added: 2026-05-30
 generated: 2026-05-30

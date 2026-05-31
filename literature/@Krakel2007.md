@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/E4FIJ2B6"
 pdf: /Users/jesper/Zotero/storage/RCLP6NAE/Krakel2007.pdf
 tags: [literature]
 keywords: [doping, contests, rank-order-tournaments, cheating, heterogeneous-players, drug-testing]
-topics: []
+topics: ["[[tournaments-relative-performance]]"]
 related: [Lazear1981]
 added: 2026-05-30
 generated: 2026-05-30

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/CHIINYZY"
 pdf: /Users/jesper/Zotero/storage/VKNRHYXG/Mobbs2007.pdf
 tags: [literature]
 keywords: [threat-imminence, fear-neuroscience, fmri, periaqueductal-gray, active-avoidance, anticipatory-dread, defensive-behavior]
-topics: []
+topics: ["[[anticipatory-utility-motivated-beliefs]]"]
 related: [Berns2006]
 added: 2026-05-30
 generated: 2026-05-30

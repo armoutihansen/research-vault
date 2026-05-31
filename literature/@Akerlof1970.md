@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/RFB7XQTT"
 pdf: /Users/jesper/Zotero/storage/RYUC2VS4/Akerlof1970.pdf
 tags: [literature]
 keywords: [asymmetric-information, adverse-selection, market-for-lemons, quality-uncertainty, information-economics, signaling]
-topics: []
+topics: ["[[adverse-selection-intermediation]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

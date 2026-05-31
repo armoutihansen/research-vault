@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/L7DBCCZM"
 pdf: /Users/jesper/Zotero/storage/74HWCJKG/Biglaiser2018.pdf
 tags: [literature]
 keywords: [middlemen, information-intermediary, adverse-selection, moral-hazard, hold-up-problem, certification, perfect-bayesian-equilibrium]
-topics: []
+topics: ["[[adverse-selection-intermediation]]"]
 related: [Biglaiser1993, Biglaiser1999]
 added: 2026-05-30
 generated: 2026-05-30

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/39MN3DI7"
 pdf: /Users/jesper/Zotero/storage/MU7TD2PN/Charness2002.pdf
 tags: [literature]
 keywords: [social-preferences, inequality-aversion, reciprocity, social-welfare-preferences, experimental-economics, distributional-preferences, behavioral-game-theory]
-topics: []
+topics: ["[[inequity-aversion-distributional-preferences]]"]
 related: [Andreoni2002, Bolton2000, Fehr1999, Rabin1993]
 added: 2026-05-29
 generated: 2026-05-29

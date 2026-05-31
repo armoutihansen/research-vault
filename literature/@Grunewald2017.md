@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/MSXITSWB"
 pdf: /Users/jesper/Zotero/storage/ZHVUJ8Q9/Grunewald2017.pdf
 tags: [literature]
 keywords: [signal-jamming, informative-advertising, experience-goods, price-competition, vertical-differentiation, bayesian-updating]
-topics: []
+topics: ["[[advertising-signaling-quality]]"]
 related: [Bagwell2007, Mayzlin2014, Milgrom1986, Nelson1970]
 added: 2026-05-30
 generated: 2026-05-30

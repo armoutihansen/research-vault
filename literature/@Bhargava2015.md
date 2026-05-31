@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/L4K93YD9"
 pdf: /Users/jesper/Zotero/storage/AHXD9F9F/Bhargava2015.pdf
 tags: [literature]
 keywords: [behavioral-economics, public-policy, nudge, internalities, consumer-protection, health-insurance]
-topics: []
+topics: ["[[behavioral-welfare-nudge]]"]
 related: [Thaler2003]
 added: 2026-05-29
 generated: 2026-05-29

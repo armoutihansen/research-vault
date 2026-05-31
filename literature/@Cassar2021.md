@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/XYYATTZE"
 pdf: /Users/jesper/Zotero/storage/DM8NRHLX/Cassar and Meier - 2021 - Intentions for Doing Good Matter for Doing Well The Negative Effects of Prosocial Incentives.pdf
 tags: [literature]
 keywords: [prosocial-incentives, reciprocity, corporate-social-responsibility, field-experiment, worker-motivation, intentions-and-motives]
-topics: []
+topics: ["[[prosocial-behavior-image-signaling]]"]
 related: [Akerlof1982, Benabou2010, Bolton2000, Cassar2018, Dufwenberg2004, Ellingsen2008, Falk2006, Fehr1993, Fehr1999, Gneezy2000, Rabin1993, vonSiemens2013]
 added: 2026-05-30
 generated: 2026-05-30

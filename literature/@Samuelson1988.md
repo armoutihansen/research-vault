@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/J6UU6C2W"
 pdf: /Users/jesper/Zotero/storage/H32MWYNG/Samuelson1988.pdf
 tags: [literature]
 keywords: [status-quo-bias, behavioral-economics, loss-aversion, default-effects, decision-making, framing, endowment-effect]
-topics: []
+topics: ["[[behavioral-welfare-nudge]]"]
 related: [Tversky1974]
 added: 2026-05-29
 generated: 2026-05-29

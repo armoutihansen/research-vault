@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/CBWGIR42"
 pdf: /Users/jesper/Zotero/storage/EJBK2HG5/ODonoghue2015.pdf
 tags: [literature]
 keywords: [present-bias, quasi-hyperbolic-discounting, time-inconsistency, sophistication-naivete, behavioral-welfare, intertemporal-choice]
-topics: []
+topics: ["[[intertemporal-choice-present-bias]]"]
 related: [Koszegi2009, Loewenstein1987]
 added: 2026-05-30
 generated: 2026-05-30

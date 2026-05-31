@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/ATS8DMPA"
 pdf: /Users/jesper/Zotero/storage/DQSUS4KA/Simonson1989.pdf
 tags: [literature]
 keywords: [compromise-effect, attraction-effect, context-effects, choice-justification, preference-uncertainty, accountability, consumer-choice]
-topics: []
+topics: ["[[context-effects-attraction-compromise]]"]
 related: [Huber1982, Kahneman1979, Tversky1972]
 added: 2026-05-30
 generated: 2026-05-30

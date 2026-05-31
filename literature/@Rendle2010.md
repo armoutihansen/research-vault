@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/Z3BWW9QX"
 pdf: /Users/jesper/Zotero/storage/3KXZU2EA/Rendle2010.pdf
 tags: [literature]
 keywords: [factorization-machines, recommender-systems, sparse-data, feature-interactions, matrix-factorization, machine-learning]
-topics: []
+topics: ["[[recommender-systems-matrix-factorization]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

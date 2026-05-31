@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/2HQ787G3"
 pdf: /Users/jesper/Zotero/storage/J27GW88Z/Cerulli-Harms2019.pdf
 tags: [literature]
 keywords: [expectations-based-reference-dependence, koszegi-rabin, endowment-effect, personal-equilibrium, loss-aversion, experimental-economics, willingness-to-pay-accept]
-topics: []
+topics: ["[[expectations-based-reference-dependence]]"]
 related: [Abeler2011, Allen2017, Bell1985, Dellavigna2017, Gneezy2017, Gul1991, Koszegi2006b, Loomes1986, Sprenger2015, Tversky1990]
 added: 2026-05-29
 generated: 2026-05-29

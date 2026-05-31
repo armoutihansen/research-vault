@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/DTT7QXE3"
 pdf: /Users/jesper/Zotero/storage/WFA3YR2R/Conlisk1993.pdf
 tags: [literature]
 keywords: [utility-of-gambling, expected-utility, risk-seeking, insurance-and-gambling, decision-under-risk, prospect-theory, reference-dependence]
-topics: []
+topics: ["[[prospect-theory-loss-aversion]]"]
 related: [Kahneman1979, Loewenstein1987]
 added: 2026-05-30
 generated: 2026-05-30

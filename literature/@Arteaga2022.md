@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/FS89V9IR"
 pdf: /Users/jesper/Zotero/storage/TE9JWXM8/Arteaga2022.pdf
 tags: [literature]
 keywords: [mixed-logit, discrete-choice, gpu-acceleration, maximum-simulated-likelihood, python, random-utility]
-topics: []
+topics: ["[[discrete-choice-econometrics]]"]
 related: [Croissant2020, Revelt1998]
 added: 2026-05-30
 generated: 2026-05-30

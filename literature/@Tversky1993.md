@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/VYJ7QDW2"
 pdf: /Users/jesper/Zotero/storage/JY5IWZR8/Tversky1993.pdf
 tags: [literature]
 keywords: [context-dependent-choice, value-maximization, attraction-effect, compromise-effect, loss-aversion, independence-of-irrelevant-alternatives, contingent-weighting]
-topics: []
+topics: ["[[context-effects-attraction-compromise]]"]
 related: [Huber1982, Simonson1989, Simonson1992]
 added: 2026-05-30
 generated: 2026-05-30

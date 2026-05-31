@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/4RF4FGEL"
 pdf: /Users/jesper/Zotero/storage/ZYIXYH8W/DeJarnette2020.pdf
 tags: [literature]
 keywords: [time-lotteries, stochastic-impatience, expected-discounted-utility, risk-and-time-preferences, non-expected-utility, intertemporal-choice]
-topics: []
+topics: ["[[disappointment-regret-nonexpected-utility]]"]
 related: [Chen2013, Gul1991, Quiggin1982, Tversky1992]
 added: 2026-05-30
 generated: 2026-05-30

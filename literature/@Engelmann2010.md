@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/XYFHWPGC"
 pdf: /Users/jesper/Zotero/storage/ZNLLJNJA/Engelmann2010.pdf
 tags: [literature]
 keywords: [inequality-aversion, reciprocity, moonlighting-game, social-preferences, experimental-economics, reference-points]
-topics: []
+topics: ["[[inequity-aversion-distributional-preferences]]"]
 related: [Bolton2000, Charness2002, Cox2004, Dufwenberg2004, Falk2006, Falk2008, Fehr1999]
 added: 2026-05-29
 generated: 2026-05-29

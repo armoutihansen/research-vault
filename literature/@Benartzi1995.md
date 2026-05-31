@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/U7BXCMWX"
 pdf: /Users/jesper/Zotero/storage/3S9D3GCH/Benartzi1995.pdf
 tags: [literature]
 keywords: [behavioral-finance, myopic-loss-aversion, equity-premium-puzzle, prospect-theory, mental-accounting, loss-aversion, asset-allocation]
-topics: []
+topics: ["[[prospect-theory-loss-aversion]]"]
 related: [Tversky1992]
 added: 2026-05-29
 generated: 2026-05-29

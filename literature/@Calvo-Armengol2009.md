@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/YG8HD7JQ"
 pdf: /Users/jesper/Zotero/storage/DTW22VBK/Calvo-Armengol2009.pdf
 tags: [literature]
 keywords: [peer-effects, social-networks, katz-bonacich-centrality, network-games, identification, education-economics, spatial-econometrics]
-topics: []
+topics: ["[[peer-effects-social-interactions]]"]
 related: [Sacerdote2001]
 added: 2026-05-29
 generated: 2026-05-29

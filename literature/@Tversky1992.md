@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/KX4LCED2"
 pdf: /Users/jesper/Zotero/storage/WYCQBZXY/Tversky1992.pdf
 tags: [literature]
 keywords: [cumulative-prospect-theory, loss-aversion, probability-weighting, rank-dependent-utility, decision-under-risk, reference-dependence, fourfold-pattern]
-topics: []
+topics: ["[[prospect-theory-loss-aversion]]"]
 related: [Kahneman1979, Quiggin1982]
 added: 2026-05-30
 generated: 2026-05-30

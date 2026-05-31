@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/KM2WV5J2"
 pdf: /Users/jesper/Zotero/storage/B6JRRFMA/Loomes1987.pdf
 tags: [literature]
 keywords: [regret-theory, disappointment-theory, common-ratio-effect, expected-utility-violations, allais-paradox, non-expected-utility]
-topics: []
+topics: ["[[disappointment-regret-nonexpected-utility]]"]
 related: [Bell1985, Kahneman1979]
 added: 2026-05-30
 generated: 2026-05-30

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/8YDE368J"
 pdf: /Users/jesper/Zotero/storage/TDXGNTKG/Grether1979.pdf
 tags: [literature]
 keywords: [preference-reversal, procedure-invariance, experimental-economics, expected-utility, transitivity, elicitation, bdm-mechanism]
-topics: []
+topics: ["[[revealed-preference-foundations]]"]
 related: [Manzini2007, Tversky1972]
 added: 2026-05-30
 generated: 2026-05-30

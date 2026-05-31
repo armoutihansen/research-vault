@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/YEWAR2MM"
 pdf: /Users/jesper/Zotero/storage/FX5HAP97/Lombardi2009.pdf
 tags: [literature]
 keywords: [reason-based-choice, attraction-effect, incomplete-preferences, revealed-preference, choice-correspondence, bounded-rationality]
-topics: []
+topics: ["[[context-effects-attraction-compromise]]"]
 related: [Ehlers2008, Eliaz2006, Kalai2002, Rubinstein2006, Samuelson1938, Shafir1993, Simonson1989, Tversky1993]
 added: 2026-05-30
 generated: 2026-05-30

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/L3UBX8N3"
 pdf: /Users/jesper/Zotero/storage/SPQCR6XC/von Siemens - 2013 - Intention-based reciprocity and the hidden costs of control.pdf
 tags: [literature]
 keywords: [intention-based-reciprocity, hidden-costs-of-control, motivational-crowding-out, incomplete-information, psychological-game-theory, social-preferences]
-topics: []
+topics: ["[[motivated-agents-intrinsic-motivation]]"]
 related: [Benabou2003, Dufwenberg2004, Ellingsen2008, Falk2006, Rabin1993, Sliwka2007]
 added: 2026-05-30
 generated: 2026-05-30

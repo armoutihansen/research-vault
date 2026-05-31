@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/JYJFQVVS"
 pdf: /Users/jesper/Zotero/storage/JIU83FQD/Bellemare2011.pdf
 tags: [literature]
 keywords: [inequity-aversion, intentions, ultimatum-game, subjective-expectations, structural-estimation, representative-sample, fehr-schmidt]
-topics: []
+topics: ["[[inequity-aversion-distributional-preferences]]"]
 related: [Bellemare2008, Bolton2000, Dufwenberg2004, Falk2006, Falk2008, Fehr1999, Rabin1993]
 added: 2026-05-29
 generated: 2026-05-29

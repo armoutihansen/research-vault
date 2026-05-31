@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/YGQWVPLH"
 pdf: /Users/jesper/Zotero/storage/5RDX6SWL/Cassar and Meier - 2018 - Nonmonetary incentives and the implications of work as a source of meaning.pdf
 tags: [literature]
 keywords: [meaningful-work, intrinsic-motivation, nonmonetary-incentives, self-determination-theory, personnel-economics, labor-supply, pro-social-motivation]
-topics: []
+topics: ["[[motivated-agents-intrinsic-motivation]]"]
 related: [Benabou2003, Besley2005, DellaVigna2018, Englmaier2012]
 added: 2026-05-30
 generated: 2026-05-30

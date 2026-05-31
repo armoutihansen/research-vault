@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/MLXL5AJ5"
 pdf: /Users/jesper/Zotero/storage/BZ5T4SRZ/Caplin2019.pdf
 tags: [literature]
 keywords: [rational-inattention, consideration-sets, stochastic-choice, shannon-mutual-information, limited-attention, discrete-choice]
-topics: []
+topics: ["[[limited-attention-consideration-sets]]"]
 related: [Brady2016, Gabaix2006, Hauser1990, Manzini2014, Masatlioglu2012, Roberts1991]
 added: 2026-05-29
 generated: 2026-05-29

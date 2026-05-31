@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/BXADYP7X"
 pdf: /Users/jesper/Zotero/storage/9V4JF3AX/Delfgaauw and Swank - 2016 - Task-Specific Human Capital and Organizational Ine.pdf
 tags: [literature]
 keywords: [task-specific-human-capital, organizational-inertia, time-inconsistency, principal-agent, exploration-exploitation, managerial-vision, incentive-pay]
-topics: []
+topics: ["[[motivated-agents-intrinsic-motivation]]"]
 related: [Besley2005]
 added: 2026-05-30
 generated: 2026-05-30

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/WGBK7USD"
 pdf: /Users/jesper/Zotero/storage/HXIRAVIH/Danilov2016.pdf
 tags: [literature]
 keywords: [social-norms, incentive-contracts, signaling, conformity, principal-agent, lab-experiment, trust]
-topics: []
+topics: ["[[motivated-agents-intrinsic-motivation]]"]
 related: [Gneezy2000, Sliwka2007]
 added: 2026-05-30
 generated: 2026-05-30

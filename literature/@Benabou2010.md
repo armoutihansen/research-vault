@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/CE7DDCJU"
 pdf: /Users/jesper/Zotero/storage/9J2IHM4K/Bénabou and Tirole - 2010 - Individual and Corporate Social Responsibility.pdf
 tags: [literature]
 keywords: [prosocial-behavior, corporate-social-responsibility, image-motivation, crowding-out, pigovian-taxation, social-image]
-topics: []
+topics: ["[[prosocial-behavior-image-signaling]]"]
 related: [Ariely2009, Benabou2006, Besley2005]
 added: 2026-05-30
 generated: 2026-05-30

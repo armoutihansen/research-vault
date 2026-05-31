@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/PH2LBTUT"
 pdf: /Users/jesper/Zotero/storage/C66RNMMN/Masatlioglu2013.pdf
 tags: [literature]
 keywords: [consideration-sets, bounded-rationality, revealed-preference, search, reference-dependent-choice, choice-theory]
-topics: []
+topics: ["[[limited-attention-consideration-sets]]"]
 related: [Bernheim2009, Caplin2011, Cherepanov2013, Eliaz2011a, Hauser1990, Manzini2007, Masatlioglu2012, Roberts1991, Salant2008, Sen1993]
 added: 2026-05-30
 generated: 2026-05-30

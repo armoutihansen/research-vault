@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/8G4BVXVV"
 pdf: /Users/jesper/Zotero/storage/NG7DRVEE/Masatlioglu2016.pdf
 tags: [literature]
 keywords: [reference-dependence, loss-aversion, rank-dependent-utility, choice-acclimating-personal-equilibrium, non-expected-utility, risk-preferences]
-topics: []
+topics: ["[[expectations-based-reference-dependence]]"]
 related: [Abeler2011, Bell1985, Crawford2011, Gul1991, Heidhues2008, Kahneman1979, Koszegi2006b, Koszegi2007, Loomes1986, Pope2011, Quiggin1982, Sydnor2010, Tversky1992]
 added: 2026-05-30
 generated: 2026-05-30

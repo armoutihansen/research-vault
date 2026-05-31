@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/4HZWCJI7"
 pdf: /Users/jesper/Zotero/storage/6ZYK8HFU/Renault2015.pdf
 tags: [literature]
 keywords: [informative-advertising, consumer-search, information-disclosure, persuasion-games, quality-signaling, advertising-welfare, media-economics]
-topics: []
+topics: ["[[advertising-signaling-quality]]"]
 related: [Bagwell2007, Nelson1970]
 added: 2026-05-30
 generated: 2026-05-30

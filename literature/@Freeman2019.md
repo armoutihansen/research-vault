@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/J5VXFCD7"
 pdf: /Users/jesper/Zotero/storage/52H2UH89/Freeman2019.pdf
 tags: [literature]
 keywords: [reference-dependent-preferences, expectations-based-reference-points, choice-under-risk, personal-equilibrium, revealed-preference, loss-aversion, axiomatic-characterization]
-topics: []
+topics: ["[[expectations-based-reference-dependence]]"]
 related: [Abeler2011, Bell1985, Crawford2011, Freeman2017, Gul1991, Kahneman1979, Koszegi2006b, Loomes1986, Masatlioglu2016, Ok2015, Sarver2008]
 added: 2026-05-30
 generated: 2026-05-30

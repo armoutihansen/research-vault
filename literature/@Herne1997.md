@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/T9V8DX6A"
 pdf: /Users/jesper/Zotero/storage/P7SHDSH4/Herne1997.pdf
 tags: [literature]
 keywords: [decoy-effect, asymmetric-dominance, compromise-effect, independence-of-irrelevant-alternatives, context-dependent-preferences, political-choice, regularity-violation]
-topics: []
+topics: ["[[context-effects-attraction-compromise]]"]
 related: [Huber1982, Simonson1989, Simonson1992, Tversky1993]
 added: 2026-05-29
 generated: 2026-05-29

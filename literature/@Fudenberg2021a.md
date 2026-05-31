@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/QZJ2A8VP"
 pdf: /Users/jesper/Zotero/storage/YCEWCIQR/Fudenberg2021.pdf
 tags: [literature]
 keywords: [probability-weighting, simplicity-theory, cumulative-prospect-theory, risk-preferences, mixture-models, predictive-completeness, heterogeneous-agents]
-topics: []
+topics: ["[[choice-prediction-risky-choice]]"]
 related: [Bruhin2010, Erev2010, Fudenberg2020, Fudenberg2020a, Fudenberg2022a, Kahneman1979, Peysakhovich2017, Tversky1992]
 added: 2026-05-30
 generated: 2026-05-30

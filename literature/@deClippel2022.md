@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/MI82H6JK"
 pdf: /Users/jesper/Zotero/storage/MGYP28R6/deClippel2022.pdf
 tags: [literature]
 keywords: [bounded-rationality, choice-theory, revealed-preference, axiomatic-characterization, stochastic-choice, welfare-analysis]
-topics: []
+topics: ["[[behavioral-welfare-nudge]]"]
 related: [Bernheim2009, Lleras2017, Manzini2007, Manzini2012, Masatlioglu2012, Salant2008, Sen1971, Tyson2008]
 added: 2026-05-30
 generated: 2026-05-30

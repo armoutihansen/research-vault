@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/X8SN8PWU"
 pdf: /Users/jesper/Zotero/storage/NL4KNN9J/Bordalo2013.pdf
 tags: [literature]
 keywords: [salience-theory, context-dependent-choice, behavioral-economics, decoy-effect, reference-dependence, willingness-to-pay, attention]
-topics: []
+topics: ["[[context-effects-attraction-compromise]]"]
 related: [Eliaz2011a, Hauser1990, Heidhues2008, Huber1982, Kahneman1979, Kamenica2008, Koszegi2006b, Simonson1989, Tversky1993]
 added: 2026-05-29
 generated: 2026-05-29

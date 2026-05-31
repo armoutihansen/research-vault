@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/4MIJK5UE"
 pdf: /Users/jesper/Zotero/storage/9ISMHWIU/Koszegi2006a.pdf
 tags: [literature]
 keywords: [ego-utility, overconfidence, beliefs-based-utility, information-acquisition, self-image, task-choice, bayesian-updating]
-topics: []
+topics: ["[[anticipatory-utility-motivated-beliefs]]"]
 related: [Caplin2001]
 added: 2026-05-30
 generated: 2026-05-30

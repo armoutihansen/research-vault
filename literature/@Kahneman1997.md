@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/QPB6CFPV"
 pdf: /Users/jesper/Zotero/storage/GD7CRS3F/Kahneman1997.pdf
 tags: [literature]
 keywords: [experienced-utility, decision-utility, peak-end-rule, duration-neglect, temporal-integration, hedonic-measurement]
-topics: []
+topics: ["[[anticipatory-utility-motivated-beliefs]]"]
 related: [Loewenstein1992]
 added: 2026-05-30
 generated: 2026-05-30

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/M6RTGGUL"
 pdf: /Users/jesper/Zotero/storage/IQVULGY5/Dufwenberg2004.pdf
 tags: [literature]
 keywords: [reciprocity, psychological-game-theory, sequential-rationality, intention-based-preferences, extensive-form-games, social-preferences, equilibrium-existence]
-topics: []
+topics: ["[[reciprocity-gift-exchange]]"]
 related: [Akerlof1982, Bolton2000, Charness2002, Fehr1993, Fehr1999, Rabin1993]
 added: 2026-05-30
 generated: 2026-05-30

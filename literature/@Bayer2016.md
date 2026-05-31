@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/YHBIISLL"
 pdf: /Users/jesper/Zotero/storage/AY8288A5/Bayer2016.pdf
 tags: [literature]
 keywords: [factorization-machines, recommender-systems, matrix-factorization, mcmc-gibbs-sampling, sparse-features, python-library]
-topics: []
+topics: ["[[recommender-systems-matrix-factorization]]"]
 related: [Rendle2012]
 added: 2026-05-30
 generated: 2026-05-30

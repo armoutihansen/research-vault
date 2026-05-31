@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/SYPYF56T"
 pdf: /Users/jesper/Zotero/storage/RMCWKW6R/DellaVigna2018.pdf
 tags: [literature]
 keywords: [real-effort-experiment, behavioral-motivators, expert-forecasts, structural-estimation, social-preferences, reference-dependence]
-topics: []
+topics: ["[[reciprocity-gift-exchange]]"]
 related: [DellaVigna2012, Erev2010, Fehr1993, Gneezy2000, Kahneman1979, Koszegi2006b, Kube2013]
 added: 2026-05-30
 generated: 2026-05-30

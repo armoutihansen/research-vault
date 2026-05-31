@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/3Q3ACI65"
 pdf: "/Users/jesper/Zotero/storage/UPDGQUIA/Gabaix and Laibson - 2006 - Shrouded attributes, consumer myopia, and information suppression in competitive markets.pdf"
 tags: [literature]
 keywords: [shrouded-attributes, add-on-pricing, consumer-myopia, behavioral-io, curse-of-debiasing, information-suppression, loss-leader-pricing]
-topics: []
+topics: ["[[behavioral-io-naivete-attention]]"]
 related: [Milgrom1981]
 added: 2026-05-30
 generated: 2026-05-30

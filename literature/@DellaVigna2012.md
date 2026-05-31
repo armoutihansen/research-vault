@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/I2ETN9HV"
 pdf: /Users/jesper/Zotero/storage/7FL4QPTX/DellaVigna et al. - 2012 - Testing for Altruism and Social Pressure in Charit.pdf
 tags: [literature]
 keywords: [social-pressure, charitable-giving, warm-glow, altruism, field-experiment, structural-estimation, welfare]
-topics: []
+topics: ["[[prosocial-behavior-image-signaling]]"]
 related: [Ariely2009, Benabou2006, Charness2002]
 added: 2026-05-30
 generated: 2026-05-30

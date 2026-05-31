@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/GSL38PZY"
 pdf: /Users/jesper/Zotero/storage/97VJE3C8/Gerasimou2018.pdf
 tags: [literature]
 keywords: [choice-deferral, incomplete-preferences, revealed-preference, choice-overload, bounded-rationality, axiomatic-choice-theory]
-topics: []
+topics: ["[[incomplete-preferences-choice-deferral]]"]
 related: [Bernheim2009, Eliaz2006, Gerasimou2016a, Iyengar2000, Manzini2007, Salant2008, Samuelson1938, Samuelson1988, Sen1971, Shafir1993]
 added: 2026-05-30
 generated: 2026-05-30

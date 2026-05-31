@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/Z4TKBZU5"
 pdf: /Users/jesper/Zotero/storage/5CITV72A/Johnson2014.pdf
 tags: [literature]
 keywords: [matrix-factorization, implicit-feedback, collaborative-filtering, recommender-systems, latent-factor-models, logistic-regression]
-topics: []
+topics: ["[[recommender-systems-matrix-factorization]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

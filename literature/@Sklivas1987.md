@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/LMIF2RJJ"
 pdf: /Users/jesper/Zotero/storage/2E6M3Q83/Sklivas1987.pdf
 tags: [literature]
 keywords: [strategic-delegation, managerial-incentives, oligopoly, cournot-bertrand, industrial-organization, strategic-commitment]
-topics: []
+topics: ["[[strategic-delegation-firm-objectives]]"]
 related: [Vickers1985]
 added: 2026-05-30
 generated: 2026-05-30

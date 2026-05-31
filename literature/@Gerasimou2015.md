@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/E298IHF4"
 pdf: /Users/jesper/Zotero/storage/B39UVXN2/Gerasimou2015.pdf
 tags: [literature]
 keywords: [incomplete-preferences, continuity, hemicontinuity, additivity, decision-theory, order-topology, independence-axiom]
-topics: []
+topics: ["[[incomplete-preferences-choice-deferral]]"]
 related: [Gerasimou2013]
 added: 2026-05-29
 generated: 2026-05-29

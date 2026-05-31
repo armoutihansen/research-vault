@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/5G2MMX5A"
 pdf: /Users/jesper/Zotero/storage/T9WTM8IG/Prendergast - 2002 - The Tenuous Trade‐off between Risk and Incentives.pdf
 tags: [literature]
 keywords: [principal-agent, incentive-contracts, risk-incentive-tradeoff, delegation, uncertainty, output-monitoring]
-topics: []
+topics: ["[[risk-incentive-tradeoff]]"]
 related: [Ackerberg2002, Aggarwal1999, Aghion1997, Lazear2000, Prendergast1996]
 added: 2026-05-30
 generated: 2026-05-30

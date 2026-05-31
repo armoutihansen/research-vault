@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/DAQURII5"
 pdf: /Users/jesper/Zotero/storage/EL6ZNQKN/20059appendix.pdf
 tags: [literature]
 keywords: [empowerment, task-commitment, performance-pay, intrinsic-motivation, principal-agent, personnel-economics, moral-hazard]
-topics: []
+topics: ["[[motivated-agents-intrinsic-motivation]]"]
 related: [Benabou2003, Besley2005, Cassar2018]
 added: 2026-05-30
 generated: 2026-05-30

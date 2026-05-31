@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/8AYNAJJT"
 pdf: /Users/jesper/Zotero/storage/APLTF7WY/Dempster1977.pdf
 tags: [literature]
 keywords: [em-algorithm, maximum-likelihood, incomplete-data, missing-data, latent-variables, convergence-theory, exponential-family]
-topics: []
+topics: ["[[finite-mixture-models]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

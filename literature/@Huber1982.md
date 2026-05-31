@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/JCSZIWFN"
 pdf: /Users/jesper/Zotero/storage/RPTQ6Y8J/Huber1982.pdf
 tags: [literature]
 keywords: [asymmetric-dominance, decoy-effect, regularity-violation, context-dependent-choice, discrete-choice-models, similarity-hypothesis]
-topics: []
+topics: ["[[context-effects-attraction-compromise]]"]
 related: [Manzini2007, Tversky1972]
 added: 2026-05-30
 generated: 2026-05-30

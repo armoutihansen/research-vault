@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/CHFSCGG9"
 pdf: /Users/jesper/Zotero/storage/U7SFU9QW/Hartford2016.pdf
 tags: [literature]
 keywords: [behavioral-game-theory, deep-learning, human-behavior-prediction, normal-form-games, level-k-reasoning, quantal-response]
-topics: []
+topics: ["[[ml-evaluating-economic-theories]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

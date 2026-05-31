@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/LPKR7GWA"
 pdf: /Users/jesper/Zotero/storage/N675FXCF/Eliaz2011.pdf
 tags: [literature]
 keywords: [consideration-sets, bounded-rationality, competitive-advertising, limited-attention, vertical-differentiation, revealed-preference]
-topics: []
+topics: ["[[limited-attention-consideration-sets]]"]
 related: [Bagwell2007, Manzini2007]
 added: 2026-05-30
 generated: 2026-05-30

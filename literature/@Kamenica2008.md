@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/DL5XZ9IH"
 pdf: /Users/jesper/Zotero/storage/SYSBTKKW/Kamenica2008.pdf
 tags: [literature]
 keywords: [contextual-inference, compromise-effect, choice-overload, premium-loss-leader, product-line-signalling, rational-context-effects]
-topics: []
+topics: ["[[context-effects-attraction-compromise]]"]
 related: [Benabou2003, Gabaix2006, Huber1982, Iyengar2000, Kalai2002, Sarver2008, Sen1993, Simonson1989, Simonson1992, Tversky1974]
 added: 2026-05-30
 generated: 2026-05-30

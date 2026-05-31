@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/7DCDNPQ2"
 pdf: /Users/jesper/Zotero/storage/P7IXY383/Tyson2015.pdf
 tags: [literature]
 keywords: [satisficing, revealed-preference, bounded-rationality, secondary-criterion, consideration-set, behavioral-welfare, lexicographic-choice]
-topics: []
+topics: ["[[satisficing-search-revealed-preference]]"]
 related: [Bernheim2009, Manzini2007, Masatlioglu2012, Salant2008, Samuelson1938, Tyson2008]
 added: 2026-05-30
 generated: 2026-05-30

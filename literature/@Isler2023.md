@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/PBZ8FEWK"
 pdf: /Users/jesper/Zotero/storage/PQSY27TD/Isler2023.pdf
 tags: [literature]
 keywords: [scarcity, context-effects, replication, willingness-to-pay, behavioral-economics, rational-choice, cognitive-salience]
-topics: []
+topics: ["[[prospect-theory-loss-aversion]]"]
 related: [Kahneman1979, Tversky1974, Tversky1981]
 added: 2026-05-30
 generated: 2026-05-30

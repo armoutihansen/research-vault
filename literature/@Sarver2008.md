@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/YC8U3H9I"
 pdf: /Users/jesper/Zotero/storage/IRU9Y9LN/Sarver2008.pdf
 tags: [literature]
 keywords: [regret, preference-over-menus, subjective-state-space, preference-for-commitment, temptation, decision-theory, axiomatic]
-topics: []
+topics: ["[[disappointment-regret-nonexpected-utility]]"]
 related: [Sugden1993]
 added: 2026-05-30
 generated: 2026-05-30

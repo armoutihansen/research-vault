@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/5EX54PH9"
 pdf: /Users/jesper/Zotero/storage/U3BD8PES/Grund2010.pdf
 tags: [literature]
 keywords: [performance-pay, risk-aversion, principal-agent, moral-hazard, incentive-contracts, gsoep]
-topics: []
+topics: ["[[risk-incentive-tradeoff]]"]
 related: [Ackerberg2002, Aggarwal1999]
 added: 2026-05-30
 generated: 2026-05-30

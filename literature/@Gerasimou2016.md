@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/S87LPHKR"
 pdf: /Users/jesper/Zotero/storage/HUQVZ9DI/Gerasimou2016a.pdf
 tags: [literature]
 keywords: [incomplete-preferences, partial-dominance, attraction-effect, revealed-preference, context-dependent-choice, bounded-rationality, warp-axioms]
-topics: []
+topics: ["[[context-effects-attraction-compromise]]"]
 related: [Bernheim2009, Bordalo2013, Cherepanov2013, Eliaz2006, Eliaz2011, Huber1982, Lombardi2009, Manzini2007, Manzini2012a, Masatlioglu2012, Ok2015, Rubinstein2012, Sen1971, Simonson1989, Tversky1972, deClippel2012]
 added: 2026-05-29
 generated: 2026-05-29

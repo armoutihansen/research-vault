@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/BMKLA4TT"
 pdf: /Users/jesper/Zotero/storage/NJDMUVXH/Fischbacher2001.pdf
 tags: [literature]
 keywords: [conditional-cooperation, public-goods-game, strategy-method, free-riding, social-preferences, experimental-economics]
-topics: []
+topics: ["[[reciprocity-gift-exchange]]"]
 related: [Bolton2000, Dufwenberg2004, Fehr1999, Rabin1993]
 added: 2026-05-30
 generated: 2026-05-30

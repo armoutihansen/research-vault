@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/LYEVZRHV"
 pdf: /Users/jesper/Zotero/storage/WUUGUDVY/Nelson1970.pdf
 tags: [literature]
 keywords: [search-goods, experience-goods, information-economics, monopoly-power, consumer-search, advertising]
-topics: []
+topics: ["[[advertising-signaling-quality]]"]
 related: [Akerlof1970, Nelson1974]
 added: 2026-05-30
 generated: 2026-05-30

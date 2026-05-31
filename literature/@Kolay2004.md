@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/9VET8C2S"
 pdf: /Users/jesper/Zotero/storage/FQUXQPXQ/Kolay2004.pdf
 tags: [literature]
 keywords: [all-units-discounts, vertical-contracts, double-marginalization, second-degree-price-discrimination, nonlinear-pricing, screening, two-part-tariffs]
-topics: []
+topics: ["[[distribution-channels-vertical-integration]]"]
 related: [Moorthy1987, Spengler1950, Tirole1988]
 added: 2026-05-30
 generated: 2026-05-30

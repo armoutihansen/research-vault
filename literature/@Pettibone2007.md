@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/28FYWR5B"
 pdf: /Users/jesper/Zotero/storage/2942DJU4/Pettibone2007.pdf
 tags: [literature]
 keywords: [phantom-decoy, context-effects, loss-aversion, relative-advantage-model, attraction-effect, choice-theory, consumer-choice]
-topics: []
+topics: ["[[context-effects-attraction-compromise]]"]
 related: [Huber1982, Simonson1989, Tversky1993]
 added: 2026-05-29
 generated: 2026-05-29

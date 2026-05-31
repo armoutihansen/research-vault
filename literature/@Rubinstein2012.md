@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/CGUZ36TV"
 pdf: /Users/jesper/Zotero/storage/BLFLFD5D/Rubinstein2012.pdf
 tags: [literature]
 keywords: [behavioural-welfare, preference-elicitation, distortion-function, satisficing, bounded-rationality, revealed-preference, social-choice]
-topics: []
+topics: ["[[behavioral-welfare-nudge]]"]
 related: [Manzini2007, Rubinstein2006, Salant2008, Tyson2008]
 added: 2026-05-30
 generated: 2026-05-30

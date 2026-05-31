@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/MQWB63RL"
 pdf: /Users/jesper/Zotero/storage/HK32X9QH/Farber2005.pdf
 tags: [literature]
 keywords: [labor-supply, intertemporal-substitution, target-earnings, reference-dependence, optimal-stopping, taxi-drivers, behavioral-economics]
-topics: []
+topics: ["[[expectations-based-reference-dependence]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

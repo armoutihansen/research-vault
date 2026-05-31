@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/BLVTXJG7"
 pdf: /Users/jesper/Zotero/storage/AJCLKVP5/Sliwka2017.pdf
 tags: [literature]
 keywords: [gift-exchange, reciprocity, reference-dependence, loss-aversion, wage-dynamics, real-effort-experiment, narrow-bracketing]
-topics: []
+topics: ["[[reciprocity-gift-exchange]]"]
 related: [Akerlof1982, Benartzi1995, Dufwenberg2004, Falk2006, Fehr1993, Kahneman1979, Koszegi2006b, Ockenfels2015, Rabin1993]
 added: 2026-05-30
 generated: 2026-05-30

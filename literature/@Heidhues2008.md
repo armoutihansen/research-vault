@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/UK9LE2SH"
 pdf: /Users/jesper/Zotero/storage/3JNJI2G3/Heidhues2008.pdf
 tags: [literature]
 keywords: [loss-aversion, behavioral-io, reference-dependence, focal-pricing, price-stickiness, salop-competition, koszegi-rabin]
-topics: []
+topics: ["[[expectations-based-reference-dependence]]"]
 related: [Gabaix2006, Koszegi2006b, Tversky1992]
 added: 2026-05-30
 generated: 2026-05-30

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/DZPES792"
 pdf: /Users/jesper/Zotero/storage/UGA82NB3/Coughlan1985.pdf
 tags: [literature]
 keywords: [vertical-integration, distribution-channels, strategic-delegation, price-competition, product-differentiation, duopoly, game-theory]
-topics: []
+topics: ["[[distribution-channels-vertical-integration]]"]
 related: [Jeuland1983, McGuire1983]
 added: 2026-05-30
 generated: 2026-05-30

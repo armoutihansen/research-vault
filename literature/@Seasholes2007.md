@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/DPCFZ7WU"
 pdf: /Users/jesper/Zotero/storage/P54DPTX9/Seasholes2007.pdf
 tags: [literature]
 keywords: [attention, individual-investors, statistical-arbitrage, behavioral-finance, disposition-effect, consideration-set, price-limits]
-topics: []
+topics: ["[[behavioral-io-naivete-attention]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

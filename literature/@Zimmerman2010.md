@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/NWWZWP6N"
 pdf: /Users/jesper/Zotero/storage/6LAEPREJ/Zimmerman2010.pdf
 tags: [literature]
 keywords: [gender-gap, violent-crime, neighborhood-disadvantage, peer-effects, multilevel-models, item-response-theory, criminology]
-topics: []
+topics: ["[[peer-effects-social-interactions]]"]
 related: [Jones2009]
 added: 2026-05-30
 generated: 2026-05-30

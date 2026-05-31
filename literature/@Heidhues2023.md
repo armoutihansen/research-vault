@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/T58N9WY5"
 pdf: /Users/jesper/Zotero/storage/L6B8NCHV/Heidhues2023.pdf
 tags: [literature]
 keywords: [steering, behavioral-io, naivete-based-discrimination, consumer-protection, recommender-systems, welfare-analysis]
-topics: []
+topics: ["[[behavioral-io-naivete-attention]]"]
 related: [Bordalo2013, Gabaix2006, Inderst2012, Milgrom1981]
 added: 2026-05-30
 generated: 2026-05-30

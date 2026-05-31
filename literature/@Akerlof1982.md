@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/IVNRDTYX"
 pdf: /Users/jesper/Zotero/storage/WJH2IKF7/Akerlof1982.pdf
 tags: [literature]
 keywords: [cognitive-dissonance, motivated-beliefs, belief-utility, behavioral-economics, safety-regulation, welfare-economics, rational-expectations]
-topics: []
+topics: ["[[prosocial-behavior-image-signaling]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

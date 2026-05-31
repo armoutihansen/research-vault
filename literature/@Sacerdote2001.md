@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/4NGGDKMK"
 pdf: /Users/jesper/Zotero/storage/ESNWGILI/Sacerdote2001.pdf
 tags: [literature]
 keywords: [peer-effects, random-assignment, reflection-problem, social-interactions, education-economics, natural-experiment]
-topics: []
+topics: ["[[peer-effects-social-interactions]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

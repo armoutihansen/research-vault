@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/89773BKE"
 pdf: /Users/jesper/Zotero/storage/9WV9EFWX/Gerasimou2010.pdf
 tags: [literature]
 keywords: [incomplete-preferences, intransitive-preferences, preference-representation, consumer-demand, bounded-rationality, warp, ambivalence-aversion]
-topics: []
+topics: ["[[incomplete-preferences-choice-deferral]]"]
 related: [Manzini2007, Simonson1989]
 added: 2026-05-30
 generated: 2026-05-30

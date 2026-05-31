@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/EKQHB7VZ"
 pdf: /Users/jesper/Zotero/storage/XPZLQVLZ/Koszegi2014.pdf
 tags: [literature]
 keywords: [behavioral-contract-theory, loss-aversion, present-bias, inequity-aversion, overconfidence, exploitative-contracting, moral-hazard, mechanism-design]
-topics: []
+topics: ["[[social-preferences-contract-theory]]"]
 related: [Benabou2003, Benabou2006, Fehr1999, Kahneman1979, Koszegi2006b, Rabin1993]
 added: 2026-05-29
 generated: 2026-05-29

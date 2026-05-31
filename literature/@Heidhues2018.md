@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/85ZSNV43"
 pdf: /Users/jesper/Zotero/storage/V34X2UM5/Heidhues2018.pdf
 tags: [literature]
 keywords: [behavioral-industrial-organization, consumer-naivete, hidden-prices, price-discrimination, bounded-rationality, obfuscation, consumer-protection-policy]
-topics: []
+topics: ["[[behavioral-io-naivete-attention]]"]
 related: [Gabaix2006, Milgrom1981]
 added: 2026-05-30
 generated: 2026-05-30

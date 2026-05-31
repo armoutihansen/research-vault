@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/XGM3AWCR"
 pdf: /Users/jesper/Zotero/storage/KXFG2CUL/Koszegi2007.pdf
 tags: [literature]
 keywords: [reference-dependent-utility, expectations-based-reference-point, loss-aversion, first-order-risk-aversion, prospect-theory, personal-equilibrium]
-topics: []
+topics: ["[[expectations-based-reference-dependence]]"]
 related: [Bell1985, Gul1991, Kahneman1979, Koszegi2006b, Loomes1986, Shalev2000]
 added: 2026-05-30
 generated: 2026-05-30

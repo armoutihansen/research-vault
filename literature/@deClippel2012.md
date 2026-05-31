@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/DDU6C8ND"
 pdf: /Users/jesper/Zotero/storage/D2G86BB5/deClippel2012.pdf
 tags: [literature]
 keywords: [reason-based-choice, attraction-effect, compromise-effect, fallback-bargaining, dual-self, revealed-preference, ordinal-bargaining, behavioral-economics]
-topics: []
+topics: ["[[context-effects-attraction-compromise]]"]
 related: [Eliaz2006, Huber1982, Kalai2002, Kamenica2008, Kivetz2004, Lombardi2009, Manzini2007, Sen1971, Shafir1993, Simonson1989, Sprumont2000, Tversky1992]
 added: 2026-05-29
 generated: 2026-05-29

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/YZHS94TQ"
 pdf: /Users/jesper/Zotero/storage/8WGL77FI/Prendergast - 2002 - Uncertainty and Incentives.pdf
 tags: [literature]
 keywords: [agency-theory, incentive-contracts, risk-incentive-tradeoff, subjective-performance-evaluation, favoritism, endogenous-monitoring]
-topics: []
+topics: ["[[risk-incentive-tradeoff]]"]
 related: [Holmstrom1982, Prendergast1996]
 added: 2026-05-30
 generated: 2026-05-30

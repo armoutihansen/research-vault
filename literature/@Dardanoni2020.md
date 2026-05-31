@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/TQ7ADYSP"
 pdf: /Users/jesper/Zotero/storage/X3KGV5RH/Dardanoni2020.pdf
 tags: [literature]
 keywords: [bounded-rationality, limited-attention, consideration-set, stochastic-choice, identification, tensor-decomposition, aggregate-choice-shares]
-topics: []
+topics: ["[[limited-attention-consideration-sets]]"]
 related: [Manzini2014, Masatlioglu2012]
 added: 2026-05-29
 generated: 2026-05-29

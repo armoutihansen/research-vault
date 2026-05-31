@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/EJLU9BZH"
 pdf: /Users/jesper/Zotero/storage/8Z6XLQI9/Ariely2009.pdf
 tags: [literature]
 keywords: [prosocial-behavior, image-motivation, crowding-out, monetary-incentives, signaling, field-experiment, charitable-giving, behavioral-economics]
-topics: []
+topics: ["[[prosocial-behavior-image-signaling]]"]
 related: [Benabou2006, Gneezy2000]
 added: 2026-05-29
 generated: 2026-05-29

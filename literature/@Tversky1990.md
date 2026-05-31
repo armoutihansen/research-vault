@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/HI4J2HS3"
 pdf: /Users/jesper/Zotero/storage/INJ22AEA/Tversky1990.pdf
 tags: [literature]
 keywords: [preference-reversal, procedure-invariance, scale-compatibility, contingent-weighting, intransitivity, time-preference]
-topics: []
+topics: ["[[prospect-theory-loss-aversion]]"]
 related: [Grether1979, Kahneman1979]
 added: 2026-05-30
 generated: 2026-05-30

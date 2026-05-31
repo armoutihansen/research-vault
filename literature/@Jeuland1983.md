@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/EBT6RSNR"
 pdf: /Users/jesper/Zotero/storage/NURMDFQS/Jeuland1983.pdf
 tags: [literature]
 keywords: [channel-coordination, double-marginalization, quantity-discounts, vertical-channel, profit-sharing, bilateral-monopoly, incentive-compatibility]
-topics: []
+topics: ["[[distribution-channels-vertical-integration]]"]
 related: [McGuire1983]
 added: 2026-05-30
 generated: 2026-05-30

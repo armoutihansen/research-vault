@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/WXZ4BJXI"
 pdf: /Users/jesper/Zotero/storage/5ZJA37SS/Revelt1998.pdf
 tags: [literature]
 keywords: [mixed-logit, random-parameters, discrete-choice, maximum-simulated-likelihood, taste-heterogeneity, stated-preference]
-topics: []
+topics: ["[[discrete-choice-econometrics]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

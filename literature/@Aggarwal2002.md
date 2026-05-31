@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/N8H8S644"
 pdf: /Users/jesper/Zotero/storage/MINJP8CZ/Aggarwal2002.pdf
 tags: [literature]
 keywords: [executive-compensation, principal-agent, pay-performance-sensitivity, firm-risk, incentives, empirical-corporate-finance]
-topics: []
+topics: ["[[risk-incentive-tradeoff]]"]
 related: [Aggarwal1999]
 added: 2026-05-29
 generated: 2026-05-29

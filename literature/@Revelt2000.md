@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/2YZ5MFQL"
 pdf: /Users/jesper/Zotero/storage/LRG64EXP/Revelt2000.pdf
 tags: [literature]
 keywords: [mixed-logit, random-coefficients, individual-taste-conditioning, discrete-choice, maximum-simulated-likelihood, electricity-supplier-choice, bayesian-conditioning]
-topics: []
+topics: ["[[discrete-choice-econometrics]]"]
 related: [McFadden2000, Revelt1998]
 added: 2026-05-30
 generated: 2026-05-30

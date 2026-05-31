@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/PFV7HQIZ"
 pdf: /Users/jesper/Zotero/storage/GKXB45TB/Milgrom1981.pdf
 tags: [literature]
 keywords: [monotone-likelihood-ratio, information-economics, first-order-stochastic-dominance, principal-agent, disclosure-games, winners-curse]
-topics: []
+topics: ["[[adverse-selection-intermediation]]"]
 related: [Akerlof1970]
 added: 2026-05-30
 generated: 2026-05-30

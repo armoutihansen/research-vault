@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/22YJ8RLX"
 pdf: /Users/jesper/Zotero/storage/MMIE5F68/Englmaier2010.pdf
 tags: [literature]
 keywords: [inequity-aversion, moral-hazard, optimal-contracts, linear-sharing-rules, sufficient-statistics, team-incentives, social-preferences, contract-theory]
-topics: []
+topics: ["[[social-preferences-contract-theory]]"]
 related: [Bolton2000, Dufwenberg2004, Falk2006, Falk2008, Fehr1999, Itoh2004, Milgrom1981, Rabin1993]
 added: 2026-05-30
 generated: 2026-05-30

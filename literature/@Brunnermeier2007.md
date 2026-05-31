@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/W6CGCNV5"
 pdf: /Users/jesper/Zotero/storage/3UBBXT9D/Brunnermeier2007.pdf
 tags: [literature]
 keywords: [optimal-expectations, anticipatory-utility, skewness-preference, portfolio-choice, asset-pricing, motivated-beliefs, under-diversification]
-topics: []
+topics: ["[[anticipatory-utility-motivated-beliefs]]"]
 related: [Brunnermeier2005]
 added: 2026-05-30
 generated: 2026-05-30

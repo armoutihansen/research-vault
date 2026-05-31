@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/8SUPX46I"
 pdf: /Users/jesper/Zotero/storage/CW4QRHKC/Tirole1988.pdf
 tags: [literature]
 keywords: [industrial-organization, theory-of-the-firm, principal-agent, incomplete-contracts, game-theory, moral-hazard, vertical-integration]
-topics: []
+topics: ["[[strategic-delegation-firm-objectives]]"]
 related: [Lazear1981, Nalebuff1983]
 added: 2026-05-30
 generated: 2026-05-30

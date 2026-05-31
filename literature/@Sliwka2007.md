@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/BPDN8CUC"
 pdf: /Users/jesper/Zotero/storage/G43MXKR4/Sliwka2007.pdf
 tags: [literature]
 keywords: [social-preferences, motivation-crowding-out, incentives, trust, signaling, social-norms, conformism]
-topics: []
+topics: ["[[motivated-agents-intrinsic-motivation]]"]
 related: [Benabou2003, Bolton2000, Charness2002, Fehr1999, Gneezy2000]
 added: 2026-05-30
 generated: 2026-05-30

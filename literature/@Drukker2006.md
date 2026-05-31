@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/RJSNSZ4G"
 pdf: /Users/jesper/Zotero/storage/L7Q6SREL/Drukker2006.pdf
 tags: [literature]
 keywords: [halton-sequences, quasi-monte-carlo, low-discrepancy, maximum-simulated-likelihood, multinomial-probit, ghk-simulator, numerical-integration]
-topics: []
+topics: ["[[discrete-choice-econometrics]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

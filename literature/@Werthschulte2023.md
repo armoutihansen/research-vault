@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/64SF8JIM"
 pdf: /Users/jesper/Zotero/storage/6KM25RWG/Werthschulte2023.pdf
 tags: [literature]
 keywords: [present-bias, energy-consumption, billing-systems, lab-experiment, intertemporal-choice, real-effort-task]
-topics: []
+topics: ["[[intertemporal-choice-present-bias]]"]
 related: [Berns2007, Kaur2015, ODonoghue2015, Sprenger2015]
 added: 2026-05-29
 generated: 2026-05-29

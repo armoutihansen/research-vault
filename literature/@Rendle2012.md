@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/2HXDK2AB"
 pdf: /Users/jesper/Zotero/storage/LWUB2XBG/Rendle2012.pdf
 tags: [literature]
 keywords: [factorization-machines, recommender-systems, matrix-factorization, sparse-prediction, mcmc-inference, feature-engineering, collaborative-filtering]
-topics: []
+topics: ["[[recommender-systems-matrix-factorization]]"]
 related: [Chen2011, Rendle2010]
 added: 2026-05-30
 generated: 2026-05-30

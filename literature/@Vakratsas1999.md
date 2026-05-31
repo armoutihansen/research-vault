@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/CALZNXRD"
 pdf: /Users/jesper/Zotero/storage/PZ9AL6QU/Vakratsas1999.pdf
 tags: [literature]
 keywords: [advertising-effectiveness, hierarchy-of-effects, consumer-behavior, literature-review, brand-attitudes, marketing-models]
-topics: []
+topics: ["[[advertising-signaling-quality]]"]
 related: [Nelson1970]
 added: 2026-05-30
 generated: 2026-05-30

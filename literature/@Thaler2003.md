@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/9TYKNU8H"
 pdf: /Users/jesper/Zotero/storage/CK78Z2CX/Thaler2003.pdf
 tags: [literature]
 keywords: [libertarian-paternalism, behavioral-economics, choice-architecture, default-options, status-quo-bias, welfare-economics, nudge]
-topics: []
+topics: ["[[behavioral-welfare-nudge]]"]
 related: [Benartzi2002, Samuelson1988]
 added: 2026-05-30
 generated: 2026-05-30

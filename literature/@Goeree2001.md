@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/IL3CKBUF"
 pdf: /Users/jesper/Zotero/storage/92887QUQ/Goeree2001.pdf
 tags: [literature]
 keywords: [experimental-game-theory, quantal-response-equilibrium, one-shot-games, nash-equilibrium, bounded-rationality, noisy-introspection, coordination-games]
-topics: []
+topics: ["[[reciprocity-gift-exchange]]"]
 related: [Bolton2000, Fehr1999, Rabin1993]
 added: 2026-05-30
 generated: 2026-05-30

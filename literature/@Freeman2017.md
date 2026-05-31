@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/SQHBHZ9R"
 pdf: /Users/jesper/Zotero/storage/2JGLRKSZ/Freeman2017.pdf
 tags: [literature]
 keywords: [reference-dependent-preferences, personal-equilibrium, rational-shortlist-method, revealed-preference, axiomatization, loss-aversion]
-topics: []
+topics: ["[[expectations-based-reference-dependence]]"]
 related: [Abeler2011, Au2011, Crawford2011, Dutta2015, Freeman2016, Heidhues2008, Horan2016, Kalai2002, Koszegi2006b, Koszegi2010, Manzini2007, Masatlioglu2016, Ok2015, Sen1971, Tyson2013, deClippel2012]
 added: 2026-05-30
 generated: 2026-05-30

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/SG6L8IPX"
 pdf: /Users/jesper/Zotero/storage/3ZS4LRVG/Ellingsen2008.pdf
 tags: [literature]
 keywords: [social-esteem, prosocial-behavior, motivational-crowding-out, principal-agent, signaling, gift-exchange, reciprocity]
-topics: []
+topics: ["[[motivated-agents-intrinsic-motivation]]"]
 related: [Akerlof1982, Benabou2006, Besley2005, Bolton2000, Charness2002, Dufwenberg2004, Falk2006, Fehr1993, Fehr1999, Levine1998, Rabin1993, Sliwka2007]
 added: 2026-05-30
 generated: 2026-05-30

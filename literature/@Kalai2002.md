@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/RYIDWNYF"
 pdf: /Users/jesper/Zotero/storage/LFQIGEBT/Kalai2002.pdf
 tags: [literature]
 keywords: [revealed-preference, bounded-rationality, multiple-rationales, iia-violations, choice-functions, rationalizability]
-topics: []
+topics: ["[[sequential-rationalizability-shortlists]]"]
 related: [Baigent1996, Cherepanov2013, Manzini2007, Sen1993]
 added: 2026-05-30
 generated: 2026-05-30

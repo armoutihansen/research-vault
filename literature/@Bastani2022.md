@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/397ZESFS"
 pdf: /Users/jesper/Zotero/storage/QZT5GMIX/Bastani2022.pdf
 tags: [literature]
 keywords: [interpretable-reinforcement-learning, human-ai-interface, sequential-decision-making, behavioral-operations, model-distillation, randomized-controlled-experiment, algorithm-aversion]
-topics: []
+topics: ["[[ml-evaluating-economic-theories]]"]
 related: [Benjamin2010, Fudenberg2019a, Fudenberg2021]
 added: 2026-05-30
 generated: 2026-05-30

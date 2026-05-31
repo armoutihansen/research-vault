@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/J9PEL8IR"
 pdf: /Users/jesper/Zotero/storage/QXNFQYTS/Fudenberg2020.pdf
 tags: [literature]
 keywords: [model-restrictiveness, model-completeness, prospect-theory, cognitive-hierarchy, model-selection, behavioral-economics]
-topics: []
+topics: ["[[ml-evaluating-economic-theories]]"]
 related: [Bruhin2010, Fudenberg2019a, Gul1991, Peysakhovich2017, Tversky1992]
 added: 2026-05-30
 generated: 2026-05-30

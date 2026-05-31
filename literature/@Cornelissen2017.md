@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/Q8QP82Y3"
 pdf: /Users/jesper/Zotero/storage/8QX54IIT/Cornelissen2017.pdf
 tags: [literature]
 keywords: [peer-effects, workplace, wages, knowledge-spillover, social-pressure, two-way-fixed-effects, labor-economics]
-topics: []
+topics: ["[[peer-effects-social-interactions]]"]
 related: [Falk2006a, Mas2009]
 added: 2026-05-30
 generated: 2026-05-30

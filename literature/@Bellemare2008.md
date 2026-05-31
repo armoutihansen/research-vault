@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/DEC5LQ46"
 pdf: /Users/jesper/Zotero/storage/V9Z7DS3L/Bellemare2008.pdf
 tags: [literature]
 keywords: [inequity-aversion, ultimatum-game, subjective-expectations, structural-estimation, social-preferences, population-heterogeneity]
-topics: []
+topics: ["[[inequity-aversion-distributional-preferences]]"]
 related: [Bolton2000, Fehr1999]
 added: 2026-05-29
 generated: 2026-05-29

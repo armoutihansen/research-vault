@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/W3P4G8N3"
 pdf: /Users/jesper/Zotero/storage/X54NM4TV/Falk2006a.pdf
 tags: [literature]
 keywords: [peer-effects, field-experiment, real-effort, productivity, social-facilitation, causal-identification]
-topics: []
+topics: ["[[peer-effects-social-interactions]]"]
 related: [Fehr1993, Sacerdote2001]
 added: 2026-05-30
 generated: 2026-05-30

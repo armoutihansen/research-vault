@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/A9S3U3JD"
 pdf: /Users/jesper/Zotero/storage/MQKUSLUI/Deutsch1955.pdf
 tags: [literature]
 keywords: [normative-social-influence, informational-social-influence, conformity, asch-paradigm, group-pressure, social-experiment]
-topics: []
+topics: ["[[identity-social-norms-conformity]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

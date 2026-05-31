@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/VTLLLE2W"
 pdf: /Users/jesper/Zotero/storage/HPASVWBN/Moorthy2018.pdf
 tags: [literature]
 keywords: [distribution-channels, showrooming, comparison-shopping, vertical-integration, consumer-search, retail-format]
-topics: []
+topics: ["[[distribution-channels-vertical-integration]]"]
 related: [Choi1991, Coughlan1985, McGuire1983, Moorthy1987, Moorthy1988a]
 added: 2026-05-30
 generated: 2026-05-30

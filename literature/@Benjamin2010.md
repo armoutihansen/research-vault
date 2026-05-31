@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/5FAM6CHY"
 pdf: /Users/jesper/Zotero/storage/N7SMX942/Benjamin2010.pdf
 tags: [literature]
 keywords: [social-identity, time-preference, risk-aversion, priming, behavioral-economics, self-categorization, identity-economics]
-topics: []
+topics: ["[[identity-social-norms-conformity]]"]
 related: [Akerlof2000, Chen2009]
 added: 2026-05-29
 generated: 2026-05-29

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/J5SX4N73"
 pdf: /Users/jesper/Zotero/storage/XCIJBT8L/Baucells2017.pdf
 tags: [literature]
 keywords: [anticipatory-utility, instant-utility, reference-dependence, adaptation, intertemporal-discounting, peak-end-rule, conceptual-consumption]
-topics: []
+topics: ["[[anticipatory-utility-motivated-beliefs]]"]
 related: [Brunnermeier2005, Caplin2001, Gollier2010, Kahneman1997, Koszegi2006b, Koszegi2009, Loewenstein1987, Loewenstein2001a, Tversky1992]
 added: 2026-05-30
 generated: 2026-05-30

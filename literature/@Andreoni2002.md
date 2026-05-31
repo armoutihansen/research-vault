@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/H3JAG845"
 pdf: /Users/jesper/Zotero/storage/Q6HRUDW5/Andreoni2002.pdf
 tags: [literature]
 keywords: [revealed-preference, garp, altruism, social-preferences, dictator-game, ces-utility, preference-heterogeneity]
-topics: []
+topics: ["[[inequity-aversion-distributional-preferences]]"]
 related: [Bolton2000, Charness2002, Fehr1999, Fisman2007, Samuelson1938]
 added: 2026-05-30
 generated: 2026-05-30

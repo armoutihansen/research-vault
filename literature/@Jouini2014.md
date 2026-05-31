@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/QE8DTGMI"
 pdf: /Users/jesper/Zotero/storage/LTAW59JF/Jouini2014.pdf
 tags: [literature]
 keywords: [endogenous-beliefs, anticipatory-feelings, disappointment-aversion, portfolio-choice, skewness-preference, savoring]
-topics: []
+topics: ["[[anticipatory-utility-motivated-beliefs]]"]
 related: [Akerlof1982, Bell1985, Brunnermeier2005, Brunnermeier2007, Caplin2001, Gollier2010, Gul1991, Loomes1986]
 added: 2026-05-30
 generated: 2026-05-30

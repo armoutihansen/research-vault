@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/RPLHT984"
 pdf: /Users/jesper/Zotero/storage/UCIPBW8V/Camerer2011.pdf
 tags: [literature]
 keywords: [fairness, reciprocity, psychological-games, social-preferences, behavioral-game-theory, fairness-equilibrium, ultimatum-game]
-topics: []
+topics: ["[[reciprocity-gift-exchange]]"]
 related: [Akerlof1982, Bolton2000, Dufwenberg2004, Falk2006, Fehr1999]
 added: 2026-05-29
 generated: 2026-05-29

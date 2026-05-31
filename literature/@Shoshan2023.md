@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/B3Q2FGSG"
 pdf: /Users/jesper/Zotero/storage/T7KK9396/Shoshan2023.pdf
 tags: [literature]
 keywords: [behavioral-economics, decision-under-uncertainty, interpretable-ml, beast-model, risky-choice, neural-network-adaptation]
-topics: []
+topics: ["[[choice-prediction-risky-choice]]"]
 related: [Erev2017, Fudenberg2022, Hartford2016, Kahneman1979, Peterson2021, Plonsky2017, Plonsky2019]
 added: 2026-05-29
 generated: 2026-05-29

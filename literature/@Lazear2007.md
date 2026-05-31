@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/ZZ9QSJH2"
 pdf: /Users/jesper/Zotero/storage/53YY26PA/Lazear2007.pdf
 tags: [literature]
 keywords: [personnel-economics, incentives, principal-agent, tournament-theory, matching, asymmetric-information]
-topics: []
+topics: ["[[risk-incentive-tradeoff]]"]
 related: [Akerlof1970, Gibbons1992, Holmstrom1999, Lazear1981, Nalebuff1983, Prendergast1996]
 added: 2026-05-30
 generated: 2026-05-30

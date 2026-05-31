@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/GKVGI9BD"
 pdf: /Users/jesper/Zotero/storage/9ULT9PAN/Eichberger2011.pdf
 tags: [literature]
 keywords: [ambiguity, choquet-expected-utility, neo-additive-capacity, nash-equilibrium, coordination-games, experimental-game-theory, optimism-pessimism]
-topics: []
+topics: ["[[reciprocity-gift-exchange]]"]
 related: [Fehr1999, Goeree2001, Rabin1993]
 added: 2026-05-30
 generated: 2026-05-30

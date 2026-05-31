@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/VF4SPKX9"
 pdf: /Users/jesper/Zotero/storage/L5XETHTS/Englmaier and Leider - 2012 - Contractual and organizational structure with reciprocal agents.pdf
 tags: [literature]
 keywords: [reciprocity, gift-exchange, optimal-contracts, moral-hazard, social-preferences, principal-agent, incentive-pay]
-topics: []
+topics: ["[[social-preferences-contract-theory]]"]
 related: [Akerlof1982, Bolton2000, Dufwenberg2004, Englmaier2010, Falk2006, Fehr1999, Rabin1993]
 added: 2026-05-30
 generated: 2026-05-30

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/TAGQG2AP"
 pdf: /Users/jesper/Zotero/storage/L4MJPSWG/Kivetz2004.pdf
 tags: [literature]
 keywords: [compromise-effect, context-effects, choice-modeling, loss-aversion, decoy-effect, extremeness-aversion, b2b-marketing]
-topics: []
+topics: ["[[context-effects-attraction-compromise]]"]
 related: [Huber1982, Simonson1989, Simonson1992, Tversky1993]
 added: 2026-05-30
 generated: 2026-05-30

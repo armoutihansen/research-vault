@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/YDKM7JWP"
 pdf: /Users/jesper/Zotero/storage/WLF9DTYB/Gupta1998.pdf
 tags: [literature]
 keywords: [distribution-channels, vertical-integration, process-innovation, product-differentiation, strategic-delegation, duopoly, game-theory]
-topics: []
+topics: ["[[distribution-channels-vertical-integration]]"]
 related: [Coughlan1985, Jeuland1983, McGuire1983, Moorthy1987, Moorthy1988]
 added: 2026-05-30
 generated: 2026-05-30

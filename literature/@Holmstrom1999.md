@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/5299X327"
 pdf: /Users/jesper/Zotero/storage/3EU7WWTV/Holmstrom1999.pdf
 tags: [literature]
 keywords: [career-concerns, signal-jamming, managerial-incentives, moral-hazard, reputation, risk-taking, bayesian-learning]
-topics: []
+topics: ["[[career-concerns-subjective-evaluation]]"]
 related: [Akerlof1970, Gibbons1992]
 added: 2026-05-30
 generated: 2026-05-30

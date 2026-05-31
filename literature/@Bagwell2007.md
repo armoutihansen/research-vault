@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/K8W7H23P"
 pdf: /Users/jesper/Zotero/storage/N3SGUX3I/Bagwell2007.pdf
 tags: [literature]
 keywords: [advertising, industrial-organization, persuasive-vs-informative, dorfman-steiner, quality-signaling, endogenous-sunk-costs, market-structure]
-topics: []
+topics: ["[[advertising-signaling-quality]]"]
 related: [Milgrom1986, Nelson1974]
 added: 2026-05-29
 generated: 2026-05-29

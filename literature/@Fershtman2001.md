@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/HQ4CI2VQ"
 pdf: /Users/jesper/Zotero/storage/JWAX7Z82/Fershtman2001.pdf
 tags: [literature]
 keywords: [ethnic-discrimination, trust-game, dictator-game, ultimatum-game, stereotypes, experimental-economics, taste-for-discrimination, gender]
-topics: []
+topics: ["[[inequity-aversion-distributional-preferences]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/QZEWP4C6"
 pdf: /Users/jesper/Zotero/storage/5YMHMULG/Hole2007.pdf
 tags: [literature]
 keywords: [mixed-logit, random-parameters-logit, maximum-simulated-likelihood, discrete-choice, stata, halton-draws]
-topics: []
+topics: ["[[discrete-choice-econometrics]]"]
 related: [Drukker2006, Revelt1998]
 added: 2026-05-30
 generated: 2026-05-30

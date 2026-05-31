@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/XRF4F67F"
 pdf: /Users/jesper/Zotero/storage/S5Q7L257/Andersen2012.pdf
 tags: [literature]
 keywords: [mixed-logit, structural-estimation, risk-attitudes, discounting, maximum-simulated-likelihood, behavioral-econometrics, random-coefficients]
-topics: []
+topics: ["[[discrete-choice-econometrics]]"]
 related: [Hole2007, Revelt1998]
 added: 2026-05-29
 generated: 2026-05-29

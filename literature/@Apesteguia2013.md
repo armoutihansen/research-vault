@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/P6HCU6PR"
 pdf: /Users/jesper/Zotero/storage/XDL272I8/Apesteguia2013.pdf
 tags: [literature]
 keywords: [bounded-rationality, choice-theory, revealed-preference, sequential-rationalizability, status-quo-bias, game-tree-rationalizability, decision-theory]
-topics: []
+topics: ["[[sequential-rationalizability-shortlists]]"]
 related: [Kalai2002, Manzini2007, Salant2008, Xu2007]
 added: 2026-05-29
 generated: 2026-05-29

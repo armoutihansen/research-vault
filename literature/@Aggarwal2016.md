@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/DATQIHMN"
 pdf: /Users/jesper/Zotero/storage/I9HSPKZE/Aggarwal2016.pdf
 tags: [literature]
 keywords: [recommender-systems, collaborative-filtering, matrix-factorization, content-based-filtering, latent-factor-models, cold-start]
-topics: []
+topics: ["[[recommender-systems-matrix-factorization]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

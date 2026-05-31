@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/5W9H9FVJ"
 pdf: /Users/jesper/Zotero/storage/V2IE584B/Armouti-Hansen et al. - 2024 - Efficiency wages with motivated agents.pdf
 tags: [literature]
 keywords: [gift-exchange, efficiency-wages, prosocial-motivation, reciprocity, biased-beliefs, principal-agent, lab-experiment]
-topics: []
+topics: ["[[reciprocity-gift-exchange]]"]
 related: [Benabou2003, Besley2005, Bolton2000, Cassar2018, Charness2002, DellaVigna2022, Dufwenberg2004, Fehr1993, Fehr1999, Rabin1993]
 added: 2026-05-30
 generated: 2026-05-30

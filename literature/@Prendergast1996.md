@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/5IEGVIP8"
 pdf: /Users/jesper/Zotero/storage/53XRPTGY/Prendergast1996.pdf
 tags: [literature]
 keywords: [favoritism, subjective-performance-evaluation, principal-agent, incentive-compensation, bureaucracy, promotion, personnel-economics]
-topics: []
+topics: ["[[career-concerns-subjective-evaluation]]"]
 related: [Holmstrom1982]
 added: 2026-05-30
 generated: 2026-05-30

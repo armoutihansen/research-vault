@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/P488DPG6"
 pdf: /Users/jesper/Zotero/storage/EPC4B6A7/Loewenstein1992.pdf
 tags: [literature]
 keywords: [anticipation, memory, savoring-and-dread, time-discounting, reference-dependence, internalities, intertemporal-choice]
-topics: []
+topics: ["[[anticipatory-utility-motivated-beliefs]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

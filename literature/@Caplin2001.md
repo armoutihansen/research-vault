@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/97LUYUSD"
 pdf: /Users/jesper/Zotero/storage/GAPZUJJM/Caplin2001.pdf
 tags: [literature]
 keywords: [anticipatory-emotions, psychological-expected-utility, time-inconsistency, anxiety, asset-pricing, equity-premium-puzzle, decision-under-uncertainty]
-topics: []
+topics: ["[[anticipatory-utility-motivated-beliefs]]"]
 related: []
 added: 2026-05-29
 generated: 2026-05-29

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/6TMQA4D8"
 pdf: /Users/jesper/Zotero/storage/FXZHHAN8/Bajraj2015.pdf
 tags: [literature]
 keywords: [bounded-rationality, choice-theory, revealed-preference, axiomatic-characterization, sequential-choice, limited-consideration, shortlisting]
-topics: []
+topics: ["[[sequential-rationalizability-shortlists]]"]
 related: [Eliaz2011, Manzini2007, Rubinstein2006, deClippel2012]
 added: 2026-05-29
 generated: 2026-05-29

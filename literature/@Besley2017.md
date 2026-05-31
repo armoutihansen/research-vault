@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/5HA2APZ7"
 pdf: /Users/jesper/Zotero/storage/R5A8EP8A/Besley and Ghatak - 2017 - Profit with purpose A theory of social enterprise.pdf
 tags: [literature]
 keywords: [social-enterprise, motivated-agents, organizational-form, mission-integrity, principal-agent, assortative-matching, nonprofit, pro-social-motivation]
-topics: []
+topics: ["[[motivated-agents-intrinsic-motivation]]"]
 related: [Aghion1997, Benabou2006, Besley2005]
 added: 2026-05-30
 generated: 2026-05-30

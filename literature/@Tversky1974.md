@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/YSEEBY59"
 pdf: /Users/jesper/Zotero/storage/EHMXYGFQ/Tversky1974.pdf
 tags: [literature]
 keywords: [heuristics-and-biases, representativeness, availability, anchoring, base-rate-neglect, subjective-probability]
-topics: []
+topics: ["[[prospect-theory-loss-aversion]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

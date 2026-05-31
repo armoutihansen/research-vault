@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/FGHWLVX8"
 pdf: /Users/jesper/Zotero/storage/9YNA7B27/Barber2008.pdf
 tags: [literature]
 keywords: [attention, behavioral-finance, individual-investors, buy-sell-imbalance, limited-attention, kyle-model, noise-trading]
-topics: []
+topics: ["[[behavioral-io-naivete-attention]]"]
 related: []
 added: 2026-05-29
 generated: 2026-05-29

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/879DKIUZ"
 pdf: /Users/jesper/Zotero/storage/DAKDT2L6/McFadden1981.pdf
 tags: [literature]
 keywords: [discrete-choice, random-utility-maximization, nested-logit, generalized-extreme-value, multinomial-logit, revealed-stochastic-preference, social-surplus]
-topics: []
+topics: ["[[discrete-choice-econometrics]]"]
 related: [Manzini2007, Tversky1972]
 added: 2026-05-30
 generated: 2026-05-30

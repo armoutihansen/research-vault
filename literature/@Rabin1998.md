@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/5TIGHBQJ"
 pdf: /Users/jesper/Zotero/storage/E8IXM7GZ/Rabin1998.pdf
 tags: [literature]
 keywords: [behavioral-economics, loss-aversion, social-preferences, hyperbolic-discounting, heuristics-and-biases, reference-dependence, framing-effects]
-topics: []
+topics: ["[[behavioral-welfare-nudge]]"]
 related: [Fehr1993, Kahneman1997, Rabin1993, Shafir1993, Tversky1990]
 added: 2026-05-30
 generated: 2026-05-30

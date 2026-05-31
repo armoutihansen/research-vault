@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/EY5BL7TB"
 pdf: /Users/jesper/Zotero/storage/CJYD6MJY/Shalev2000.pdf
 tags: [literature]
 keywords: [loss-aversion, reference-dependence, equilibrium-refinement, prospect-theory, game-theory, endogenous-reference-points]
-topics: []
+topics: ["[[expectations-based-reference-dependence]]"]
 related: [Gul1991, Kahneman1979, Koszegi2006b, Tversky1992]
 added: 2026-05-30
 generated: 2026-05-30

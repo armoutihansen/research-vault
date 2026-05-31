@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/D2MGMFV5"
 pdf: /Users/jesper/Zotero/storage/6H58PNZH/Stango2014.pdf
 tags: [literature]
 keywords: [limited-attention, salience, overdraft-fees, household-finance, consumer-protection, financial-literacy, reminders]
-topics: []
+topics: ["[[behavioral-io-naivete-attention]]"]
 related: [Barber2008, Eliaz2011a, Gabaix2006]
 added: 2026-05-30
 generated: 2026-05-30

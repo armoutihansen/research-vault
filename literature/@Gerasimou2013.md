@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/SQYI7QTA"
 pdf: /Users/jesper/Zotero/storage/K9V75ETR/Gerasimou2013.pdf
 tags: [literature]
 keywords: [incomplete-preferences, continuity, hemicontinuity, preorders, strict-partial-orders, order-topology, decision-theory]
-topics: []
+topics: ["[[incomplete-preferences-choice-deferral]]"]
 related: [Gerasimou2010]
 added: 2026-05-30
 generated: 2026-05-30

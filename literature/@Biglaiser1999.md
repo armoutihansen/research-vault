@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/8NAN53E7"
 pdf: /Users/jesper/Zotero/storage/Y6QRFZBD/Biglaiser1999.pdf
 tags: [literature]
 keywords: [adverse-selection, intermediation, certification, quality-inspection, market-design, search-costs]
-topics: []
+topics: ["[[adverse-selection-intermediation]]"]
 related: [Akerlof1970, Biglaiser1993]
 added: 2026-05-30
 generated: 2026-05-30

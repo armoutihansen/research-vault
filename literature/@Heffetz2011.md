@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/DI9Q9Z5Y"
 pdf: /Users/jesper/Zotero/storage/VE25AA87/Heffetz2011.pdf
 tags: [literature]
 keywords: [conspicuous-consumption, signaling, income-elasticity, expenditure-visibility, social-status, engel-curves]
-topics: []
+topics: ["[[conspicuous-consumption-status]]"]
 related: [Charles2009]
 added: 2026-05-30
 generated: 2026-05-30

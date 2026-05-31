@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/VZ5RHT66"
 pdf: /Users/jesper/Zotero/storage/2P4FIMAU/Fudenberg2020a.pdf
 tags: [literature]
 keywords: [machine-learning, economic-theory, model-completeness, model-restrictiveness, prospect-theory, cognitive-hierarchy, experimental-design]
-topics: []
+topics: ["[[ml-evaluating-economic-theories]]"]
 related: [Fudenberg2019a, Fudenberg2020]
 added: 2026-05-30
 generated: 2026-05-30

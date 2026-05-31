@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/PT9H77RB"
 pdf: /Users/jesper/Zotero/storage/3AYSM2E9/Biglaiser1993.pdf
 tags: [literature]
 keywords: [middlemen, adverse-selection, quality-certification, reputation, bargaining, market-microstructure]
-topics: []
+topics: ["[[adverse-selection-intermediation]]"]
 related: [Akerlof1970]
 added: 2026-05-30
 generated: 2026-05-30

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/L87Q5F5K"
 pdf: /Users/jesper/Zotero/storage/76YQD7R7/Huffman2022.pdf
 tags: [literature]
 keywords: [overconfidence, motivated-beliefs, biased-memory, belief-updating, field-experiment, tournament-incentives]
-topics: []
+topics: ["[[anticipatory-utility-motivated-beliefs]]"]
 related: [Brunnermeier2005, Koszegi2006a, Sarver2018, Sliwka2020]
 added: 2026-05-30
 generated: 2026-05-30

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/MFX4F75Z"
 pdf: /Users/jesper/Zotero/storage/834FPWC8/Nalebuff and Stiglitz - 1983 - Prizes and incentives towards a general theory of.pdf
 tags: [literature]
 keywords: [tournaments, relative-performance-pay, principal-agent, moral-hazard, contest-design, incentive-theory, sufficient-statistic]
-topics: []
+topics: ["[[tournaments-relative-performance]]"]
 related: [Lazear1981]
 added: 2026-05-30
 generated: 2026-05-30

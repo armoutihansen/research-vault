@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/4SGYP67I"
 pdf: /Users/jesper/Zotero/storage/KCL6PBD6/Smyth2000.pdf
 tags: [literature]
 keywords: [cross-validation, model-selection, finite-mixture-models, probabilistic-clustering, number-of-components, kullback-leibler]
-topics: []
+topics: ["[[finite-mixture-models]]"]
 related: [Dempster1977]
 added: 2026-05-30
 generated: 2026-05-30

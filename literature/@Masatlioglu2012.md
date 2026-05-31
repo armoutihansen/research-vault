@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/X29WH9LR"
 pdf: /Users/jesper/Zotero/storage/LDBBKK7J/Masatlioglu2012.pdf
 tags: [literature]
 keywords: [limited-attention, revealed-preference, consideration-sets, bounded-rationality, welfare-analysis, choice-theory]
-topics: []
+topics: ["[[limited-attention-consideration-sets]]"]
 related: [Caplin2011, Eliaz2011, Eliaz2011a, Hauser1990, Huber1982, Lehmann1994, Manzini2007, May1954, Salant2008, Samuelson1938, Tversky1993]
 added: 2026-05-30
 generated: 2026-05-30

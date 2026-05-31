@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/3LMV3FZN"
 pdf: /Users/jesper/Zotero/storage/PFV6GY2K/Benabou2003.pdf
 tags: [literature]
 keywords: [intrinsic-motivation, crowding-out, signaling, principal-agent, looking-glass-self, self-confidence, incentives]
-topics: []
+topics: ["[[motivated-agents-intrinsic-motivation]]"]
 related: [Aghion1997, Benabou2006]
 added: 2026-05-29
 generated: 2026-05-29

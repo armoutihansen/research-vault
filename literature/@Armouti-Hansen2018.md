@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/2IXDHEPB"
 pdf: /Users/jesper/Zotero/storage/V5N9AI35/Armouti-Hansen2018.pdf
 tags: [literature]
 keywords: [bounded-rationality, choice-correspondence, rational-shortlist-method, categorize-then-choose, indecisiveness, revealed-preference, sequential-rationalization]
-topics: []
+topics: ["[[sequential-rationalizability-shortlists]]"]
 related: [Apesteguia2005, Au2011, Cherepanov2013, Eliaz2006, Kalai2002, Manzini2007, Manzini2012a, Masatlioglu2012, Rubinstein2006, Rubinstein2012, Salant2008, Sen1993, Shafir1993]
 added: 2026-05-30
 generated: 2026-05-30

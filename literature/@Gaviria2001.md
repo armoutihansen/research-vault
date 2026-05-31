@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/UADNZ24R"
 pdf: /Users/jesper/Zotero/storage/EQ37RNNJ/Gaviria2001.pdf
 tags: [literature]
 keywords: [peer-effects, social-interactions, linear-in-means, instrumental-variables, endogenous-sorting, juvenile-behavior, social-capital]
-topics: []
+topics: ["[[peer-effects-social-interactions]]"]
 related: [Glaeser1996]
 added: 2026-05-30
 generated: 2026-05-30

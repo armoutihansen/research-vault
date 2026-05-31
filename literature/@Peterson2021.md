@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/VWKH3A3E"
 pdf: /Users/jesper/Zotero/storage/HZ4R3WKL/Peterson2021.pdf
 tags: [literature]
 keywords: [risky-choice, prospect-theory, machine-learning, decision-theory, neural-networks, theory-discovery, expected-utility]
-topics: []
+topics: ["[[choice-prediction-risky-choice]]"]
 related: [Erev2017, Fudenberg2019a, Kleinberg2018, Plonsky2019]
 added: 2026-05-30
 generated: 2026-05-30

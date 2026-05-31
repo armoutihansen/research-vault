@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/47PCPJKY"
 pdf: /Users/jesper/Zotero/storage/NG62RQF9/Iwata2018.pdf
 tags: [literature]
 keywords: [limited-attention, salience, revealed-preference, consideration-sets, bounded-rationality, choice-theory]
-topics: []
+topics: ["[[limited-attention-consideration-sets]]"]
 related: [Bordalo2013, Cherepanov2013, Huber1982, Lleras2017, Loomes1991, Mandler2012, Manzini2007, Manzini2014, Masatlioglu2012, Ok2015, Rubinstein2012, Salant2008, deClippel2012]
 added: 2026-05-30
 generated: 2026-05-30

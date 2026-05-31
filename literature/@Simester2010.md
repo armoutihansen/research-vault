@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/NKR7J778"
 pdf: /Users/jesper/Zotero/storage/ARWNZTC4/Simester and Zhang - 2010 - Why Are Bad Products So Hard to Kill.pdf
 tags: [literature]
 keywords: [managerial-incentives, moral-hazard, product-development, principal-agent, information-acquisition, limited-liability, escalation-of-commitment]
-topics: []
+topics: ["[[career-concerns-subjective-evaluation]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

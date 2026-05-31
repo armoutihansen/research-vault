@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/QLRDSBDI"
 pdf: /Users/jesper/Zotero/storage/MBV6FNYS/Milgrom1986.pdf
 tags: [literature]
 keywords: [signaling, advertising, product-quality, experience-goods, equilibrium-refinement, industrial-organization, repeat-purchases]
-topics: []
+topics: ["[[advertising-signaling-quality]]"]
 related: [Nelson1970]
 added: 2026-05-30
 generated: 2026-05-30

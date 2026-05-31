@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/V39M3NGH"
 pdf: /Users/jesper/Zotero/storage/BKC4JJZ2/Glaeser1996.pdf
 tags: [literature]
 keywords: [social-interactions, crime, peer-effects, cross-city-variance, voter-model, identification, unobserved-heterogeneity]
-topics: []
+topics: ["[[peer-effects-social-interactions]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

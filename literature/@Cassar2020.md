@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/AI76SMM7"
 pdf: /Users/jesper/Zotero/storage/QMPUSYVP/Cassar2020.pdf
 tags: [literature]
 keywords: [contract-theory, mission-motivated-agents, mechanism-design, screening, scoring-auctions, incentives, procurement]
-topics: []
+topics: ["[[motivated-agents-intrinsic-motivation]]"]
 related: [Benabou2003, Besley2005, Besley2017]
 added: 2026-05-29
 generated: 2026-05-29

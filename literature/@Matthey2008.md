@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/7ILGUHTV"
 pdf: /Users/jesper/Zotero/storage/6NR5YMSY/Matthey2008.pdf
 tags: [literature]
 keywords: [reference-dependent-utility, expectations, anticipatory-utility, loss-aversion, personal-equilibrium, habituation]
-topics: []
+topics: ["[[anticipatory-utility-motivated-beliefs]]"]
 related: [Benartzi1995, Brunnermeier2005, Caplin2001, Kahneman1979, Koszegi2006a, Koszegi2006b, Loewenstein1987]
 added: 2026-05-30
 generated: 2026-05-30

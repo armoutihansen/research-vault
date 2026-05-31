@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/MKA62NVU"
 pdf: /Users/jesper/Zotero/storage/9ZSICFEA/Fershtman2018.pdf
 tags: [literature]
 keywords: [social-influence, behavioral-preferences, endogenous-preferences, risk-aversion, group-polarization, decision-theory, fixed-point-existence]
-topics: []
+topics: ["[[revealed-preference-foundations]]"]
 related: [Ariely2000, Chen2009, Fehr1999]
 added: 2026-05-29
 generated: 2026-05-29

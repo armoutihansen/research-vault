@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/W6EWEYK9"
 pdf: /Users/jesper/Zotero/storage/DBS8RY8M/Andrews2022.pdf
 tags: [literature]
 keywords: [transfer-learning, out-of-domain-generalization, conformal-inference, risk-preferences, cumulative-prospect-theory, model-validation, machine-learning-vs-structural-models]
-topics: []
+topics: ["[[ml-evaluating-economic-theories]]"]
 related: [Fudenberg2019a, Fudenberg2021, Fudenberg2022, Plonsky2017]
 added: 2026-05-29
 generated: 2026-05-29

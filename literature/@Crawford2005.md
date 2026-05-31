@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/ZBSY57UC"
 pdf: /Users/jesper/Zotero/storage/RZDEW6K2/Crawford and Shum - 2005 - Uncertainty and Learning in Pharmaceutical Demand.pdf
 tags: [literature]
 keywords: [bayesian-learning, dynamic-discrete-choice, structural-demand, pharmaceutical-markets, matching-model, risk-aversion, experimentation]
-topics: []
+topics: ["[[adverse-selection-intermediation]]"]
 related: [Milgrom1986, Nelson1970]
 added: 2026-05-30
 generated: 2026-05-30

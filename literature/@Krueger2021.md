@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/56NLVIWC"
 pdf: /Users/jesper/Zotero/storage/JY6TUPSP/Krueger2021.pdf
 tags: [literature]
 keywords: [mixed-logit, discrete-choice, unobserved-heterogeneity, choice-prediction, recommender-systems, bayesian-estimation, maximum-simulated-likelihood]
-topics: []
+topics: ["[[discrete-choice-econometrics]]"]
 related: [Revelt1998, Zhao2020]
 added: 2026-05-29
 generated: 2026-05-29

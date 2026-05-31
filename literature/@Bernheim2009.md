@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/VC2HEA7N"
 pdf: /Users/jesper/Zotero/storage/LUZUE8JE/Bernheim2009.pdf
 tags: [literature]
 keywords: [behavioral-welfare-economics, revealed-preference, choice-theory, time-inconsistency, pareto-efficiency, libertarian-paternalism]
-topics: []
+topics: ["[[behavioral-welfare-nudge]]"]
 related: [Iyengar2000, Kahneman1997, Salant2008, Thaler2003]
 added: 2026-05-29
 generated: 2026-05-29

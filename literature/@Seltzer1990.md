@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/XQHT283T"
 pdf: /Users/jesper/Zotero/storage/A2HW44TH/Seltzer1990.pdf
 tags: [literature]
 keywords: [transformational-leadership, augmentation-hypothesis, initiation-consideration, hierarchical-regression, levels-of-analysis, multifactor-leadership-questionnaire]
-topics: []
+topics: ["[[transformational-leadership]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

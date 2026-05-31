@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/827YBJWI"
 pdf: /Users/jesper/Zotero/storage/2CRF8C6H/Loomes1991.pdf
 tags: [literature]
 keywords: [preference-reversal, transitivity, regret-theory, choice-under-uncertainty, experimental-economics, non-expected-utility]
-topics: []
+topics: ["[[prospect-theory-loss-aversion]]"]
 related: [Grether1979, Kahneman1979, Loomes1986, Loomes1987, Quiggin1982, Tversky1981, Tversky1990]
 added: 2026-05-30
 generated: 2026-05-30

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/ZRKKYKUK"
 pdf: /Users/jesper/Zotero/storage/58FJZE89/Manzini2014.pdf
 tags: [literature]
 keywords: [stochastic-choice, consideration-sets, limited-attention, random-utility, revealed-preference, luce-model, identification, bounded-rationality]
-topics: []
+topics: ["[[limited-attention-consideration-sets]]"]
 related: [Manzini2007, Masatlioglu2012]
 added: 2026-05-29
 generated: 2026-05-29

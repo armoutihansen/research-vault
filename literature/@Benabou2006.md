@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/BNIAUNST"
 pdf: /Users/jesper/Zotero/storage/SBAVYRLG/Benabou2006.pdf
 tags: [literature]
 keywords: [prosocial-behavior, intrinsic-motivation, crowding-out, social-signaling, social-norms, reputation, self-image, public-goods]
-topics: []
+topics: ["[[prosocial-behavior-image-signaling]]"]
 related: [Akerlof2000, Benabou2003]
 added: 2026-05-29
 generated: 2026-05-29

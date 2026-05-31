@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/HWQ97WT5"
 pdf: /Users/jesper/Zotero/storage/FVEIKZ8X/Payro2015.pdf
 tags: [literature]
 keywords: [bounded-rationality, similarity, choice-theory, revealed-preference, cyclic-choice, rationalizability]
-topics: []
+topics: ["[[sequential-rationalizability-shortlists]]"]
 related: [Dutta2015, Manzini2007]
 added: 2026-05-29
 generated: 2026-05-29

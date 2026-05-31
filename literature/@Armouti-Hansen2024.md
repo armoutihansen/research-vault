@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/XK8N4DG9"
 pdf: /Users/jesper/Zotero/storage/YCHQRUUQ/Armouti-Hansen2024.pdf
 tags: [literature]
 keywords: [prosocial-motivation, gift-exchange, efficiency-wages, biased-beliefs, reciprocity, principal-agent, lab-experiment]
-topics: []
+topics: ["[[reciprocity-gift-exchange]]"]
 related: [Benabou2003, Besley2005, Bolton2000, Cassar2018, Charness2002, DellaVigna2022, Dufwenberg2004, Fehr1993, Fehr1999, Rabin1993]
 added: 2026-05-30
 generated: 2026-05-30

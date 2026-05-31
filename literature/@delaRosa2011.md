@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/D85EWFFJ"
 pdf: /Users/jesper/Zotero/storage/68WPXEVD/de la Rosa - 2011 - Overconfidence and moral hazard.pdf
 tags: [literature]
 keywords: [overconfidence, moral-hazard, principal-agent, incentive-contracts, heterogeneous-beliefs, behavioral-contract-theory]
-topics: []
+topics: ["[[social-preferences-contract-theory]]"]
 related: [Akerlof1982]
 added: 2026-05-30
 generated: 2026-05-30

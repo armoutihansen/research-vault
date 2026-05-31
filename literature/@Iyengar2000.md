@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/X3WWZPJB"
 pdf: /Users/jesper/Zotero/storage/6NVCBZFR/Iyengar2000.pdf
 tags: [literature]
 keywords: [choice-overload, intrinsic-motivation, assortment-size, satisficing, bounded-rationality, field-experiment, consumer-choice]
-topics: []
+topics: ["[[behavioral-welfare-nudge]]"]
 related: [Hauser1990, Manzini2007, Shafir1993]
 added: 2026-05-30
 generated: 2026-05-30

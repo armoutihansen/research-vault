@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/YJCGHWT5"
 pdf: /Users/jesper/Zotero/storage/HRLJJQ2W/Brunnermeier2005a.pdf
 tags: [literature]
 keywords: [optimal-expectations, anticipatory-utility, overconfidence, subjective-beliefs, skewness-preference, heterogeneous-priors, life-cycle-consumption, behavioral-finance]
-topics: []
+topics: ["[[anticipatory-utility-motivated-beliefs]]"]
 related: [Akerlof1982, Caplin2001]
 added: 2026-05-30
 generated: 2026-05-30

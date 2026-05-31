@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/6FDMNFZS"
 pdf: /Users/jesper/Zotero/storage/GLRKN3UE/Abeler2011.pdf
 tags: [literature]
 keywords: [reference-dependent-preferences, expectations-based-reference-point, loss-aversion, real-effort-experiment, labor-supply, koszegi-rabin]
-topics: []
+topics: ["[[expectations-based-reference-dependence]]"]
 related: [Bell1985, Farber2005, Gul1991, Kahneman1979, Koszegi2006b, Koszegi2007, Loomes1986, Shalev2000, Tversky1990]
 added: 2026-05-29
 generated: 2026-05-29

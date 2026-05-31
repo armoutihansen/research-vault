@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/EXEA7MAU"
 pdf: /Users/jesper/Zotero/storage/9TDP3TE3/Johnson2003.pdf
 tags: [literature]
 keywords: [default-effects, organ-donation, constructed-preferences, nudge, status-quo-bias, loss-aversion, libertarian-paternalism]
-topics: []
+topics: ["[[behavioral-welfare-nudge]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

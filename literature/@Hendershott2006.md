@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/7GLQYK7R"
 pdf: /Users/jesper/Zotero/storage/UZRD9RTY/Hendershott2006.pdf
 tags: [literature]
 keywords: [intermediation, direct-sales, consumer-search, price-discrimination, vertical-channels, disintermediation, e-commerce]
-topics: []
+topics: ["[[adverse-selection-intermediation]]"]
 related: [Biglaiser1993, Choi1991, Coughlan1985, Jeuland1983, McGuire1983, Moorthy1987, Nelson1970]
 added: 2026-05-30
 generated: 2026-05-30

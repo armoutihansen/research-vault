@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/XEGPGEU2"
 pdf: /Users/jesper/Zotero/storage/4SWCKTBR/Sliwka2001.pdf
 tags: [literature]
 keywords: [delegation, principal-agent, career-concerns, holdup-problem, empowerment, implicit-incentives, organizational-economics]
-topics: []
+topics: ["[[strategic-delegation-firm-objectives]]"]
 related: [Aghion1997, Gibbons1992]
 added: 2026-05-30
 generated: 2026-05-30

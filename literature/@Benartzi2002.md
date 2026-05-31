@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/NESZ74K5"
 pdf: /Users/jesper/Zotero/storage/SJVYPDUX/Benartzi2002.pdf
 tags: [literature]
 keywords: [behavioral-finance, choice-overload, retirement-savings, extremeness-aversion, defined-contribution-plans, constructed-preferences, investor-autonomy]
-topics: []
+topics: ["[[behavioral-welfare-nudge]]"]
 related: [Samuelson1988, Simonson1992]
 added: 2026-05-29
 generated: 2026-05-29

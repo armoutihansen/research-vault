@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/ZFBEDCEJ"
 pdf: /Users/jesper/Zotero/storage/Y2Z8937P/Tyson2013.pdf
 tags: [literature]
 keywords: [revealed-preference, shortlisting-procedures, bounded-rationality, consideration-sets, choice-theory, lattice-theory, two-stage-choice]
-topics: []
+topics: ["[[sequential-rationalizability-shortlists]]"]
 related: [Cherepanov2013, Eliaz2011a, Manzini2007, Masatlioglu2012, Samuelson1938, Tyson2008]
 added: 2026-05-30
 generated: 2026-05-30

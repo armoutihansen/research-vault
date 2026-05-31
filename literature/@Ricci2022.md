@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/4JAY4P3V"
 pdf: /Users/jesper/Zotero/storage/6LRD7XZL/Ricci2022.pdf
 tags: [literature]
 keywords: [recommender-systems, collaborative-filtering, user-modeling, recommendation-evaluation, beyond-accuracy, cold-start, preference-elicitation, hybrid-recommenders]
-topics: []
+topics: ["[[recommender-systems-matrix-factorization]]"]
 related: []
 added: 2026-05-29
 generated: 2026-05-29

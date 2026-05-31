@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/22KI6UWV"
 pdf: /Users/jesper/Zotero/storage/ZAQ9SAGP/Moorthy1988.pdf
 tags: [literature]
 keywords: [vertical-integration, distribution-channels, strategic-decentralization, strategic-complements, double-marginalization, nash-equilibrium, industrial-organization]
-topics: []
+topics: ["[[distribution-channels-vertical-integration]]"]
 related: [Coughlan1985, Jeuland1983, McGuire1983, Moorthy1987, Spengler1950]
 added: 2026-05-30
 generated: 2026-05-30

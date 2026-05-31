@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/SMM6MFXL"
 pdf: /Users/jesper/Zotero/storage/7L3535MX/Rabin1993.pdf
 tags: [literature]
 keywords: [fairness, reciprocity, psychological-games, game-theory, behavioral-economics, fairness-equilibrium, social-preferences]
-topics: []
+topics: ["[[reciprocity-gift-exchange]]"]
 related: [Bolton2000, Dufwenberg2004, Falk2006, Fehr1999]
 added: 2026-05-29
 generated: 2026-05-29

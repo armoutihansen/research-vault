@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/6JXGUFRG"
 pdf: /Users/jesper/Zotero/storage/7XF7FM3Q/Spengler1950.pdf
 tags: [literature]
 keywords: [vertical-integration, double-marginalization, successive-monopoly, antitrust, industrial-organization, vertical-restraints]
-topics: []
+topics: ["[[distribution-channels-vertical-integration]]"]
 related: [Tirole1988]
 added: 2026-05-30
 generated: 2026-05-30

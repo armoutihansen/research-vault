@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/Y9CCC9FQ"
 pdf: /Users/jesper/Zotero/storage/7PTSFF77/Kahneman1979.pdf
 tags: [literature]
 keywords: [prospect-theory, decision-under-risk, loss-aversion, reference-dependence, probability-weighting, expected-utility-critique, behavioral-economics]
-topics: []
+topics: ["[[prospect-theory-loss-aversion]]"]
 related: [Tversky1992]
 added: 2026-05-30
 generated: 2026-05-30

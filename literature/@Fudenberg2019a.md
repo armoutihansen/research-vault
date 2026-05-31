@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/ZBSF9MFQ"
 pdf: /Users/jesper/Zotero/storage/PI6QUWFY/Fudenberg2019.pdf
 tags: [literature]
 keywords: [initial-play, level-k, cognitive-hierarchy, machine-learning, model-completeness, matrix-games, behavioral-game-theory]
-topics: []
+topics: ["[[ml-evaluating-economic-theories]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

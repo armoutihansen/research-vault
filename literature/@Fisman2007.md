@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/5B6XKFVW"
 pdf: /Users/jesper/Zotero/storage/FM4NHF6K/Fisman2007.pdf
 tags: [literature]
 keywords: [dictator-game, social-preferences, revealed-preference, ces-utility, experimental-economics, altruism, efficiency-equity-tradeoff]
-topics: []
+topics: ["[[inequity-aversion-distributional-preferences]]"]
 related: [Andreoni2002, Bolton2000, Charness2002, Fehr1999]
 added: 2026-05-29
 generated: 2026-05-29

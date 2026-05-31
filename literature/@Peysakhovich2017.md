@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/EDP3FYWM"
 pdf: /Users/jesper/Zotero/storage/BA724Q3Y/Peysakhovich2017.pdf
 tags: [literature]
 keywords: [machine-learning, risk-preferences, ambiguity-aversion, probability-weighting, out-of-sample-prediction, behavioral-economics, explainable-variance]
-topics: []
+topics: ["[[ml-evaluating-economic-theories]]"]
 related: [Charness2002, Erev2010, Kahneman1979, Tibshirani1996, Tversky1992]
 added: 2026-05-29
 generated: 2026-05-29

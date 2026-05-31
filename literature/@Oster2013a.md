@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/5BD4HH78"
 pdf: /Users/jesper/Zotero/storage/CSXZMVR9/Oster2013a.pdf
 tags: [literature]
 keywords: [optimal-expectations, information-avoidance, anticipatory-utility, motivated-beliefs, genetic-testing, structural-estimation]
-topics: []
+topics: ["[[anticipatory-utility-motivated-beliefs]]"]
 related: [Brunnermeier2005, Caplin2001, Koszegi2006b]
 added: 2026-05-30
 generated: 2026-05-30

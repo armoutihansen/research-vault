@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/74NC7KR5"
 pdf: /Users/jesper/Zotero/storage/Q2N8K3T7/Fershtman1987.pdf
 tags: [literature]
 keywords: [strategic-delegation, managerial-incentives, oligopoly, cournot-competition, bertrand-competition, principal-agent, industrial-organization]
-topics: []
+topics: ["[[strategic-delegation-firm-objectives]]"]
 related: [Sklivas1987, Vickers1985]
 added: 2026-05-30
 generated: 2026-05-30

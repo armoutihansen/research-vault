@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/SPWS2Z7C"
 pdf: /Users/jesper/Zotero/storage/3SF48UUA/Thaler2004a.pdf
 tags: [literature]
 keywords: [behavioral-economics, retirement-savings, hyperbolic-discounting, loss-aversion, libertarian-paternalism, commitment-device, status-quo-bias]
-topics: []
+topics: ["[[behavioral-welfare-nudge]]"]
 related: [Samuelson1988, Thaler2003, Tversky1992]
 added: 2026-05-30
 generated: 2026-05-30

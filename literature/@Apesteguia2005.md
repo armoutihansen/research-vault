@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/6T28Y9W9"
 pdf: /Users/jesper/Zotero/storage/P8K2PGLL/Apesteguia2005.pdf
 tags: [literature]
 keywords: [rationalization, independence-of-irrelevant-alternatives, bounded-rationality, choice-functions, revealed-preference, combinatorial-optimization]
-topics: []
+topics: ["[[sequential-rationalizability-shortlists]]"]
 related: [Baigent1996, Kalai2002, Sen1993]
 added: 2026-05-29
 generated: 2026-05-29

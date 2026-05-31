@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/3T8X2FNH"
 pdf: /Users/jesper/Zotero/storage/XSQPAL4E/Baigent1996.pdf
 tags: [literature]
 keywords: [choice-theory, revealed-preference, social-norms, rationalizability, axiomatization, choice-function-consistency]
-topics: []
+topics: ["[[sequential-rationalizability-shortlists]]"]
 related: [Sen1993]
 added: 2026-05-29
 generated: 2026-05-29

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/9ZL8EPSK"
 pdf: /Users/jesper/Zotero/storage/THSJIQFD/Croissant2020.pdf
 tags: [literature]
 keywords: [discrete-choice, random-utility-models, mixed-logit, nested-logit, maximum-simulated-likelihood, r-package]
-topics: []
+topics: ["[[discrete-choice-econometrics]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

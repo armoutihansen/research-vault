@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/KK6PAG5M"
 pdf: /Users/jesper/Zotero/storage/7ZP5RPNL/Elenkov2002.pdf
 tags: [literature]
 keywords: [transformational-leadership, transactional-leadership, organizational-performance, russia-transition-economy, partial-least-squares, support-for-innovation]
-topics: []
+topics: ["[[transformational-leadership]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

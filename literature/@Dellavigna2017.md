@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/C8EQJ4FS"
 pdf: /Users/jesper/Zotero/storage/UT76FWAE/Dellavigna et al. - 2017 - Voting to Tell Others.pdf
 tags: [literature]
 keywords: [social-image, voting-turnout, structural-behavioral, field-experiment, lying-cost, get-out-the-vote]
-topics: []
+topics: ["[[prosocial-behavior-image-signaling]]"]
 related: [Ariely2009, Benabou2006, DellaVigna2012]
 added: 2026-05-30
 generated: 2026-05-30

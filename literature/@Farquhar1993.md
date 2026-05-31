@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/KL5UFX9X"
 pdf: /Users/jesper/Zotero/storage/924UG3SF/Farquhar1993.pdf
 tags: [literature]
 keywords: [phantom-alternatives, decision-structuring, choice-set-effects, regularity-violation, context-dependent-choice, dominance-screening, decision-analysis]
-topics: []
+topics: ["[[context-effects-attraction-compromise]]"]
 related: [Huber1982, Manzini2007, Tversky1974, Tversky1993]
 added: 2026-05-30
 generated: 2026-05-30

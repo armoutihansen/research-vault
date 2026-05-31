@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/E49M5TVV"
 pdf: /Users/jesper/Zotero/storage/3LXWE56V/Chambers2012.pdf
 tags: [literature]
 keywords: [behavioral-welfare, revealed-preference, stochastic-choice, axiomatic-decision-theory, scoring-rule, welfare-economics]
-topics: []
+topics: ["[[behavioral-welfare-nudge]]"]
 related: []
 added: 2026-05-29
 generated: 2026-05-29

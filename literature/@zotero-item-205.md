@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/QYW28V93"
 pdf: /Users/jesper/Zotero/storage/W6G963Y7/Formal and Real Authority in Organizations.pdf
 tags: [literature]
 keywords: [formal-authority, real-authority, delegation, incomplete-contracts, principal-agent, information-acquisition, organizational-economics]
-topics: []
+topics: ["[[strategic-delegation-firm-objectives]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

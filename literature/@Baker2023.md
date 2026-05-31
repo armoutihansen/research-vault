@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/7AN9KJ34"
 pdf: /Users/jesper/Zotero/storage/GSEVAY87/Baker2023.pdf
 tags: [literature]
 keywords: [mixed-logit, bayesian-estimation, discrete-choice, mcmc, willingness-to-pay, stata]
-topics: []
+topics: ["[[discrete-choice-econometrics]]"]
 related: [Hole2007, Hole2012]
 added: 2026-05-29
 generated: 2026-05-29

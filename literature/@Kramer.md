@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/IDLAEUR3"
 pdf: /Users/jesper/Zotero/storage/RJI99L2X/Kraemer2023.pdf
 tags: [literature]
 keywords: [prosocial-behavior, image-motivation, crowding-out, monetary-incentives, signaling, bdm-mechanism, benabou-tirole]
-topics: []
+topics: ["[[prosocial-behavior-image-signaling]]"]
 related: [Ariely2009, Benabou2003, Benabou2006, Ellingsen2008, Gneezy2000, Sliwka2007, Sliwka2020, Tversky1974, Tversky1990]
 added: 2026-05-30
 generated: 2026-05-30

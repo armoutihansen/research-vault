@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/VW88YNMC"
 pdf: /Users/jesper/Zotero/storage/QNGQDWVK/Sugden1993.pdf
 tags: [literature]
 keywords: [regret-theory, nontransitive-preferences, axiomatic-decision-theory, subjective-probability, menu-dependence, choice-under-uncertainty]
-topics: []
+topics: ["[[disappointment-regret-nonexpected-utility]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

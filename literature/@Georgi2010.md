@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/8FXF5B8H"
 pdf: /Users/jesper/Zotero/storage/ANEX7IWQ/Georgi2010.pdf
 tags: [literature]
 keywords: [mixture-models, clustering, em-algorithm, context-specific-independence, dependence-trees, semi-supervised-learning, bioinformatics, python-software]
-topics: []
+topics: ["[[finite-mixture-models]]"]
 related: [Dempster1977]
 added: 2026-05-30
 generated: 2026-05-30

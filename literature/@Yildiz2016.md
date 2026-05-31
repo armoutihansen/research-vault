@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/YBP38UR4"
 pdf: /Users/jesper/Zotero/storage/5GUUUPIS/Yildiz2016.pdf
 tags: [literature]
 keywords: [bounded-rationality, list-rationalizability, stochastic-choice, path-independence, revealed-preference, shortlisting, choice-theory]
-topics: []
+topics: ["[[sequential-rationalizability-shortlists]]"]
 related: [Apesteguia2013, Au2011, Cherepanov2013, Manzini2007, Manzini2014, Masatlioglu2012, Rubinstein2006, Xu2007]
 added: 2026-05-29
 generated: 2026-05-29

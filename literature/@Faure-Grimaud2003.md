@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/E7S6RQHY"
 pdf: /Users/jesper/Zotero/storage/YEMN7KMF/Faure-Grimaud et al. - 2003 - Risk Averse Supervisors and the Efficiency of Coll.pdf
 tags: [literature]
 keywords: [collusion, supervision, risk-aversion, mechanism-design, principal-agent, organizational-design, cara-utility]
-topics: []
+topics: ["[[career-concerns-subjective-evaluation]]"]
 related: [Prendergast1996]
 added: 2026-05-30
 generated: 2026-05-30

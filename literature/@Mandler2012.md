@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/A8FZLQWE"
 pdf: /Users/jesper/Zotero/storage/32LPA4U9/Mandler2012.pdf
 tags: [literature]
 keywords: [checklists, utility-maximization, bounded-rationality, elimination-by-aspects, lexicographic-utility, revealed-preference, choice-function, procedural-rationality]
-topics: []
+topics: ["[[sequential-rationalizability-shortlists]]"]
 related: [Manzini2014]
 added: 2026-05-29
 generated: 2026-05-29

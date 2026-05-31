@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/VAGN8SLY"
 pdf: /Users/jesper/Zotero/storage/H7Y8VLG6/Athey2019.pdf
 tags: [literature]
 keywords: [machine-learning, causal-inference, treatment-effect-heterogeneity, double-machine-learning, policy-learning, multi-armed-bandits, econometrics]
-topics: []
+topics: ["[[ml-evaluating-economic-theories]]"]
 related: [Hartford2016]
 added: 2026-05-30
 generated: 2026-05-30

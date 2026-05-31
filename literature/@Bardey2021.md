@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/PV2M9DKS"
 pdf: /Users/jesper/Zotero/storage/7P48P8PH/Bardey and Siciliani - 2021 - Nursing-homes' competition and distributional implications when the market is two-sided.pdf
 tags: [literature]
 keywords: [two-sided-markets, nursing-homes, health-economics, common-network-externality, hotelling-competition, worker-altruism, price-regulation, pay-for-performance]
-topics: []
+topics: ["[[motivated-agents-intrinsic-motivation]]"]
 related: [Besley2005]
 added: 2026-05-30
 generated: 2026-05-30

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/8ZKG37I8"
 pdf: /Users/jesper/Zotero/storage/EIWAARUP/Drugov and Troya‐Martinez - 2019 - Vague lies and lax standards of proof On the law .pdf
 tags: [literature]
 keywords: [persuasion, strategic-communication, consumer-protection, law-and-economics, credulous-consumers, signal-jamming]
-topics: []
+topics: ["[[advice-misselling-disclosure]]"]
 related: [Gabaix2006, Inderst2009, Nelson1974]
 added: 2026-05-30
 generated: 2026-05-30

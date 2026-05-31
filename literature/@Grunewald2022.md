@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/WYZFW3CT"
 pdf: /Users/jesper/Zotero/storage/53FDWRFL/Grunewald2022.pdf
 tags: [literature]
 keywords: [information-manipulation, signal-jamming, competition, institutions, fake-news, bayesian-updating, backfiring]
-topics: []
+topics: ["[[advertising-signaling-quality]]"]
 related: [Lazear1981, Nalebuff1983]
 added: 2026-05-30
 generated: 2026-05-30

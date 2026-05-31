@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/AQU3HDKX"
 pdf: /Users/jesper/Zotero/storage/LBKZD8DM/Akerlof2000.pdf
 tags: [literature]
 keywords: [identity-economics, social-categories, utility-function, discrimination, social-exclusion, gender, oppositional-identity]
-topics: []
+topics: ["[[identity-social-norms-conformity]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

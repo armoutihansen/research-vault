@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/U8P5THPD"
 pdf: /Users/jesper/Zotero/storage/EZ5J62WA/Zafar2011.pdf
 tags: [literature]
 keywords: [conformity, image-concerns, social-comparison, social-norms, charitable-giving, lab-experiment, prosocial-behavior]
-topics: []
+topics: ["[[prosocial-behavior-image-signaling]]"]
 related: [Ariely2009, Benabou2006, Mas2009]
 added: 2026-05-30
 generated: 2026-05-30

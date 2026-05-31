@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/SYJ2DJPW"
 pdf: /Users/jesper/Zotero/storage/PWR4UG4P/Lleras2017.pdf
 tags: [literature]
 keywords: [limited-consideration, consideration-sets, revealed-preference, choice-overload, bounded-rationality, attention, welfare-analysis]
-topics: []
+topics: ["[[limited-attention-consideration-sets]]"]
 related: [Apesteguia2013, Caplin2011, Cherepanov2013, Dutta2015, Eliaz2011, Hauser1990, Jeuland1983, Manzini2007, Manzini2012a, Masatlioglu2012, Masatlioglu2013, Rubinstein2006, Salant2008]
 added: 2026-05-29
 generated: 2026-05-29

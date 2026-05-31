@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/Z5FKVUAD"
 pdf: /Users/jesper/Zotero/storage/IYGSGJZD/Garcia-Sanz2015.pdf
 tags: [literature]
 keywords: [sequential-rationalizability, choice-correspondences, revealed-preference, rational-shortlist-method, bounded-rationality, axiomatic-characterization]
-topics: []
+topics: ["[[sequential-rationalizability-shortlists]]"]
 related: [Apesteguia2013, Au2011, Cherepanov2013, Houy2009, Kalai2002, Manzini2007, Manzini2012, Masatlioglu2012, Rubinstein2006, Sen1971, Tyson2013]
 added: 2026-05-30
 generated: 2026-05-30

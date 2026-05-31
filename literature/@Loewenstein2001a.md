@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/E92KK29X"
 pdf: /Users/jesper/Zotero/storage/3P7R5P4G/Loewenstein2001.pdf
 tags: [literature]
 keywords: [risk-as-feelings, anticipatory-emotions, affect-and-risk, decision-under-risk, dual-process, probability-insensitivity]
-topics: []
+topics: ["[[anticipatory-utility-motivated-beliefs]]"]
 related: [Benartzi1995]
 added: 2026-05-30
 generated: 2026-05-30

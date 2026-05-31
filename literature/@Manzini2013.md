@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/AL8E77L6"
 pdf: /Users/jesper/Zotero/storage/Q2YWHP4H/Manzini2013.pdf
 tags: [literature]
 keywords: [revealed-preference, choice-theory, threshold-representation, limited-consideration, satisficing, bounded-rationality, axiomatic-choice]
-topics: []
+topics: ["[[limited-attention-consideration-sets]]", "[[satisficing-search-revealed-preference]]"]
 related: [Cherepanov2013, Manzini2007, Masatlioglu2012, Salant2008, Tyson2008]
 added: 2026-05-29
 generated: 2026-05-29

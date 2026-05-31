@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/UZQYYRRV"
 pdf: /Users/jesper/Zotero/storage/4HZFBX7D/Bertrand2016.pdf
 tags: [literature]
 keywords: [income-inequality, conspicuous-consumption, expenditure-cascades, household-saving, status-seeking, relative-income]
-topics: []
+topics: ["[[conspicuous-consumption-status]]"]
 related: [Charles2009, Frank2014, Heffetz2011, Kuziemko2014]
 added: 2026-05-29
 generated: 2026-05-29

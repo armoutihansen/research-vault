@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/LTZ5PVKE"
 pdf: /Users/jesper/Zotero/storage/7SPXJWXR/Gerasimou2016.pdf
 tags: [literature]
 keywords: [incomplete-preferences, choice-deferral, status-quo-bias, attraction-effect, partial-dominance, revealed-preference, bounded-rationality]
-topics: []
+topics: ["[[incomplete-preferences-choice-deferral]]"]
 related: [Bordalo2013, Gerasimou2015, Huber1982, Lombardi2009, Ok2015, Shafir1993, Simonson1989, deClippel2012]
 added: 2026-05-29
 generated: 2026-05-29

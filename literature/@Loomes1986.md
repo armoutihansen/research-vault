@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/GE8RIZ44"
 pdf: /Users/jesper/Zotero/storage/REK2W5YD/Loomes1986.pdf
 tags: [literature]
 keywords: [disappointment-theory, expected-utility, decision-under-uncertainty, independence-axiom, dynamic-consistency, allais-paradox, regret-theory]
-topics: []
+topics: ["[[disappointment-regret-nonexpected-utility]]"]
 related: [Bell1985, Kahneman1979, Tversky1981]
 added: 2026-05-30
 generated: 2026-05-30

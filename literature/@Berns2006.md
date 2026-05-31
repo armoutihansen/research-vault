@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/EVN7WW4K"
 pdf: /Users/jesper/Zotero/storage/XUH5I2LG/Berns2006.pdf
 tags: [literature]
 keywords: [dread, intertemporal-choice, neuroeconomics, anticipation-utility, pain-matrix, fmri, experienced-utility, discounting]
-topics: []
+topics: ["[[anticipatory-utility-motivated-beliefs]]"]
 related: [Caplin2001, Kahneman1997, Loewenstein1987]
 added: 2026-05-29
 generated: 2026-05-29

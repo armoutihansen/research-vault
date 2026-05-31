@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/PTDVY3MA"
 pdf: /Users/jesper/Zotero/storage/2S7Z5B57/Harutyunyan2019.pdf
 tags: [literature]
 keywords: [channel-competition, double-marginalization, vertical-differentiation, market-exit, exclusive-retailers, product-spinoff]
-topics: []
+topics: ["[[distribution-channels-vertical-integration]]"]
 related: [Coughlan1985, Jeuland1983, McGuire1983, Moorthy1988]
 added: 2026-05-30
 generated: 2026-05-30

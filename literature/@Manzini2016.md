@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/WBG29KE4"
 pdf: /Users/jesper/Zotero/storage/2YPPWWTZ/Manzini2016.pdf
 tags: [literature]
 keywords: [choice-theory, revealed-preference, bounded-rationality, two-stage-threshold-model, partial-knowledge, axiomatization, satisficing]
-topics: []
+topics: ["[[limited-attention-consideration-sets]]"]
 related: [Kalai2002, Manzini2007, Manzini2013, Masatlioglu2012, Salant2008, Tyson2008]
 added: 2026-05-29
 generated: 2026-05-29

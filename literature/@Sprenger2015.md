@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/YHEITDA7"
 pdf: /Users/jesper/Zotero/storage/9J3UB524/Sprenger2015.pdf
 tags: [literature]
 keywords: [reference-dependent-preferences, endowment-effect-for-risk, koszegi-rabin, disappointment-aversion, risk-preference-elicitation, loss-aversion, experimental-economics]
-topics: []
+topics: ["[[expectations-based-reference-dependence]]"]
 related: [Abeler2011, Bell1985, Crawford2011, Gul1991, Kahneman1979, Koszegi2006b, Loomes1986, Tversky1992]
 added: 2026-05-30
 generated: 2026-05-30

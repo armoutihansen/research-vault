@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/MAXCHUKF"
 pdf: /Users/jesper/Zotero/storage/ID2P3LQV/Kampkotter2018.pdf
 tags: [literature]
 keywords: [subjective-performance-evaluation, bonus-pools, rating-compression, differentiation, personnel-economics, inequity-aversion]
-topics: []
+topics: ["[[tournaments-relative-performance]]"]
 related: [Bolton2000, Fehr1999, Gibbons1992, Lazear1981, Ockenfels2015, Prendergast1996, Prendergast2002]
 added: 2026-05-30
 generated: 2026-05-30

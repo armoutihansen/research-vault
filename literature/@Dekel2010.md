@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/RKNDHTJ4"
 pdf: /Users/jesper/Zotero/storage/YRE7LSM2/Dekel2010.pdf
 tags: [literature]
 keywords: [decision-theory, representation-theorems, identification, methodology, revealed-preference, nonchoice-data, axiomatization]
-topics: []
+topics: ["[[behavioral-welfare-nudge]]"]
 related: [Bernheim2009, Harless1994, Manzini2007]
 added: 2026-05-30
 generated: 2026-05-30

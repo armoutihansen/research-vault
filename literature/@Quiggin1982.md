@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/78DK35RB"
 pdf: /Users/jesper/Zotero/storage/5X3NDXHJ/Quiggin1982.pdf
 tags: [literature]
 keywords: [rank-dependent-utility, anticipated-utility, expected-utility-generalization, decision-weights, probability-weighting, stochastic-dominance, non-expected-utility, allais-paradox]
-topics: []
+topics: ["[[disappointment-regret-nonexpected-utility]]"]
 related: [Kahneman1979, Tversky1992]
 added: 2026-05-30
 generated: 2026-05-30

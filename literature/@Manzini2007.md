@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/KNGI6WI4"
 pdf: /Users/jesper/Zotero/storage/DM9X9GD4/Manzini2007.pdf
 tags: [literature]
 keywords: [bounded-rationality, revealed-preference, choice-theory, heuristics, sequential-rationalizability, axiomatic-choice]
-topics: []
+topics: ["[[sequential-rationalizability-shortlists]]"]
 related: [Kalai2002, Loomes1991, Rubinstein2006]
 added: 2026-05-30
 generated: 2026-05-30

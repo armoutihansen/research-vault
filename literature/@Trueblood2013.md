@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/Y3YHFQIN"
 pdf: /Users/jesper/Zotero/storage/9FSHPQ2Q/Trueblood2013.pdf
 tags: [literature]
 keywords: [context-effects, attraction-effect, similarity-effect, compromise-effect, perceptual-choice, stochastic-choice, simple-scalability]
-topics: []
+topics: ["[[context-effects-attraction-compromise]]"]
 related: [Huber1982, Simonson1989, Tversky1972, Tversky1993]
 added: 2026-05-30
 generated: 2026-05-30

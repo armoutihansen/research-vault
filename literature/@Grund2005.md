@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/KSIUKQJS"
 pdf: /Users/jesper/Zotero/storage/8V6T6GZS/Grund and Sliwka - 2005 - Envy and Compassion in Tournaments.pdf
 tags: [literature]
 keywords: [tournaments, inequity-aversion, envy, compassion, promotion-policy, incentive-theory, social-preferences]
-topics: []
+topics: ["[[social-preferences-contract-theory]]", "[[tournaments-relative-performance]]"]
 related: [Bolton2000, Charness2002, Fehr1999, Itoh2004, Lazear1981, Nalebuff1983]
 added: 2026-05-30
 generated: 2026-05-30

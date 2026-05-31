@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/Z23APJVF"
 pdf: /Users/jesper/Zotero/storage/J9M27C42/Horan2016.pdf
 tags: [literature]
 keywords: [bounded-rationality, shortlist-methods, revealed-preference, axiomatization, choice-reversals, two-stage-choice, context-effects]
-topics: []
+topics: ["[[sequential-rationalizability-shortlists]]"]
 related: [Apesteguia2013, Au2011, Dutta2015, Huber1982, Manzini2007, Masatlioglu2012]
 added: 2026-05-29
 generated: 2026-05-29

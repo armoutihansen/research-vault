@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/Q79WR87S"
 pdf: /Users/jesper/Zotero/storage/SU7UNNWD/Dutta2015.pdf
 tags: [literature]
 keywords: [revealed-preference, bounded-rationality, rational-shortlist-method, choice-theory, identification, two-stage-choice]
-topics: []
+topics: ["[[sequential-rationalizability-shortlists]]"]
 related: [Au2011, Bernheim2009, Cherepanov2013, Eliaz2011a, Manzini2007, Manzini2012a, Masatlioglu2012, Rubinstein2012, Salant2008, Samuelson1938, Tyson2013]
 added: 2026-05-30
 generated: 2026-05-30

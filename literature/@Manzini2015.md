@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/ADH6799Z"
 pdf: /Users/jesper/Zotero/storage/WZNVIAH8/Manzini2015.pdf
 tags: [literature]
 keywords: [revealed-preference, bounded-rationality, choice-theory, psychological-state, state-dependent-choice, sequential-rationalizability, labour-supply]
-topics: []
+topics: ["[[sequential-rationalizability-shortlists]]"]
 related: [Bernheim2009, Caplin2001, Cherepanov2013, Crawford2011, Eliaz2006, Farber2005, Kalai2002, Koszegi2006b, Mandler2012, Manzini2007, Manzini2012a, Salant2008]
 added: 2026-05-30
 generated: 2026-05-30

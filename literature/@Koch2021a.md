@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/SUE79YET"
 pdf: /Users/jesper/Zotero/storage/JLL498HU/Koch and Weinschenk - 2021 - Contract design with socially attentive preferences.pdf
 tags: [literature]
 keywords: [principal-agent-model, social-preferences, moral-hazard, incentive-contracts, adverse-selection, limited-liability]
-topics: []
+topics: ["[[social-preferences-contract-theory]]"]
 related: [Andreoni2002, Benabou2006, Besley2005, Englmaier2010, Itoh2004]
 added: 2026-05-30
 generated: 2026-05-30

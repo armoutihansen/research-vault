@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/MMQPBPEL"
 pdf: /Users/jesper/Zotero/storage/4GVL9349/KHoszegi2022.pdf
 tags: [literature]
 keywords: [self-esteem, personal-equilibrium, mood-congruent-memory, overconfidence, impostor-syndrome, self-handicapping, behavioral-economics]
-topics: []
+topics: ["[[anticipatory-utility-motivated-beliefs]]"]
 related: [Bell1985, Benabou2006, Koszegi2006b, Koszegi2007, Koszegi2009, Loomes1986, Oster2013a]
 added: 2026-05-30
 generated: 2026-05-30

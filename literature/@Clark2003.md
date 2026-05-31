@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/UC47PQBR"
 pdf: /Users/jesper/Zotero/storage/KFVKJUZ2/Clark2003.pdf
 tags: [literature]
 keywords: [social-norms, unemployment, subjective-well-being, reference-groups, hysteresis, panel-data]
-topics: []
+topics: ["[[identity-social-norms-conformity]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

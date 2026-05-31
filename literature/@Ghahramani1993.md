@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/GN2L5U2J"
 pdf: /Users/jesper/Zotero/storage/RNEX3TIF/Ghahramani1993.pdf
 tags: [literature]
 keywords: [em-algorithm, mixture-models, missing-data, density-estimation, supervised-learning, gaussian-mixture]
-topics: []
+topics: ["[[finite-mixture-models]]"]
 related: [Dempster1977]
 added: 2026-05-30
 generated: 2026-05-30

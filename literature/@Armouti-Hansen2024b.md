@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/YUL6KULG"
 pdf: /Users/jesper/Zotero/storage/PYSTZ69Y/Armouti-Hansen and Kops - 2024 - Managing anticipation and reference-dependent choi.pdf
 tags: [literature]
 keywords: [reference-dependent-preferences, anticipatory-utility, loss-aversion, consideration-sets, revealed-preference, decision-theory]
-topics: []
+topics: ["[[expectations-based-reference-dependence]]"]
 related: [Abeler2011, Akerlof1982, Baillon2020, Baucells2017, Bell1985, Berns2006, Brunnermeier2005, Brunnermeier2007, Caplin2001, Chen2013, Cherepanov2013, Freeman2017, Goeree2001, Gollier2010, Gul1991, Harless1994, Jouini2014, Kahneman1979, Koszegi2006b, Koszegi2007, Lleras2017, Loewenstein1987, Loomes1986, Manzini2007, Masatlioglu2012, Oster2013a, Sarver2018, Schmitz2012, Shalev2000, Sugden1993]
 added: 2026-05-30
 generated: 2026-05-30

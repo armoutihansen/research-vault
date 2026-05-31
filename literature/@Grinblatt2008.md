@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/U2SYMBHB"
 pdf: /Users/jesper/Zotero/storage/I9D68X4R/Grinblatt2008.pdf
 tags: [literature]
 keywords: [social-influence, peer-effects, consumption, reflection-problem, nearest-neighbors-identification, conspicuous-consumption, information-diffusion]
-topics: []
+topics: ["[[peer-effects-social-interactions]]"]
 related: [Glaeser1996, Sacerdote2001]
 added: 2026-05-30
 generated: 2026-05-30

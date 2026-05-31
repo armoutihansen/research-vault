@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/Z7ACUKDD"
 pdf: /Users/jesper/Zotero/storage/VX897QR4/Bateman1997.pdf
 tags: [literature]
 keywords: [reference-dependent-preferences, loss-aversion, wta-wtp-disparity, experimental-economics, becker-degroot-marschak, contingent-valuation, endowment-effect]
-topics: []
+topics: ["[[prospect-theory-loss-aversion]]"]
 related: [Tversky1990]
 added: 2026-05-29
 generated: 2026-05-29

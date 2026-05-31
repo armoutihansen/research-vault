@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/4XHNJ6ZL"
 pdf: /Users/jesper/Zotero/storage/RIVJBFSJ/Rendle2019.pdf
 tags: [literature]
 keywords: [recommender-systems, matrix-factorization, evaluation-methodology, baselines, reproducibility, benchmarking]
-topics: []
+topics: ["[[recommender-systems-matrix-factorization]]"]
 related: [Rendle2012]
 added: 2026-05-30
 generated: 2026-05-30

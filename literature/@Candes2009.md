@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/BYI58HWY"
 pdf: /Users/jesper/Zotero/storage/ATI48PAP/Candes2009.pdf
 tags: [literature]
 keywords: [matrix-completion, nuclear-norm-minimization, low-rank-recovery, convex-optimization, compressed-sensing, incoherence, dual-certificate]
-topics: []
+topics: ["[[recommender-systems-matrix-factorization]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

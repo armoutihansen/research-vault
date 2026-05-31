@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/9HSFXDIF"
 pdf: /Users/jesper/Zotero/storage/NQNXRDM7/Esteves-Sorenson2018.pdf
 tags: [literature]
 keywords: [gift-exchange, field-experiment, principal-agent, reciprocity, social-preferences, incentive-pay, labor-economics]
-topics: []
+topics: ["[[reciprocity-gift-exchange]]"]
 related: [Akerlof1982, Fehr1993, Kube2013]
 added: 2026-05-30
 generated: 2026-05-30

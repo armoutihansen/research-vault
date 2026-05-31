@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/8EJ47BUA"
 pdf: /Users/jesper/Zotero/storage/E5XDS4NZ/Inderst2013.pdf
 tags: [literature]
 keywords: [cheap-talk, return-policy, consumer-protection, credulity, commitment, sales-advice]
-topics: []
+topics: ["[[advice-misselling-disclosure]]"]
 related: [Inderst2009, Milgrom1986]
 added: 2026-05-30
 generated: 2026-05-30

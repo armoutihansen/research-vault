@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/WAMZ2VKW"
 pdf: /Users/jesper/Zotero/storage/A3WU7DFQ/Ricci2015.pdf
 tags: [literature]
 keywords: [recommender-systems, collaborative-filtering, content-based-filtering, matrix-factorization, information-overload, evaluation-metrics]
-topics: []
+topics: ["[[recommender-systems-matrix-factorization]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

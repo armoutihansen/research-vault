@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/9NVMEYSS"
 pdf: /Users/jesper/Zotero/storage/JIYYE3EH/Heller2012.pdf
 tags: [literature]
 keywords: [justifiable-choice, incomplete-preferences, multiple-utility, multiple-priors, menu-effects, revealed-preference, axiomatic-choice-theory]
-topics: []
+topics: ["[[sequential-rationalizability-shortlists]]"]
 related: [Bernheim2009, Eliaz2006, Kalai2002, Manzini2007, Salant2008, Sen1971, Simonson1992, Tversky1974]
 added: 2026-05-30
 generated: 2026-05-30

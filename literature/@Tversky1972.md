@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/VKJDM8B4"
 pdf: /Users/jesper/Zotero/storage/HKCGBMI6/Tversky1972.pdf
 tags: [literature]
 keywords: [elimination-by-aspects, stochastic-choice, similarity-effect, independence-of-irrelevant-alternatives, context-dependent-choice, random-utility, luce-choice-model]
-topics: []
+topics: ["[[context-effects-attraction-compromise]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

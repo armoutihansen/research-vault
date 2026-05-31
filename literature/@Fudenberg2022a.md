@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/2KAJQ7JR"
 pdf: /Users/jesper/Zotero/storage/4798XQQC/Fudenberg2022b.pdf
 tags: [literature]
 keywords: [prospect-theory, probability-weighting, simplicity-preference, choice-under-risk, prize-linked-savings, heterogeneous-agents]
-topics: []
+topics: ["[[choice-prediction-risky-choice]]"]
 related: [Fudenberg2021, Fudenberg2021a, Fudenberg2022, Kahneman1979]
 added: 2026-05-29
 generated: 2026-05-29

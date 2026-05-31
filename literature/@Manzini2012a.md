@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/MA5HWZYM"
 pdf: /Users/jesper/Zotero/storage/8N85TY8N/Manzini2012.pdf
 tags: [literature]
 keywords: [categorization, bounded-rationality, revealed-preference, menu-effects, choice-theory, welfare-analysis, wwarp]
-topics: []
+topics: ["[[sequential-rationalizability-shortlists]]"]
 related: [Bernheim2009, Eliaz2011a, Mandler2012, Manzini2007, Samuelson1938, Tyson2008]
 added: 2026-05-30
 generated: 2026-05-30

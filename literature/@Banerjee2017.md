@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/QUA2X5A4"
 pdf: /Users/jesper/Zotero/storage/GJRMHGIR/Banerjee and Sarkar - 2017 - Other‐regarding principal and moral hazard The single‐agent case.pdf
 tags: [literature]
 keywords: [moral-hazard, other-regarding-preferences, inequity-aversion, optimal-contract, limited-liability, principal-agent]
-topics: []
+topics: ["[[social-preferences-contract-theory]]"]
 related: [Englmaier2010, Fehr1999, Itoh2004]
 added: 2026-05-30
 generated: 2026-05-30

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/S33ZI72Z"
 pdf: /Users/jesper/Zotero/storage/IETYAWM3/Harless1994.pdf
 tags: [literature]
 keywords: [expected-utility, generalized-eu, prospect-theory, rank-dependent-utility, maximum-likelihood, risk-preferences, model-selection, choice-under-risk]
-topics: []
+topics: ["[[disappointment-regret-nonexpected-utility]]"]
 related: [Gul1991, Kahneman1979, Quiggin1982, Tversky1992]
 added: 2026-05-30
 generated: 2026-05-30

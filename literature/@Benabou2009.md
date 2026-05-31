@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/397JHVQB"
 pdf: /Users/jesper/Zotero/storage/9K5PIBFY/Benabou2009.pdf
 tags: [literature]
 keywords: [motivated-beliefs, self-image, bargaining-impasse, coasian-bargaining, dignity, identity-economics, nash-demand-game]
-topics: []
+topics: ["[[anticipatory-utility-motivated-beliefs]]"]
 related: [Akerlof1982, Brunnermeier2005, Caplin2001, Loewenstein1987]
 added: 2026-05-29
 generated: 2026-05-29

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/X3CAFB68"
 pdf: /Users/jesper/Zotero/storage/M9AZCBFI/Schmitz - 2005 - Allocating control in agency problems with limited.pdf
 tags: [literature]
 keywords: [moral-hazard, limited-liability, control-allocation, sequential-agency, integration-vs-separation, complete-contracting, renegotiation]
-topics: []
+topics: ["[[risk-incentive-tradeoff]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

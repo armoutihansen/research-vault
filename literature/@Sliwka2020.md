@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/BLMWKUSB"
 pdf: /Users/jesper/Zotero/storage/JR8LKGFP/Sliwka2020.pdf
 tags: [literature]
 keywords: [principal-agent-model, incentives, social-preferences, career-concerns, subjective-performance-evaluation, crowding-out, behavioral-contract-theory]
-topics: []
+topics: ["[[social-preferences-contract-theory]]"]
 related: [Aggarwal1999, Akerlof1982, Ariely2009, Benabou2006, Bolton2000, Carpenter2016, Dufwenberg2004, Ellingsen2008, Falk2006, Fehr1993, Fehr1999, Gibbons1992, Gneezy2000, Grund2010, Kahneman1979, Kampkotter2018, Koszegi2006b, Kube2013, Lazear2000, Levine1998, Loomes1986, Prendergast1996, Rabin1993, Sliwka2007, Sliwka2017]
 added: 2026-05-30
 generated: 2026-05-30

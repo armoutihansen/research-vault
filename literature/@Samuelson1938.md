@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/DG6NXCAD"
 pdf: /Users/jesper/Zotero/storage/B2I3QPEX/Samuelson1938.pdf
 tags: [literature]
 keywords: [revealed-preference, utility-theory, demand-theory, slutsky-symmetry, consumer-choice, integrability]
-topics: []
+topics: ["[[revealed-preference-foundations]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

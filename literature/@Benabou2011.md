@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/L55WN86Q"
 pdf: /Users/jesper/Zotero/storage/YKQ5FDEM/Benabou2011.pdf
 tags: [literature]
 keywords: [identity-economics, motivated-beliefs, self-signaling, moral-behavior, taboos, social-norms, anticipatory-utility, self-control]
-topics: []
+topics: ["[[anticipatory-utility-motivated-beliefs]]"]
 related: [Benabou2009, Benjamin2010]
 added: 2026-05-29
 generated: 2026-05-29

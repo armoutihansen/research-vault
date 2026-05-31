@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/24BAP7SL"
 pdf: /Users/jesper/Zotero/storage/YL7HFK7S/Gourville2007.pdf
 tags: [literature]
 keywords: [extremeness-seeking, compromise-effect, assortment-type, attribute-alignability, preference-uncertainty, context-dependent-choice]
-topics: []
+topics: ["[[context-effects-attraction-compromise]]"]
 related: [Huber1982, Iyengar2000, Manzini2007, Shafir1993, Simonson1989, Simonson1992, Tversky1993]
 added: 2026-05-30
 generated: 2026-05-30

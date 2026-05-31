@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/XHHLR54Y"
 pdf: /Users/jesper/Zotero/storage/3UQRRU2E/Bloom2015.pdf
 tags: [literature]
 keywords: [working-from-home, field-experiment, randomized-controlled-trial, productivity, management-practices, self-selection]
-topics: []
+topics: ["[[risk-incentive-tradeoff]]"]
 related: [Lazear2000]
 added: 2026-05-30
 generated: 2026-05-30

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/CGCCX5DL"
 pdf: /Users/jesper/Zotero/storage/U8V8VB5W/Aggarwal1999.pdf
 tags: [literature]
 keywords: [executive-compensation, principal-agent, pay-performance-sensitivity, moral-hazard, relative-performance-evaluation, quantile-regression]
-topics: []
+topics: ["[[risk-incentive-tradeoff]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

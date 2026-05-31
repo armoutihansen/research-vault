@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/4Q5GW4DV"
 pdf: /Users/jesper/Zotero/storage/48WUS3AN/Brady2016.pdf
 tags: [literature]
 keywords: [stochastic-choice, random-feasibility, consideration-sets, revealed-preference, random-utility, substitutes-complements, mobius-inversion]
-topics: []
+topics: ["[[limited-attention-consideration-sets]]"]
 related: [Manzini2014]
 added: 2026-05-29
 generated: 2026-05-29

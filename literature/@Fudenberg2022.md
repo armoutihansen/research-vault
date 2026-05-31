@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/8YVN2SVA"
 pdf: /Users/jesper/Zotero/storage/Q8UYSXVW/Fudenberg2022.pdf
 tags: [literature]
 keywords: [model-completeness, irreducible-error, predictive-accuracy, machine-learning-economics, experimental-economics, behavioral-models]
-topics: []
+topics: ["[[ml-evaluating-economic-theories]]"]
 related: [Charness2002, Fudenberg2019a, Fudenberg2020, Noti2016, Peysakhovich2017, Plonsky2017, Plonsky2019, Tversky1992]
 added: 2026-05-29
 generated: 2026-05-29

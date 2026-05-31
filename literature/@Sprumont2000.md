@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/JFASC4KR"
 pdf: /Users/jesper/Zotero/storage/D998CD9E/Sprumont2000.pdf
 tags: [literature]
 keywords: [revealed-preference, collective-choice, nash-rationalizability, pareto-efficiency, testable-implications, game-forms]
-topics: []
+topics: ["[[incomplete-preferences-choice-deferral]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

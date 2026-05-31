@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/SVIWBXQI"
 pdf: /Users/jesper/Zotero/storage/KMGFWZJL/Trogdon2008.pdf
 tags: [literature]
 keywords: [peer-effects, adolescent-obesity, social-multiplier, instrumental-variables, reflection-problem, health-economics, social-networks]
-topics: []
+topics: ["[[peer-effects-social-interactions]]"]
 related: [Gaviria2001]
 added: 2026-05-29
 generated: 2026-05-29

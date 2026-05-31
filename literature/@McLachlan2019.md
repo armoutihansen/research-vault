@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/YH2JGY4T"
 pdf: /Users/jesper/Zotero/storage/P9HGIIPG/McLachlan2019.pdf
 tags: [literature]
 keywords: [finite-mixture-models, em-algorithm, model-based-clustering, latent-class-models, model-selection, robust-clustering]
-topics: []
+topics: ["[[finite-mixture-models]]"]
 related: [Dempster1977]
 added: 2026-05-30
 generated: 2026-05-30

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/25IKW42N"
 pdf: /Users/jesper/Zotero/storage/94AADZY5/Fehr2006.pdf
 tags: [literature]
 keywords: [social-preferences, inequity-aversion, reciprocity, other-regarding-preferences, experimental-economics, psychological-game-theory]
-topics: []
+topics: ["[[inequity-aversion-distributional-preferences]]"]
 related: [Andreoni2002, Bolton2000, Charness2002, Dufwenberg2004, Falk2006, Fehr1999, Levine1998, Manzini2007, Rabin1993]
 added: 2026-05-30
 generated: 2026-05-30

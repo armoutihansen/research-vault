@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/WYPTC2AH"
 pdf: /Users/jesper/Zotero/storage/VRGCBIEI/Kaufmann2024.pdf
 tags: [literature]
 keywords: [socially-responsible-consumption, externalities, competitive-equilibrium, price-taking, environmental-policy, consumer-beliefs]
-topics: []
+topics: ["[[prosocial-behavior-image-signaling]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

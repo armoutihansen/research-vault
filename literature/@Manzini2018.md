@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/R66PAGQK"
 pdf: /Users/jesper/Zotero/storage/4KD4G9HE/Manzini2018.pdf
 tags: [literature]
 keywords: [stochastic-choice, random-utility, axiomatization, attraction-effect, revealed-preference, menu-dependence, dual-self]
-topics: []
+topics: ["[[context-effects-attraction-compromise]]"]
 related: [Eliaz2011, Huber1982, Manzini2014, deClippel2012]
 added: 2026-05-29
 generated: 2026-05-29

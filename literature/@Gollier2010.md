@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/9L4LEJDK"
 pdf: /Users/jesper/Zotero/storage/A6VGIG9S/Gollier2010.pdf
 tags: [literature]
 keywords: [endogenous-beliefs, disappointment-aversion, anticipatory-feelings, reference-dependence, non-expected-utility, allais-paradox, portfolio-choice]
-topics: []
+topics: ["[[anticipatory-utility-motivated-beliefs]]"]
 related: [Akerlof1982, Bell1985, Brunnermeier2005, Caplin2001, Gul1991, Koszegi2006b, Sydnor2010]
 added: 2026-05-30
 generated: 2026-05-30

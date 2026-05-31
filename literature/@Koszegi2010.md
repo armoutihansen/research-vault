@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/QBNBE4BB"
 pdf: /Users/jesper/Zotero/storage/TIEF96L7/Koszegi2010.pdf
 tags: [literature]
 keywords: [personal-equilibrium, anticipatory-utility, reference-dependent-preferences, time-inconsistency, disappointment-aversion, informational-preferences, behavioral-economics]
-topics: []
+topics: ["[[anticipatory-utility-motivated-beliefs]]"]
 related: [Caplin2001, Koszegi2006b, Koszegi2009, Loewenstein1987]
 added: 2026-05-29
 generated: 2026-05-29

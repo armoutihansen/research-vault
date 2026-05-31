@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/DBNIY7HW"
 pdf: /Users/jesper/Zotero/storage/SIWGNQ76/Mayzlin2014.pdf
 tags: [literature]
 keywords: [online-reviews, review-manipulation, organizational-form, reputation, difference-in-differences, signal-jamming, platform-design]
-topics: []
+topics: ["[[advertising-signaling-quality]]"]
 related: [Milgrom1986, Nelson1974]
 added: 2026-05-30
 generated: 2026-05-30

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/466KNDU7"
 pdf: /Users/jesper/Zotero/storage/IYNT6SYF/Cherepanov2013.pdf
 tags: [literature]
 keywords: [rationalization, revealed-preference, bounded-rationality, psychological-constraints, choice-theory, weak-warp, consideration-sets]
-topics: []
+topics: ["[[sequential-rationalizability-shortlists]]"]
 related: [Akerlof1982, Bernheim2009, Dekel2010, Ehlers2008, Gul2005, Iyengar2000, Kalai2002, Manzini2007, Manzini2012a, Masatlioglu2012, Rubinstein2012, Shafir1993, Thaler2003]
 added: 2026-05-29
 generated: 2026-05-29

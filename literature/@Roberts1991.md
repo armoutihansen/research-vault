@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/AQNKBM42"
 pdf: /Users/jesper/Zotero/storage/XL2ZWWEC/Roberts1991.pdf
 tags: [literature]
 keywords: [consideration-set, choice-modeling, multinomial-logit, multiattribute-utility, search-costs, two-stage-choice]
-topics: []
+topics: ["[[limited-attention-consideration-sets]]"]
 related: [Hauser1990]
 added: 2026-05-30
 generated: 2026-05-30

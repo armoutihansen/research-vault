@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/LFMXG55W"
 pdf: /Users/jesper/Zotero/storage/QYC7D5V8/Rubinstein2006.pdf
 tags: [literature]
 keywords: [choice-from-lists, rational-choice, revealed-preference, bounded-rationality, random-choice, order-effects, satisficing]
-topics: []
+topics: ["[[sequential-rationalizability-shortlists]]"]
 related: [Simonson1992, Tversky1972]
 added: 2026-05-30
 generated: 2026-05-30

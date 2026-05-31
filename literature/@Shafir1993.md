@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/Y5CWGPLL"
 pdf: /Users/jesper/Zotero/storage/ECDMHVSP/Shafir1993.pdf
 tags: [literature]
 keywords: [reason-based-choice, context-effects, disjunction-effect, constructed-preferences, choice-deferral, procedure-invariance]
-topics: []
+topics: ["[[context-effects-attraction-compromise]]"]
 related: [Huber1982, Kahneman1979, Simonson1989, Simonson1992]
 added: 2026-05-30
 generated: 2026-05-30

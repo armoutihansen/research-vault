@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/2ATY94WZ"
 pdf: /Users/jesper/Zotero/storage/6KWLLZCL/LeBrasseur2002.pdf
 tags: [literature]
 keywords: [continuous-quality-improvement, transformational-leadership, organisational-learning, healthcare-management, change-management, mixed-methods]
-topics: []
+topics: ["[[transformational-leadership]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

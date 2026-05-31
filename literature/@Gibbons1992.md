@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/IT4WRZ3L"
 pdf: /Users/jesper/Zotero/storage/K9ISCHLC/Gibbons1992.pdf
 tags: [literature]
 keywords: [career-concerns, incentive-contracts, implicit-incentives, executive-compensation, principal-agent, dynamic-agency, bayesian-learning]
-topics: []
+topics: ["[[career-concerns-subjective-evaluation]]"]
 related: [Holmstrom1982]
 added: 2026-05-30
 generated: 2026-05-30

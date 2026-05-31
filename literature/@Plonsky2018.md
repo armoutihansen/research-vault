@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/35NZAGW2"
 pdf: /Users/jesper/Zotero/storage/3NB8KMGY/Plonsky2018.pdf
 tags: [literature]
 keywords: [choice-prediction-competition, decisions-from-experience, behavioral-vs-machine-learning, risk-and-ambiguity, beast-model, benchmark-dataset]
-topics: []
+topics: ["[[choice-prediction-risky-choice]]"]
 related: [Erev2010, Erev2017, Kahneman1979, Plonsky2017, Rendle2010, Tversky1992]
 added: 2026-05-30
 generated: 2026-05-30

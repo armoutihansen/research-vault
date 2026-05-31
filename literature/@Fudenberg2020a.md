@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/IAWJUMXF"
 pdf: /Users/jesper/Zotero/storage/9PTI7GRE/Fudenberg2020b_appendix.pdf
 tags: [literature]
 keywords: [repeated-prisoners-dilemma, reinforcement-learning, cooperation, out-of-sample-prediction, risk-dominance, semi-grim-strategies]
-topics: []
+topics: ["[[ml-evaluating-economic-theories]]"]
 related: [Andrews2022, Fudenberg2019a, Fudenberg2022]
 added: 2026-05-29
 generated: 2026-05-29

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/XXJQALMV"
 pdf: /Users/jesper/Zotero/storage/FNM5CED4/Koszegi2006.pdf
 tags: [literature]
 keywords: [anticipatory-emotions, cheap-talk, information-disclosure, belief-based-utility, principal-agent, psychological-games]
-topics: []
+topics: ["[[advice-misselling-disclosure]]", "[[anticipatory-utility-motivated-beliefs]]"]
 related: [Caplin2001, Milgrom1981]
 added: 2026-05-30
 generated: 2026-05-30

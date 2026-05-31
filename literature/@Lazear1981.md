@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/VR8M3W63"
 pdf: /Users/jesper/Zotero/storage/EW4PY6EP/Lazear and Rosen - 1981 - Rank-Order Tournaments as Optimum Labor Contracts.pdf
 tags: [literature]
 keywords: [tournament-theory, rank-order-incentives, piece-rates, relative-performance-evaluation, personnel-economics, risk-aversion, adverse-selection]
-topics: []
+topics: ["[[tournaments-relative-performance]]"]
 related: [Nalebuff1983]
 added: 2026-05-30
 generated: 2026-05-30

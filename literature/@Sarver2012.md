@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/4F2TH9IE"
 pdf: /Users/jesper/Zotero/storage/2KJFFT7E/Sarver2012.pdf
 tags: [literature]
 keywords: [reference-dependent-utility, loss-aversion, anticipatory-utility, recursive-utility, equity-premium-puzzle, first-order-risk-aversion, decision-theory, epstein-zin]
-topics: []
+topics: ["[[anticipatory-utility-motivated-beliefs]]"]
 related: [Benartzi1995, Gul1991, Kahneman1979, Koszegi2006b]
 added: 2026-05-30
 generated: 2026-05-30

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/3DAIPJUS"
 pdf: /Users/jesper/Zotero/storage/9ZQU9NPG/Carpenter2016.pdf
 tags: [literature]
 keywords: [mission-motivation, motivated-agents, real-effort-experiment, incentives, principal-agent, prosocial-motivation, field-experiment-design]
-topics: []
+topics: ["[[motivated-agents-intrinsic-motivation]]"]
 related: [Benabou2003, Besley2005]
 added: 2026-05-29
 generated: 2026-05-29

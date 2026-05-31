@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/I78HBA42"
 pdf: /Users/jesper/Zotero/storage/Z9US6AXR/McFadden2000.pdf
 tags: [literature]
 keywords: [behavioral-decision-theory, rationality, prospect-theory, cognitive-anomalies, stochastic-rationality, survey-measurement, contingent-valuation]
-topics: []
+topics: ["[[discrete-choice-econometrics]]"]
 related: [McFadden1981]
 added: 2026-05-29
 generated: 2026-05-29

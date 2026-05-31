@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/ECM52LMN"
 pdf: /Users/jesper/Zotero/storage/R2DFYH8H/Eliaz2006.pdf
 tags: [literature]
 keywords: [incomplete-preferences, revealed-preference, indecisiveness, multi-utility, preference-reversal, choice-theory, warp]
-topics: []
+topics: ["[[incomplete-preferences-choice-deferral]]"]
 related: [Grether1979, Huber1982, Loomes1991, Samuelson1938, Sen1971, Shafir1993, Simonson1989, Tversky1990]
 added: 2026-05-30
 generated: 2026-05-30

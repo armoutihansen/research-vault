@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/QMXB23GS"
 pdf: /Users/jesper/Zotero/storage/3ALSMGI8/Lundborg2006.pdf
 tags: [literature]
 keywords: [peer-effects, adolescent-substance-use, reflection-problem, fixed-effects, instrumental-variables, health-economics, social-interactions]
-topics: []
+topics: ["[[peer-effects-social-interactions]]"]
 related: [Gaviria2001]
 added: 2026-05-29
 generated: 2026-05-29

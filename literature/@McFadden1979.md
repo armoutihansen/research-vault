@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/ZAWX7LBX"
 pdf: /Users/jesper/Zotero/storage/QIYFN9WJ/McFadden1979.pdf
 tags: [literature]
 keywords: [discrete-choice, random-utility, multinomial-logit, generalized-extreme-value, choice-based-sampling, travel-demand, nested-logit, aggregation]
-topics: []
+topics: ["[[discrete-choice-econometrics]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/JWTLQZSK"
 pdf: /Users/jesper/Zotero/storage/YKLSSGD9/Plonsky2017.pdf
 tags: [literature]
 keywords: [choice-prediction, random-forest, behavioral-features, decisions-under-risk, ambiguity, theory-driven-ml, beast, feature-engineering]
-topics: []
+topics: ["[[choice-prediction-risky-choice]]"]
 related: [Erev2010, Kahneman1979, Noti2016, Tversky1992]
 added: 2026-05-30
 generated: 2026-05-30

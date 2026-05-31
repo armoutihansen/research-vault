@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/GP2NQ5UB"
 pdf: /Users/jesper/Zotero/storage/K9Z68K8T/Eliaz2011a.pdf
 tags: [literature]
 keywords: [choice-correspondence, consideration-sets, axiomatization, bounded-rationality, revealed-preference, shortlisting]
-topics: []
+topics: ["[[limited-attention-consideration-sets]]"]
 related: [Sprumont2000]
 added: 2026-05-29
 generated: 2026-05-29

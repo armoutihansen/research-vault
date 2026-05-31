@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/SQHSQDF4"
 pdf: /Users/jesper/Zotero/storage/UH9MEV4Y/Simonson1992.pdf
 tags: [literature]
 keywords: [context-effects, tradeoff-contrast, extremeness-aversion, compromise-effect, attraction-effect, loss-aversion, consumer-choice]
-topics: []
+topics: ["[[context-effects-attraction-compromise]]"]
 related: [Huber1982, Simonson1989, Tversky1972]
 added: 2026-05-30
 generated: 2026-05-30

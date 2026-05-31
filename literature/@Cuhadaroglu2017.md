@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/FFAXK7VY"
 pdf: /Users/jesper/Zotero/storage/KWI6TBX5/Cuhadaroglu2017.pdf
 tags: [literature]
 keywords: [revealed-preference, social-influence, bounded-rationality, incomplete-preferences, two-stage-maximization, choice-correspondences, axiomatization]
-topics: []
+topics: ["[[revealed-preference-foundations]]"]
 related: [Apesteguia2013, Au2011, Horan2016, Mas2009, Masatlioglu2012, Salant2008, Sen1993, Zimmerman2003]
 added: 2026-05-30
 generated: 2026-05-30

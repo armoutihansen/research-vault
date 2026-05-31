@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/J5TG63CF"
 pdf: /Users/jesper/Zotero/storage/K4P44RMK/Bruhin2010.pdf
 tags: [literature]
 keywords: [prospect-theory, probability-weighting, finite-mixture-model, risk-preferences, latent-heterogeneity, expected-utility, behavioral-types]
-topics: []
+topics: ["[[choice-prediction-risky-choice]]"]
 related: [Kahneman1979, Quiggin1982]
 added: 2026-05-29
 generated: 2026-05-29

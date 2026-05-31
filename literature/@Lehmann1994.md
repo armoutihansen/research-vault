@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/6FUPA3PW"
 pdf: /Users/jesper/Zotero/storage/HTKTC5RT/Lehmann1994.pdf
 tags: [literature]
 keywords: [context-effects, consideration-sets, attraction-effect, compromise-effect, extremeness-aversion, new-brand-entry, choice-modeling]
-topics: []
+topics: ["[[limited-attention-consideration-sets]]"]
 related: [Hauser1990, Huber1982, Manzini2007, Roberts1991, Simonson1989, Simonson1992]
 added: 2026-05-30
 generated: 2026-05-30

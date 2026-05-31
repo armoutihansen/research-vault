@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/ZB92FKEV"
 pdf: /Users/jesper/Zotero/storage/4LDQ8GYK/Besley2005.pdf
 tags: [literature]
 keywords: [motivated-agents, mission-oriented-organizations, principal-agent, intrinsic-motivation, assortative-matching, incentive-pay, nonprofits]
-topics: []
+topics: ["[[motivated-agents-intrinsic-motivation]]"]
 related: [Aghion1997, Benabou2003]
 added: 2026-05-29
 generated: 2026-05-29

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/8CBRFWCC"
 pdf: /Users/jesper/Zotero/storage/U3KC6LDK/Holmstrom1982.pdf
 tags: [literature]
 keywords: [moral-hazard, team-production, free-rider-problem, principal-agent, relative-performance-evaluation, sufficient-statistic, contract-theory]
-topics: []
+topics: ["[[tournaments-relative-performance]]"]
 related: [Lazear1981, Nalebuff1983]
 added: 2026-05-30
 generated: 2026-05-30

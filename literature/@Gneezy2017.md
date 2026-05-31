@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/NTNNPSAF"
 pdf: /Users/jesper/Zotero/storage/FIK6PM2T/Gneezy2017.pdf
 tags: [literature]
 keywords: [reference-dependence, expectations, loss-aversion, real-effort-experiment, koszegi-rabin, nonmonotonicity]
-topics: []
+topics: ["[[expectations-based-reference-dependence]]"]
 related: [Abeler2011, Bell1985, Benartzi1995, Crawford2011, Gul1991, Heidhues2008, Kahneman1979, Koszegi2006b, Loomes1986, Shalev2000]
 added: 2026-05-30
 generated: 2026-05-30

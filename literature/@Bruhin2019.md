@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/DZHD2C78"
 pdf: /Users/jesper/Zotero/storage/HLKGBLFU/Bruhin2019.pdf
 tags: [literature]
 keywords: [social-preferences, finite-mixture-model, inequality-aversion, reciprocity, structural-estimation, preference-heterogeneity, experimental-economics, out-of-sample-prediction]
-topics: []
+topics: ["[[inequity-aversion-distributional-preferences]]"]
 related: [Andreoni2002, Bellemare2008, Bellemare2011, Charness2002, Fehr1999, Fisman2007]
 added: 2026-05-29
 generated: 2026-05-29

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/QNRFSCJB"
 pdf: /Users/jesper/Zotero/storage/AGAGE697/Baillon2020.pdf
 tags: [literature]
 keywords: [reference-dependence, prospect-theory, decision-under-risk, bayesian-hierarchical-modeling, loss-aversion, reference-point, experimental-economics]
-topics: []
+topics: ["[[expectations-based-reference-dependence]]"]
 related: [Barber2008, Bell1985, Gul1991, Kahneman1979, Koszegi2006b, Loomes1986, Masatlioglu2016, Tversky1992]
 added: 2026-05-29
 generated: 2026-05-29

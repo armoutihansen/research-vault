@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/AELA8UET"
 pdf: /Users/jesper/Zotero/storage/QQS67BHH/gottlieb-smetters-2021-lapse-based-insurance.pdf
 tags: [literature]
 keywords: [life-insurance, lapse-supported-pricing, behavioral-contract-theory, narrow-framing, forgetfulness, liquidity-shocks, competitive-screening]
-topics: []
+topics: ["[[behavioral-io-naivete-attention]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

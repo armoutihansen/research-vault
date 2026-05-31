@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/FUHZ5WZH"
 pdf: /Users/jesper/Zotero/storage/FL6JZXYF/Berns2007.pdf
 tags: [literature]
 keywords: [intertemporal-choice, hyperbolic-discounting, neuroeconomics, self-control, dynamic-inconsistency, time-preference, present-bias]
-topics: []
+topics: ["[[anticipatory-utility-motivated-beliefs]]"]
 related: [Loewenstein1987]
 added: 2026-05-29
 generated: 2026-05-29

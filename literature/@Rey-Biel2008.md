@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/T9H3EQ4K"
 pdf: /Users/jesper/Zotero/storage/BW78JABP/Rey-Biel2008.pdf
 tags: [literature]
 keywords: [inequity-aversion, team-incentives, behavioral-contract-theory, social-preferences, principal-agent, relative-performance-pay]
-topics: []
+topics: ["[[social-preferences-contract-theory]]"]
 related: [Bolton2000, Charness2002, Fehr1999, Grund2005, Itoh2004]
 added: 2026-05-30
 generated: 2026-05-30

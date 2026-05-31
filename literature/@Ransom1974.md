@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/V6IMJ5IR"
 pdf: /Users/jesper/Zotero/storage/RNEKMBIY/Ransom1974.pdf
 tags: [literature]
 keywords: [groupthink, group-decision-making, book-review, foreign-policy, conformity, social-psychology]
-topics: []
+topics: ["[[identity-social-norms-conformity]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

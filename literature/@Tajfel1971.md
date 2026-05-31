@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/Y4N562RH"
 pdf: /Users/jesper/Zotero/storage/M4G3LC2X/Tajfel1971.pdf
 tags: [literature]
 keywords: [minimal-group-paradigm, social-categorization, intergroup-discrimination, ingroup-favouritism, social-identity, relative-payoff, social-preferences]
-topics: []
+topics: ["[[identity-social-norms-conformity]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

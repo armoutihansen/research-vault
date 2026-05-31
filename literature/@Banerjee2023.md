@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/F7Z87LL8"
 pdf: /Users/jesper/Zotero/storage/BK8NTDTY/Banerjee and Chakraborty - 2023 - Optimal incentive contracts with a spiteful principal Single agent.pdf
 tags: [literature]
 keywords: [moral-hazard, social-preferences, spite, inequity-aversion, optimal-contract, principal-agent]
-topics: []
+topics: ["[[social-preferences-contract-theory]]"]
 related: [Andreoni2002, Banerjee2017, Camerer2011, Dufwenberg2004, Englmaier2012, Falk2006, Falk2008, Fehr1999, Itoh2004, Rabin1993]
 added: 2026-05-30
 generated: 2026-05-30

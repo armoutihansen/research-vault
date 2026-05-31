@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/ETCBBYHC"
 pdf: /Users/jesper/Zotero/storage/RUZ33S7L/Charles2009.pdf
 tags: [literature]
 keywords: [conspicuous-consumption, status-signaling, reference-group, racial-consumption-gaps, permanent-income, veblen-goods]
-topics: []
+topics: ["[[conspicuous-consumption-status]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

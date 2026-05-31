@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/VQRC4X9R"
 pdf: /Users/jesper/Zotero/storage/J69NZXQM/Caplin2022.pdf
 tags: [literature]
 keywords: [rational-inattention, machine-learning, revealed-preference, information-economics, model-calibration, bounded-rationality, cost-recovery]
-topics: []
+topics: ["[[ml-evaluating-economic-theories]]"]
 related: [Fudenberg2019a, Fudenberg2022]
 added: 2026-05-29
 generated: 2026-05-29

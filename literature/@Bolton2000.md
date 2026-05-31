@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/J2VVQZTN"
 pdf: /Users/jesper/Zotero/storage/73TMRN5G/Bolton2000.pdf
 tags: [literature]
 keywords: [social-preferences, inequity-aversion, relative-payoff, experimental-economics, ultimatum-game, reciprocity, bertrand-competition, behavioral-game-theory]
-topics: []
+topics: ["[[inequity-aversion-distributional-preferences]]"]
 related: [Charness2002, Fehr1993, Fehr1999, Levine1998, Rabin1993]
 added: 2026-05-29
 generated: 2026-05-29

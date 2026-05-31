@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/W2FWGKLU"
 pdf: /Users/jesper/Zotero/storage/KCSITN38/Moorthy1987.pdf
 tags: [literature]
 keywords: [channel-coordination, two-part-tariff, quantity-discounts, vertical-contracting, nonlinear-pricing, price-discrimination]
-topics: []
+topics: ["[[distribution-channels-vertical-integration]]"]
 related: [Jeuland1983]
 added: 2026-05-30
 generated: 2026-05-30

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/U9TCST6D"
 pdf: /Users/jesper/Zotero/storage/V5ENZ4G6/Ockenfels2015.pdf
 tags: [literature]
 keywords: [gift-exchange, positive-reciprocity, field-experiment, wage-timing, worker-honesty, narrow-bracketing]
-topics: []
+topics: ["[[reciprocity-gift-exchange]]"]
 related: [Akerlof1982, Dufwenberg2004, Falk2006, Rabin1993]
 added: 2026-05-30
 generated: 2026-05-30

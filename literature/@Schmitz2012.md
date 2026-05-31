@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/SCZL95NE"
 pdf: /Users/jesper/Zotero/storage/3ZCQ5NLR/Schmitz2012.pdf
 tags: [literature]
 keywords: [startle-reflex, fear-vs-anxiety, unpredictable-threat, psychophysiology, emg, translational-research, anxiety-disorders]
-topics: []
+topics: ["[[anticipatory-utility-motivated-beliefs]]"]
 related: []
 added: 2026-05-29
 generated: 2026-05-29

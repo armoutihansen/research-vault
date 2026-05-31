@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/34DC4YM2"
 pdf: /Users/jesper/Zotero/storage/ITCM25UD/Allen2017.pdf
 tags: [literature]
 keywords: [reference-dependent-preferences, prospect-theory, bunching-estimation, behavioral-economics, goals-and-reference-points, loss-aversion, field-evidence]
-topics: []
+topics: ["[[prospect-theory-loss-aversion]]"]
 related: [Crawford2011, Farber2005, Koch2011, Koszegi2006b, Tversky1992]
 added: 2026-05-29
 generated: 2026-05-29

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/M3JAV5VJ"
 pdf: /Users/jesper/Zotero/storage/BF2ZMK95/Sydnor2010.pdf
 tags: [literature]
 keywords: [risk-aversion, insurance-deductibles, rabin-critique, reference-dependent-preferences, modest-stakes, field-evidence]
-topics: []
+topics: ["[[prospect-theory-loss-aversion]]"]
 related: [Kahneman1979, Kamenica2008, Koszegi2006b, Tversky1992]
 added: 2026-05-30
 generated: 2026-05-30

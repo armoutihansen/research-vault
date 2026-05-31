@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/MFH7RHDA"
 pdf: /Users/jesper/Zotero/storage/5PUL5N3C/Loewenstein2001a.pdf
 tags: [literature]
 keywords: [behavioral-decision-research, situational-construal, choice-heuristics, bounded-rationality, preference-uncertainty, framing-effects]
-topics: []
+topics: ["[[behavioral-welfare-nudge]]"]
 related: [Manzini2007]
 added: 2026-05-30
 generated: 2026-05-30

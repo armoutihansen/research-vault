@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/EZ7VC5KS"
 pdf: /Users/jesper/Zotero/storage/29UPASPN/DellaVigna2022.pdf
 tags: [literature]
 keywords: [social-preferences, gift-exchange, warm-glow, field-experiment, structural-estimation, worker-effort, reciprocity]
-topics: []
+topics: ["[[reciprocity-gift-exchange]]"]
 related: [Abeler2011, Akerlof1982, Benabou2003, Benabou2006, Besley2005, Charness2002, DellaVigna2012, DellaVigna2018, Dufwenberg2004, Englmaier2012, Falk2006]
 added: 2026-05-30
 generated: 2026-05-30

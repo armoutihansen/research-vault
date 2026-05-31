@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/2QFARVN4"
 pdf: /Users/jesper/Zotero/storage/XRU7LBMJ/Payne1976.pdf
 tags: [literature]
 keywords: [contingent-decision-making, process-tracing, elimination-by-aspects, compensatory-vs-noncompensatory, task-complexity, heuristics]
-topics: []
+topics: ["[[sequential-rationalizability-shortlists]]"]
 related: [Manzini2007, Tversky1972]
 added: 2026-05-30
 generated: 2026-05-30

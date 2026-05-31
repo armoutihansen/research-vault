@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/VRTJ687T"
 pdf: /Users/jesper/Zotero/storage/SYCEBGSC/Koszegi2006b.pdf
 tags: [literature]
 keywords: [reference-dependent-preferences, loss-aversion, expectations-based-reference-point, personal-equilibrium, gain-loss-utility, labor-supply, consumer-demand]
-topics: []
+topics: ["[[expectations-based-reference-dependence]]"]
 related: [Gul1991, Kahneman1979]
 added: 2026-05-30
 generated: 2026-05-30

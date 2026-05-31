@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/H44INZSA"
 pdf: /Users/jesper/Zotero/storage/PM4WDVP9/Arieli2011.pdf
 tags: [literature]
 keywords: [process-tracing, eye-tracking, decision-under-uncertainty, bounded-rationality, similarity-based-choice, expected-utility, heuristics]
-topics: []
+topics: ["[[choice-prediction-risky-choice]]"]
 related: []
 added: 2026-05-29
 generated: 2026-05-29

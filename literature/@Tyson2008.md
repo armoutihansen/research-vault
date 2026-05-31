@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/P7YQXY5U"
 pdf: /Users/jesper/Zotero/storage/37W8ITX7/Tyson2008.pdf
 tags: [literature]
 keywords: [satisficing, bounded-rationality, revealed-preference, contraction-consistency, choice-function, perceived-preferences]
-topics: []
+topics: ["[[satisficing-search-revealed-preference]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

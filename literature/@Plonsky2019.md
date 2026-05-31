@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/BX7M8Y9K"
 pdf: /Users/jesper/Zotero/storage/QZFXC3AU/Plonsky2019.pdf
 tags: [literature]
 keywords: [choice-prediction, behavioral-decision-theory, machine-learning, risky-choice, beast-model, prospect-theory, hybrid-models]
-topics: []
+topics: ["[[choice-prediction-risky-choice]]"]
 related: [Erev2017, Kahneman1979, Plonsky2017, Tversky1992]
 added: 2026-05-30
 generated: 2026-05-30

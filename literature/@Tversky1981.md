@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/2DNFN2TT"
 pdf: /Users/jesper/Zotero/storage/5KHKN2FX/Tversky1981.pdf
 tags: [literature]
 keywords: [framing-effects, prospect-theory, reference-dependence, decision-weights, mental-accounting, bounded-rationality, preference-reversal]
-topics: []
+topics: ["[[prospect-theory-loss-aversion]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

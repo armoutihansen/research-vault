@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/VA3YPJXV"
 pdf: /Users/jesper/Zotero/storage/T368CWNZ/Heidhues and Kőszegi2017.pdf
 tags: [literature]
 keywords: [naivete-based-discrimination, behavioral-industrial-organization, price-discrimination, present-bias, shrouded-prices, consumer-welfare]
-topics: []
+topics: ["[[behavioral-io-naivete-attention]]"]
 related: [Gabaix2006]
 added: 2026-05-30
 generated: 2026-05-30

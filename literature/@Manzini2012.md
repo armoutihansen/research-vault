@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/J9DR2LV9"
 pdf: /Users/jesper/Zotero/storage/DYATAI5V/Manzini2012a.pdf
 tags: [literature]
 keywords: [lexicographic-semiorders, bounded-rationality, revealed-preference, choice-functions, sequential-rationalizability, axiomatic-characterization]
-topics: []
+topics: ["[[sequential-rationalizability-shortlists]]"]
 related: [Ehlers2008, Mandler2012, Manzini2007, Salant2008, Tyson2008]
 added: 2026-05-30
 generated: 2026-05-30

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/K45ULT47"
 pdf: /Users/jesper/Zotero/storage/2KENSVV6/Ackerberg and Botticini - 2002 - Endogenous Matching and the Empirical Determinants.pdf
 tags: [literature]
 keywords: [endogenous-matching, contract-theory, principal-agent, risk-sharing, instrumental-variables, moral-hazard, sharecropping]
-topics: []
+topics: ["[[risk-incentive-tradeoff]]"]
 related: [Prendergast2002a]
 added: 2026-05-30
 generated: 2026-05-30

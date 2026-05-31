@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/L8GSXB99"
 pdf: /Users/jesper/Zotero/storage/2Y29HUI2/Lazear2000.pdf
 tags: [literature]
 keywords: [performance-pay, piece-rates, incentives, worker-sorting, personnel-economics, productivity]
-topics: []
+topics: ["[[risk-incentive-tradeoff]]"]
 related: [Gneezy2000, Lazear1981]
 added: 2026-05-30
 generated: 2026-05-30

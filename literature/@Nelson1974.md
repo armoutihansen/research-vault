@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/SAUSPWBS"
 pdf: /Users/jesper/Zotero/storage/CGIPHWF4/Nelson1974.pdf
 tags: [literature]
 keywords: [advertising, information-economics, search-goods, experience-goods, signaling, consumer-behavior, industrial-organization]
-topics: []
+topics: ["[[advertising-signaling-quality]]"]
 related: [Milgrom1986, Nelson1970]
 added: 2026-05-30
 generated: 2026-05-30

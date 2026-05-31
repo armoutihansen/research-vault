@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/PUL8Y4UU"
 pdf: /Users/jesper/Zotero/storage/49PPJ78A/McGuire1983.pdf
 tags: [literature]
 keywords: [vertical-integration, channel-structure, product-substitutability, nash-equilibrium, strategic-decentralization, duopoly-pricing]
-topics: []
+topics: ["[[distribution-channels-vertical-integration]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

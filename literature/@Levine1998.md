@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/342PITR8"
 pdf: /Users/jesper/Zotero/storage/LBDVCKX4/Levine1998.pdf
 tags: [literature]
 keywords: [social-preferences, altruism, spitefulness, reciprocity, ultimatum-game, centipede-game, public-goods, signaling-games]
-topics: []
+topics: ["[[inequity-aversion-distributional-preferences]]"]
 related: [Bolton2000, Charness2002, Fehr1999, Rabin1993]
 added: 2026-05-30
 generated: 2026-05-30

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/XBBV58LJ"
 pdf: /Users/jesper/Zotero/storage/68W5QAPL/Hauser1990.pdf
 tags: [literature]
 keywords: [consideration-sets, search-costs, bounded-rationality, discrete-choice, consumer-behavior, two-stage-choice]
-topics: []
+topics: ["[[limited-attention-consideration-sets]]"]
 related: [Manzini2007, Masatlioglu2012, Tversky1974]
 added: 2026-05-30
 generated: 2026-05-30

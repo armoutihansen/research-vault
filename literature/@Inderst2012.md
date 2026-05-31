@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/FLDTHBWC"
 pdf: /Users/jesper/Zotero/storage/XQ3BIWYY/Inderst2012.pdf
 tags: [literature]
 keywords: [commissions, kickbacks, information-intermediation, disclosure-regulation, suitability-advice, hotelling-competition, cheap-talk]
-topics: []
+topics: ["[[advice-misselling-disclosure]]"]
 related: [Biglaiser1993, Inderst2009]
 added: 2026-05-30
 generated: 2026-05-30

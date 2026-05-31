@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/3JAD3RVI"
 pdf: /Users/jesper/Zotero/storage/86ARY8C2/Gneezy2000.pdf
 tags: [literature]
 keywords: [incentives, crowding-out, deterrence, incomplete-contracts, social-norms, field-experiment, fines]
-topics: []
+topics: ["[[motivated-agents-intrinsic-motivation]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

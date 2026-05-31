@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/LN4MVJCE"
 pdf: /Users/jesper/Zotero/storage/VDU9MYE3/Fudenberg2022a.pdf
 tags: [literature]
 keywords: [choice-under-risk, prospect-theory, probability-weighting, simplicity-preference, complexity-cost, prize-linked-savings, behavioral-economics]
-topics: []
+topics: ["[[choice-prediction-risky-choice]]"]
 related: [Fudenberg2021, Fudenberg2021a, Fudenberg2022, Fudenberg2022a, Kahneman1979, Tversky1992]
 added: 2026-05-29
 generated: 2026-05-29

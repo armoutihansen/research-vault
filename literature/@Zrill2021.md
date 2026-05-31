@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/5223R5C8"
 pdf: /Users/jesper/Zotero/storage/IVBU85L8/Zrill2021a.pdf
 tags: [literature]
 keywords: [revealed-preference, decision-under-risk, disappointment-aversion, out-of-sample-prediction, non-parametric-bounds, adaptive-experiment, garp]
-topics: []
+topics: ["[[ml-evaluating-economic-theories]]"]
 related: [Andreoni2002, DellaVigna2018, Fisman2007, Fudenberg2021a, Gul1991, Peysakhovich2017]
 added: 2026-05-29
 generated: 2026-05-29

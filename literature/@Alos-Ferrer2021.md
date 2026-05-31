@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/ZN38984B"
 pdf: /Users/jesper/Zotero/storage/MWT2Y69L/Alos-Ferrer2021.pdf
 tags: [literature]
 keywords: [revealed-preference, stochastic-choice, response-times, random-utility-models, drift-diffusion-model, chronometric-function, nonparametric-identification]
-topics: []
+topics: ["[[discrete-choice-econometrics]]"]
 related: [Bernheim2009, Manzini2014]
 added: 2026-05-29
 generated: 2026-05-29

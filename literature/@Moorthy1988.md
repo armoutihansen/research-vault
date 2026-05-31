@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/LHWB3YHQ"
 pdf: /Users/jesper/Zotero/storage/TSY2SST4/Moorthy1988.pdf
 tags: [literature]
 keywords: [vertical-differentiation, product-positioning, price-competition, duopoly, first-mover-advantage, hotelling, industrial-organization]
-topics: []
+topics: ["[[distribution-channels-vertical-integration]]"]
 related: []
 added: 2026-05-30
 generated: 2026-05-30

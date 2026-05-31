@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/TBNW5TPP"
 pdf: /Users/jesper/Zotero/storage/4BIMRQFJ/Ariely2000.pdf
 tags: [literature]
 keywords: [sequential-choice, group-decision-making, variety-seeking, social-influence, need-for-uniqueness, consumer-behavior, goal-balancing]
-topics: []
+topics: ["[[identity-social-norms-conformity]]"]
 related: [Asch1955, Kahneman1979]
 added: 2026-05-29
 generated: 2026-05-29

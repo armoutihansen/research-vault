@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/DSMU7GMD"
 pdf: /Users/jesper/Zotero/storage/MRBHBBJ4/Farber2008.pdf
 tags: [literature]
 keywords: [reference-dependent-preferences, labor-supply, taxi-drivers, target-earnings, loss-aversion, discrete-choice, optimal-stopping]
-topics: []
+topics: ["[[expectations-based-reference-dependence]]"]
 related: [Bateman1997, Farber2005]
 added: 2026-05-30
 generated: 2026-05-30

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/BW33C4PE"
 pdf: /Users/jesper/Zotero/storage/MUUJATYV/Salant2008.pdf
 tags: [literature]
 keywords: [bounded-rationality, framing-effects, revealed-preference, choice-theory, limited-attention, reference-dependence]
-topics: []
+topics: ["[[behavioral-welfare-nudge]]"]
 related: [Manzini2007, Rubinstein2006, Sen1971]
 added: 2026-05-30
 generated: 2026-05-30

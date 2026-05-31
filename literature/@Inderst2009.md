@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/7CHDE84X"
 pdf: /Users/jesper/Zotero/storage/4D38G7Y4/Inderst2009.pdf
 tags: [literature]
 keywords: [misselling, multi-task-agency, suitability-standard, sales-commissions, consumer-protection, cheap-talk-advice, credence-goods, salesforce-compensation]
-topics: []
+topics: ["[[advice-misselling-disclosure]]"]
 related: []
 added: 2026-05-29
 generated: 2026-05-29

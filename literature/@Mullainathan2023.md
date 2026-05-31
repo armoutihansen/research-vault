@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/HGB799BN"
 pdf: /Users/jesper/Zotero/storage/ADF7H2TJ/Mullainathan2023.pdf
 tags: [literature]
 keywords: [anomaly-generation, machine-learning-for-theory, expected-utility-theory, adversarial-learning, prospect-theory, econometric-theory]
-topics: []
+topics: ["[[ml-evaluating-economic-theories]]"]
 related: [Andrews2022, Fudenberg2019a, Fudenberg2020, Fudenberg2022a, Kahneman1979]
 added: 2026-05-29
 generated: 2026-05-29

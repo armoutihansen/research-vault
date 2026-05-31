@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/BG997WPQ"
 pdf: /Users/jesper/Zotero/storage/WIQGGD6W/Ehlers2008.pdf
 tags: [literature]
 keywords: [revealed-preference, warp, top-cycle, tournament-solutions, choice-theory, cyclic-choice, context-independence]
-topics: []
+topics: ["[[incomplete-preferences-choice-deferral]]"]
 related: [Kalai2002, Loomes1991, Manzini2007, Xu2007]
 added: 2026-05-30
 generated: 2026-05-30

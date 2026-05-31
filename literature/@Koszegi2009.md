@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/U3729KB6"
 pdf: /Users/jesper/Zotero/storage/YNQ3JFHJ/Koszegi2009.pdf
 tags: [literature]
 keywords: [reference-dependent-preferences, loss-aversion, expectations-based-reference-point, news-utility, precautionary-savings, information-preferences, prospect-theory]
-topics: []
+topics: ["[[expectations-based-reference-dependence]]"]
 related: [Bell1985, Benartzi1995, Caplin2001, Gul1991, Kahneman1979, Koszegi2006b, Tversky1981]
 added: 2026-05-30
 generated: 2026-05-30
