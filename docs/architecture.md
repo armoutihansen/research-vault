@@ -28,6 +28,7 @@ lifecycle. Vocabulary is defined in [`CONTEXT.md`](../CONTEXT.md); each decision
 | 15 | Cadence | All manual / prompted | [0012](adr/0012-manual-cadence.md) |
 | 16 | Reading | Section map-reduce + coverage check, length-adaptive | [0004](adr/0004-literature-note-schema.md) |
 | 17 | Citation linking | Re-runnable post-pass: in-scope prose citations → `[[@citekey]]` + `related:`, ghost links ok | [0013](adr/0013-citation-linking.md) |
+| 18 | Topic-cluster build | LLM clusters (graph = prior + cross-check); single-context bootstrap; multi-membership; dataview rosters | [0014](adr/0014-topic-cluster-operational-design.md) |
 
 ## Data flow
 
@@ -117,7 +118,7 @@ No OCR is installed (`tesseract`/`mutool` absent); the visual `Read` fallback co
 | Skill | Layer | Responsibility |
 |-------|-------|----------------|
 | `lit-sync` | 1 | Enumerate scope (PDF ∪ #to-note) via sqlite/bib → enrich via BBT (abstract, path, highlights) → diff manifest → map-reduce read → write/refresh `literature/@<citekey>.md` (AI region only) → update manifest → **link pass** (`link_notes.py`: resolve in-scope prose citations to `[[@citekey]]` wikilinks + `related:`, ADR-0013). Bulk = Workflow fan-out (one agent/paper) + one link pass per chunk. |
-| `topic-cluster` | 2 | Incremental LLM-thematic clustering of new/changed lit notes; refresh topic notes (themes, tensions, open questions, candidate ideas); propose merges/splits as a diff. |
+| `topic-cluster` | 2 | LLM-thematic clustering of lit notes by *idea-generativity* (citation graph + `keywords:` as priors, ADR-0014). **Bootstrap:** compact-rep of all notes → single-context taxonomy agent → critic/refine → human gate → per-topic prose fan-out → idempotent `topics:` write-back. **Incremental:** re-cluster only pending (new/`changed`-hash) notes against anchors; pooled new-topic proposals; merge/split as a separate gated `--rebalance` diff. Multi-membership (cap ~3, by centrality); orphans = `topics: []`; rosters are dataview-derived (single source of truth = lit-note `topics:`). |
 | `promote-idea` | 2→3 | Turn a chosen candidate idea into `projects/<slug>.md` at `status: feasibility`, linked to topic + source lit notes. |
 | `project-status` | 3 | Logged state transition: set `status`, stamp `updated`, append a Decision-log line; require a reason for `rejected`/`on-hold`. |
 | `feasibility` | 3 | **Deferred stub.** The real feasibility-assessment process is built later. |

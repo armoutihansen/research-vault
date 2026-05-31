@@ -55,9 +55,16 @@ Zotero ─/lit-sync─►  literature notes  ─/topic-cluster─►  topic note
 ### Layer 2 — Topics
 - **Topic note** — `topics/<topic>.md`. An emergent subject cluster discovered **bottom-up** from
   the literature notes. Contains: scope, sub-themes, cross-paper tensions, **open questions**, and
-  **candidate ideas**, plus a live dataview list of member literature notes.
+  **candidate ideas**, plus a live dataview list of member literature notes. **Granularity is set by
+  idea-generativity**: a topic is the smallest cluster that still carries internal tension worth a
+  candidate idea — finer than a survey area ("social preferences"), coarser than a single paper.
 - **Anchor** — an existing topic note that persists across re-clustering. New/changed literature
   notes are clustered **incrementally** against anchors; merges/splits are proposed as a diff.
+- **Membership** — a literature note's relationship to a topic. A note can be a full **member** of
+  **more than one** topic (genuine thematic overlap; the foundational hubs usually are), but only when
+  it is *central to that topic's core tension*, not merely relevant. Recorded in the note's `topics:`
+  frontmatter. Merely-related papers are not members; they surface as citation-derived **bordering
+  work** (from `related:` edges that cross topics), so multi-membership never dilutes a topic's roster.
 
 ### Layer 2 → 3 — Ideas
 - **Candidate idea** — a one-line research-project pitch in a topic note's *Candidate ideas*
