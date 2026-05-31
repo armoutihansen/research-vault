@@ -108,6 +108,6 @@ Zotero ─/lit-sync─►  literature notes  ─/topic-cluster─►  topics ⊂
   is agent-owned and regenerable, everything below (`## My notes`) is the user's and never
   overwritten on regeneration.
 - **Skill** — a Claude Code skill in `.claude/skills/`, the user-facing entry point (`/lit-sync`,
-  `/topic-cluster`, `/promote-idea`, `/project-status`). Mechanical I/O lives in deterministic
-  helper scripts; bulk LLM work fans out via the Workflow tool.
+  `/topic-cluster`, `/idea-harvest`, `/promote-idea`, `/project-status`). Mechanical I/O lives in
+  deterministic helper scripts; bulk LLM work fans out via the Workflow tool.
 - **Cadence** — all skills are **manual/prompted**; nothing runs on a schedule (for now).
