@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
 """biblio — the ONLY path the system uses to touch external literature (ADR-0015).
 
-Open-access by construction: it queries open, storable bibliographic APIs (OpenAlex, Crossref) for
-**metadata + abstracts only**, and **never fetches full-text**. The safety guarantee is structural —
-every network call goes through `_get`, which refuses any host not on `ALLOWED_HOSTS`. There is no
-method that downloads a PDF; `oa_url` is returned as a *pointer* for the acquire-list, never fetched.
+Open-access by construction: it queries open, storable bibliographic sources (OpenAlex, Crossref,
+RePEc/EconPapers) for **metadata + abstracts only**, and **never fetches full-text**. The safety
+guarantee is structural — every network call goes through `_fetch`, which refuses any host not on
+`ALLOWED_HOSTS`. There is no method that downloads a PDF; `oa_url` is returned as a *pointer* for the
+acquire-list, never fetched.
 
-Two jobs:
-  - discovery   `search --query "..."`         find recent/relevant work
-  - verification `verify --doi ...` / `--title` resolve a citation to a REAL record (anti-hallucination)
+Three jobs:
+  - discovery    `search --query "..."`         find recent/relevant work (OpenAlex)
+  - recency      `recent --fields nep-dcm,...`   new working papers from RePEc NEP feeds (econ)
+  - verification `verify --doi ...` / `--title`  resolve a citation to a REAL record (anti-hallucination)
 
 Full-text never comes from here — it enters only through the user's Zotero (ADR-0015). Run via `uv run`.
 Standard library only. Optional polite-pool email via env BIBLIO_MAILTO.
@@ -25,13 +27,16 @@ import json
 import os
 import re
 import sys
+import time
 import unicodedata
 import urllib.parse
 import urllib.request
+import xml.etree.ElementTree as ET
 
-# The open-only guarantee: these are the ONLY hosts this client may ever contact. Both serve open,
-# storable metadata (OpenAlex = CC0; Crossref = open). No publisher / PDF / full-text host is here.
-ALLOWED_HOSTS = {"api.openalex.org", "api.crossref.org"}
+# The open-only guarantee: these are the ONLY hosts this client may ever contact. All three serve
+# open, storable metadata (OpenAlex = CC0; Crossref = open; RePEc/NEP = open feeds). No publisher /
+# PDF / full-text host is here.
+ALLOWED_HOSTS = {"api.openalex.org", "api.crossref.org", "nep.repec.org"}
 MAILTO = os.environ.get("BIBLIO_MAILTO", "").strip()
 UA = f"research-vault-biblio/0.1 (https://github.com/armoutihansen/research-vault{'; mailto:' + MAILTO if MAILTO else ''})"
 
@@ -40,15 +45,30 @@ class FullTextRefused(Exception):
     """Raised if anything ever tries to fetch a non-allowlisted (e.g. full-text/publisher) host."""
 
 
-def _get(url, timeout=30):
+def _fetch(url, accept="application/json", timeout=30, retries=3):
+    """Allowlist-guarded raw fetch with retries on transient network errors (RePEc/NEP is flaky).
+    HTTPError (404 etc.) is definitive — it propagates for callers to handle, never retried."""
     host = urllib.parse.urlsplit(url).hostname or ""
     if host not in ALLOWED_HOSTS:
         raise FullTextRefused(
-            f"biblio refuses to fetch host {host!r}: only open-metadata APIs {sorted(ALLOWED_HOSTS)} "
+            f"biblio refuses to fetch host {host!r}: only open-metadata sources {sorted(ALLOWED_HOSTS)} "
             f"are allowed; full-text/other hosts are never fetched (ADR-0015).")
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return json.load(r)
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": accept})
+    last = None
+    for i in range(retries):
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return r.read()
+        except urllib.error.HTTPError:
+            raise
+        except urllib.error.URLError as e:
+            last = e
+            time.sleep(1.0 * (i + 1))
+    raise last
+
+
+def _get(url, timeout=30):
+    return json.loads(_fetch(url, "application/json", timeout))
 
 
 def fold(s):
@@ -157,6 +177,57 @@ def cr_by_doi(doi):
         raise
 
 
+# ---------- RePEc / EconPapers (NEP new-working-paper feeds; sanctioned RSS, never scraping) ----------
+_NEP_NS = {"rss": "http://purl.org/rss/1.0/", "dc": "http://purl.org/dc/elements/1.1/"}
+
+
+def _nep_record(item, field):
+    def g(tag):
+        return item.findtext(tag, default="", namespaces=_NEP_NS)
+    link = g("rss:link")
+    m = re.search(r"RePEc:([^&]+)", link)
+    date = g("dc:date") or None
+    return {
+        "found": True,
+        "source": "repec-nep",
+        "id": ("RePEc:" + m.group(1)) if m else link,
+        "doi": None,
+        "title": g("rss:title"),
+        "authors": [c.text for c in item.findall("dc:creator", _NEP_NS) if c is not None and c.text],
+        "year": (date or "")[:4] or None,
+        "date": date,
+        "venue": None,
+        "type": "working-paper",
+        "is_oa": True,            # RePEc disseminates freely-available working papers
+        "oa_url": link,           # POINTER to the RePEc landing page; never fetched here
+        "field": field,
+        "abstract": g("rss:description"),
+    }
+
+
+def repec_recent(fields, limit=20, from_date=None):
+    """Recent working papers from NEP field feeds (https://nep.repec.org/rss/<field>.rss.xml).
+    Discovery only — returns metadata + the landing-page link for the acquire-list; fetches no PDF."""
+    seen, out = set(), []
+    for fid in fields:
+        url = f"https://nep.repec.org/rss/{fid}.rss.xml"
+        try:
+            root = ET.fromstring(_fetch(url, accept="application/rss+xml, application/xml, */*", retries=4))
+        except Exception as e:  # NEP is flaky — degrade gracefully, skip the feed
+            print(f"[biblio] NEP feed {fid} skipped: {type(e).__name__}: {str(e)[:80]}", file=sys.stderr)
+            continue
+        for it in root.findall("rss:item", _NEP_NS):
+            rec = _nep_record(it, fid)
+            if rec["id"] in seen:
+                continue
+            if from_date and rec.get("date") and rec["date"] < from_date:
+                continue
+            seen.add(rec["id"])
+            out.append(rec)
+    out.sort(key=lambda r: r.get("date") or "", reverse=True)
+    return out[:limit]
+
+
 # ---------- shared ----------
 def _best_title_match(cands, title, year):
     best, best_score = None, 0.0
@@ -198,9 +269,12 @@ def main():
     sub = ap.add_subparsers(dest="cmd")
     v = sub.add_parser("verify", help="resolve a citation to a real record")
     v.add_argument("--doi"); v.add_argument("--title"); v.add_argument("--authors"); v.add_argument("--year")
-    s = sub.add_parser("search", help="discover recent/relevant work")
+    s = sub.add_parser("search", help="discover recent/relevant work (OpenAlex)")
     s.add_argument("--query", required=True); s.add_argument("--from-year")
     s.add_argument("--limit", type=int, default=10); s.add_argument("--sort", choices=["relevance", "recency"], default="relevance")
+    rc = sub.add_parser("recent", help="recent working papers from RePEc NEP field feeds")
+    rc.add_argument("--fields", required=True, help="comma-separated NEP field ids, e.g. nep-dcm,nep-exp,nep-upt")
+    rc.add_argument("--limit", type=int, default=20); rc.add_argument("--from-date", help="YYYY-MM-DD lower bound")
     ap.add_argument("--self-test", action="store_true", help="verify the open-only host guard")
     args = ap.parse_args()
 
@@ -219,6 +293,10 @@ def main():
     elif args.cmd == "search":
         recs = oa_search(args.query, args.from_year, args.limit, args.sort)
         print(json.dumps({"query": args.query, "n": len(recs), "results": recs}, ensure_ascii=False, indent=2))
+    elif args.cmd == "recent":
+        fields = [f.strip() for f in args.fields.split(",") if f.strip()]
+        recs = repec_recent(fields, args.limit, args.from_date)
+        print(json.dumps({"fields": fields, "n": len(recs), "results": recs}, ensure_ascii=False, indent=2))
     else:
         ap.print_help()
 

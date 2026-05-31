@@ -47,7 +47,9 @@ Merge near-duplicates, drop the vague, number the distinct set.
 Each idea is scored adversarially (novelty / feasibility / fit / grounding). The novelty check is
 **grounded**, not recalled:
 - Run `uv run python .claude/scripts/biblio.py search --query "<idea's core claim>" --from-year <recent>`
-  to surface genuinely-recent related work the idea must beat.
+  to surface genuinely-recent related work the idea must beat. For economics ideas, also run
+  `biblio.py recent --fields nep-dcm,nep-exp,nep-upt,nep-cbe,nep-mic` to catch the newest working papers
+  (RePEc/NEP feeds) that OpenAlex may not have indexed yet.
 - For every paper the agent names as "closest prior work," run
   `uv run python .claude/scripts/biblio.py verify --doi <doi>` (or `--title "..." --year Y`). If a claim
   does **not** resolve to a real record, it is dropped or marked **"⚠ unverified — may not exist."**
