@@ -80,9 +80,14 @@ Zotero ─/lit-sync─►  literature notes  ─/topic-cluster─►  topics ⊂
   corpus papers, not hallucinated) or are *already done* (checked via biblio lookup). For the survivors,
   **reward** (*significance*, *novelty*) and **cost/effort** (*feasibility*) trade off — so a low-effort
   *low-hanging fruit* and a high-reward *moonshot* can both rate highly; only the expensive-yet-
-  unimportant rates low. *Fit* (relevance to the user's research programme) filters but does not score.
-  Each dimension is rubric-anchored and must cite its evidence; the LLM judges the dimensions, a
-  deterministic script computes the score (auditable, re-runnable). See ADR-0016.
+  unimportant rates low. **Fit** (relevance to the user's *current/ongoing* programme — the *profile*) is
+  a fourth, modestly-weighted dimension — a tilt toward your turf, **never a gate** (a strong off-
+  programme idea may be a deliberate pivot and stays in). Each dimension is rubric-anchored and must cite
+  its evidence; the LLM judges the dimensions, a deterministic script computes the score (auditable,
+  re-runnable). See ADR-0016.
+- **Profile** — `profile.md`: the user's *current and emerging* research foci, maintained by the user. The
+  yardstick the *Fit* dimension of **project potential** scores against; kept current so fit evolves as the
+  programme drifts and gradual topic switches are not penalised.
 - **Promotion** — the human-gated act (`/promote-idea`) of turning a candidate idea into a
   project note at `status: feasibility`.
 

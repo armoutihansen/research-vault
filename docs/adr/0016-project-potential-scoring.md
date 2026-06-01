@@ -34,13 +34,22 @@ its operator.
 - **Admissibility filter** (pass/fail; failures are *dropped but listed*, never silently vanished):
   - *Sound & grounded* — coherent AND premise supported by **≥2 verified corpus papers** (not hallucinated).
   - *Not-already-done* — `biblio` finds nothing that *fully* does it.
-- **Potential score** (admissible ideas only): `w_S·Significance + w_N·Novelty + w_F·Feasibility`, each
-  dimension **1–5** on the *same* anchored scale (commensurable), **equal weights by default but an
-  explicit, tunable parameter** (re-weight and re-rank *without re-vetting*), normalized to **0–100**.
+- **Potential score** (admissible ideas only): `w_S·Significance + w_N·Novelty + w_F·Feasibility +
+  w_Fit·Fit`, each dimension **1–5** on the *same* anchored scale (commensurable), **equal default
+  weights but explicit, tunable parameters** (re-weight and re-rank *without re-vetting*), normalized to
+  **0–100**.
   - *Significance* (how much it matters), *Novelty* (how new, above the floor), *Feasibility* (ease;
     inverse effort — low = hard but **never gated**, so moonshots survive).
-- **Fit** (relevance to the user's research programme) — a **filter / sort key, not a score component**
-  (great science slightly off-programme is still great science).
+  - *Fit* — relevance to the user's research programme. The harvest scores potential **for the user**, so
+    fit is a legitimate **value** dimension (comparative advantage / building on prior work) — a
+    *substitutable attribute*, hence **in the additive sum**, with a **modest default weight** (a tilt,
+    not a dominator). It is **never a gate**: an off-programme idea stays *admissible* because it may be a
+    deliberate pivot. Two safeguards keep **gradual pivots** from being penalised — fit is scored against
+    the user's **current/ongoing** programme (not a frozen past), so it drifts as the programme drifts;
+    and the modest weight lets a strong off-programme idea still surface on its other dimensions. The
+    programme is a **maintained, editable profile** (`profile.md`) the user updates as foci shift (a
+    future enrichment could derive it from vault-revealed engagement — notes, `## My notes`, promoted
+    projects).
 - **Rubrics + required evidence.** Each dimension has concrete 1–5 level descriptors; a dimension
   **cannot be scored above 3 without its cited evidence** present (`biblio` records, corpus citekeys, the
   target-venue band) — the main anti-inflation lever. Significance is *corroborated* by a **coarse target-
@@ -83,3 +92,10 @@ its operator.
   Reduced to a coarse corroborating band; CSV deferred to the promotion/paper stage.
 - **Forced distribution / per-idea multi-judge panel** — more robust calibration, but arbitrary / costly;
   the rubric anchors + evidence-cap suffice for v1. Deferred.
+- **Fit as a filter outside the score** (the first cut) — keeps intrinsic merit clean of personal
+  relevance, but the harvest scores potential *for the user*, where fit *is* part of the value, and it
+  gave no way to express the comparative-advantage tilt. Revised to a fourth additive dimension.
+- **Fit as a multiplicative modulator** (`fit_factor · Σwᵢdᵢ`) — scales intrinsic value so fit can't
+  rescue a weak idea, but it's inconsistent with the compensation principle and harder to reason about;
+  additive with a modest weight achieves the same tilt more transparently and keeps gradual pivots
+  visible. Rejected.
