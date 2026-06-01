@@ -75,6 +75,14 @@ Zotero ─/lit-sync─►  literature notes  ─/topic-cluster─►  topics ⊂
 ### Layer 2 → 3 — Ideas
 - **Candidate idea** — a one-line research-project pitch in a topic note's *Candidate ideas*
   section, synthesized from the open questions/tensions of that topic's papers.
+- **Project potential** — how worth-pursuing a candidate idea is, scored by `/idea-harvest`. An
+  **admissibility** check first drops ideas that aren't *sound & grounded* (premise supported by real
+  corpus papers, not hallucinated) or are *already done* (checked via biblio lookup). For the survivors,
+  **reward** (*significance*, *novelty*) and **cost/effort** (*feasibility*) trade off — so a low-effort
+  *low-hanging fruit* and a high-reward *moonshot* can both rate highly; only the expensive-yet-
+  unimportant rates low. *Fit* (relevance to the user's research programme) filters but does not score.
+  Each dimension is rubric-anchored and must cite its evidence; the LLM judges the dimensions, a
+  deterministic script computes the score (auditable, re-runnable). See ADR-0016.
 - **Promotion** — the human-gated act (`/promote-idea`) of turning a candidate idea into a
   project note at `status: feasibility`.
 

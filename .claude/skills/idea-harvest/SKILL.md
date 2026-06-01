@@ -26,8 +26,12 @@ and [`../../../docs/adr/0015-open-access-biblio-lookup.md`](../../../docs/adr/00
 - **Bulk fan-out uses the Workflow tool** — requires the user to opt into workflows.
 
 ## Scripts (deterministic)
-- `.claude/scripts/biblio.py search|verify` — the ONLY external-literature path: `search` for recent
-  relevant work, `verify` to resolve a citation to a real OpenAlex/Crossref record. Metadata only.
+- `.claude/scripts/biblio.py search|recent|verify` — the ONLY external-literature path: `search`
+  (OpenAlex) + `recent` (RePEc/NEP) for relevant/new work, `verify` to resolve a citation to a real
+  record. Metadata only.
+- `.claude/scripts/score_ideas.py --vetted FILE` — deterministic **project-potential** scoring (ADR-0016):
+  admissibility filter (drop + record failures) + `Potential = w·(Significance, Novelty, Feasibility)`
+  normalized 0–100, ranked. Weights tunable; re-run to re-rank without re-vetting.
 - `.claude/scripts/acquire_list.py --records FILE` — turn verified biblio records into the acquire-list,
   deduped against the vault (by DOI + title). Only `found:true` records are kept.
 - `.claude/skills/topic-cluster/scripts/corpus.py` — read topic/area/lit notes (reused).
@@ -44,8 +48,17 @@ source_topics, key_papers (vault citekeys), kind, why_promising.
 Merge near-duplicates, drop the vague, number the distinct set.
 
 ### Phase 3 — Vet (parallel, one per idea) — **biblio-grounded**
-Each idea is scored adversarially (novelty / feasibility / fit / grounding). The novelty check is
-**grounded**, not recalled:
+Each idea is assessed on the **project-potential** model (ADR-0016). The agent emits only the *inputs*,
+each with cited evidence — a script computes the score in Phase 4 (the agent does **not** emit a
+composite or verdict):
+- **Admissibility** (pass/fail + evidence): *sound & grounded* (premise supported by **≥2 verified
+  corpus papers**, not hallucinated) and *not-already-done* (`biblio` finds nothing that *fully* does it).
+- **Three 1–5 dimensions** (rubric-anchored; a dimension **may not exceed 3 without cited evidence**):
+  *Significance* (how much it matters — corroborate with a coarse target-venue band), *Novelty* (how new,
+  above the floor), *Feasibility* (ease / inverse effort — low is fine; moonshots survive, never gated).
+- **Fit** (1–5; relevance to the user's research programme — a filter, *not* part of the score).
+
+The novelty + admissibility checks are **grounded**, not recalled:
 - Run `uv run python .claude/scripts/biblio.py search --query "<idea's core claim>" --from-year <recent>`
   to surface genuinely-recent related work the idea must beat. For economics ideas, also run
   `biblio.py recent --fields nep-dcm,nep-exp,nep-upt,nep-cbe,nep-mic` to catch the newest working papers
@@ -56,11 +69,17 @@ Each idea is scored adversarially (novelty / feasibility / fit / grounding). The
 - Agents must use `biblio` only — **never** `WebFetch`/`WebSearch` a paper (the hook will block it).
 Collect, per idea, the verified external records found (their JSON), for the acquire-list.
 
-### Phase 4 — Synthesize (1 agent) + acquire-list
-Rank by composite score; write the dossier to `ideas/idea-harvest-<date>.md` (top tier → promising →
-also-surfaced; each idea with refined pitch, source topics, grounding papers, scores, **verified**
-prior work, first step, risks). Then build the acquire-list from the verified external records gathered
-in Phase 3:
+### Phase 4 — Score, synthesize, acquire-list
+**Compute project potential deterministically** (ADR-0016) from the Phase-3 inputs:
+`uv run python .claude/scripts/score_ideas.py --vetted <vetting.json>` — applies the admissibility filter
+(drops + records failures), computes `Potential = w·(Significance, Novelty, Feasibility)` normalized
+0–100 (equal weights default, tunable), and ranks. Then write the dossier to `ideas/idea-harvest-<date>.md`:
+- **Inadmissible ideas** listed separately, each with the failed gate + reason (nothing vanishes silently).
+- **Admissible ideas** ranked by **Potential (0–100)**, each showing the three dimension scores **+ their
+  evidence** (biblio records, corpus citekeys, venue band), the Fit tag, the admissibility evidence, and
+  the refined pitch / first step / risks.
+The score is reproducible — re-run `score_ideas.py` (e.g. with new weights) to re-rank *without* re-vetting.
+Then build the acquire-list from the verified external records gathered in Phase 3:
 ```
 uv run python .claude/scripts/acquire_list.py --records .research/tmp/vetting_records.json >> ideas/idea-harvest-<date>.md
 ```

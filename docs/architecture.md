@@ -30,6 +30,7 @@ lifecycle. Vocabulary is defined in [`CONTEXT.md`](../CONTEXT.md); each decision
 | 17 | Citation linking | Re-runnable post-pass: in-scope prose citations → `[[@citekey]]` + `related:`, ghost links ok | [0013](adr/0013-citation-linking.md) |
 | 18 | Topic-cluster build | LLM clusters (graph = prior + cross-check); single-context bootstrap; multi-membership; dataview rosters | [0014](adr/0014-topic-cluster-operational-design.md) |
 | 19 | External literature | Open-only `biblio` client (OpenAlex/Crossref/RePEc); metadata only, never web full-text; verify-before-surface; acquire-list | [0015](adr/0015-open-access-biblio-lookup.md) |
+| 20 | Project-potential scoring | `Potential = 𝟙{admissible}·Σwᵢdᵢ`: compensatory reward↔cost score (additive) behind a validity gate; rubric+evidence; LLM judges, script computes | [0016](adr/0016-project-potential-scoring.md) |
 
 ## Data flow
 
