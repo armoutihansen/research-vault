@@ -6,6 +6,7 @@ lifecycle.
 
 - **Vocabulary:** [`CONTEXT.md`](CONTEXT.md) — canonical domain terms; use them, don't drift.
 - **Design:** [`docs/architecture.md`](docs/architecture.md) — full design, data flow, build order.
+- **How it works:** [`docs/how-it-works.md`](docs/how-it-works.md) — operational guide: the steps you can take and what each does.
 - **Decisions:** [`docs/adr/`](docs/adr/) — one ADR per architectural choice.
 
 ## Python
