@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/639MDJKJ"
 pdf: /Users/jesper/Zotero/storage/BKUJ2E6B/Armouti-Hansen - The Informativeness of Frequency-Report Scoring Rules.pdf
 tags: [literature]
 keywords: [belief-elicitation, proper-scoring-rules, partial-identification, frequency-reports, multinomial-beliefs, discrete-convexity, experimental-economics]
-topics: []
+topics: ["[[experimental-belief-elicitation]]"]
 related: [Armantier2013, Berg1986, Charness2021, Danz2022, Delavande2011, Federgruen1986, Fox1966, Gigerenzer1995, Gneiting2007, Gneiting2011, Heinrich2014, Hogarth1975, Hossain2013, Karni2009, Lambert2008, Offerman2009, Roth1979, Savage1971, Schlag2021, Selten1998, Trautmann2015]
 added: 2026-06-01
 generated: 2026-06-01

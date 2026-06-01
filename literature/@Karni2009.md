@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/UV7U6ABA"
 pdf: /Users/jesper/Zotero/storage/2VS5P4QS/Karni - 2009 - A mechanism for eliciting probabilities.pdf
 tags: [literature]
 keywords: [belief-elicitation, subjective-probability, proper-scoring-rules, mechanism-design, incentive-compatibility, probabilistic-sophistication]
-topics: []
+topics: ["[[experimental-belief-elicitation]]"]
 related: [Gneiting2007, Savage1971]
 added: 2026-06-01
 generated: 2026-06-01

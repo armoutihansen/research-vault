@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/2T5FE538"
 pdf: /Users/jesper/Zotero/storage/YBGZ53VR/Offerman et al. - 2009 - A truth serum for non-bayesians Correcting proper scoring rules for risk attitudes.pdf
 tags: [literature]
 keywords: [proper-scoring-rules, belief-elicitation, risk-attitudes, ambiguity, non-expected-utility, incentive-compatibility, subjective-probability]
-topics: []
+topics: ["[[experimental-belief-elicitation]]"]
 related: [Gneiting2007]
 added: 2026-06-01
 generated: 2026-06-01

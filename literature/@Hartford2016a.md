@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/M6FEUXM5"
 pdf: /Users/jesper/Zotero/storage/EYX874PN/Hartford et al. - 2016 - Deep learning for predicting human strategic behavior.pdf
 tags: [literature]
 keywords: [deep-learning, behavioral-game-theory, normal-form-games, predicting-human-behavior, level-k-reasoning, quantal-response, bounded-rationality]
-topics: []
+topics: ["[[ml-evaluating-economic-theories]]"]
 related: []
 added: 2026-06-01
 generated: 2026-06-01

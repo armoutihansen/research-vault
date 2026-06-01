@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/EPUWYN9W"
 pdf: /Users/jesper/Zotero/storage/DPJP5GX9/Gigerenzer and Hoffrage - 1995 - How to improve Bayesian reasoning without instruction frequency formats..pdf
 tags: [literature]
 keywords: [bayesian-reasoning, frequency-format, natural-sampling, base-rate-neglect, heuristics-and-biases, probability-judgment, risk-communication]
-topics: []
+topics: ["[[subjective-expectations-probability-judgment]]"]
 related: []
 added: 2026-06-01
 generated: 2026-06-01

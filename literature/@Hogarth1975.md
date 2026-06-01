@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/QG4GRZM9"
 pdf: /Users/jesper/Zotero/storage/924RJGFK/Hogarth - 1975 - Cognitive Processes and the Assessment of Subjective Probability Distributions.pdf
 tags: [literature]
 keywords: [belief-elicitation, proper-scoring-rules, subjective-probability, heuristics-and-biases, calibration, overconfidence, bayesian-updating]
-topics: []
+topics: ["[[subjective-expectations-probability-judgment]]"]
 related: [Gneiting2007]
 added: 2026-06-01
 generated: 2026-06-01

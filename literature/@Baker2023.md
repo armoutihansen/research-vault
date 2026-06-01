@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/8VMYYN4B"
 pdf: /Users/jesper/Zotero/storage/5Z2TKNZJ/Baker - 2023 - Using bayesmixedlogit and bayesmixedlogitwtp in St.pdf
 tags: [literature]
 keywords: [discrete-choice, mixed-logit, bayesian-mcmc, random-coefficients, willingness-to-pay, stata-software]
-topics: []
+topics: ["[[discrete-choice-econometrics]]"]
 related: [Hole2007, Hole2012]
 added: 2026-06-01
 generated: 2026-06-01

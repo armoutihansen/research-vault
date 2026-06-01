@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/QVF6SNAM"
 pdf: "/Users/jesper/Zotero/storage/4D8RN828/Armantier and Treich - 2013 - Eliciting beliefs Proper scoring rules, incentives, stakes and hedging.pdf"
 tags: [literature]
 keywords: [proper-scoring-rules, belief-elicitation, risk-aversion, hedging, subjective-probability, experimental-economics]
-topics: []
+topics: ["[[experimental-belief-elicitation]]"]
 related: [Gneiting2007, Karni2009, Manski2004, Offerman2009, Roth1979, Savage1971]
 added: 2026-06-01
 generated: 2026-06-01

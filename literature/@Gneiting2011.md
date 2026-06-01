@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/8CDU6ZUF"
 pdf: /Users/jesper/Zotero/storage/YITSHXXE/Gneiting - 2011 - Making and Evaluating Point Forecasts.pdf
 tags: [literature]
 keywords: [proper-scoring-rules, elicitability, point-forecasts, consistent-scoring-functions, belief-elicitation, statistical-functionals, forecast-evaluation, loss-functions]
-topics: []
+topics: ["[[scoring-rules-elicitability]]"]
 related: [Gneiting2007, Lambert2008, Savage1971]
 added: 2026-06-01
 generated: 2026-06-01

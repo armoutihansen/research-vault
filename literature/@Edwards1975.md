@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/3XXXQ9WT"
 pdf: /Users/jesper/Zotero/storage/HVXF74BF/Edwards - 1975 - Cognitive processes and the assessment of subjective probability distributions Comment.pdf
 tags: [literature]
 keywords: [subjective-probability, belief-elicitation, heuristics-and-biases, conservatism-bias, bayesian-updating, calibration, bounded-rationality]
-topics: []
+topics: ["[[subjective-expectations-probability-judgment]]"]
 related: [Hogarth1975, Savage1971, Tversky1974]
 added: 2026-06-01
 generated: 2026-06-01

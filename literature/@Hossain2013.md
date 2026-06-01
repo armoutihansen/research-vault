@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/W7X9KC3S"
 pdf: /Users/jesper/Zotero/storage/5DKBUWUX/Hossain and Okui - 2013 - The binarized scoring rule.pdf
 tags: [literature]
 keywords: [proper-scoring-rules, belief-elicitation, incentive-compatibility, risk-preferences, mechanism-design, experimental-economics, non-expected-utility]
-topics: []
+topics: ["[[experimental-belief-elicitation]]"]
 related: [Gneiting2007, Karni2009, Offerman2009, Quiggin1982, Savage1971]
 added: 2026-06-01
 generated: 2026-06-01

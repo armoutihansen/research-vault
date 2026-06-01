@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/QQ5MHBA2"
 pdf: /Users/jesper/Zotero/storage/2QIB253U/Savage - 1971 - Elicitation of Personal Probabilities and Expectations.pdf
 tags: [literature]
 keywords: [proper-scoring-rules, belief-elicitation, subjective-probability, decision-theory, convex-analysis, incentive-compatibility]
-topics: []
+topics: ["[[experimental-belief-elicitation]]", "[[scoring-rules-elicitability]]"]
 related: [Gneiting2007]
 added: 2026-06-01
 generated: 2026-06-01

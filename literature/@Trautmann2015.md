@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/T6X4YRMW"
 pdf: /Users/jesper/Zotero/storage/LHCSHJEP/Trautmann and van de Kuilen - 2015 - Belief elicitation A horse race among truth serums.pdf
 tags: [literature]
 keywords: [belief-elicitation, proper-scoring-rules, truth-serums, incentive-compatibility, risk-aversion, ultimatum-game, experimental-economics]
-topics: []
+topics: ["[[experimental-belief-elicitation]]"]
 related: [Armantier2013, Bellemare2008, Fehr1999, Gneiting2007, Hossain2013, Offerman2009]
 added: 2026-06-01
 generated: 2026-06-01

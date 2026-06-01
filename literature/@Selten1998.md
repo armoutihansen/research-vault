@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/NLYVGQLW"
 pdf: /Users/jesper/Zotero/storage/Z59SJEFT/Selten - 1998 - Axiomatic characterization of the quadratic scoring rule.pdf
 tags: [literature]
 keywords: [proper-scoring-rules, quadratic-scoring-rule, belief-elicitation, predictive-success, axiomatic-characterization, probabilistic-forecasting]
-topics: []
+topics: ["[[scoring-rules-elicitability]]"]
 related: [Gneiting2007]
 added: 2026-06-01
 generated: 2026-06-01

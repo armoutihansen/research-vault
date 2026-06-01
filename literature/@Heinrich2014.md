@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/IJ4HAF8Z"
 pdf: /Users/jesper/Zotero/storage/N7QW3F3Q/Heinrich - 2014 - The mode functional is not elicitable.pdf
 tags: [literature]
 keywords: [elicitability, proper-scoring-rules, point-forecasting, mode-functional, decision-theory, consistent-scoring-functions]
-topics: []
+topics: ["[[scoring-rules-elicitability]]"]
 related: [Gneiting2011, Lambert2008, Savage1971]
 added: 2026-06-01
 generated: 2026-06-01

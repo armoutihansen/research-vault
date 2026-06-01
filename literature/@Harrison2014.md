@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/8KJ6R4S6"
 pdf: /Users/jesper/Zotero/storage/USIDQ8QX/Harrison et al. - 2014 - Eliciting subjective probabilities with binary lotteries.pdf
 tags: [literature]
 keywords: [belief-elicitation, proper-scoring-rules, binary-lottery-procedure, subjective-probability, risk-aversion, experimental-economics, rank-dependent-utility]
-topics: []
+topics: ["[[experimental-belief-elicitation]]"]
 related: [Berg1986, Gneiting2007, Hossain2013, Karni2009, Offerman2009, Roth1979, Tversky1992]
 added: 2026-06-01
 generated: 2026-06-01

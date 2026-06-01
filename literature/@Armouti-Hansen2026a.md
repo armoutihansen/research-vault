@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/LU2LCUXT"
 pdf: /Users/jesper/Zotero/storage/Q3D6BSKI/IJIO_Supplement.pdf
 tags: [literature]
 keywords: [channel-choice, signal-jamming, self-commitment, double-marginalization, strategic-delegation, quality-uncertainty, industrial-organization]
-topics: []
+topics: ["[[distribution-channels-vertical-integration]]"]
 related: [Bagwell2007, Choi1991, Crawford2005, Diao2023, Fershtman1987, McGuire1983, Moorthy1988a, Nelson1970, Sklivas1987, Spengler1950, Tirole1988, Vickers1985]
 added: 2026-06-01
 generated: 2026-06-01

@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/BTI7JANP"
 pdf: /Users/jesper/Zotero/storage/YHZWF6Y3/Manski - 2004 - Measuring Expectations.pdf
 tags: [literature]
 keywords: [belief-elicitation, subjective-probabilities, expectations, identification, discrete-choice, proper-scoring-rules, ambiguity, rational-expectations]
-topics: []
+topics: ["[[subjective-expectations-probability-judgment]]"]
 related: [Gneiting2007, McFadden2000, Tversky1974]
 added: 2026-06-01
 generated: 2026-06-01

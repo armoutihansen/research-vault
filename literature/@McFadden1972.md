@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/9I62EYMP"
 pdf: /Users/jesper/Zotero/storage/SLY8GKGG/McFadden - 1972 - Conditional logit analysis of qualitative choice behavior.pdf
 tags: [literature]
 keywords: [discrete-choice, conditional-logit, random-utility-maximization, iia, maximum-likelihood, travel-demand, extreme-value-distribution]
-topics: []
+topics: ["[[discrete-choice-econometrics]]"]
 related: []
 added: 2026-06-01
 generated: 2026-06-01

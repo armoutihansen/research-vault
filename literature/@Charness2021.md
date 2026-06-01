@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/YVD5263J"
 pdf: /Users/jesper/Zotero/storage/WIDVIWSS/Charness et al. - 2021 - Experimental methods Eliciting beliefs.pdf
 tags: [literature]
 keywords: [belief-elicitation, proper-scoring-rules, binarized-scoring-rule, bayesian-truth-serum, experimental-methodology, incentive-compatibility, probability-matching]
-topics: []
+topics: ["[[experimental-belief-elicitation]]"]
 related: [Armantier2013, Gneiting2007, Harrison2014, Hossain2013, Karni2009, Offerman2009]
 added: 2026-06-01
 generated: 2026-06-01

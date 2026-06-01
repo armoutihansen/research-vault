@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/8KQ6UUM7"
 pdf: /Users/jesper/Zotero/storage/RTGQUDYE/Lambert et al. - 2008 - Eliciting properties of probability distributions.pdf
 tags: [literature]
 keywords: [proper-scoring-rules, belief-elicitation, elicitability, prediction-markets, elicitation-complexity, mechanism-design]
-topics: []
+topics: ["[[scoring-rules-elicitability]]"]
 related: [Gneiting2007, Savage1971]
 added: 2026-06-01
 generated: 2026-06-01

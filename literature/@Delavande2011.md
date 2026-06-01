@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/U3WR38WF"
 pdf: /Users/jesper/Zotero/storage/TVEKLWK8/Delavande et al. - 2011 - Measuring subjective expectations in developing countries A critical review and new evidence.pdf
 tags: [literature]
 keywords: [subjective-expectations, belief-elicitation, development-economics, survey-methodology, probabilistic-beliefs, proper-scoring-rules, predictive-validity]
-topics: []
+topics: ["[[subjective-expectations-probability-judgment]]"]
 related: [Bellemare2008, Gneiting2007, Manski2004, Rabin1998]
 added: 2026-06-01
 generated: 2026-06-01

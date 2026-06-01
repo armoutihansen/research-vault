@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/SYVB2K9I"
 pdf: /Users/jesper/Zotero/storage/EMPT38B3/Fudenberg2019a.pdf
 tags: [literature]
 keywords: [model-completeness, predictive-accuracy, machine-learning, cumulative-prospect-theory, initial-play, cognitive-hierarchy, behavioral-models]
-topics: []
+topics: ["[[choice-prediction-risky-choice]]", "[[ml-evaluating-economic-theories]]"]
 related: [Gneiting2007, Noti2016, Peysakhovich2017, Plonsky2019]
 added: 2026-06-01
 generated: 2026-06-01

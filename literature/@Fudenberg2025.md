@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/JNDCTVBI"
 pdf: /Users/jesper/Zotero/storage/3QFQ4L7F/Fudenberg et al. - 2025 - How flexible is that functional form Quantifying the restrictiveness of theories.pdf
 tags: [literature]
 keywords: [restrictiveness, model-completeness, functional-form-flexibility, cumulative-prospect-theory, model-evaluation, proper-scoring-rules, pareto-frontier]
-topics: []
+topics: ["[[ml-evaluating-economic-theories]]"]
 related: [Bruhin2010, Fudenberg2019a, Fudenberg2022, Gul1991, Tversky1992, deClippel2022]
 added: 2026-06-01
 generated: 2026-06-01

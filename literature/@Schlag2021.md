@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/HUMJLYM7"
 pdf: /Users/jesper/Zotero/storage/M8596GNY/Schlag and Tremewan - 2021 - Simple belief elicitation An experimental evaluation.pdf
 tags: [literature]
 keywords: [belief-elicitation, frequency-format, proper-scoring-rules, risk-aversion, partial-identification, cognitive-ability, laboratory-experiment]
-topics: []
+topics: ["[[experimental-belief-elicitation]]"]
 related: [Gigerenzer1995, Gneiting2007, Karni2009, Offerman2009]
 added: 2026-06-01
 generated: 2026-06-01

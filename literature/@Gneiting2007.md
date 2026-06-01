@@ -9,7 +9,7 @@ zotero: "zotero://select/library/items/6IU7VX6T"
 pdf: "/Users/jesper/Zotero/storage/QN3ZWAT5/Gneiting and Raftery - 2007 - Strictly Proper Scoring Rules, Prediction, and Estimation.pdf"
 tags: [literature]
 keywords: [proper-scoring-rules, belief-elicitation, probabilistic-forecasting, crps-energy-score, bregman-divergence, optimum-score-estimation, quantile-interval-forecasts]
-topics: []
+topics: ["[[experimental-belief-elicitation]]", "[[scoring-rules-elicitability]]"]
 related: [Savage1971]
 added: 2026-06-01
 generated: 2026-06-01
