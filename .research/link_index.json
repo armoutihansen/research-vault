@@ -189,6 +189,14 @@
     "title": "Doing Good or Doing Well? Image Motivation and Monetary Incentives in Behaving Prosocially",
     "year": "2009"
   },
+  "Armantier2013": {
+    "surnames": [
+      "Armantier",
+      "Treich"
+    ],
+    "title": "Eliciting beliefs: Proper scoring rules, incentives, stakes and hedging",
+    "year": "2013"
+  },
   "Armouti-Hansen2018": {
     "surnames": [
       "Armouti-Hansen",
@@ -203,16 +211,6 @@
     ],
     "title": "Essays on the Behavioral Foundations of Choice",
     "year": "2022"
-  },
-  "Armouti-Hansen2024": {
-    "surnames": [
-      "Armouti-Hansen",
-      "Cassar",
-      "Dereky",
-      "Engl"
-    ],
-    "title": "Efficiency wages with motivated agents",
-    "year": "2024"
   },
   "Armouti-Hansen2024a": {
     "surnames": [
@@ -231,6 +229,21 @@
     ],
     "title": "Managing anticipation and reference-dependent choice",
     "year": "2024"
+  },
+  "Armouti-Hansen2026a": {
+    "surnames": [
+      "Armouti-Hansen",
+      "Kräkel"
+    ],
+    "title": "On the Optimal Mode of Selling Goods with Uncertain Consumption Quality",
+    "year": ""
+  },
+  "Armouti-Hansen2026b": {
+    "surnames": [
+      "Armouti-Hansen"
+    ],
+    "title": "The Informativeness of Frequency-Report Scoring Rules",
+    "year": ""
   },
   "Arteaga2022": {
     "surnames": [
@@ -484,6 +497,16 @@
     ],
     "title": "Social Identity and Preferences",
     "year": "2010"
+  },
+  "Berg1986": {
+    "surnames": [
+      "Berg",
+      "Daley",
+      "Dickhaut",
+      "O'Brien"
+    ],
+    "title": "Controlling preferences for lotteries on units of experimental exchange",
+    "year": "1986"
   },
   "Bernheim2009": {
     "surnames": [
@@ -790,6 +813,15 @@
     "title": "Understanding Social Preferences with Simple Tests",
     "year": "2002"
   },
+  "Charness2021": {
+    "surnames": [
+      "Charness",
+      "Gneezy",
+      "Rasocha"
+    ],
+    "title": "Experimental methods: Eliciting beliefs",
+    "year": "2021"
+  },
   "Chen2009": {
     "surnames": [
       "Chen",
@@ -821,6 +853,19 @@
     ],
     "title": "Rationalization",
     "year": "2013"
+  },
+  "Chernozhukov2018": {
+    "surnames": [
+      "Chernozhukov",
+      "Chetverikov",
+      "Demirer",
+      "Duflo",
+      "Hansen",
+      "Newey",
+      "Robins"
+    ],
+    "title": "Double/debiased machine learning for treatment and structural parameters",
+    "year": "2018"
   },
   "Chi2016": {
     "surnames": [
@@ -962,6 +1007,15 @@
     "title": "Can Contracts Signal Social Norms?",
     "year": "2016"
   },
+  "Danz2022": {
+    "surnames": [
+      "Danz",
+      "Vesterlund",
+      "Wilson"
+    ],
+    "title": "Belief elicitation and behavioral incentive compatibility",
+    "year": "2022"
+  },
   "Dardanoni2020": {
     "surnames": [
       "Dardanoni",
@@ -989,6 +1043,15 @@
     ],
     "title": "How (Not) to Do Decision Theory",
     "year": "2010"
+  },
+  "Delavande2011": {
+    "surnames": [
+      "Delavande",
+      "Giné",
+      "McKenzie"
+    ],
+    "title": "Measuring subjective expectations in developing countries: A critical review and new evidence",
+    "year": "2011"
   },
   "Delfgaauw2016": {
     "surnames": [
@@ -1092,6 +1155,13 @@
     ],
     "title": "Inferring rationales from choice: Identification for rational shortlist methods",
     "year": "2015"
+  },
+  "Edwards1975": {
+    "surnames": [
+      "Edwards"
+    ],
+    "title": "Cognitive processes and the assessment of subjective probability distributions: Comment",
+    "year": "1975"
   },
   "Ehlers2008": {
     "surnames": [
@@ -1301,6 +1371,14 @@
     "title": "Risk Averse Supervisors and the Efficiency of Collusion",
     "year": "2003"
   },
+  "Federgruen1986": {
+    "surnames": [
+      "Federgruen",
+      "Groenevelt"
+    ],
+    "title": "The Greedy Procedure for Resource Allocation Problems: Necessary and Sufficient Conditions for Optimality",
+    "year": "1986"
+  },
   "Fehr1993": {
     "surnames": [
       "Fehr",
@@ -1416,6 +1494,13 @@
     "title": "Analysis 1: Differential- und Integralrechnung einer Veränderlichen",
     "year": "2023"
   },
+  "Fox1966": {
+    "surnames": [
+      "Fox"
+    ],
+    "title": "Discrete Optimization Via Marginal Analysis",
+    "year": "1966"
+  },
   "Frank2014": {
     "surnames": [
       "Frank",
@@ -1523,6 +1608,15 @@
     ],
     "title": "Simplicity and Probability Weighting in Choice under Risk",
     "year": "2022"
+  },
+  "Fudenberg2025": {
+    "surnames": [
+      "Fudenberg",
+      "Gao",
+      "Liang"
+    ],
+    "title": "How flexible is that functional form? Quantifying the restrictiveness of theories",
+    "year": "2025"
   },
   "Gabaix2006": {
     "surnames": [
@@ -1647,6 +1741,14 @@
     "title": "Shuttling Polyolefins to a New Materials Dimension",
     "year": "2006"
   },
+  "Gigerenzer1995": {
+    "surnames": [
+      "Gigerenzer",
+      "Hoffrage"
+    ],
+    "title": "How to improve Bayesian reasoning without instruction: frequency formats.",
+    "year": "1995"
+  },
   "Gilg2003": {
     "surnames": [
       "Gilg",
@@ -1682,6 +1784,21 @@
     ],
     "title": "The Limits of Expectations-Based Reference Dependence",
     "year": "2017"
+  },
+  "Gneiting2007": {
+    "surnames": [
+      "Gneiting",
+      "Raftery"
+    ],
+    "title": "Strictly Proper Scoring Rules, Prediction, and Estimation",
+    "year": "2007"
+  },
+  "Gneiting2011": {
+    "surnames": [
+      "Gneiting"
+    ],
+    "title": "Making and Evaluating Point Forecasts",
+    "year": "2011"
   },
   "Goeree2001": {
     "surnames": [
@@ -1805,6 +1922,15 @@
     "title": "The Predictive Utility of Generalized Expected Utility Theories",
     "year": "1994"
   },
+  "Harrison2014": {
+    "surnames": [
+      "Harrison",
+      "Martínez-Correa",
+      "Swarthout"
+    ],
+    "title": "Eliciting subjective probabilities with binary lotteries",
+    "year": "2014"
+  },
   "Hartford2016": {
     "surnames": [
       "Hartford",
@@ -1812,6 +1938,15 @@
       "Leyton-Brown"
     ],
     "title": "Deep Learning for Predicting Human Strategic Behavior",
+    "year": "2016"
+  },
+  "Hartford2016a": {
+    "surnames": [
+      "Hartford",
+      "Wright",
+      "Leyton-Brown"
+    ],
+    "title": "Deep learning for predicting human strategic behavior",
     "year": "2016"
   },
   "Harutyunyan2019": {
@@ -1882,6 +2017,13 @@
     "title": "Steering fallible consumers",
     "year": "2023"
   },
+  "Heinrich2014": {
+    "surnames": [
+      "Heinrich"
+    ],
+    "title": "The mode functional is not elicitable",
+    "year": "2014"
+  },
   "Heller2012": {
     "surnames": [
       "Heller"
@@ -1926,14 +2068,14 @@
     "title": "Striving for balance in economics: Towards a theory of the social determination of behavior",
     "year": "2016"
   },
-  "Hole2007": {
+  "Hogarth1975": {
     "surnames": [
-      "Hole"
+      "Hogarth"
     ],
-    "title": "Fitting Mixed Logit Models by Using Maximum Simulated Likelihood",
-    "year": "2007"
+    "title": "Cognitive Processes and the Assessment of Subjective Probability Distributions",
+    "year": "1975"
   },
-  "Hole2007a": {
+  "Hole2007": {
     "surnames": [
       "Hole"
     ],
@@ -1975,6 +2117,14 @@
     ],
     "title": "Beginning C: from novice to professional",
     "year": "2007"
+  },
+  "Hossain2013": {
+    "surnames": [
+      "Hossain",
+      "Okui"
+    ],
+    "title": "The binarized scoring rule",
+    "year": "2013"
   },
   "Houy2009": {
     "surnames": [
@@ -2166,6 +2316,13 @@
     ],
     "title": "More Dispersion, Higher Bonuses? On Differentiation in Subjective Performance Evaluations",
     "year": "2018"
+  },
+  "Karni2009": {
+    "surnames": [
+      "Karni"
+    ],
+    "title": "A mechanism for eliciting probabilities",
+    "year": "2009"
   },
   "Kaufmann2024": {
     "surnames": [
@@ -2382,6 +2539,15 @@
     "title": "“Last-Place Aversion”: Evidence and Redistributive Implications *",
     "year": "2014"
   },
+  "Lambert2008": {
+    "surnames": [
+      "Lambert",
+      "Pennock",
+      "Shoham"
+    ],
+    "title": "Eliciting properties of probability distributions",
+    "year": "2008"
+  },
   "Lazear1981": {
     "surnames": [
       "Lazear",
@@ -2528,6 +2694,18 @@
     "title": "A million answers to twenty questions: Choosing by checklist",
     "year": "2012"
   },
+  "Manski2003": {
+    "surnames": [],
+    "title": "Analysis of Treatment Response",
+    "year": "2003"
+  },
+  "Manski2004": {
+    "surnames": [
+      "Manski"
+    ],
+    "title": "Measuring Expectations",
+    "year": "2004"
+  },
   "Manzini2007": {
     "surnames": [
       "Manzini",
@@ -2650,6 +2828,13 @@
     "title": "Promotional Reviews: An Empirical Investigation of Online Review Manipulation",
     "year": "2014"
   },
+  "McFadden1972": {
+    "surnames": [
+      "McFadden"
+    ],
+    "title": "Conditional logit analysis of qualitative choice behavior",
+    "year": "1972"
+  },
   "McFadden1979": {
     "surnames": [
       "McFadden"
@@ -2701,13 +2886,6 @@
     "year": "2008"
   },
   "Melnikov2023": {
-    "surnames": [
-      "Melnikov"
-    ],
-    "title": "A Course of Stochastic Analysis",
-    "year": "2023"
-  },
-  "Melnikov2023a": {
     "surnames": [
       "Melnikov"
     ],
@@ -2788,6 +2966,13 @@
     ],
     "title": "From Predictive Algorithms to Automatic Generation of Anomalies",
     "year": "2023"
+  },
+  "Murota1998": {
+    "surnames": [
+      "Murota"
+    ],
+    "title": "Discrete convex analysis",
+    "year": "1998"
   },
   "Murphy2012": {
     "surnames": [
@@ -2882,6 +3067,16 @@
     ],
     "title": "Bonus Payments and Reference Point Violations",
     "year": "2015"
+  },
+  "Offerman2009": {
+    "surnames": [
+      "Offerman",
+      "Sonnemans",
+      "Van De Kuilen",
+      "Wakker"
+    ],
+    "title": "A truth serum for non-bayesians: Correcting proper scoring rules for risk attitudes",
+    "year": "2009"
   },
   "Ok2015": {
     "surnames": [
@@ -3201,6 +3396,14 @@
     "title": "Development and Testing of a Model of Consideration Set Composition",
     "year": "1991"
   },
+  "Roth1979": {
+    "surnames": [
+      "Roth",
+      "Malouf"
+    ],
+    "title": "Game-theoretic models and the role of information in bargaining.",
+    "year": "1979"
+  },
   "Rubinstein2006": {
     "surnames": [
       "Rubinstein",
@@ -3282,6 +3485,21 @@
     "title": "Dynamic Mixture-Averse Preferences",
     "year": "2018"
   },
+  "Savage1971": {
+    "surnames": [
+      "Savage"
+    ],
+    "title": "Elicitation of Personal Probabilities and Expectations",
+    "year": "1971"
+  },
+  "Schlag2021": {
+    "surnames": [
+      "Schlag",
+      "Tremewan"
+    ],
+    "title": "Simple belief elicitation: An experimental evaluation",
+    "year": "2021"
+  },
   "Schmidt2011": {
     "surnames": [
       "Schmidt"
@@ -3311,6 +3529,13 @@
     ],
     "title": "Predictable behavior, profits, and attention",
     "year": "2007"
+  },
+  "Selten1998": {
+    "surnames": [
+      "Selten"
+    ],
+    "title": "Axiomatic characterization of the quadratic scoring rule",
+    "year": "1998"
   },
   "Seltzer1990": {
     "surnames": [
@@ -3579,6 +3804,14 @@
     "title": "Quantifying the consensus on anthropogenic global warming in the literature: A re-analysis",
     "year": "2014"
   },
+  "Trautmann2015": {
+    "surnames": [
+      "Trautmann",
+      "van de Kuilen"
+    ],
+    "title": "Belief elicitation: A horse race among truth serums",
+    "year": "2015"
+  },
   "Trogdon2008": {
     "surnames": [
       "Trogdon",
@@ -3807,10 +4040,5 @@
     ],
     "title": "Intention-based reciprocity and the hidden costs of control",
     "year": "2013"
-  },
-  "zotero-item-205": {
-    "surnames": [],
-    "title": "Formal and Real Authority in Organizations",
-    "year": ""
   }
 }

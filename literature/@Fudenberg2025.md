@@ -1,0 +1,54 @@
+---
+citekey: Fudenberg2025
+title: How flexible is that functional form? Quantifying the restrictiveness of theories
+authors: ["Fudenberg, Drew", "Gao, Wayne", "Liang, Annie"]
+year: 2025
+type: journalArticle
+doi: ""
+zotero: "zotero://select/library/items/JNDCTVBI"
+pdf: /Users/jesper/Zotero/storage/3QFQ4L7F/Fudenberg et al. - 2025 - How flexible is that functional form Quantifying the restrictiveness of theories.pdf
+tags: [literature]
+keywords: [restrictiveness, model-completeness, functional-form-flexibility, cumulative-prospect-theory, model-evaluation, proper-scoring-rules, pareto-frontier]
+topics: []
+related: [Bruhin2010, Fudenberg2019a, Fudenberg2022, Gul1991, Tversky1992, deClippel2022]
+added: 2026-06-01
+generated: 2026-06-01
+---
+
+> [!abstract] Abstract
+> We propose a restrictiveness measure for economic models based on how well they fit synthetic data from a pre-defined class. This measure, together with a measure for how well the model fits real data, outlines a Pareto frontier, where models that rule out more regularities, yet capture the regularities that are present in real data, are preferred. To illustrate our approach, we evaluate the restrictiveness of popular models in two laboratory settings—certainty equivalents and initial play—and in one field setting—takeup of microfinance in Indian villages. The restrictiveness measure reveals new insights about each of the models, including that some economic models with only a few parameters are very flexible.
+
+## Summary
+When a parametric model fits data well, this could be because it captures structure specific to the observed data or because it is flexible enough to fit almost any conceivable data. Fudenberg, Gao, and Liang propose a quantitative, easy-to-compute *restrictiveness* measure that distinguishes these explanations without requiring analytical knowledge of a model's implications. The idea is to generate synthetic data sets from a pre-specified "eligible" class and measure how well the model approximates them on average: a model that approximates everything is unrestrictive, one that approximates only a thin slice is restrictive. Restrictiveness is paired with the *completeness* measure of [[@Fudenberg2022|Fudenberg et al. (2022)]], which evaluates fit to real data, and the two trace a Pareto frontier on which preferred models rule out more regularities yet still capture the ones present in real behavior. The paper supplies an axiomatic foundation, consistent estimators with asymptotic theory, and three empirical applications. Coverage is full across methodology, axioms, estimation, and applications; the long appendices (proofs, supplementary materials) are summarized rather than read line by line.
+
+## Research question
+How flexible is a given functional form? Concretely: can we quantify how much empirical content a parametric economic model carries on a given domain—beyond constraints it is already known to impose—in a way that is computable even when the model has no known representation theorem, and that complements (rather than conflates) the question of how well the model fits real data?
+
+## Method / identification
+The primitives are a finite covariate set $\mathcal{X}$ with known marginal $P_X$, a compact outcome space $\mathcal{Y}$, and the set of all prediction rules $\mathcal{F}=\mathcal{Y}^{|\mathcal{X}|}$. A model is a parametric family $F_\Theta=\{f_\theta\}_{\theta\in\Theta}\subseteq\mathcal{F}$ with $\Theta$ compact. A discrepancy function $d:\mathcal{F}\times\mathcal{F}\to\mathbb{R}_+$ measures how different two prediction rules are, with $d(f,f')=0$ iff $f=f'$ (e.g. expected squared distance for vector outcomes, expected KL divergence for distributional outcomes). The *eligible set* $\mathcal{F}^*\subseteq\mathcal{F}$ encodes known background constraints (e.g. first-order stochastic dominance), so restrictiveness measures content beyond those constraints; $\mathcal{F}^*=\mathcal{F}$ asks whether the model restricts at all.
+
+Restrictiveness is the expected discrepancy from a uniformly drawn eligible rule to the model, normalized by the same quantity for a baseline rule $f_{base}$:
+$$r(F_\Theta,\mathcal{F}^*)=\frac{E_{\lambda_{\mathcal{F}^*}}[d(F_\Theta,f)]}{E_{\lambda_{\mathcal{F}^*}}[d(f_{base},f)]}$$
+where $\lambda_{\mathcal{F}^*}$ is uniform on $\mathcal{F}^*$ and $d(F_\Theta,f):=\inf_{f_\theta\in F_\Theta}d(f_\theta,f)$. With $f_{base}\in F_\Theta$, $r$ ranges in $[0,1]$: $r=0$ is unrestrictive, $r=1$ means the model fits synthetic data no better than the baseline. Completeness ([[@Fudenberg2022|Fudenberg et al., 2022]]) uses a loss $l$ and the best feasible rule $f^*$: $\kappa(F_\Theta)=\frac{e_P(f_{base})-\inf_\theta e_P(f_\theta)}{e_P(f_{base})-e_P(f^*)}$, which specializes to population $R^2$ under squared loss and a constant baseline. When $d$ and $l$ are "paired," $\kappa(F_\Theta)=1-r(F_\Theta,\mathcal{F})$.
+
+Section 4 axiomatizes the un-normalized *approximation error*. The axioms are Nonnegativity, Monotonicity, Homogeneity (rescaling the units of $d$), and Linearity (ex-ante error is a measure-weighted convex combination of ex-post errors over a partition of the eligible set). Proposition 1: Axioms 1–4 hold iff $e(F_\Theta,\mathcal{F}^*,d)=E_{f\sim\mu_{\mathcal{F}^*}}[c(f)\cdot\inf_{g\in F_\Theta}d(g,f)]$; adding a Symmetry axiom (a "principle of indifference" over eligible rules) forces a constant $c$, yielding the uniform-average form used in $r$.
+
+Estimation (Section 5): restrictiveness is estimated by Monte Carlo—draw $M$ rules uniformly from $\mathcal{F}^*$ and form $\hat r_M=\frac{\frac1M\sum_m d(F_\Theta,f_m)}{\frac1M\sum_m d(f_{base},f_m)}$, with closed-form standard errors so $\sqrt{M}(\hat r_M-r)/\hat\sigma_{\hat r}\to N(0,1)$ (Assumption 1: baseline discrepancy positive). Completeness is estimated by $K$-fold cross-validation ($K=10$) of out-of-sample loss; Proposition 2 gives $\sqrt{N}(\hat\kappa-\kappa)/\hat\sigma_{\hat\kappa}\to N(0,1)$ under Assumption 2 (the baseline is imperfect), adapting Austern and Zhou (2020).
+
+## Data
+Three applications. (1) Certainty equivalents: 25 binary lotteries $(z,\underline z,p)$ from [[@Bruhin2010|Bruhin et al. (2010)]]; evaluates a 3-parameter Cumulative Prospect Theory (Tversky and Kahneman, 1992) and 2-parameter Disappointment Aversion (Gul, 1991); eligible set respects payoff range and FOSD. (2) Initial play: $3\times3$ matrix games from [[@Fudenberg2019a|Fudenberg and Liang (2019)]]; evaluates the Poisson Cognitive Hierarchy Model (Camerer et al., 2004), Logit PCHM, and Logit Level-1; eligible set bounds frequencies of strictly dominant/dominated actions. (3) Microfinance diffusion: takeup across Indian villages (Banerjee et al., 2013, 2019), comparing OLS on economically-motivated regressors against a partially linear "network gossip centrality" structural model.
+
+## Key findings
+CPT achieves 95% completeness on [[@Bruhin2010|Bruhin et al. (2010)]] while DA reaches only 27%—but CPT is also substantially *less* restrictive than DA, so much of CPT's empirical content on binary lotteries is just FOSD, while DA imposes large additional (and apparently unsupported) restrictions. Across nested CPT specifications, adding a parameter weakly raises completeness and lowers restrictiveness, but parameters differ sharply: several add flexibility "in the wrong directions" (large restrictiveness drop, marginal completeness gain), whereas the probability-weighting curvature parameter buys large completeness for its flexibility—matching its central role in financial applications. In games, all three models are highly restrictive relative to the dominance constraints, so those constraints capture little of their content; Logit PCHM (2 params) and Logit Level-1 (1 param) are nearly equally restrictive. In the microfinance setting, a simple OLS model on leaders' average eigenvector centrality *dominates* the partially linear gossip-centrality model on both restrictiveness and completeness. The high-level message: parameter counting does not reveal restrictiveness.
+
+## Contribution
+A tractable, theory-free restrictiveness measure computable by simulation, requiring no representation theorem—unlike VC dimension or Selten's (1991) exact-fit hit/accuracy rates. It complements completeness and induces a Pareto frontier over models, separating "fits because it identifies regularities" from "fits because it is flexible." The axiomatization characterizes the measure, and the estimation theory delivers usable confidence intervals. The framework has already been adopted (Schwaninger 2022; Ellis et al. 2022; Ba et al. 2023).
+
+## Limitations & open questions
+The measure depends on the analyst's choices of eligible set $\mathcal{F}^*$, discrepancy $d$, and baseline $f_{base}$; uniform sampling embeds a "principle of indifference" that the non-symmetric (prior-weighted) generalization relaxes but does not resolve. It deliberately ignores sample size and estimation/overfitting concerns, so it is not a model-selection criterion. The Pareto frontier need not be concave, leaving aggregation of restrictiveness and completeness "a matter of taste"—no principled scalarization is offered. The standard errors reflect only simulation noise, not experimental-data randomness. Open hooks: how to choose eligible sets and discrepancies in a disciplined way; benchmarking economic theory's restrictiveness against flexible machine-learning predictors; extending the measure to causal/structural identification rather than pure prediction.
+
+## Connections
+Builds directly on the completeness measure of [[@Fudenberg2022|Fudenberg, Kleinberg, Liang, and Mullainathan (2022)]] and on [[@Fudenberg2019a|Fudenberg and Liang (2019)]] for the initial-play data and the machine-learning-benchmark perspective. It positions itself against Selten (1991)'s area/hit-rate measure of predictive success and against complexity notions such as VC dimension and Rademacher complexity. Related model-evaluation work includes de [[@deClippel2022|Clippel and Rozen (2022)]] on likelihood ratios versus uniform priors, and the revealed-preference "efficiency index" approaches of Choi et al. (2007) and Polisson, Quah, and Renou (2020). Adopters and companion applications include Schwaninger (2022) on inequity-averse bargaining, Ellis, Masatlioglu, Nakajima, and Saito (2022) on demand from budget sets, and Ba, Bohren, and Imas (2023) on reactions to information. The substantive models evaluated connect to [[@Tversky1992|Tversky and Kahneman (1992)]], [[@Gul1991|Gul (1991)]], Camerer, Ho, and Chong (2004), Wright and Leyton-Brown (2014), and the social-network diffusion work of Banerjee, Chandrasekhar, Duflo, and Jackson (2013, 2019).
+
+%% ─── below is yours; regeneration never touches it ─── %%
+## My notes

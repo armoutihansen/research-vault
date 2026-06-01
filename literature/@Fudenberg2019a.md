@@ -1,50 +1,70 @@
 ---
 citekey: Fudenberg2019a
-title: Predicting and Understanding Initial Play
-authors: ["Fudenberg, Drew", "Liang, Annie"]
+title: Measuring the Completeness of Theories
+authors: ["Fudenberg, Drew", "Kleinberg, Jon", "Liang, Annie", "Mullainathan, Sendhil"]
 year: 2019
-type: journalArticle
-doi: 10.1257/aer.20180654
-zotero: "zotero://select/library/items/ZBSF9MFQ"
-pdf: /Users/jesper/Zotero/storage/PI6QUWFY/Fudenberg2019.pdf
+type: preprint
+doi: ""
+zotero: "zotero://select/library/items/SYVB2K9I"
+pdf: /Users/jesper/Zotero/storage/EMPT38B3/Fudenberg2019a.pdf
 tags: [literature]
-keywords: [initial-play, level-k, cognitive-hierarchy, machine-learning, model-completeness, matrix-games, behavioral-game-theory]
-topics: ["[[ml-evaluating-economic-theories]]"]
-related: []
-added: 2026-05-30
-generated: 2026-05-30
+keywords: [model-completeness, predictive-accuracy, machine-learning, cumulative-prospect-theory, initial-play, cognitive-hierarchy, behavioral-models]
+topics: []
+related: [Gneiting2007, Noti2016, Peysakhovich2017, Plonsky2019]
+added: 2026-06-01
+generated: 2026-06-01
 ---
 
 > [!abstract] Abstract
-> We use machine learning to uncover regularities in the initial play of matrix games. We first train a prediction algorithm on data from past experiments. Examining the games where our algorithm predicts correctly, but existing economic models don't, leads us to add a parameter to the best performing model that improves predictive accuracy. We then observe play in a collection of new "algorithmically generated" games, and learn that we can obtain even better predictions with a hybrid model that uses a decision tree to decide game-by-game which of two economic models to use for prediction.
+> We use machine learning to provide a tractable measure of the amount of predictable variation in the data that a theory captures, which we call its "completeness." We apply this measure to three problems: assigning certain equivalents to lotteries, initial play in games, and human generation of random sequences. We discover considerable variation in the completeness of existing models, which sheds light on whether to focus on developing better models with the same features or instead to look for new features that will improve predictions. We also illustrate how and why completeness varies with the experiments considered, which highlights the role played in choosing which experiments to run.
 
 ## Summary
-Fudenberg and Liang use machine learning not to replace behavioral game-theory models but to discover where they fail and to guide their improvement. Treating initial play in $3\times3$ matrix games as a supervised prediction problem (payoff matrix $\to$ row action), they train a black-box predictor, isolate the games where it beats the best structural model, read off the behavioral regularity the model is missing, and fold that regularity back into the model as a new parameter. They then collect play on "algorithmically generated" games designed to be hard for existing models, and show a decision-tree hybrid that selects, game by game, between two economic models predicts best of all. The method treats ML as a diagnostic and a performance ceiling rather than an end in itself.
+
+The paper proposes a single scalar diagnostic — *completeness* — for evaluating how good an economic theory is at prediction, given a fixed feature set. The central observation is that raw predictive accuracy is uninterpretable in isolation, because prediction error confounds two distinct things: (i) the *opportunity for a better model* built on the same features, and (ii) *irreducible noise* stemming from the limits of the feature set itself. An accuracy of 55% may be remarkable for predicting stock movements but worthless for predicting planetary motion; the difference lies in the best achievable performance each problem permits. Completeness measures how close a theory comes to that achievable bound. The authors estimate the bound non-parametrically with a Table Lookup algorithm and apply the measure to three canonical experimental-economics domains, finding striking heterogeneity: Cumulative Prospect Theory is 95% complete for certainty equivalents, the Poisson Cognitive Hierarchy Model is roughly 67–68% complete for initial play, while the best model of human randomness generation is only ~24% complete.
 
 ## Research question
-How well can we predict how people play a matrix game the *first* time they see it, which existing behavioral model predicts best, and—crucially—can a model-agnostic machine-learning benchmark reveal the *systematic* regularities those models miss so that the models can be improved rather than merely outperformed?
+
+Holding fixed the measured features, how much of the *predictable* variation in a domain does a given theory capture, and how much room remains for a better model built on the same features versus the need for new features? Equivalently: how close is a theory's predictive performance to the best achievable performance for that feature set and data?
 
 ## Method / identification
-The prediction problem: the outcome is the row player's chosen action; the features are the 18 entries of a $3\times3$ payoff matrix. A prediction rule is any map $f:\mathbb{R}^{18}\to\{a_1,a_2,a_3\}$, and performance is the out-of-sample misclassification rate $\frac{1}{n}\sum_{i=1}^{n}\mathbf{1}(f(g_i)\neq a_i)$, evaluated by tenfold cross-validation. The naive baseline is uniform guessing (expected error $2/3$).
 
-Structural benchmarks come from the level-$k$ / cognitive-hierarchy family: the level-0 player randomizes uniformly, level-1 best-responds to level-0, and the Poisson Cognitive Hierarchy Model (PCHM, Camerer–Ho–Chong) places a Poisson($\tau$) distribution over levels, with level-$k$ players ($k\ge2$) best-responding to the normalized truncated belief $p_k(h)=\pi_\tau(h)/\sum_{l=0}^{k-1}\pi_\tau(l)$ for $h\in\mathbb{N}_{<k}$; $\tau$ is estimated on training data. The point prediction is the modal action of the induced distribution.
+A prediction problem has features $X = X_1 \times \cdots \times X_N$ and outcome space $\mathcal{Y}$; a point prediction rule is a map $f : X \to \mathcal{Y}$, and an economic model is a parametric family $F = (f_\theta)_{\theta \in \Theta}$. Predicting a distribution over $\mathcal{Y}$ is cast as predicting a point in $\mathcal{Y}' = \Delta(\mathcal{Y})$. Given a loss $L$, three reference errors are defined:
 
-The identification of *what models miss* is the core methodological move. They train a flexible ML predictor, then partition the test games into those the ML rule classifies correctly versus those it does not, and inspect the games where ML succeeds but the structural model fails. Diagnosing this gap motivates adding a parameter to the best-performing model. Finally, they design "algorithmically generated" games—payoffs constructed so a target model (e.g. level-1) predicts poorly—collect fresh play on them, and fit a hybrid: a decision tree that, conditional on the game's payoffs, routes each game to whichever of two economic models to trust. A companion paper (Fudenberg, Kleinberg, Liang, Mullainathan, "Measuring the Completeness of Economic Models," whose draft is the attached PDF and which reuses this exact data set) formalizes the ceiling via a Table Lookup benchmark: rows are games, predictions are training-set modal actions; with enough observations per game this approximates the best achievable error, and *completeness* $=$ (model improvement over naive) $/$ (Table Lookup improvement over naive).
+- $e^{\text{naive}}$: error of an uninformative benchmark (e.g. unconditional mean / mode / Expected Value).
+- $e^{\text{model}}$: out-of-sample error of the theory under study.
+- $e^{*}$: the irreducible error — the loss of the ideal rule $f^{*}_P(x) = \mathbb{E}_P[y \mid x]$.
+
+Completeness is the fraction of the feasible improvement that the model achieves:
+$$\kappa = \frac{e^{\text{naive}} - e^{\text{model}}}{e^{\text{naive}} - e^{*}}.$$
+So the naive benchmark is 0% complete and the ideal rule is 100% complete.
+
+The key operational move is estimating $e^{*}$ via **Table Lookup**: build a table whose rows are the unique feature vectors $x$ and whose prediction is the training-data mean (for regression / MSE) or modal outcome (for classification / misclassification rate) for that $x$. With enough observations per row, Table Lookup converges to $f^{*}_P$ and its out-of-sample error approximates $e^{*}$. All errors are estimated by $K$-fold cross-validation. Appendix A justifies this: under MSE the expected error decomposes into irreducible noise + bias + sampling error; Table Lookup is unbiased, so the cross-validated variance estimates the sampling error and the cross-validated standard errors bound how well Table Lookup approximates the irreducible noise. The authors confirm robustness by comparing Table Lookup against bagged decision trees (Table Lookup weakly wins) and by subsampling (70% of data yields nearly identical accuracy), evidencing that the data are large enough relative to the number of unique feature vectors.
 
 ## Data
-23,137 observations of initial play across 486 distinct $3\times3$ matrix games, pooled across subjects and games. The corpus aggregates three sources: a meta-dataset of 86 games compiled from six prior experimental papers (Wright and Leyton-Brown, 2014); 200 randomly-generated-payoff games run on Amazon Mechanical Turk; and 200 "algorithmically designed" games built to make a target model predict poorly. There was no learning—subjects were randomly rematched, never told partners' play, and saw their own payoffs only at the end—so the data are genuinely *initial* play. (Coverage note: the directly attached PDF is the closely related completeness manuscript plus the online appendix; figures here for the data and PCHM analysis are drawn from that manuscript's Domain #2, which is built on this paper's dataset and the metadata abstract.)
+
+Three experimental data sets, each with discrete or finitely-many unique feature vectors (a precondition for Table Lookup): (1) **risk preferences** — certainty equivalents for 50 unique two-outcome lotteries from Bruhin, Fehr-Duda & Epper (2010); (2) **initial play in games** — two data sets (A and B) of first-encounter play in simultaneous-move games (the Fudenberg & Liang 2018 corpus); (3) **human random-sequence generation** — a new Mechanical Turk data set of incentivized length-8 strings meant to mimic a Bernoulli(0.5) process. This is an applied-methodology paper, so it is data-rich rather than a pure theory paper.
 
 ## Key findings
-PCHM is clearly predictive—on subsets of the data it improves the misclassification rate from the naive $0.66$ to roughly $0.44$–$0.49$, and to $0.28$ on games where the level-1 action's expected payoff against uniform play dominates the next best action. But it is far from the achievable ceiling: relative to Table Lookup, PCHM attains about 67–68% completeness on the harder game sets and up to 97% on the "obvious level-1" games, showing that predictive accuracy is meaningless without a benchmark for irreducible noise. Examining the games where ML beats PCHM exposes a missing behavioral regularity that, encoded as one extra parameter, raises the best model's accuracy. On the algorithmically generated games, a decision-tree hybrid that selects between two economic models game-by-game predicts better than either model alone.
+
+- **Risk (CPT).** Expected Utility is only 11% complete while Cumulative Prospect Theory reaches 95% (errors: naive 103.81, EU 99.67, CPT 67.38, Table Lookup 65.58). CPT thus captures nearly all predictable variation available from $(z_1, z_2, p)$; further gains require *new features* (e.g. subject type, response times), not better functional forms.
+- **Initial play (PCHM).** The Poisson Cognitive Hierarchy Model is 68% complete on Data Set A and 67% on Data Set B — nearly identical *despite* different absolute improvements — illustrating that raw accuracy misleads without a benchmark. On a curated subset of games where the level-1 action dominates against uniform play, PCHM reaches 97% complete.
+- **Randomness.** The best model (a Rabin-style account) is only ~24% complete (and 9–19% under a misclassification-rate variant), signalling large unmodelled structure in how humans fake randomness.
+- **Feature-set comparison (§3.2).** Compressed Table Lookups isolate the predictive value of feature subsets: "number of Heads" alone achieves 59% of full completeness, the last three flips 36% — demonstrating that early flips carry residual predictive content and that completeness is feature-set- and data-set-relative.
 
 ## Contribution
-The paper pioneers a "complementary" use of machine learning in economics: ML as an upper bound on predictability and as a microscope for *where and how* structural models are incomplete, rather than as a competitor that merely wins on accuracy. It delivers an improved, still-interpretable model of initial play, introduces algorithmically generated games as a tool to stress-test theories, and supplies the empirical backbone for the completeness measure developed in the companion paper—reframing model evaluation around the gap between a model and the best feasible predictor on a fixed feature set.
+
+The paper's main contribution is methodological: a portable, model-agnostic yardstick that decomposes predictive error into "room for a better model on these features" versus "irreducible noise," using off-the-shelf machine learning (Table Lookup / non-parametric conditional expectation) to estimate the achievable frontier. It operationalizes the long-standing distinction between a theory being *predictive* and being *complete*, and it reframes experimental design as a lever on completeness — the choice of lotteries or games changes the irreducible error and hence what completeness even means.
 
 ## Limitations & open questions
-The authors are explicit that (i) a model's measured completeness is tied to a *specific* dataset and feature set—here, $3\times3$ games and the 18 raw payoffs—and need not generalize; expanding either feature set or game class can change the verdict. (ii) High completeness may reflect either a good match to behavior *or* a functional form flexible enough to mimic Table Lookup, and disentangling these is left to future work. (iii) Predictiveness is only one criterion; interpretability and generality may justify preferring a less-complete model. (iv) All evaluation is within-domain (train and test on the same kind of games); how to measure *transferability* of models across domains—where economic models may beat ML—is posed as an open problem. (v) Substantially better prediction would require new features (e.g. response times, subject types) beyond the payoff matrix.
+
+- **Feasibility ceiling.** Table Lookup only approximates $e^{*}$ when data are large relative to the number of unique feature vectors; it requires discrete features or finitely many instances and breaks down with rich continuous covariates.
+- **Relativity.** Completeness is conditional on a chosen feature set *and* data set; the 95% figure for CPT need not generalize beyond two-outcome lotteries. Building richer, transferable feature sets is left open.
+- **Predictiveness is only one criterion.** Interpretability and generality may justify preferring a less-complete model; the paper does not formalize that trade-off.
+- **Cross-domain transfer.** The whole apparatus is within-domain; the authors explicitly flag *transferability* — whether economically structured models that lose in-domain transfer better out-of-domain — as future work, and an "overall completeness" notion as undeveloped.
 
 ## Connections
-The structural benchmarks are the level-$k$ models of Stahl and Wilson (1994, 1995) and Nagel (1995) and the Poisson Cognitive Hierarchy Model of Camerer, Ho and Chong (2004), with the broader landscape surveyed by Crawford, Costa-Gomes and Iriberri (2013). The aggregated game data builds on Wright and Leyton-Brown (2014). The methodological program—ML as a yardstick for the predictable variation a theory captures—is formalized in the companion Fudenberg, Kleinberg, Liang and Mullainathan "completeness" paper, which also applies the Table Lookup benchmark to risk preferences (Cumulative Prospect Theory, with data from Bruhin, Fehr-Duda and Epper, 2010) and to human generation of random sequences (Rabin, 2002; Rabin and Vayanos, 2010). The use of ML to interrogate human decisions echoes Kleinberg et al. (2017) on predicting judicial decisions, and the general agenda of prediction-focused economics relates to Mullainathan and Spiess on machine learning as an applied econometric tool.
+
+The estimand $f^{*}_P(x) = \mathbb{E}_P[y \mid x]$ and the bias–variance decomposition follow Hastie, Tibshirani & Friedman (2009) and Domingos (2000). The risk application uses Bruhin, Fehr-Duda & Epper (2010) and engages Expected Utility versus Cumulative Prospect Theory, with Rabin (2000) on calibration critiques. The initial-play application builds directly on Fudenberg & Liang (2018) on predicting and understanding initial play, the Poisson Cognitive Hierarchy Model of Camerer, Ho & Chong (2004), and the structural level-$k$ tradition of Nagel (1995) and Crawford, Costa-Gomes & Iriberri (2013). The randomness application draws on the gambler's-fallacy and misperception-of-randomness literature — Tversky & Kahneman (1971), Bar-Hillel & Wagenaar (1991), Barberis, Shleifer & Vishny (1998), Chen, Shue & Moskowitz (2016) — and Rabin-style models of inference from short sequences. Methodologically it sits beside the "machine learning to evaluate behavioral models" program of [[@Peysakhovich2017|Peysakhovich & Naecker (2017)]], [[@Plonsky2019|Plonsky et al. (2019)]], [[@Noti2016|Noti et al. (2016)]], and Kleinberg et al. (2017) on human decisions and machine predictions. The probabilistic-prediction framing connects to proper scoring rules as in [[@Gneiting2007|Gneiting & Raftery (2007)]].
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes
