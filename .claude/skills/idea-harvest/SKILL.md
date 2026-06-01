@@ -55,7 +55,9 @@ composite or verdict):
   corpus papers**, not hallucinated) and *not-already-done* (`biblio` finds nothing that *fully* does it).
 - **Three 1–5 dimensions** (rubric-anchored; a dimension **may not exceed 3 without cited evidence**):
   *Significance* (how much it matters — corroborate with a coarse target-venue band), *Novelty* (how new,
-  above the floor), *Feasibility* (ease / inverse effort — low is fine; moonshots survive, never gated).
+  above the floor), *Feasibility* (ease / inverse effort, **relative to the user's capabilities in
+  `profile.md`** — e.g. if the profile rules out experiments, an experiment-requiring idea is
+  near-infeasible; low is otherwise fine, moonshots survive, never gated).
 - **Fit** (1–5; relevance to your *current/ongoing* programme — scored against `profile.md`). A
   modestly-weighted dimension *in* the score (a tilt toward your turf), **never a gate** — a strong
   off-programme idea stays in (it may be a deliberate pivot).
