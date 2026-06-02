@@ -6,13 +6,13 @@ year: 1999
 type: journalArticle
 doi: 10.1111/1467-937X.00083
 zotero: "zotero://select/library/items/5299X327"
-pdf: /Users/jesper/Zotero/storage/3EU7WWTV/Holmstrom1999.pdf
+pdf: /Users/jesper/Zotero/storage/RWQE47Q3/Holmström1999.pdf
 tags: [literature]
-keywords: [career-concerns, signal-jamming, managerial-incentives, moral-hazard, reputation, risk-taking, bayesian-learning]
+keywords: [career-concerns, signal-jamming, managerial-incentives, reputation, moral-hazard, dynamic-incentives, risk-taking]
 topics: ["[[career-concerns-subjective-evaluation]]"]
 related: [Akerlof1970, Gibbons1992]
-added: 2026-05-30
-generated: 2026-05-30
+added: 2026-06-02
+generated: 2026-06-02
 ---
 
 > [!abstract] Abstract

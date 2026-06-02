@@ -6,13 +6,13 @@ year: 1983
 type: journalArticle
 doi: 10.1287/mksc.2.2.161
 zotero: "zotero://select/library/items/PUL8Y4UU"
-pdf: /Users/jesper/Zotero/storage/49PPJ78A/McGuire1983.pdf
+pdf: /Users/jesper/Zotero/storage/KLFA88AA/McGuire and Staelin - 1983 - An Industry Equilibrium Analysis of Downstream Vertical Integration.pdf
 tags: [literature]
 keywords: [vertical-integration, channel-structure, product-substitutability, nash-equilibrium, strategic-decentralization, duopoly-pricing]
 topics: ["[[distribution-channels-vertical-integration]]"]
 related: []
-added: 2026-05-30
-generated: 2026-05-30
+added: 2026-06-02
+generated: 2026-06-02
 ---
 
 > [!abstract] Abstract
@@ -34,7 +34,7 @@ None - this is a purely theoretical paper. The authors deliberately decline empi
 
 ## Key findings
 - A profit breakeven at $\theta = 0.708$: for $\theta < 0.708$ the pure factory-store (II) system is more profitable; above it the pure franchised (DD) system dominates. At $\theta=0$ each manufacturer is a monopolist and integration is twice as profitable; near $\theta\to 1$ decentralization is far more profitable.
-- Nash equilibrium of the structure game (G1): for $\theta < 0.931$ the unique equilibrium is pure integration (II), because a firm whose rival is decentralized always prefers to integrate. For $\theta > 0.931$ there are two Nash equilibria, II and DD, with DD payoff-dominant. Thus the pure franchised system is Nash only for very high substitutability.
+- Nash equilibrium of the structure game (G1): for $\theta < 0.931$ the unique equilibrium is pure integration (II), because a firm whose rival is decentralized always prefers to integrate. For $\theta > 0.931$ there are two Nash equilibria, II and DD, with DD payoff-dominant. Thus the pure franchised system is Nash only for very high substitutability. The intermediate region $0.708 < \theta < 0.931$ is a prisoners'-dilemma: both manufacturers would profit from DD, yet each unilaterally prefers to integrate.
 - Decentralization is a strategic buffer: with close substitutes, manufacturers profit by inserting independent profit-maximizing dealers that soften head-to-head retail competition, even though they surrender control of retail price and gain no efficiency.
 - Capturing retail profit via lump-sum franchise fees expands but does not eliminate the integration region: DD is Nash for $\theta > 0.771$ under a total-channel-profit criterion, while II remains Nash for all $\theta$. Total channel profits are actually higher under decentralization for $\theta > 0.432$.
 - Contrast with Jeuland & Shugan (1982): their reduced-form (Stackelberg/dominant-firm) demand implicitly assumes a price leader, so vertical integration maximizes joint profit; explicitly modeling both price-setters' interaction overturns this in a duopoly.
@@ -49,7 +49,7 @@ Establishes that the channel structure (degree of vertical integration) is itsel
 The authors flag these explicitly: (i) symmetric, identical-cost firms - what happens with different cost structures, or costs that depend on the structure (e.g., the common claim that integrated systems are less efficient)? Under what inefficiency ranges do factory stores survive? (ii) Exactly two manufacturers, one exclusive outlet each - implications of relaxing these are unknown, and results do not apply to retailers carrying multiple manufacturers' lines. (iii) Whether a dual distribution system (one manufacturer using both private and company outlets simultaneously) can be Nash; what is the equilibrium number and organization of outlets? (iv) The behavioral expectation rules are not uniquely justified; which formulation fits a given industry is an empirical question. (v) The model abstracts from risk preferences, asymmetric-information reward/incentive structures, financing, profit/equity-sharing, and multi-brand retailers. The authors regard empirical confrontation as premature.
 
 ## Connections
-Directly extends the bilateral-monopoly channel literature - Hawkins (1950), Douglas (1975), and especially Jeuland & Shugan (1982), whose joint-profit-maximization-via-coordination result it contrasts and qualifies. Builds on the channel-structure paradigm of McGuire & Staelin's own earlier work (1976) and Doraiswamy, McGuire & Staelin (1979), with related non-linear-demand treatments by Hibshoosh (1978) and Coughlan (1982). Engages dealer-number models of Pashigian (1961) and White (1971), the bilateral-monopoly synthesis of Wu (1964), the L-level vertical-system games of Baligh & Richartz (1967), Nash-bargaining transfer-price work of Zusman (1981), and the sociopolitical channel-behavior framework of Stern & Reve (1980). The strategic-decentralization mechanism here is the foundational marketing-science complement to the strategic-delegation literature in industrial organization (e.g., later Bertrand-competition-softening arguments akin to Bonanno & Vickers and Rey & Stiglitz on vertical restraints). The single substitutability parameter and linear differentiated-demand setup connect to Bertrand competition with differentiated products and to the antitrust analysis of vertical integration.
+Directly extends the bilateral-monopoly channel literature - Hawkins (1950), Douglas (1975), and especially Jeuland & Shugan (1982), whose joint-profit-maximization-via-coordination result it contrasts and qualifies. Builds on the channel-structure paradigm of McGuire & Staelin's own earlier work (1976) and Doraiswamy, McGuire & Staelin (1979), with related non-linear-demand treatments by Hibshoosh (1978) and Coughlan (1982). Engages dealer-number models of Pashigian (1961) and White (1971), the bilateral-monopoly synthesis of Wu (1964), the L-level vertical-system games of Baligh & Richartz (1967), Nash-bargaining transfer-price work of Zusman & Etgar (1981), and the sociopolitical channel-behavior framework of Stern & Reve (1980). The strategic-decentralization mechanism here is the foundational marketing-science complement to the strategic-delegation literature in industrial organization (e.g., later Bertrand-competition-softening arguments akin to Bonanno & Vickers and Rey & Stiglitz on vertical restraints). The single substitutability parameter and linear differentiated-demand setup connect to Bertrand competition with differentiated products and to the antitrust analysis of vertical integration.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

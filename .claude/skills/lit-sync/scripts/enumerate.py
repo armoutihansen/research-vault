@@ -135,8 +135,12 @@ def pdfs_for(con, item_id, zotero_dir):
         ap = resolve_pdf(zotero_dir, att_key, path)
         if ap:
             resolved.append(ap)
-    # prefer an existing file
-    resolved.sort(key=lambda p: (not os.path.exists(p), p))
+    # When an item has several PDFs, prefer an existing file, then the LARGEST one — the main
+    # text almost always outweighs an appendix/supplement (and an item may keep both, e.g. when
+    # Zotero won't let a stuck attachment be removed). Path breaks ties for determinism.
+    resolved.sort(key=lambda p: (not os.path.exists(p),
+                                 -(os.path.getsize(p) if os.path.exists(p) else 0),
+                                 p))
     return resolved
 
 
