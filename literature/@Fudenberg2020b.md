@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/2P4FIMAU/Fudenberg2020a.pdf
 tags: [literature]
 keywords: [machine-learning, economic-theory, model-completeness, model-restrictiveness, prospect-theory, cognitive-hierarchy, experimental-design]
 topics: ["[[ml-evaluating-economic-theories]]"]
-related: [Fudenberg2019a, Fudenberg2020]
+related: [Fudenberg2019a, Fudenberg2019b, Fudenberg2020]
 added: 2026-05-30
 generated: 2026-05-30
 ---
@@ -54,7 +54,7 @@ Reframes ML in economics as a diagnostic complement to theory. Provides two mode
 - Whether the completeness/restrictiveness framework extends beyond low-dimensional, finite-feature experimental domains to richer field data is open.
 
 ## Connections
-This survey condenses three working/published papers: [[@Fudenberg2019a|Fudenberg, Kleinberg, Liang and Mullainathan (2019)]] on completeness; [[@Fudenberg2020|Fudenberg, Gao and Liang (2020)]] on restrictiveness; and [[@Fudenberg2019a|Fudenberg and Liang]] (2019, AER) on predicting and understanding initial play. The risk-preference application builds on Bruhin, Fehr-Duda and Epper (2010) and the CPT functional forms of Goldstein and Einhorn (1987) and Lattimore, Baker and Witte (1992). The games application rests on the cognitive-hierarchy tradition of Stahl and Wilson (1994, 1995), Nagel (1995), and Camerer, Ho and Chong (2004), using the dataset of Wright and Leyton-Brown (2014). Algorithmic experimental design is explicitly framed as kin to adversarial machine learning (Huang et al. 2011) and generative adversarial networks (Goodfellow et al. 2014), repurposed for data design rather than prediction refinement.
+This survey condenses three working/published papers: [[@Fudenberg2019a|Fudenberg, Kleinberg, Liang and Mullainathan (2019)]] on completeness; [[@Fudenberg2020|Fudenberg, Gao and Liang (2020)]] on restrictiveness; and [[@Fudenberg2019b|Fudenberg and Liang]] (2019, AER) on predicting and understanding initial play. The risk-preference application builds on Bruhin, Fehr-Duda and Epper (2010) and the CPT functional forms of Goldstein and Einhorn (1987) and Lattimore, Baker and Witte (1992). The games application rests on the cognitive-hierarchy tradition of Stahl and Wilson (1994, 1995), Nagel (1995), and Camerer, Ho and Chong (2004), using the dataset of Wright and Leyton-Brown (2014). Algorithmic experimental design is explicitly framed as kin to adversarial machine learning (Huang et al. 2011) and generative adversarial networks (Goodfellow et al. 2014), repurposed for data design rather than prediction refinement.
 
 %% ─── below is yours; regeneration never touches it ─── %%
 ## My notes

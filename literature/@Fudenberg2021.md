@@ -10,7 +10,7 @@ pdf: /Users/jesper/Zotero/storage/S85XX9IS/Fudenberg2021a.pdf
 tags: [literature]
 keywords: [model-restrictiveness, model-completeness, behavioral-economics, cumulative-prospect-theory, cognitive-hierarchy, model-selection, synthetic-data]
 topics: ["[[ml-evaluating-economic-theories]]"]
-related: [Andrews2022, Bruhin2010, Fudenberg2019a, Fudenberg2022, Gul1991, deClippel2022]
+related: [Andrews2022, Bruhin2010, Fudenberg2019a, Fudenberg2019b, Fudenberg2022, Gul1991, deClippel2022]
 added: 2026-05-29
 generated: 2026-05-29
 ---
@@ -37,7 +37,7 @@ where $\lambda_{\mathcal{F}}$ is uniform on $\mathcal{F}$ and $f_{\text{base}}$ 
 
 ## Data
 - **Application 1 (certainty equivalents):** 25 binary lotteries $(z,\underline z,p)$ from [[@Bruhin2010|Bruhin et al. (2010)]]; outcome = average certainty equivalent. Robustness sets include loss-domain lotteries, three-outcome lotteries (Bernheim–Sprenger 2020), six-outcome lotteries (Fudenberg–Puri 2021), and lotteries from five further papers.
-- **Application 2 (initial play):** 466 unique $3\times3$ matrix games from [[@Fudenberg2019a|Fudenberg & Liang (2019)]] (pooling Wright–Leyton-Brown meta-data, MTurk-random, and algorithmically-designed games); outcome = distribution over row actions.
+- **Application 2 (initial play):** 466 unique $3\times3$ matrix games from [[@Fudenberg2019b|Fudenberg & Liang (2019)]] (pooling Wright–Leyton-Brown meta-data, MTurk-random, and algorithmically-designed games); outcome = distribution over row actions.
 - **Application 3 (diffusion):** 43 Karnataka villages from Banerjee et al. (2013, 2019); outcome = non-leader microfinance takeup rate; village configuration $(N_i,A_i,L_i)$ with social-network adjacency matrix.
 
 ## Key findings
