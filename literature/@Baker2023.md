@@ -3,10 +3,10 @@ citekey: Baker2023
 title: Using bayesmixedlogit and bayesmixedlogitwtp in Stata
 authors: ["Baker, Matthew J."]
 year: 2023
-type: journalArticle
-doi: ""
-zotero: "zotero://select/library/items/8VMYYN4B"
-pdf: /Users/jesper/Zotero/storage/5Z2TKNZJ/Baker - 2023 - Using bayesmixedlogit and bayesmixedlogitwtp in St.pdf
+type: preprint
+doi: 10.48550/arXiv.2302.01775
+zotero: "zotero://select/library/items/7AN9KJ34"
+pdf: /Users/jesper/Zotero/storage/GSEVAY87/Baker2023.pdf
 tags: [literature]
 keywords: [mixed-logit, bayesian-mcmc, discrete-choice, willingness-to-pay, stata-package, random-coefficients]
 topics: ["[[discrete-choice-econometrics]]"]
@@ -16,7 +16,7 @@ generated: 2026-06-02
 ---
 
 > [!abstract] Abstract
-> _No abstract in source metadata; see Summary below._
+> This document presents an overview of the bayesmixedlogit and bayesmixedlogitwtp Stata packages. It mirrors closely the helpfile obtainable in Stata (i.e., through help bayesmixedlogit or help bayesmixedlogitwtp). Further background for the packages can be found in Baker(2014).
 
 ## Summary
 
