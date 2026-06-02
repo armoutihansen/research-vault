@@ -3,12 +3,12 @@ citekey: Baker2023
 title: Using bayesmixedlogit and bayesmixedlogitwtp in Stata
 authors: ["Baker, Matthew J."]
 year: 2023
-type: preprint
-doi: 10.48550/arXiv.2302.01775
-zotero: "zotero://select/library/items/7AN9KJ34"
-pdf: /Users/jesper/Zotero/storage/GSEVAY87/Baker2023.pdf
+type: journalArticle
+doi: ""
+zotero: "zotero://select/library/items/8VMYYN4B"
+pdf: /Users/jesper/Zotero/storage/5Z2TKNZJ/Baker - 2023 - Using bayesmixedlogit and bayesmixedlogitwtp in St.pdf
 tags: [literature]
-keywords: [mixed-logit, discrete-choice, bayesian-mcmc, stata-package, willingness-to-pay, preference-heterogeneity, software-tutorial]
+keywords: [mixed-logit, bayesian-mcmc, discrete-choice, willingness-to-pay, stata-package, random-coefficients]
 topics: ["[[discrete-choice-econometrics]]"]
 related: [Hole2007, Hole2012]
 added: 2026-06-02
@@ -16,11 +16,11 @@ generated: 2026-06-02
 ---
 
 > [!abstract] Abstract
-> This document presents an overview of the bayesmixedlogit and bayesmixedlogitwtp Stata packages. It mirrors closely the helpfile obtainable in Stata (i.e., through help bayesmixedlogit or help bayesmixedlogitwtp). Further background for the packages can be found in Baker(2014).
+> _No abstract in source metadata; see Summary below._
 
 ## Summary
 
-This is a **software tutorial / package documentation**, not an empirical study. It documents two user-written Stata commands authored by Matthew J. Baker: `bayesmixedlogit`, which fits the mixed logit (random-coefficients logit) discrete-choice model by Bayesian Markov chain Monte Carlo (MCMC), and its wrapper `bayesmixedlogitwtp`, which reparameterizes the model in willingness-to-pay (WTP) space. The text mirrors the in-Stata help files and supplies the command syntax, the full option set, five worked examples, and the stored `e()` results. The algorithm's derivation appears separately in Baker (2014); this paper is the user-facing companion — a practical applied reference for estimating heterogeneous-preference choice models in a Bayesian framework, not a methodological contribution. Implementation follows Train (2009, ch. 12), with the sampler built on the author's adaptive-MCMC Mata routine `amcmc()`, and data-setup conventions and much of the syntax borrowed from Hole's (2007) frequentist `mixlogit`. Now posted as an arXiv preprint (econ.EM, Feb 2023) so the toolset is citable and discoverable outside the Stata ecosystem.
+This is a **software tutorial / package documentation**, not an empirical study. It documents two user-written Stata commands authored by Matthew J. Baker: `bayesmixedlogit`, which fits the mixed logit (random-coefficients logit) discrete-choice model by Bayesian Markov chain Monte Carlo (MCMC), and its wrapper `bayesmixedlogitwtp`, which reparameterizes the model in willingness-to-pay (WTP) space. The text mirrors the in-Stata help files and supplies the command syntax, the full option set, five worked examples, and the stored `e()` results. The algorithm's derivation appears separately in Baker (2014); this document is the user-facing companion — a practical applied reference for estimating heterogeneous-preference choice models in a Bayesian framework, not a methodological contribution. Implementation follows Train (2009, ch. 12), with the sampler built on the author's adaptive-MCMC Mata routine `amcmc()`, and data-setup conventions and much of the syntax borrowed from Hole's (2007) frequentist `mixlogit`.
 
 ## Research question
 

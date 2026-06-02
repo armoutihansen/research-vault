@@ -126,6 +126,7 @@ def pdfs_for(con, item_id, zotero_dir):
         FROM itemAttachments ia
         JOIN items att ON att.itemID = ia.itemID
         WHERE ia.parentItemID = ? AND ia.contentType = 'application/pdf'
+              AND att.itemID NOT IN (SELECT itemID FROM deletedItems)
         """,
         (item_id,),
     ).fetchall()

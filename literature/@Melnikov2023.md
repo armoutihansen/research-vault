@@ -6,13 +6,13 @@ year: 2023
 type: book
 doi: 10.1007/978-3-031-25326-3
 zotero: "zotero://select/library/items/HSPE7WDC"
-pdf: /Users/jesper/Zotero/storage/PBXBVB94/Melnikov - 2023 - A Course of Stochastic Analysis.pdf
+pdf: /Users/jesper/Zotero/storage/UIYD5GQV/Melnikov - 2023 - A Course of Stochastic Analysis.pdf
 tags: [literature]
-keywords: [stochastic-analysis, martingales, semimartingales, stochastic-calculus, mathematical-finance, change-of-measure, martingale-limit-theory]
+keywords: [stochastic-analysis, martingales, semimartingales, girsanov-theorem, stochastic-calculus, mathematical-finance, stochastic-approximation]
 topics: []
 related: []
-added: 2026-06-01
-generated: 2026-06-01
+added: 2026-06-02
+generated: 2026-06-02
 ---
 
 > [!abstract] Abstract
