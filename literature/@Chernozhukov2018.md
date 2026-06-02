@@ -3,20 +3,20 @@ citekey: Chernozhukov2018
 title: Double/debiased machine learning for treatment and structural parameters
 authors: ["Chernozhukov, Victor", "Chetverikov, Denis", "Demirer, Mert", "Duflo, Esther", "Hansen, Christian", "Newey, Whitney", "Robins, James"]
 year: 2018
-type: document
-doi: ""
+type: journalArticle
+doi: 10.1111/ectj.12097
 zotero: "zotero://select/library/items/JM36PV3V"
 pdf: /Users/jesper/Zotero/storage/MYIW6D6E/Chernozhukov et al. - 2018 - Doubledebiased machine learning for treatment and structural parameters.pdf
 tags: [literature]
-keywords: [double-machine-learning, neyman-orthogonality, cross-fitting, causal-inference, treatment-effects, semiparametric-inference, nuisance-parameters]
+keywords: [double-machine-learning, neyman-orthogonality, cross-fitting, treatment-effects, semiparametric-inference, causal-inference, high-dimensional]
 topics: []
 related: []
-added: 2026-06-01
-generated: 2026-06-01
+added: 2026-06-02
+generated: 2026-06-02
 ---
 
 > [!abstract] Abstract
-> We revisit the classic semi-parametric problem of inference on a low-dimensional parameter $\theta_0$ in the presence of high-dimensional nuisance parameters $\eta_0$. We depart from the classical setting by allowing for $\eta_0$ to be so high-dimensional that the traditional assumptions (e.g. Donsker properties) that limit complexity of the parameter space for this object break down. To estimate $\eta_0$, we consider the use of statistical or machine learning (ML) methods, which are particularly well suited to estimation in modern, very high-dimensional cases. ML methods perform well by employing regularization to reduce variance and trading off regularization bias with overfitting in practice. However, both regularization bias and overfitting in estimating $\eta_0$ cause a heavy bias in estimators of $\theta_0$ that are obtained by naively plugging ML estimators of $\eta_0$ into estimating equations for $\theta_0$. This bias results in the naive estimator failing to be $N^{-1/2}$ consistent, where $N$ is the sample size. We show that the impact of regularization bias and overfitting on estimation of the parameter of interest $\theta_0$ can be removed by using two simple, yet critical, ingredients: (1) using Neyman-orthogonal moments/scores that have reduced sensitivity with respect to nuisance parameters to estimate $\theta_0$; (2) making use of cross-fitting, which provides an efficient form of data-splitting. We call the resulting set of methods double or debiased ML (DML). We verify that DML delivers point estimators that concentrate in an $N^{-1/2}$-neighbourhood of the true parameter values and are approximately unbiased and normally distributed, which allows construction of valid confidence statements. The generic statistical theory of DML is elementary and simultaneously relies on only weak theoretical requirements, which will admit the use of a broad array of modern ML methods for estimating the nuisance parameters, such as random forests, lasso, ridge, deep neural nets, boosted trees, and various hybrids and ensembles of these methods.
+> _No abstract in source metadata; see Summary below._
 
 ## Summary
 A foundational econometric-theory paper (68 pages; read with targeted coverage of the introduction, the orthogonal-score construction of Section 2, the estimator definitions and general theory of Section 3, the treatment-effect applications of Section 5, and the three empirical examples). It establishes a general recipe — double/debiased machine learning (DML) — for $\sqrt N$-consistent, asymptotically normal, semi-parametrically efficient inference on a low-dimensional target $\theta_0$ when high-dimensional nuisances $\eta_0$ (regression functions, propensity scores, instruments) are estimated by flexible ML. The core message: naively plugging an ML nuisance estimate into a moment equation transmits the learner's regularization bias and overfitting into $\theta_0$, destroying $\sqrt N$ consistency; Neyman-orthogonal scores and cross-fitting neutralize both, so any learner achieving a mild $o(N^{-1/4})$ nuisance rate yields valid inference.
